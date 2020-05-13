@@ -24,7 +24,7 @@ rhea-relationships.ofn: rhea-relationships.tsv
 	echo ')' >> $@.tmp && mv $@.tmp $@
 
 go-plus.owl:
-	curl -L -O http://purl.obolibrary.org/obo/go/extensions/go-plus.owl
+	curl -L -O http://purl.obolibrary.org/obo/go/snapshot/extensions/go-plus.owl
 
 go-ec-rhea-xrefs.tsv: go-plus.owl xrefs.rq
 	robot query -i $< -f TSV -q xrefs.rq $@
