@@ -4,6 +4,7 @@ all: rhea-boom.txt
 
 rhea2%.tsv:
 	curl -L -O ftp://ftp.expasy.org/databases/rhea/tsv/rhea2$*.tsv
+.PRECIOUS: rhea2%.tsv
 
 # Prefer subclass for Reactome
 rhea-reactome-probs.tsv: rhea2reactome.tsv
@@ -11,7 +12,8 @@ rhea-reactome-probs.tsv: rhea2reactome.tsv
 
 # Prefer equivalent class for most mappings
 rhea-%-probs.tsv: rhea2%.tsv
-	tail -n +2 $< | cut -f 1,4 | sed '/^$$/d' | sed 's/^/RHEA:/' | sed 's/	/	$(shell echo $* | tr [:lower:] [:upper:]):/' | sed 's/$$/	0.10	0.10	0.75	0.05/' >$@ #$*
+	tail -n +2 $< | cut -f 1,4 | sed '/^$$/d' | sed 's/^/RHEA:/' | sed 's/	/	$(shell echo $* | tr [:lower:] [:upper:]):/' | sed 's/$$/	0.10	0.10	0.75	0.05/' >$@
+.PRECIOUS: rhea-%-probs.tsv
 
 rhea-relationships.tsv:
 	curl -L -O ftp://ftp.expasy.org/databases/rhea/tsv/rhea-relationships.tsv
