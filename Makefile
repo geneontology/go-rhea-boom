@@ -1,13 +1,17 @@
+# Need on path: boomer & robot
+
+all: rhea-boom.txt
+
 rhea2%.tsv:
 	curl -L -O ftp://ftp.expasy.org/databases/rhea/tsv/rhea2$*.tsv
 
 # Prefer subclass for Reactome
 rhea-reactome-probs.tsv: rhea2reactome.tsv
-	tail -n +2 $< | cut -f 1,4 | sed 's/^/RHEA:/' | sed 's/	/	REACTOME:/' | sed 's/$$/	0.10	0.70	0.15	0.05/' >$@ #$*
+	tail -n +2 $< | cut -f 1,4 | sed '/^$$/d' | sed 's/^/RHEA:/' | sed 's/	/	REACTOME:/' | sed 's/$$/	0.10	0.70	0.15	0.05/' >$@ #$*
 
 # Prefer equivalent class for most mappings
 rhea-%-probs.tsv: rhea2%.tsv
-	tail -n +2 $< | cut -f 1,4 | sed 's/^/RHEA:/' | sed 's/	/	$(shell echo $* | tr [:lower:] [:upper:]):/' | sed 's/$$/	0.10	0.10	0.75	0.05/' >$@ #$*
+	tail -n +2 $< | cut -f 1,4 | sed '/^$$/d' | sed 's/^/RHEA:/' | sed 's/	/	$(shell echo $* | tr [:lower:] [:upper:]):/' | sed 's/$$/	0.10	0.10	0.75	0.05/' >$@ #$*
 
 rhea-relationships.tsv:
 	curl -L -O ftp://ftp.expasy.org/databases/rhea/tsv/rhea-relationships.tsv
@@ -32,5 +36,5 @@ probs.tsv: rhea-ec-probs.tsv rhea-metacyc-probs.tsv rhea-reactome-probs.tsv go-e
 go-rhea.ofn: go-plus.owl rhea-relationships.ofn
 	robot merge -i go-plus.owl -i rhea-relationships.ofn -o $@
 
-rhea-boom.txt: go-rhea.ofn prefixes.yaml
-	boomer --ptable probs.tsv --ontology $< --window-count 20 --runs 100 --prefixes prefixes.yaml --output rhea-boom
+rhea-boom.txt: go-rhea.ofn probs.tsv prefixes.yaml
+	boomer --ptable probs.tsv --ontology go-rhea.ofn --window-count 20 --runs 100 --prefixes prefixes.yaml --output rhea-boom
