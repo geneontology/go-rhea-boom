@@ -1,0 +1,11 @@
+PREFIX hasDbXref: <http://www.geneontology.org/formats/oboInOwl#hasDbXref>
+PREFIX oio: <http://www.geneontology.org/formats/oboInOwl#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT DISTINCT ?go ?xref WHERE 
+{
+  ?go hasDbXref: ?xref .
+  FILTER(isIRI(?go))
+  FILTER(STRSTARTS(?xref, "RHEA:") || STRSTARTS(?xref, "EC:"))
+}
