@@ -40,3 +40,19 @@ go-rhea.ofn: go-plus.owl rhea-relationships.ofn
 
 rhea-boom.txt: go-rhea.ofn probs.tsv prefixes.yaml
 	boomer --ptable probs.tsv --ontology go-rhea.ofn --window-count 20 --runs 100 --prefixes prefixes.yaml --output rhea-boom
+
+go.obo:
+	curl -L -s http://purl.obolibrary.org/obo/go.obo > $@
+.PRECIOUS: go.obo
+
+go-with-reac-syns.obo: go.obo
+	perl -npe 's@def: "Catalysis of the reaction: (.*)\." .*@synonym: "$$1" EXACT []@' $< > $@
+
+go-with-reac-syns.owl.ttl: go-with-reac-syns.obo
+	robot convert -i $< -o $@
+
+chebi_imports.owl:
+	curl -L -s http://purl.obolibrary.org/obo/go/imports/chebi_import.owl > $@
+
+rhea-%.owl.ttl:
+	curl -H "Accept: text/turtle"   --data-urlencode query@sparql/rhea-$*.rq https://sparql.rhea-db.org/sparql > $@
