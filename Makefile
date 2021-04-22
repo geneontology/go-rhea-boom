@@ -45,14 +45,21 @@ go.obo:
 	curl -L -s http://purl.obolibrary.org/obo/go.obo > $@
 .PRECIOUS: go.obo
 
+# inject reactions as synonyms for matching
 go-with-reac-syns.obo: go.obo
 	perl -npe 's@def: "Catalysis of the reaction: (.*)\." .*@synonym: "$$1" EXACT []@' $< > $@
 
 go-with-reac-syns.owl.ttl: go-with-reac-syns.obo
 	robot convert -i $< -o $@
 
+# we should probably match over all chebi, start with just the subset used by existing GO axioms
 chebi_imports.owl:
 	curl -L -s http://purl.obolibrary.org/obo/go/imports/chebi_import.owl > $@
 
+# build up rhea from sparql queries not TSVs, see #1
 rhea-%.owl.ttl:
 	curl -H "Accept: text/turtle"   --data-urlencode query@sparql/rhea-$*.rq https://sparql.rhea-db.org/sparql > $@
+
+LEXMATCH_INPUT = prefixes.ttl go-with-reac-syns.owl.ttl rhea-core.owl.ttl
+lexmatches.sssom.tsv: $(LEXMATCH_INPUT)
+	rdfmatch $(patsubst %, -i %, $(LEXMATCH_INPUT)) submatch > $@
