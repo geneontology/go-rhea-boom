@@ -42,15 +42,20 @@ rhea-boom.txt: go-rhea.ofn probs.tsv prefixes.yaml
 	boomer --ptable probs.tsv --ontology go-rhea.ofn --window-count 20 --runs 100 --prefixes prefixes.yaml --output rhea-boom
 
 go.obo:
-	curl -L -s http://purl.obolibrary.org/obo/go.obo > $@
+#	curl -L -s http://purl.obolibrary.org/obo/go.obo > $@
+	cp ../go-ontology/src/ontology/go-edit.obo $@
 .PRECIOUS: go.obo
 
 # inject reactions as synonyms for matching
 go-with-reac-syns.obo: go.obo
-	perl -npe 's@def: "Catalysis of the reaction: (.*)\." .*@synonym: "$$1" EXACT []@' $< > $@
+	obo-grep.pl -r 'def: "Catalysis of the reaction:' $< | perl -npe 's@def: "Catalysis of the reaction: (.*)\." .*@synonym: "$$1" EXACT []@' > $@
 
 go-with-reac-syns.owl.ttl: go-with-reac-syns.obo
 	robot convert -i $< -o $@
+
+curated-mappings.sssom.tsv: go-with-reac-syns.obo
+	obo-xrefs-to-sssom.pl -p skos:exactMatch $< > $@
+
 
 # we should probably match over all chebi, start with just the subset used by existing GO axioms
 chebi_imports.owl:
@@ -60,6 +65,15 @@ chebi_imports.owl:
 rhea-%.owl.ttl:
 	curl -H "Accept: text/turtle"   --data-urlencode query@sparql/rhea-$*.rq https://sparql.rhea-db.org/sparql > $@
 
-LEXMATCH_INPUT = prefixes.ttl go-with-reac-syns.owl.ttl rhea-core.owl.ttl
+LEXMATCH_INPUT = prefixes.ttl go-with-reac-syns.owl.ttl rhea-core.owl.ttl chebi_imports.owl
+defmatches.sssom.tsv: $(LEXMATCH_INPUT)
+	rdfmatch $(RDFMATCH_ARGS) --min_weight 4.0 -p GO --match_prefix RHEA $(patsubst %, -i %, $(LEXMATCH_INPUT)) submatch > $@.tmp && mv $@.tmp $@
+
 lexmatches.sssom.tsv: $(LEXMATCH_INPUT)
-	rdfmatch $(patsubst %, -i %, $(LEXMATCH_INPUT)) submatch > $@
+	rdfmatch $(RDFMATCH_ARGS) --consult conf/rhea_weights.pro -p GO --match_prefix RHEA $(patsubst %, -i %, $(LEXMATCH_INPUT)) match > $@.tmp && mv $@.tmp $@
+
+%-diff.sssom.tsv: %.sssom.tsv curated-mappings.sssom.tsv
+	sssom diff $^ -o $@
+
+%-new.sssom.tsv: %-diff.sssom.tsv
+	sssom dosql $< -q "SELECT * FROM df WHERE COMMENT='UNIQUE_1' AND match_type='Lexical'" -o $@
