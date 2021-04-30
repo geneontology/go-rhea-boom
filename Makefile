@@ -30,16 +30,17 @@ go-ec-rhea-xrefs.tsv: go-plus.owl xrefs.rq
 	robot query -i $< -f TSV -q xrefs.rq $@
 
 go-ec-rhea-xrefs-probs.tsv: go-ec-rhea-xrefs.tsv
-	tail -n +2 $< | sed 's/^<http:\/\/purl.obolibrary.org\/obo\/GO_/GO:/' | sed 's/>//' | sed 's/"//g' | sed 's/$$/	0.10	0.10	0.75	0.05/' >$@
+	tail -n +2 $< | sed 's/^<http:\/\/purl.obolibrary.org\/obo\/GO_/GO:/' | sed 's/>//' | sed 's/"//g' | sed 's/$$/	0.004	0.004	0.99	0.001/' >$@
 
-probs.tsv: rhea-ec-probs.tsv rhea-metacyc-probs.tsv rhea-reactome-probs.tsv go-ec-rhea-xrefs-probs.tsv
+#probs.tsv: go-ec-rhea-xrefs-probs.tsv 4.to.5.methods.txt 3.methods.txt 2.methods.txt 1.method.txt
+probs.tsv: rhea-ec-probs.tsv rhea-metacyc-probs.tsv rhea-reactome-probs.tsv go-ec-rhea-xrefs-probs.tsv 4.to.5.methods.txt 3.methods.txt 2.methods.txt 1.method.txt
 	cat $^ >$@
 
 go-rhea.ofn: go-plus.owl rhea-relationships.ofn
 	robot merge -i go-plus.owl -i rhea-relationships.ofn -o $@
 
 rhea-boom.txt: go-rhea.ofn probs.tsv prefixes.yaml
-	boomer --ptable probs.tsv --ontology go-rhea.ofn --window-count 20 --runs 100 --prefixes prefixes.yaml --output rhea-boom
+	boomer --ptable probs.tsv --ontology go-rhea.ofn --window-count 100 --runs 100 --prefixes prefixes.yaml --output rhea-boom
 
 go.obo:
 #	curl -L -s http://purl.obolibrary.org/obo/go.obo > $@

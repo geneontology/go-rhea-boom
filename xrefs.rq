@@ -7,5 +7,6 @@ SELECT DISTINCT ?go ?xref WHERE
 {
   ?go hasDbXref: ?xref .
   FILTER(isIRI(?go))
-  FILTER(STRSTARTS(?xref, "RHEA:") || STRSTARTS(?xref, "EC:"))
+  #FILTER(STRSTARTS(?xref, "RHEA:") || STRSTARTS(?xref, "EC:"))
+  FILTER(STRSTARTS(?xref, "RHEA:"))
 }
