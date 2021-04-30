@@ -1,0 +1,5 @@
+venv/
+*.old
+*.tmp
+RDF-Cache/
+*.owl
