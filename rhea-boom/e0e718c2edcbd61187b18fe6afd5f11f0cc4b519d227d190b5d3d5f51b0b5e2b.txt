@@ -1,5 +1,5 @@
 ## http://metacyc.org/RXN3O-663 http://purl.obolibrary.org/obo/GO_0103064 http://purl.uniprot.org/enzyme/2.4.1.370 http://rdf.rhea-db.org/61496 http://rdf.rhea-db.org/61497 http://rdf.rhea-db.org/61498 http://rdf.rhea-db.org/61499 http://rdf.rhea-db.org/64596 http://rdf.rhea-db.org/64597 http://rdf.rhea-db.org/64598 http://rdf.rhea-db.org/64599
-GO:0103064 ProperSubClassOf RHEA:61496		0.15
-RHEA:64597 EquivalentTo METACYC:RXN3O-663	(most probable)	0.75
-RHEA:64596 EquivalentTo EC:2.4.1.370	(most probable)	0.75
-GO:0103064 EquivalentTo METACYC:RXN3O-663	(most probable)	0.8
+ProperSubClassOf(AtomicConcept(http://purl.obolibrary.org/obo/GO_0103064),AtomicConcept(http://rdf.rhea-db.org/61496))		0.15
+Equivalent(AtomicConcept(http://rdf.rhea-db.org/64596),AtomicConcept(http://purl.uniprot.org/enzyme/2.4.1.370))	(most probable)	0.75
+Equivalent(AtomicConcept(http://rdf.rhea-db.org/64597),AtomicConcept(http://metacyc.org/RXN3O-663))	(most probable)	0.75
+Equivalent(AtomicConcept(http://purl.obolibrary.org/obo/GO_0103064),AtomicConcept(http://metacyc.org/RXN3O-663))	(most probable)	0.8

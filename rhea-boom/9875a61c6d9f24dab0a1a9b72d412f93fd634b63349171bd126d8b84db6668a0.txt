@@ -1,10 +1,10 @@
 ## http://metacyc.org/3.6.3.25-RXN http://metacyc.org/ABC-7-RXN http://purl.obolibrary.org/obo/GO_0015419 http://purl.obolibrary.org/obo/GO_0102025 http://purl.uniprot.org/enzyme/7.3.2.3 http://rdf.rhea-db.org/10192 http://rdf.rhea-db.org/10193 http://rdf.rhea-db.org/10194 http://rdf.rhea-db.org/10195 http://rdf.rhea-db.org/29871 http://rdf.rhea-db.org/29872 http://rdf.rhea-db.org/29873 http://rdf.rhea-db.org/29874
-GO:0015419 EquivalentTo RHEA:10192	(most probable)	0.8
-GO:0102025 EquivalentTo METACYC:ABC-7-RXN	(most probable)	0.8
-RHEA:10192 ProperSubClassOf EC:7.3.2.3		0.1
-RHEA:10193 EquivalentTo METACYC:3.6.3.25-RXN	(most probable)	0.75
-GO:0102025 ProperSubClassOf RHEA:29871		0.15
-GO:0015419 EquivalentTo METACYC:3.6.3.25-RXN	(most probable)	0.8
-GO:0102025 ProperSubClassOf EC:7.3.2.3	(most probable)	0.8
-GO:0015419 ProperSubClassOf EC:7.3.2.3	(most probable)	0.8
-RHEA:29871 EquivalentTo EC:7.3.2.3	(most probable)	0.75
+Equivalent(AtomicConcept(http://rdf.rhea-db.org/10193),AtomicConcept(http://metacyc.org/3.6.3.25-RXN))	(most probable)	0.75
+Equivalent(AtomicConcept(http://rdf.rhea-db.org/29871),AtomicConcept(http://purl.uniprot.org/enzyme/7.3.2.3))	(most probable)	0.75
+ProperSubClassOf(AtomicConcept(http://rdf.rhea-db.org/10192),AtomicConcept(http://purl.uniprot.org/enzyme/7.3.2.3))		0.1
+Equivalent(AtomicConcept(http://purl.obolibrary.org/obo/GO_0102025),AtomicConcept(http://metacyc.org/ABC-7-RXN))	(most probable)	0.8
+Equivalent(AtomicConcept(http://purl.obolibrary.org/obo/GO_0015419),AtomicConcept(http://rdf.rhea-db.org/10192))	(most probable)	0.8
+ProperSubClassOf(AtomicConcept(http://purl.obolibrary.org/obo/GO_0015419),AtomicConcept(http://purl.uniprot.org/enzyme/7.3.2.3))	(most probable)	0.8
+ProperSubClassOf(AtomicConcept(http://purl.obolibrary.org/obo/GO_0102025),AtomicConcept(http://rdf.rhea-db.org/29871))		0.15
+ProperSubClassOf(AtomicConcept(http://purl.obolibrary.org/obo/GO_0102025),AtomicConcept(http://purl.uniprot.org/enzyme/7.3.2.3))	(most probable)	0.8
+Equivalent(AtomicConcept(http://purl.obolibrary.org/obo/GO_0015419),AtomicConcept(http://metacyc.org/3.6.3.25-RXN))	(most probable)	0.8

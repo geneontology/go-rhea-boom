@@ -1,8 +1,8 @@
 ## http://metacyc.org/2-HYDROXYGLUTARATE-DEHYDROGENASE-RXN http://purl.obolibrary.org/obo/GO_0047545 http://purl.obolibrary.org/obo/GO_0061758 http://purl.obolibrary.org/obo/GO_0061759 http://purl.uniprot.org/enzyme/1.1.99.2 http://rdf.rhea-db.org/21252 http://rdf.rhea-db.org/21253 http://rdf.rhea-db.org/21254 http://rdf.rhea-db.org/21255
-RHEA:21255 EquivalentTo METACYC:2-HYDROXYGLUTARATE-DEHYDROGENASE-RXN	(most probable)	0.75
-GO:0061759 ProperSubClassOf RHEA:21254		0.08
-RHEA:21252 EquivalentTo EC:1.1.99.2	(most probable)	0.75
-GO:0047545 EquivalentTo EC:1.1.99.2	(most probable)	0.8
-GO:0047545 EquivalentTo RHEA:21252	(most probable)	0.8
-GO:0061758 ProperSubClassOf RHEA:21253		0.08
-GO:0047545 EquivalentTo METACYC:2-HYDROXYGLUTARATE-DEHYDROGENASE-RXN	(most probable)	0.8
+Equivalent(AtomicConcept(http://purl.obolibrary.org/obo/GO_0047545),AtomicConcept(http://purl.uniprot.org/enzyme/1.1.99.2))	(most probable)	0.8
+ProperSubClassOf(AtomicConcept(http://purl.obolibrary.org/obo/GO_0061759),AtomicConcept(http://rdf.rhea-db.org/21254))		0.08
+Equivalent(AtomicConcept(http://purl.obolibrary.org/obo/GO_0047545),AtomicConcept(http://metacyc.org/2-HYDROXYGLUTARATE-DEHYDROGENASE-RXN))	(most probable)	0.8
+Equivalent(AtomicConcept(http://rdf.rhea-db.org/21255),AtomicConcept(http://metacyc.org/2-HYDROXYGLUTARATE-DEHYDROGENASE-RXN))	(most probable)	0.75
+Equivalent(AtomicConcept(http://purl.obolibrary.org/obo/GO_0047545),AtomicConcept(http://rdf.rhea-db.org/21252))	(most probable)	0.8
+ProperSubClassOf(AtomicConcept(http://purl.obolibrary.org/obo/GO_0061758),AtomicConcept(http://rdf.rhea-db.org/21253))		0.08
+Equivalent(AtomicConcept(http://rdf.rhea-db.org/21252),AtomicConcept(http://purl.uniprot.org/enzyme/1.1.99.2))	(most probable)	0.75

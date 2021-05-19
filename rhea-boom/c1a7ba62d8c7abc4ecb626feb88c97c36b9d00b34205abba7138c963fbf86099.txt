@@ -1,8 +1,0 @@
-## http://metacyc.org/1.8.1.4-RXN http://metacyc.org/DIHYDLIPOXN-RXN http://purl.obolibrary.org/obo/GO_0004148 http://purl.uniprot.org/enzyme/1.8.1.4 http://rdf.rhea-db.org/15045 http://rdf.rhea-db.org/15046 http://rdf.rhea-db.org/15047 http://rdf.rhea-db.org/15048 http://rdf.rhea-db.org/33059 http://rdf.rhea-db.org/33060 http://rdf.rhea-db.org/33061 http://rdf.rhea-db.org/33062
-RHEA:33059 EquivalentTo EC:1.8.1.4	(most probable)	0.75
-RHEA:33062 EquivalentTo METACYC:DIHYDLIPOXN-RXN	(most probable)	0.75
-GO:0004148 EquivalentTo METACYC:DIHYDLIPOXN-RXN	(most probable)	0.8
-RHEA:15045 ProperSuperClassOf EC:1.8.1.4		0.1
-RHEA:15046 EquivalentTo METACYC:1.8.1.4-RXN	(most probable)	0.75
-GO:0004148 ProperSubClassOf RHEA:15045		0.08
-GO:0004148 EquivalentTo EC:1.8.1.4	(most probable)	0.8

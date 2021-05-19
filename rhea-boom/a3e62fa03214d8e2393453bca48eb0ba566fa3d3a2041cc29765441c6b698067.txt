@@ -1,6 +1,6 @@
 ## http://metacyc.org/UNDECAPRENYL-DIPHOSPHATASE-RXN http://purl.obolibrary.org/obo/GO_0050380 http://purl.uniprot.org/enzyme/3.6.1.27 http://rdf.rhea-db.org/17069 http://rdf.rhea-db.org/17070 http://rdf.rhea-db.org/17071 http://rdf.rhea-db.org/17072 http://rdf.rhea-db.org/28094 http://rdf.rhea-db.org/28095 http://rdf.rhea-db.org/28096 http://rdf.rhea-db.org/28097
-RHEA:28095 EquivalentTo METACYC:UNDECAPRENYL-DIPHOSPHATASE-RXN	(most probable)	0.75
-RHEA:28094 EquivalentTo EC:3.6.1.27	(most probable)	0.75
-GO:0050380 ProperSubClassOf RHEA:17069		0.08
-GO:0050380 EquivalentTo METACYC:UNDECAPRENYL-DIPHOSPHATASE-RXN	(most probable)	0.8
-GO:0050380 EquivalentTo EC:3.6.1.27	(most probable)	0.8
+ProperSubClassOf(AtomicConcept(http://purl.obolibrary.org/obo/GO_0050380),AtomicConcept(http://rdf.rhea-db.org/17069))		0.08
+Equivalent(AtomicConcept(http://rdf.rhea-db.org/28094),AtomicConcept(http://purl.uniprot.org/enzyme/3.6.1.27))	(most probable)	0.75
+Equivalent(AtomicConcept(http://purl.obolibrary.org/obo/GO_0050380),AtomicConcept(http://metacyc.org/UNDECAPRENYL-DIPHOSPHATASE-RXN))	(most probable)	0.8
+Equivalent(AtomicConcept(http://rdf.rhea-db.org/28095),AtomicConcept(http://metacyc.org/UNDECAPRENYL-DIPHOSPHATASE-RXN))	(most probable)	0.75
+Equivalent(AtomicConcept(http://purl.obolibrary.org/obo/GO_0050380),AtomicConcept(http://purl.uniprot.org/enzyme/3.6.1.27))	(most probable)	0.8

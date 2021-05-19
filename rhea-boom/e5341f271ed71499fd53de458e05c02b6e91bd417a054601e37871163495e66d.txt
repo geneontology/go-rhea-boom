@@ -1,8 +1,8 @@
 ## http://metacyc.org/1.14.19.3-RXN http://metacyc.org/RXN-13426 http://purl.obolibrary.org/obo/GO_0016213 http://purl.uniprot.org/enzyme/1.14.19.3 http://rdf.rhea-db.org/22196 http://rdf.rhea-db.org/22197 http://rdf.rhea-db.org/22198 http://rdf.rhea-db.org/22199 http://rdf.rhea-db.org/47140 http://rdf.rhea-db.org/47141 http://rdf.rhea-db.org/47142 http://rdf.rhea-db.org/47143 http://rdf.rhea-db.org/47144 http://rdf.rhea-db.org/47145 http://rdf.rhea-db.org/47146 http://rdf.rhea-db.org/47147
-RHEA:47144 ProperSubClassOf EC:1.14.19.3		0.1
-RHEA:47140 EquivalentTo EC:1.14.19.3	(most probable)	0.75
-RHEA:47145 EquivalentTo METACYC:RXN-13426	(most probable)	0.75
-GO:0016213 EquivalentTo METACYC:1.14.19.3-RXN	(most probable)	0.8
-GO:0016213 EquivalentTo EC:1.14.19.3	(most probable)	0.8
-GO:0016213 ProperSubClassOf RHEA:22196		0.08
-RHEA:47141 EquivalentTo METACYC:1.14.19.3-RXN	(most probable)	0.75
+Equivalent(AtomicConcept(http://rdf.rhea-db.org/47140),AtomicConcept(http://purl.uniprot.org/enzyme/1.14.19.3))	(most probable)	0.75
+ProperSubClassOf(AtomicConcept(http://rdf.rhea-db.org/47144),AtomicConcept(http://purl.uniprot.org/enzyme/1.14.19.3))		0.1
+Equivalent(AtomicConcept(http://rdf.rhea-db.org/47141),AtomicConcept(http://metacyc.org/1.14.19.3-RXN))	(most probable)	0.75
+Equivalent(AtomicConcept(http://purl.obolibrary.org/obo/GO_0016213),AtomicConcept(http://metacyc.org/1.14.19.3-RXN))	(most probable)	0.8
+Equivalent(AtomicConcept(http://purl.obolibrary.org/obo/GO_0016213),AtomicConcept(http://purl.uniprot.org/enzyme/1.14.19.3))	(most probable)	0.8
+ProperSubClassOf(AtomicConcept(http://purl.obolibrary.org/obo/GO_0016213),AtomicConcept(http://rdf.rhea-db.org/22196))		0.08
+Equivalent(AtomicConcept(http://rdf.rhea-db.org/47145),AtomicConcept(http://metacyc.org/RXN-13426))	(most probable)	0.75

@@ -1,8 +1,0 @@
-## http://metacyc.org/GLUCOSE-DEHYDROGENASE-ACCEPTOR-RXN http://metacyc.org/RXN-11334 http://purl.obolibrary.org/obo/GO_0004344 http://purl.uniprot.org/enzyme/1.1.5.9 http://purl.uniprot.org/enzyme/1.1.99.10 http://purl.uniprot.org/enzyme/1.1.99.35 http://rdf.rhea-db.org/24540 http://rdf.rhea-db.org/24541 http://rdf.rhea-db.org/24542 http://rdf.rhea-db.org/24543 http://rdf.rhea-db.org/47372 http://rdf.rhea-db.org/47373 http://rdf.rhea-db.org/47374 http://rdf.rhea-db.org/47375
-RHEA:24540 EquivalentTo EC:1.1.99.35	(most probable)	0.75
-GO:0004344 ProperSubClassOf RHEA:24540		0.08
-RHEA:47372 EquivalentTo EC:1.1.5.9	(most probable)	0.75
-GO:0004344 EquivalentTo METACYC:GLUCOSE-DEHYDROGENASE-ACCEPTOR-RXN	(most probable)	0.8
-GO:0004344 EquivalentTo EC:1.1.99.10	(most probable)	0.8
-RHEA:47373 ProperSubClassOf METACYC:GLUCOSE-DEHYDROGENASE-ACCEPTOR-RXN		0.1
-RHEA:24543 EquivalentTo METACYC:RXN-11334	(most probable)	0.75

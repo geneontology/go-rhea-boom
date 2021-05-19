@@ -1,8 +1,8 @@
 ## http://metacyc.org/RXN-8077 http://purl.obolibrary.org/obo/GO_0043814 http://purl.uniprot.org/enzyme/2.7.7.105 http://purl.uniprot.org/enzyme/2.7.7.68 http://rdf.rhea-db.org/30519 http://rdf.rhea-db.org/30520 http://rdf.rhea-db.org/30521 http://rdf.rhea-db.org/30522 http://rdf.rhea-db.org/63424 http://rdf.rhea-db.org/63425 http://rdf.rhea-db.org/63426 http://rdf.rhea-db.org/63427
-GO:0043814 EquivalentTo EC:2.7.7.68	(most probable)	0.8
-RHEA:30519 EquivalentTo EC:2.7.7.105	(most probable)	0.75
-RHEA:30520 ProperSubClassOf METACYC:RXN-8077		0.1
-RHEA:63425 EquivalentTo METACYC:RXN-8077	(most probable)	0.75
-GO:0043814 ProperSuperClassOf RHEA:30519		0.15
-GO:0043814 EquivalentTo METACYC:RXN-8077	(most probable)	0.8
-RHEA:63424 EquivalentTo EC:2.7.7.68	(most probable)	0.75
+Equivalent(AtomicConcept(http://rdf.rhea-db.org/30519),AtomicConcept(http://purl.uniprot.org/enzyme/2.7.7.105))	(most probable)	0.75
+ProperSubClassOf(AtomicConcept(http://rdf.rhea-db.org/30520),AtomicConcept(http://metacyc.org/RXN-8077))		0.1
+Equivalent(AtomicConcept(http://rdf.rhea-db.org/63425),AtomicConcept(http://metacyc.org/RXN-8077))	(most probable)	0.75
+Equivalent(AtomicConcept(http://purl.obolibrary.org/obo/GO_0043814),AtomicConcept(http://metacyc.org/RXN-8077))	(most probable)	0.8
+Equivalent(AtomicConcept(http://rdf.rhea-db.org/63424),AtomicConcept(http://purl.uniprot.org/enzyme/2.7.7.68))	(most probable)	0.75
+Equivalent(AtomicConcept(http://purl.obolibrary.org/obo/GO_0043814),AtomicConcept(http://purl.uniprot.org/enzyme/2.7.7.68))	(most probable)	0.8
+ProperSuperClassOf(AtomicConcept(http://purl.obolibrary.org/obo/GO_0043814),AtomicConcept(http://rdf.rhea-db.org/30519))		0.15

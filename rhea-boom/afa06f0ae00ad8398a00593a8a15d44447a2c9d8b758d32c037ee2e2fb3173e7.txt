@@ -1,25 +1,25 @@
 ## http://metacyc.org/LUTEOLIN-O-METHYLTRANSFERASE-RXN http://metacyc.org/RXN-13912 http://metacyc.org/RXN-13955 http://metacyc.org/RXN-13956 http://metacyc.org/RXN-8262 http://metacyc.org/RXN-8451 http://metacyc.org/RXN-8452 http://purl.obolibrary.org/obo/GO_0030744 http://purl.obolibrary.org/obo/GO_0033799 http://purl.obolibrary.org/obo/GO_0070448 http://purl.obolibrary.org/obo/GO_0102822 http://purl.uniprot.org/enzyme/2.1.1.267 http://purl.uniprot.org/enzyme/2.1.1.267; http://purl.uniprot.org/enzyme/2.1.1.42 http://rdf.rhea-db.org/14589 http://rdf.rhea-db.org/14590 http://rdf.rhea-db.org/14591 http://rdf.rhea-db.org/14592 http://rdf.rhea-db.org/25629 http://rdf.rhea-db.org/25630 http://rdf.rhea-db.org/25631 http://rdf.rhea-db.org/25632 http://rdf.rhea-db.org/25633 http://rdf.rhea-db.org/25634 http://rdf.rhea-db.org/25635 http://rdf.rhea-db.org/25636 http://rdf.rhea-db.org/55332 http://rdf.rhea-db.org/55333 http://rdf.rhea-db.org/55334 http://rdf.rhea-db.org/55335 http://rdf.rhea-db.org/55336 http://rdf.rhea-db.org/55337 http://rdf.rhea-db.org/55338 http://rdf.rhea-db.org/55339 http://rdf.rhea-db.org/60944 http://rdf.rhea-db.org/60945 http://rdf.rhea-db.org/60946 http://rdf.rhea-db.org/60947
-RHEA:25633 EquivalentTo EC:2.1.1.267	(most probable)	0.75
-GO:0033799 ProperSubClassOf METACYC:RXN-13912		0.08
-GO:0102822 EquivalentTo METACYC:RXN-8262	(most probable)	0.8
-RHEA:25634 EquivalentTo METACYC:RXN-8452	(most probable)	0.75
-RHEA:55336 ProperSuperClassOf EC:2.1.1.267		0.1
-GO:0033799 EquivalentTo RHEA:25629	(most probable)	0.8
-GO:0070448 EquivalentTo RHEA:25633	(most probable)	0.8
-GO:0033799 EquivalentTo EC:2.1.1.267;	(most probable)	0.8
-GO:0033799 EquivalentTo METACYC:RXN-8451	(most probable)	0.8
-RHEA:55333 EquivalentTo METACYC:RXN-13955	(most probable)	0.75
-RHEA:14590 EquivalentTo METACYC:LUTEOLIN-O-METHYLTRANSFERASE-RXN	(most probable)	0.75
-GO:0030744 EquivalentTo METACYC:LUTEOLIN-O-METHYLTRANSFERASE-RXN	(most probable)	0.8
-RHEA:25630 EquivalentTo METACYC:RXN-8451	(most probable)	0.75
-RHEA:55337 EquivalentTo METACYC:RXN-13956	(most probable)	0.75
-GO:0030744 EquivalentTo RHEA:14589	(most probable)	0.8
-RHEA:55332 ProperSuperClassOf EC:2.1.1.42		0.1
-GO:0102822 ProperSubClassOf RHEA:55332		0.15
-GO:0070448 EquivalentTo METACYC:RXN-8452	(most probable)	0.8
-GO:0030744 EquivalentTo EC:2.1.1.42	(most probable)	0.8
-RHEA:25629 ProperSubClassOf EC:2.1.1.267		0.1
-RHEA:60945 EquivalentTo METACYC:RXN-8262	(most probable)	0.75
-RHEA:55332 ProperSubClassOf EC:2.1.1.267		0.1
-GO:0070448 EquivalentTo EC:2.1.1.267	(most probable)	0.8
-GO:0102822 ProperSubClassOf EC:2.1.1.42		0.08
+Equivalent(AtomicConcept(http://rdf.rhea-db.org/60945),AtomicConcept(http://metacyc.org/RXN-8262))	(most probable)	0.75
+Equivalent(AtomicConcept(http://rdf.rhea-db.org/25630),AtomicConcept(http://metacyc.org/RXN-8451))	(most probable)	0.75
+Equivalent(AtomicConcept(http://rdf.rhea-db.org/55333),AtomicConcept(http://metacyc.org/RXN-13955))	(most probable)	0.75
+Equivalent(AtomicConcept(http://purl.obolibrary.org/obo/GO_0102822),AtomicConcept(http://purl.uniprot.org/enzyme/2.1.1.42))	(most probable)	0.8
+ProperSubClassOf(AtomicConcept(http://rdf.rhea-db.org/55332),AtomicConcept(http://purl.uniprot.org/enzyme/2.1.1.267))		0.1
+Equivalent(AtomicConcept(http://purl.obolibrary.org/obo/GO_0033799),AtomicConcept(http://metacyc.org/RXN-8451))	(most probable)	0.8
+Equivalent(AtomicConcept(http://rdf.rhea-db.org/25634),AtomicConcept(http://metacyc.org/RXN-8452))	(most probable)	0.75
+ProperSubClassOf(AtomicConcept(http://purl.obolibrary.org/obo/GO_0030744),AtomicConcept(http://purl.uniprot.org/enzyme/2.1.1.42))		0.08
+Equivalent(AtomicConcept(http://purl.obolibrary.org/obo/GO_0033799),AtomicConcept(http://rdf.rhea-db.org/25629))	(most probable)	0.8
+Equivalent(AtomicConcept(http://purl.obolibrary.org/obo/GO_0030744),AtomicConcept(http://metacyc.org/LUTEOLIN-O-METHYLTRANSFERASE-RXN))	(most probable)	0.8
+Equivalent(AtomicConcept(http://purl.obolibrary.org/obo/GO_0070448),AtomicConcept(http://rdf.rhea-db.org/25633))	(most probable)	0.8
+ProperSubClassOf(AtomicConcept(http://rdf.rhea-db.org/25629),AtomicConcept(http://purl.uniprot.org/enzyme/2.1.1.267))		0.1
+Equivalent(AtomicConcept(http://purl.obolibrary.org/obo/GO_0070448),AtomicConcept(http://metacyc.org/RXN-8452))	(most probable)	0.8
+ProperSuperClassOf(AtomicConcept(http://rdf.rhea-db.org/55336),AtomicConcept(http://purl.uniprot.org/enzyme/2.1.1.267))		0.1
+Equivalent(AtomicConcept(http://rdf.rhea-db.org/55337),AtomicConcept(http://metacyc.org/RXN-13956))	(most probable)	0.75
+ProperSuperClassOf(AtomicConcept(http://rdf.rhea-db.org/55332),AtomicConcept(http://purl.uniprot.org/enzyme/2.1.1.42))		0.1
+Equivalent(AtomicConcept(http://purl.obolibrary.org/obo/GO_0070448),AtomicConcept(http://purl.uniprot.org/enzyme/2.1.1.267))	(most probable)	0.8
+ProperSubClassOf(AtomicConcept(http://purl.obolibrary.org/obo/GO_0033799),AtomicConcept(http://metacyc.org/RXN-13912))		0.08
+Equivalent(AtomicConcept(http://purl.obolibrary.org/obo/GO_0033799),AtomicConcept(http://purl.uniprot.org/enzyme/2.1.1.267;))	(most probable)	0.8
+ProperSubClassOf(AtomicConcept(http://purl.obolibrary.org/obo/GO_0102822),AtomicConcept(http://rdf.rhea-db.org/55332))		0.15
+Equivalent(AtomicConcept(http://purl.obolibrary.org/obo/GO_0030744),AtomicConcept(http://rdf.rhea-db.org/14589))	(most probable)	0.8
+Equivalent(AtomicConcept(http://rdf.rhea-db.org/14590),AtomicConcept(http://metacyc.org/LUTEOLIN-O-METHYLTRANSFERASE-RXN))	(most probable)	0.75
+Equivalent(AtomicConcept(http://rdf.rhea-db.org/25633),AtomicConcept(http://purl.uniprot.org/enzyme/2.1.1.267))	(most probable)	0.75
+Equivalent(AtomicConcept(http://purl.obolibrary.org/obo/GO_0102822),AtomicConcept(http://metacyc.org/RXN-8262))	(most probable)	0.8

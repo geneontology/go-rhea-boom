@@ -1,6 +1,6 @@
 ## http://metacyc.org/NAPHTHOATE-SYN-RXN http://purl.obolibrary.org/obo/GO_0008935 http://purl.uniprot.org/enzyme/4.1.3.36 http://rdf.rhea-db.org/15525 http://rdf.rhea-db.org/15526 http://rdf.rhea-db.org/15527 http://rdf.rhea-db.org/15528 http://rdf.rhea-db.org/26562 http://rdf.rhea-db.org/26563 http://rdf.rhea-db.org/26564 http://rdf.rhea-db.org/26565
-GO:0008935 ProperSubClassOf RHEA:15525		0.08
-GO:0008935 EquivalentTo METACYC:NAPHTHOATE-SYN-RXN	(most probable)	0.8
-RHEA:26563 EquivalentTo METACYC:NAPHTHOATE-SYN-RXN	(most probable)	0.75
-RHEA:26562 EquivalentTo EC:4.1.3.36	(most probable)	0.75
-GO:0008935 EquivalentTo EC:4.1.3.36	(most probable)	0.8
+Equivalent(AtomicConcept(http://rdf.rhea-db.org/26562),AtomicConcept(http://purl.uniprot.org/enzyme/4.1.3.36))	(most probable)	0.75
+Equivalent(AtomicConcept(http://purl.obolibrary.org/obo/GO_0008935),AtomicConcept(http://purl.uniprot.org/enzyme/4.1.3.36))	(most probable)	0.8
+Equivalent(AtomicConcept(http://rdf.rhea-db.org/26563),AtomicConcept(http://metacyc.org/NAPHTHOATE-SYN-RXN))	(most probable)	0.75
+ProperSubClassOf(AtomicConcept(http://purl.obolibrary.org/obo/GO_0008935),AtomicConcept(http://rdf.rhea-db.org/15525))		0.08
+Equivalent(AtomicConcept(http://purl.obolibrary.org/obo/GO_0008935),AtomicConcept(http://metacyc.org/NAPHTHOATE-SYN-RXN))	(most probable)	0.8

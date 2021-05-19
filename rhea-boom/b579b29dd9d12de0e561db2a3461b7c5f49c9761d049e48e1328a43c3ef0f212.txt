@@ -1,6 +1,6 @@
 ## http://metacyc.org/MUCONATE-CYCLOISOMERASE-RXN http://purl.obolibrary.org/obo/GO_0018849 http://purl.uniprot.org/enzyme/5.5.1.1 http://rdf.rhea-db.org/10640 http://rdf.rhea-db.org/10641 http://rdf.rhea-db.org/10642 http://rdf.rhea-db.org/10643 http://rdf.rhea-db.org/30031 http://rdf.rhea-db.org/30032 http://rdf.rhea-db.org/30033 http://rdf.rhea-db.org/30034
-RHEA:30031 EquivalentTo EC:5.5.1.1	(most probable)	0.75
-GO:0018849 EquivalentTo METACYC:MUCONATE-CYCLOISOMERASE-RXN	(most probable)	0.8
-GO:0018849 ProperSubClassOf RHEA:10640		0.08
-RHEA:30033 EquivalentTo METACYC:MUCONATE-CYCLOISOMERASE-RXN	(most probable)	0.75
-GO:0018849 EquivalentTo EC:5.5.1.1	(most probable)	0.8
+Equivalent(AtomicConcept(http://purl.obolibrary.org/obo/GO_0018849),AtomicConcept(http://purl.uniprot.org/enzyme/5.5.1.1))	(most probable)	0.8
+Equivalent(AtomicConcept(http://rdf.rhea-db.org/30031),AtomicConcept(http://purl.uniprot.org/enzyme/5.5.1.1))	(most probable)	0.75
+Equivalent(AtomicConcept(http://purl.obolibrary.org/obo/GO_0018849),AtomicConcept(http://metacyc.org/MUCONATE-CYCLOISOMERASE-RXN))	(most probable)	0.8
+Equivalent(AtomicConcept(http://rdf.rhea-db.org/30033),AtomicConcept(http://metacyc.org/MUCONATE-CYCLOISOMERASE-RXN))	(most probable)	0.75
+ProperSubClassOf(AtomicConcept(http://purl.obolibrary.org/obo/GO_0018849),AtomicConcept(http://rdf.rhea-db.org/10640))		0.08
