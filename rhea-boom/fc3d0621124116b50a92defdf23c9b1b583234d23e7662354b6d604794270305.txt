@@ -8,7 +8,7 @@ Equivalent(AtomicConcept(http://purl.obolibrary.org/obo/GO_0033721),AtomicConcep
 Equivalent(AtomicConcept(http://purl.obolibrary.org/obo/GO_0004029),AtomicConcept(http://rdf.rhea-db.org/16185))	(most probable)	0.8
 ProperSubClassOf(AtomicConcept(http://purl.obolibrary.org/obo/GO_0034530),AtomicConcept(http://purl.uniprot.org/enzyme/1.2.1.-))		0.08
 Equivalent(AtomicConcept(http://purl.obolibrary.org/obo/GO_0016620),AtomicConcept(http://purl.uniprot.org/enzyme/1.2.1.-))	(most probable)	0.8
-Equivalent(AtomicConcept(http://rdf.rhea-db.org/42763),AtomicConcept(http://metacyc.org/RXN-15754))	(most probable)	0.75
+ProperSubClassOf(AtomicConcept(http://rdf.rhea-db.org/42763),AtomicConcept(http://metacyc.org/RXN-15754))		0.1
 Equivalent(AtomicConcept(http://rdf.rhea-db.org/11888),AtomicConcept(http://metacyc.org/ALDEHYDE-DEHYDROGENASE-NADORNOP%252b-RXN))	(most probable)	0.75
 Equivalent(AtomicConcept(http://purl.obolibrary.org/obo/GO_0008886),AtomicConcept(http://metacyc.org/1.2.1.9-RXN))	(most probable)	0.8
 Equivalent(AtomicConcept(http://purl.obolibrary.org/obo/GO_0004030),AtomicConcept(http://metacyc.org/ALDEHYDE-DEHYDROGENASE-NADP+-RXN))	(most probable)	0.8
@@ -27,7 +27,7 @@ Equivalent(AtomicConcept(http://rdf.rhea-db.org/25295),AtomicConcept(http://meta
 Equivalent(AtomicConcept(http://purl.obolibrary.org/obo/GO_0033721),AtomicConcept(http://purl.uniprot.org/enzyme/1.2.1.4))	(most probable)	0.8
 ProperSubClassOf(AtomicConcept(http://rdf.rhea-db.org/14669),AtomicConcept(http://purl.uniprot.org/enzyme/1.2.1.90))		0.1
 ProperSubClassOf(AtomicConcept(http://rdf.rhea-db.org/11888),AtomicConcept(http://purl.uniprot.org/enzyme/1.2.1.5))		0.1
-ProperSubClassOf(AtomicConcept(http://rdf.rhea-db.org/42761),AtomicConcept(http://metacyc.org/RXN-3443))		0.1
+Equivalent(AtomicConcept(http://rdf.rhea-db.org/42761),AtomicConcept(http://metacyc.org/RXN-3443))	(most probable)	0.75
 Equivalent(AtomicConcept(http://purl.obolibrary.org/obo/GO_0008886),AtomicConcept(http://rdf.rhea-db.org/14669))	(most probable)	0.8
 ProperSubClassOf(AtomicConcept(http://purl.obolibrary.org/obo/GO_0018474),AtomicConcept(http://purl.uniprot.org/enzyme/1.2.1.-))		0.08
 ProperSubClassOf(AtomicConcept(http://purl.obolibrary.org/obo/GO_0033721),AtomicConcept(http://metacyc.org/ALDEHYDE-DEHYDROGENASE-NADP+-RXN))		0.08
