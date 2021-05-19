@@ -1,0 +1,13 @@
+## http://metacyc.org/NADNUCLEOSID-RXN http://metacyc.org/NADP+-NUCLEOSIDASE-RXN http://purl.obolibrary.org/obo/GO_0003953 http://purl.obolibrary.org/obo/GO_0050135 http://purl.obolibrary.org/obo/GO_0061809 http://purl.obolibrary.org/obo/GO_0061810 http://purl.uniprot.org/enzyme/3.2.2.5 http://purl.uniprot.org/enzyme/3.2.2.6 http://rdf.rhea-db.org/16301 http://rdf.rhea-db.org/16302 http://rdf.rhea-db.org/16303 http://rdf.rhea-db.org/16304 http://reactome.org/R-HSA-8870346.2 http://reactome.org/R-HSA-8938076.1 http://reactome.org/R-HSA-9637699.1
+GO:0050135 ProperSubClassOf EC:3.2.2.6		0.08
+GO:0061810 EquivalentTo EC:3.2.2.5	(most probable)	0.8
+GO:0003953 ProperSuperClassOf RHEA:16301		0.08
+GO:0050135 EquivalentTo METACYC:NADP+-NUCLEOSIDASE-RXN	(most probable)	0.8
+RHEA:16301 ProperSubClassOf EC:3.2.2.5		0.1
+GO:0061809 EquivalentTo METACYC:NADNUCLEOSID-RXN	(most probable)	0.8
+RHEA:16301 EquivalentTo EC:3.2.2.6	(most probable)	0.75
+RHEA:16302 ProperSuperClassOf REACTOME:R-HSA-8870346.2	(most probable)	0.7
+GO:0061809 EquivalentTo EC:3.2.2.6	(most probable)	0.8
+RHEA:16302 EquivalentTo METACYC:NADNUCLEOSID-RXN	(most probable)	0.75
+RHEA:16302 ProperSuperClassOf REACTOME:R-HSA-9637699.1	(most probable)	0.7
+RHEA:16302 ProperSuperClassOf REACTOME:R-HSA-8938076.1	(most probable)	0.7

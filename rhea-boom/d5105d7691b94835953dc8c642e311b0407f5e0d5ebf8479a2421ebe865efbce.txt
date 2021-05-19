@@ -1,0 +1,8 @@
+## http://metacyc.org/2.4.1.119-RXN http://metacyc.org/RXN-16761 http://purl.obolibrary.org/obo/GO_0004579 http://purl.uniprot.org/enzyme/2.4.99.18 http://rdf.rhea-db.org/22980 http://rdf.rhea-db.org/22981 http://rdf.rhea-db.org/22982 http://rdf.rhea-db.org/22983 http://rdf.rhea-db.org/50348 http://rdf.rhea-db.org/50349 http://rdf.rhea-db.org/50350 http://rdf.rhea-db.org/50351
+RHEA:22983 EquivalentTo METACYC:RXN-16761	(most probable)	0.75
+RHEA:50348 EquivalentTo EC:2.4.99.18	(most probable)	0.75
+GO:0004579 EquivalentTo METACYC:2.4.1.119-RXN	(most probable)	0.8
+RHEA:22980 ProperSuperClassOf EC:2.4.99.18		0.1
+RHEA:50349 EquivalentTo METACYC:2.4.1.119-RXN	(most probable)	0.75
+GO:0004579 EquivalentTo EC:2.4.99.18	(most probable)	0.8
+GO:0004579 ProperSubClassOf RHEA:22980		0.08

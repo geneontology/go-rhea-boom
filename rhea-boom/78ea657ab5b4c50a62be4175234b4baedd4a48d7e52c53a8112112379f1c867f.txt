@@ -1,0 +1,8 @@
+## http://metacyc.org/1.1.1.261-RXN http://purl.obolibrary.org/obo/GO_0050492 http://purl.obolibrary.org/obo/GO_0106357 http://purl.obolibrary.org/obo/GO_0106358 http://purl.uniprot.org/enzyme/1.1.1.261 http://rdf.rhea-db.org/21412 http://rdf.rhea-db.org/21413 http://rdf.rhea-db.org/21414 http://rdf.rhea-db.org/21415 http://rdf.rhea-db.org/21416 http://rdf.rhea-db.org/21417 http://rdf.rhea-db.org/21418 http://rdf.rhea-db.org/21419
+RHEA:21416 ProperSubClassOf EC:1.1.1.261		0.1
+RHEA:21414 EquivalentTo METACYC:1.1.1.261-RXN	(most probable)	0.75
+RHEA:21412 EquivalentTo EC:1.1.1.261	(most probable)	0.75
+GO:0050492 EquivalentTo EC:1.1.1.261	(most probable)	0.8
+GO:0106357 ProperSubClassOf RHEA:21412		0.08
+GO:0106358 EquivalentTo RHEA:21416	(most probable)	0.8
+GO:0050492 EquivalentTo METACYC:1.1.1.261-RXN	(most probable)	0.8

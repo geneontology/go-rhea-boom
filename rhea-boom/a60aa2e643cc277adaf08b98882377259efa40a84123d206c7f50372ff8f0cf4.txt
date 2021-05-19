@@ -1,0 +1,14 @@
+## http://metacyc.org/1.1.1.8-RXN http://metacyc.org/GLYC3PDEHYDROGBIOSYN-RXN http://purl.obolibrary.org/obo/GO_0004367 http://purl.obolibrary.org/obo/GO_0047952 http://purl.obolibrary.org/obo/GO_0106257 http://purl.uniprot.org/enzyme/1.1.1.8 http://purl.uniprot.org/enzyme/1.1.1.94 http://rdf.rhea-db.org/11092 http://rdf.rhea-db.org/11093 http://rdf.rhea-db.org/11094 http://rdf.rhea-db.org/11095 http://rdf.rhea-db.org/11096 http://rdf.rhea-db.org/11097 http://rdf.rhea-db.org/11098 http://rdf.rhea-db.org/11099 http://reactome.org/R-HSA-75889.2
+GO:0004367 EquivalentTo EC:1.1.1.8	(most probable)	0.8
+RHEA:11092 EquivalentTo EC:1.1.1.8	(most probable)	0.75
+GO:0047952 EquivalentTo METACYC:GLYC3PDEHYDROGBIOSYN-RXN	(most probable)	0.8
+RHEA:11098 EquivalentTo METACYC:GLYC3PDEHYDROGBIOSYN-RXN	(most probable)	0.75
+GO:0004367 EquivalentTo METACYC:1.1.1.8-RXN	(most probable)	0.8
+RHEA:11094 EquivalentTo METACYC:1.1.1.8-RXN	(most probable)	0.75
+GO:0106257 ProperSubClassOf RHEA:11096		0.08
+GO:0047952 EquivalentTo EC:1.1.1.94	(most probable)	0.8
+RHEA:11092 ProperSubClassOf EC:1.1.1.94		0.1
+RHEA:11096 EquivalentTo EC:1.1.1.94	(most probable)	0.75
+GO:0004367 EquivalentTo RHEA:11092	(most probable)	0.8
+RHEA:11094 ProperSuperClassOf REACTOME:R-HSA-75889.2	(most probable)	0.7
+RHEA:11094 ProperSubClassOf METACYC:GLYC3PDEHYDROGBIOSYN-RXN		0.1

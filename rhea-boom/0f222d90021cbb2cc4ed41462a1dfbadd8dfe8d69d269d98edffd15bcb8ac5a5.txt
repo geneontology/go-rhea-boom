@@ -1,0 +1,8 @@
+## http://metacyc.org/HYDROPEROXIDE-DEHYDRATASE-RXN http://metacyc.org/RXN1F-19 http://purl.obolibrary.org/obo/GO_0009978 http://purl.obolibrary.org/obo/GO_0047987 http://purl.uniprot.org/enzyme/4.2.1.92 http://rdf.rhea-db.org/25074 http://rdf.rhea-db.org/25075 http://rdf.rhea-db.org/25076 http://rdf.rhea-db.org/25077
+GO:0047987 EquivalentTo METACYC:HYDROPEROXIDE-DEHYDRATASE-RXN	(most probable)	0.8
+GO:0047987 EquivalentTo RHEA:25075	(most probable)	0.8
+RHEA:25074 EquivalentTo EC:4.2.1.92	(most probable)	0.75
+GO:0047987 EquivalentTo EC:4.2.1.92	(most probable)	0.8
+GO:0009978 ProperSuperClassOf RHEA:25074		0.15
+GO:0009978 EquivalentTo METACYC:RXN1F-19	(most probable)	0.8
+RHEA:25075 ProperSubClassOf METACYC:RXN1F-19		0.1

@@ -1,0 +1,6 @@
+## http://metacyc.org/BETA-CAROTENE-1515-DIOXYGENASE-RXN http://metacyc.org/RXN-13374 http://purl.obolibrary.org/obo/GO_0003834 http://purl.uniprot.org/enzyme/1.13.11.63 http://purl.uniprot.org/enzyme/1.14.99.36 http://rdf.rhea-db.org/32887 http://rdf.rhea-db.org/32888 http://rdf.rhea-db.org/32889 http://rdf.rhea-db.org/32890
+RHEA:32888 EquivalentTo METACYC:RXN-13374	(most probable)	0.75
+GO:0003834 ProperSubClassOf RHEA:32887		0.08
+GO:0003834 EquivalentTo METACYC:BETA-CAROTENE-1515-DIOXYGENASE-RXN	(most probable)	0.8
+RHEA:32887 EquivalentTo EC:1.13.11.63	(most probable)	0.75
+GO:0003834 EquivalentTo EC:1.14.99.36	(most probable)	0.8

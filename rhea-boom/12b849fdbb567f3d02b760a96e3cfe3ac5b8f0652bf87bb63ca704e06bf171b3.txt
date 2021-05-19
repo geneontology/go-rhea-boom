@@ -1,0 +1,8 @@
+## http://metacyc.org/GALACTOSIDE-2-L-FUCOSYLTRANSFERASE-RXN http://metacyc.org/RXN-18234 http://purl.obolibrary.org/obo/GO_0008107 http://purl.uniprot.org/enzyme/2.4.1.69 http://rdf.rhea-db.org/32175 http://rdf.rhea-db.org/32176 http://rdf.rhea-db.org/32177 http://rdf.rhea-db.org/32178 http://rdf.rhea-db.org/48792 http://rdf.rhea-db.org/48793 http://rdf.rhea-db.org/48794 http://rdf.rhea-db.org/48795 http://rdf.rhea-db.org/50664 http://rdf.rhea-db.org/50665 http://rdf.rhea-db.org/50666 http://rdf.rhea-db.org/50667
+RHEA:32178 EquivalentTo METACYC:GALACTOSIDE-2-L-FUCOSYLTRANSFERASE-RXN	(most probable)	0.75
+GO:0008107 ProperSubClassOf RHEA:50667		0.08
+RHEA:32175 EquivalentTo EC:2.4.1.69	(most probable)	0.75
+RHEA:50665 EquivalentTo METACYC:RXN-18234	(most probable)	0.75
+GO:0008107 EquivalentTo METACYC:GALACTOSIDE-2-L-FUCOSYLTRANSFERASE-RXN	(most probable)	0.8
+GO:0008107 EquivalentTo EC:2.4.1.69	(most probable)	0.8
+RHEA:50664 ProperSuperClassOf EC:2.4.1.69		0.1

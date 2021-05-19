@@ -1,0 +1,15 @@
+## http://metacyc.org/1.18.1.2-RXN http://metacyc.org/FERREDOXIN--NAD%2b-REDUCTASE-RXN http://metacyc.org/FERREDOXIN--NAD+-REDUCTASE-RXN http://metacyc.org/RXN-14040 http://purl.obolibrary.org/obo/GO_0004324 http://purl.obolibrary.org/obo/GO_0008860 http://purl.uniprot.org/enzyme/1.18.1.2 http://purl.uniprot.org/enzyme/1.18.1.3 http://purl.uniprot.org/enzyme/1.18.1.7 http://rdf.rhea-db.org/16521 http://rdf.rhea-db.org/16522 http://rdf.rhea-db.org/16523 http://rdf.rhea-db.org/16524 http://rdf.rhea-db.org/20125 http://rdf.rhea-db.org/20126 http://rdf.rhea-db.org/20127 http://rdf.rhea-db.org/20128
+GO:0004324 EquivalentTo RHEA:20125	(most probable)	0.6
+GO:0008860 ProperSuperClassOf RHEA:16521		0.15
+RHEA:20125 ProperSubClassOf EC:1.18.1.7		0.1
+RHEA:16521 EquivalentTo EC:1.18.1.7	(most probable)	0.75
+RHEA:16524 EquivalentTo METACYC:FERREDOXIN--NAD%2b-REDUCTASE-RXN	(most probable)	0.75
+RHEA:16524 ProperSubClassOf METACYC:RXN-14040		0.1
+RHEA:16521 ProperSubClassOf EC:1.18.1.3		0.1
+GO:0004324 EquivalentTo EC:1.18.1.2	(most probable)	0.8
+GO:0004324 EquivalentTo METACYC:1.18.1.2-RXN	(most probable)	0.8
+GO:0008860 EquivalentTo EC:1.18.1.3	(most probable)	0.8
+GO:0008860 EquivalentTo METACYC:FERREDOXIN--NAD+-REDUCTASE-RXN	(most probable)	0.8
+RHEA:20128 ProperSubClassOf METACYC:RXN-14040		0.1
+RHEA:20126 EquivalentTo METACYC:1.18.1.2-RXN	(most probable)	0.75
+RHEA:20125 EquivalentTo EC:1.18.1.2	(most probable)	0.75

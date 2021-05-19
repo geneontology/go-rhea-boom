@@ -1,0 +1,13 @@
+## http://metacyc.org/1.14.13.33-RXN http://metacyc.org/4-HYDROXYBENZOATE-3-MONOOXYGENASE-RXN http://purl.obolibrary.org/obo/GO_0018659 http://purl.obolibrary.org/obo/GO_0018671 http://purl.obolibrary.org/obo/GO_0106355 http://purl.obolibrary.org/obo/GO_0106356 http://purl.uniprot.org/enzyme/1.14.13.2 http://purl.uniprot.org/enzyme/1.14.13.33 http://rdf.rhea-db.org/19473 http://rdf.rhea-db.org/19474 http://rdf.rhea-db.org/19475 http://rdf.rhea-db.org/19476 http://rdf.rhea-db.org/19477 http://rdf.rhea-db.org/19478 http://rdf.rhea-db.org/19479 http://rdf.rhea-db.org/19480
+RHEA:19473 EquivalentTo EC:1.14.13.33	(most probable)	0.75
+GO:0106355 ProperSubClassOf RHEA:19473		0.08
+GO:0018671 EquivalentTo EC:1.14.13.33	(most probable)	0.8
+GO:0106356 ProperSubClassOf RHEA:19477		0.08
+RHEA:19478 ProperSubClassOf METACYC:1.14.13.33-RXN		0.1
+RHEA:19478 EquivalentTo METACYC:4-HYDROXYBENZOATE-3-MONOOXYGENASE-RXN	(most probable)	0.75
+GO:0018659 EquivalentTo METACYC:4-HYDROXYBENZOATE-3-MONOOXYGENASE-RXN	(most probable)	0.8
+RHEA:19477 EquivalentTo EC:1.14.13.2	(most probable)	0.75
+RHEA:19474 EquivalentTo METACYC:1.14.13.33-RXN	(most probable)	0.75
+GO:0018671 EquivalentTo METACYC:1.14.13.33-RXN	(most probable)	0.8
+RHEA:19477 ProperSubClassOf EC:1.14.13.33		0.1
+GO:0018659 EquivalentTo EC:1.14.13.2	(most probable)	0.8

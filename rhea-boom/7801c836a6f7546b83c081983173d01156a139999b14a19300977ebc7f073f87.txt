@@ -1,0 +1,6 @@
+## http://metacyc.org/2-ACYLGLYCEROL-O-ACYLTRANSFERASE-RXN http://purl.obolibrary.org/obo/GO_0003846 http://purl.uniprot.org/enzyme/2.3.1.22 http://rdf.rhea-db.org/16741 http://rdf.rhea-db.org/16742 http://rdf.rhea-db.org/16743 http://rdf.rhea-db.org/16744 http://rdf.rhea-db.org/32947 http://rdf.rhea-db.org/32948 http://rdf.rhea-db.org/32949 http://rdf.rhea-db.org/32950
+RHEA:32950 EquivalentTo METACYC:2-ACYLGLYCEROL-O-ACYLTRANSFERASE-RXN	(most probable)	0.75
+RHEA:32947 EquivalentTo EC:2.3.1.22	(most probable)	0.75
+GO:0003846 EquivalentTo METACYC:2-ACYLGLYCEROL-O-ACYLTRANSFERASE-RXN	(most probable)	0.8
+GO:0003846 ProperSubClassOf RHEA:16741		0.08
+GO:0003846 EquivalentTo EC:2.3.1.22	(most probable)	0.8

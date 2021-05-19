@@ -1,0 +1,6 @@
+## http://metacyc.org/DIHYDRODIPICSYN-RXN http://purl.obolibrary.org/obo/GO_0008840 http://purl.uniprot.org/enzyme/4.3.3.7 http://rdf.rhea-db.org/14845 http://rdf.rhea-db.org/14846 http://rdf.rhea-db.org/14847 http://rdf.rhea-db.org/14848 http://rdf.rhea-db.org/34171 http://rdf.rhea-db.org/34172 http://rdf.rhea-db.org/34173 http://rdf.rhea-db.org/34174
+GO:0008840 EquivalentTo METACYC:DIHYDRODIPICSYN-RXN	(most probable)	0.8
+GO:0008840 EquivalentTo EC:4.3.3.7	(most probable)	0.8
+RHEA:34171 EquivalentTo EC:4.3.3.7	(most probable)	0.75
+GO:0008840 ProperSubClassOf RHEA:14845		0.08
+RHEA:34174 EquivalentTo METACYC:DIHYDRODIPICSYN-RXN	(most probable)	0.75

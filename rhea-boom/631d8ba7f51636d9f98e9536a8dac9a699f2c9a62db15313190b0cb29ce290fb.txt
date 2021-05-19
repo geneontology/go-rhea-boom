@@ -1,0 +1,9 @@
+## http://metacyc.org/1.1.1.265-RXN http://purl.obolibrary.org/obo/GO_0046568 http://purl.obolibrary.org/obo/GO_0052675 http://purl.obolibrary.org/obo/GO_0052676 http://purl.uniprot.org/enzyme/1.1.1.265 http://rdf.rhea-db.org/18525 http://rdf.rhea-db.org/18526 http://rdf.rhea-db.org/18527 http://rdf.rhea-db.org/18528 http://rdf.rhea-db.org/18529 http://rdf.rhea-db.org/18530 http://rdf.rhea-db.org/18531 http://rdf.rhea-db.org/18532
+GO:0052676 ProperSubClassOf RHEA:18529		0.08
+RHEA:18531 EquivalentTo METACYC:1.1.1.265-RXN	(most probable)	0.75
+GO:0046568 EquivalentTo EC:1.1.1.265	(most probable)	0.8
+RHEA:18529 EquivalentTo EC:1.1.1.265	(most probable)	0.75
+GO:0046568 EquivalentTo METACYC:1.1.1.265-RXN	(most probable)	0.8
+RHEA:18527 ProperSubClassOf METACYC:1.1.1.265-RXN		0.1
+GO:0052675 EquivalentTo RHEA:18525	(most probable)	0.8
+RHEA:18525 ProperSubClassOf EC:1.1.1.265		0.1

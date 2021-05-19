@@ -1,0 +1,9 @@
+## http://metacyc.org/ATPSYN-RXN http://purl.obolibrary.org/obo/GO_0046933 http://purl.obolibrary.org/obo/GO_0046961 http://purl.uniprot.org/enzyme/7.1.2.2 http://rdf.rhea-db.org/57720 http://rdf.rhea-db.org/57721 http://rdf.rhea-db.org/57722 http://rdf.rhea-db.org/57723
+RHEA:57723 EquivalentTo METACYC:ATPSYN-RXN	(most probable)	0.75
+GO:0046933 EquivalentTo EC:7.1.2.2	(most probable)	0.8
+GO:0046961 ProperSuperClassOf EC:7.1.2.2	(most probable)	0.8
+GO:0046933 EquivalentTo METACYC:ATPSYN-RXN	(most probable)	0.8
+GO:0046961 ProperSuperClassOf RHEA:57721		0.08
+GO:0046961 ProperSuperClassOf METACYC:ATPSYN-RXN	(most probable)	0.8
+RHEA:57720 EquivalentTo EC:7.1.2.2	(most probable)	0.75
+GO:0046933 EquivalentTo RHEA:57722	(most probable)	0.8

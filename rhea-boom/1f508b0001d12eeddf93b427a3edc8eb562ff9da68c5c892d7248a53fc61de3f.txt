@@ -1,0 +1,10 @@
+## http://metacyc.org/ENOYL-COA-DELTA-ISOM-RXN http://metacyc.org/RXN-7836 http://metacyc.org/RXN-7931 http://purl.obolibrary.org/obo/GO_0004165 http://purl.uniprot.org/enzyme/5.3.3.8 http://rdf.rhea-db.org/23716 http://rdf.rhea-db.org/23717 http://rdf.rhea-db.org/23718 http://rdf.rhea-db.org/23719 http://rdf.rhea-db.org/45228 http://rdf.rhea-db.org/45229 http://rdf.rhea-db.org/45230 http://rdf.rhea-db.org/45231 http://rdf.rhea-db.org/45900 http://rdf.rhea-db.org/45901 http://rdf.rhea-db.org/45902 http://rdf.rhea-db.org/45903
+RHEA:45231 EquivalentTo METACYC:RXN-7836	(most probable)	0.75
+GO:0004165 EquivalentTo EC:5.3.3.8	(most probable)	0.8
+RHEA:45900 EquivalentTo EC:5.3.3.8	(most probable)	0.75
+RHEA:23719 EquivalentTo METACYC:RXN-7931	(most probable)	0.75
+GO:0004165 EquivalentTo METACYC:ENOYL-COA-DELTA-ISOM-RXN	(most probable)	0.8
+RHEA:45903 EquivalentTo METACYC:ENOYL-COA-DELTA-ISOM-RXN	(most probable)	0.75
+GO:0004165 ProperSuperClassOf RHEA:23716		0.08
+RHEA:45228 ProperSubClassOf EC:5.3.3.8		0.1
+RHEA:23716 ProperSubClassOf EC:5.3.3.8		0.1

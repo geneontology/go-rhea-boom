@@ -1,0 +1,14 @@
+## http://metacyc.org/1.8.4.13-RXN http://metacyc.org/RXN-8668 http://metacyc.org/RXN-8669 http://purl.obolibrary.org/obo/GO_0008113 http://purl.obolibrary.org/obo/GO_0033744 http://purl.obolibrary.org/obo/GO_0036456 http://purl.uniprot.org/enzyme/1.8.4.11 http://purl.uniprot.org/enzyme/1.8.4.13 http://rdf.rhea-db.org/14217 http://rdf.rhea-db.org/14218 http://rdf.rhea-db.org/14219 http://rdf.rhea-db.org/14220 http://rdf.rhea-db.org/19993 http://rdf.rhea-db.org/19994 http://rdf.rhea-db.org/19995 http://rdf.rhea-db.org/19996
+GO:0008113 EquivalentTo RHEA:14217	(most probable)	0.6
+RHEA:14219 EquivalentTo METACYC:RXN-8668	(most probable)	0.75
+RHEA:19993 ProperSubClassOf EC:1.8.4.11		0.1
+GO:0033744 EquivalentTo RHEA:19993	(most probable)	0.8
+GO:0008113 EquivalentTo EC:1.8.4.11	(most probable)	0.8
+GO:0033744 EquivalentTo EC:1.8.4.13	(most probable)	0.8
+GO:0008113 ProperSubClassOf METACYC:RXN-8669		0.08
+RHEA:19993 EquivalentTo EC:1.8.4.13	(most probable)	0.75
+GO:0008113 EquivalentTo METACYC:RXN-8668	(most probable)	0.8
+RHEA:14217 EquivalentTo EC:1.8.4.11	(most probable)	0.75
+GO:0036456 ProperSubClassOf RHEA:19995		0.08
+GO:0033744 EquivalentTo METACYC:1.8.4.13-RXN	(most probable)	0.8
+RHEA:19995 EquivalentTo METACYC:1.8.4.13-RXN	(most probable)	0.75

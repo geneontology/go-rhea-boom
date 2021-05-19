@@ -1,0 +1,14 @@
+## http://metacyc.org/RXN-969 http://metacyc.org/S-2-HYDROXY-ACID-OXIDASE-RXN http://purl.obolibrary.org/obo/GO_0003973 http://purl.obolibrary.org/obo/GO_0008891 http://purl.obolibrary.org/obo/GO_0052852 http://purl.obolibrary.org/obo/GO_0052853 http://purl.obolibrary.org/obo/GO_0052854 http://purl.uniprot.org/enzyme/1.1.3.15 http://rdf.rhea-db.org/16789 http://rdf.rhea-db.org/16790 http://rdf.rhea-db.org/16791 http://rdf.rhea-db.org/16792 http://rdf.rhea-db.org/25311 http://rdf.rhea-db.org/25312 http://rdf.rhea-db.org/25313 http://rdf.rhea-db.org/25314 http://reactome.org/R-HSA-389842.5
+GO:0003973 EquivalentTo METACYC:S-2-HYDROXY-ACID-OXIDASE-RXN	(most probable)	0.8
+GO:0008891 EquivalentTo METACYC:RXN-969	(most probable)	0.8
+RHEA:25312 ProperSuperClassOf METACYC:RXN-969		0.1
+GO:0003973 EquivalentTo RHEA:16789	(most probable)	0.6
+GO:0052853 ProperSubClassOf EC:1.1.3.15		0.08
+RHEA:25312 ProperSuperClassOf REACTOME:R-HSA-389842.5	(most probable)	0.7
+GO:0003973 EquivalentTo EC:1.1.3.15	(most probable)	0.8
+RHEA:16790 EquivalentTo METACYC:S-2-HYDROXY-ACID-OXIDASE-RXN	(most probable)	0.75
+GO:0052852 ProperSubClassOf EC:1.1.3.15		0.08
+RHEA:25311 ProperSuperClassOf EC:1.1.3.15		0.1
+GO:0008891 ProperSubClassOf RHEA:25311		0.15
+RHEA:16789 EquivalentTo EC:1.1.3.15	(most probable)	0.75
+GO:0052854 ProperSubClassOf EC:1.1.3.15		0.08

@@ -1,0 +1,10 @@
+## http://metacyc.org/1.2.1.31-RXN http://metacyc.org/ALLYSINE-DEHYDROG-RXN http://purl.obolibrary.org/obo/GO_0004043 http://purl.uniprot.org/enzyme/1.2.1.31 http://rdf.rhea-db.org/12304 http://rdf.rhea-db.org/12305 http://rdf.rhea-db.org/12306 http://rdf.rhea-db.org/12307 http://rdf.rhea-db.org/12308 http://rdf.rhea-db.org/12309 http://rdf.rhea-db.org/12310 http://rdf.rhea-db.org/12311 http://reactome.org/R-HSA-70941.4
+RHEA:12304 EquivalentTo EC:1.2.1.31	(most probable)	0.75
+RHEA:12308 ProperSubClassOf EC:1.2.1.31		0.1
+GO:0004043 EquivalentTo EC:1.2.1.31	(most probable)	0.8
+RHEA:12305 EquivalentTo METACYC:1.2.1.31-RXN	(most probable)	0.75
+RHEA:12309 ProperSuperClassOf REACTOME:R-HSA-70941.4	(most probable)	0.7
+GO:0004043 ProperSuperClassOf RHEA:12308		0.15
+GO:0004043 EquivalentTo METACYC:1.2.1.31-RXN	(most probable)	0.8
+RHEA:12309 ProperSubClassOf METACYC:1.2.1.31-RXN		0.1
+RHEA:12311 EquivalentTo METACYC:ALLYSINE-DEHYDROG-RXN	(most probable)	0.75

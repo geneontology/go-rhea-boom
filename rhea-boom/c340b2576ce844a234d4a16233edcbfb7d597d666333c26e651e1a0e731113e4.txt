@@ -1,0 +1,17 @@
+## http://metacyc.org/3.6.3.15-RXN http://metacyc.org/3.6.3.7-RXN http://metacyc.org/RXN-19779 http://purl.obolibrary.org/obo/GO_0008554 http://purl.obolibrary.org/obo/GO_0046932 http://purl.obolibrary.org/obo/GO_0046962 http://purl.uniprot.org/enzyme/7.2.2.1 http://purl.uniprot.org/enzyme/7.2.2.3 http://purl.uniprot.org/enzyme/7.2.2.4 http://rdf.rhea-db.org/14633 http://rdf.rhea-db.org/14634 http://rdf.rhea-db.org/14635 http://rdf.rhea-db.org/14636 http://rdf.rhea-db.org/58156 http://rdf.rhea-db.org/58157 http://rdf.rhea-db.org/58158 http://rdf.rhea-db.org/58159
+GO:0046962 ProperSubClassOf RHEA:58157		0.08
+RHEA:14634 ProperSubClassOf METACYC:3.6.3.15-RXN		0.1
+RHEA:14634 EquivalentTo METACYC:3.6.3.7-RXN	(most probable)	0.75
+GO:0046932 EquivalentTo RHEA:58158	(most probable)	0.8
+GO:0008554 EquivalentTo RHEA:14633	(most probable)	0.8
+RHEA:14633 EquivalentTo EC:7.2.2.3	(most probable)	0.75
+RHEA:58159 EquivalentTo METACYC:3.6.3.15-RXN	(most probable)	0.75
+RHEA:14634 ProperSubClassOf METACYC:RXN-19779		0.1
+GO:0046932 EquivalentTo EC:7.2.2.1	(most probable)	0.8
+GO:0008554 EquivalentTo METACYC:3.6.3.7-RXN	(most probable)	0.8
+RHEA:58156 EquivalentTo EC:7.2.2.1	(most probable)	0.75
+GO:0046962 ProperSubClassOf EC:7.2.2.1		0.08
+RHEA:14633 ProperSubClassOf EC:7.2.2.4		0.1
+GO:0008554 EquivalentTo EC:7.2.2.3	(most probable)	0.8
+GO:0046962 ProperSubClassOf METACYC:3.6.3.15-RXN		0.08
+GO:0046932 EquivalentTo METACYC:3.6.3.15-RXN	(most probable)	0.8

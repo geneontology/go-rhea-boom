@@ -1,0 +1,12 @@
+## http://metacyc.org/PSERPHOSPHA-RXN http://metacyc.org/RXN0-5114 http://purl.obolibrary.org/obo/GO_0004647 http://purl.obolibrary.org/obo/GO_0036424 http://purl.obolibrary.org/obo/GO_0036425 http://purl.uniprot.org/enzyme/3.1.3.3 http://rdf.rhea-db.org/21208 http://rdf.rhea-db.org/21209 http://rdf.rhea-db.org/21210 http://rdf.rhea-db.org/21211 http://rdf.rhea-db.org/24873 http://rdf.rhea-db.org/24874 http://rdf.rhea-db.org/24875 http://rdf.rhea-db.org/24876 http://reactome.org/R-HSA-977324.2
+RHEA:21208 ProperSubClassOf EC:3.1.3.3		0.1
+GO:0004647 EquivalentTo METACYC:PSERPHOSPHA-RXN	(most probable)	0.8
+RHEA:24873 EquivalentTo EC:3.1.3.3	(most probable)	0.75
+RHEA:21209 ProperSuperClassOf REACTOME:R-HSA-977324.2	(most probable)	0.7
+GO:0036424 EquivalentTo METACYC:RXN0-5114	(most probable)	0.8
+RHEA:24874 EquivalentTo METACYC:PSERPHOSPHA-RXN	(most probable)	0.75
+GO:0036425 ProperSubClassOf RHEA:24873		0.08
+RHEA:21209 EquivalentTo METACYC:RXN0-5114	(most probable)	0.75
+GO:0036424 EquivalentTo RHEA:21208	(most probable)	0.8
+RHEA:21209 ProperSubClassOf METACYC:PSERPHOSPHA-RXN		0.1
+GO:0004647 EquivalentTo EC:3.1.3.3	(most probable)	0.8

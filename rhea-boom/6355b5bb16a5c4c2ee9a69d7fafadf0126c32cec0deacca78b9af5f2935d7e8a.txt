@@ -1,0 +1,9 @@
+## http://metacyc.org/ADP-RIBOSYLARGININE-HYDROLASE-RXN http://metacyc.org/RXN-8732 http://purl.obolibrary.org/obo/GO_0003875 http://purl.uniprot.org/enzyme/3.2.2.19 http://rdf.rhea-db.org/14885 http://rdf.rhea-db.org/14886 http://rdf.rhea-db.org/14887 http://rdf.rhea-db.org/14888 http://rdf.rhea-db.org/20784 http://rdf.rhea-db.org/20785 http://rdf.rhea-db.org/20786 http://rdf.rhea-db.org/20787 http://rdf.rhea-db.org/47320 http://rdf.rhea-db.org/47321 http://rdf.rhea-db.org/47322 http://rdf.rhea-db.org/47323
+RHEA:14885 EquivalentTo EC:3.2.2.19	(most probable)	0.75
+GO:0003875 EquivalentTo METACYC:ADP-RIBOSYLARGININE-HYDROLASE-RXN	(most probable)	0.8
+RHEA:20784 ProperSuperClassOf EC:3.2.2.19		0.1
+RHEA:20785 EquivalentTo METACYC:RXN-8732	(most probable)	0.75
+RHEA:14886 EquivalentTo METACYC:ADP-RIBOSYLARGININE-HYDROLASE-RXN	(most probable)	0.75
+GO:0003875 ProperSubClassOf RHEA:20784		0.08
+GO:0003875 EquivalentTo EC:3.2.2.19	(most probable)	0.8
+RHEA:47321 ProperSubClassOf METACYC:ADP-RIBOSYLARGININE-HYDROLASE-RXN		0.1

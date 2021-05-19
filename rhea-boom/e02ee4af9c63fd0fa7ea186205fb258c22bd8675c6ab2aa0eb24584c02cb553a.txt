@@ -1,0 +1,9 @@
+## http://metacyc.org/CTPSYN-RXN http://metacyc.org/RXN-14325 http://purl.obolibrary.org/obo/GO_0003883 http://purl.uniprot.org/enzyme/6.3.4.2 http://rdf.rhea-db.org/16597 http://rdf.rhea-db.org/16598 http://rdf.rhea-db.org/16599 http://rdf.rhea-db.org/16600 http://rdf.rhea-db.org/26426 http://rdf.rhea-db.org/26427 http://rdf.rhea-db.org/26428 http://rdf.rhea-db.org/26429 http://reactome.org/R-HSA-504054.3 http://reactome.org/R-HSA-73647.3
+RHEA:26427 ProperSuperClassOf REACTOME:R-HSA-73647.3	(most probable)	0.7
+RHEA:16598 EquivalentTo METACYC:RXN-14325	(most probable)	0.75
+RHEA:26427 EquivalentTo METACYC:CTPSYN-RXN	(most probable)	0.75
+GO:0003883 EquivalentTo METACYC:CTPSYN-RXN	(most probable)	0.8
+RHEA:26426 EquivalentTo EC:6.3.4.2	(most probable)	0.75
+RHEA:26427 ProperSuperClassOf REACTOME:R-HSA-504054.3	(most probable)	0.7
+GO:0003883 ProperSubClassOf RHEA:16597		0.08
+GO:0003883 EquivalentTo EC:6.3.4.2	(most probable)	0.8
