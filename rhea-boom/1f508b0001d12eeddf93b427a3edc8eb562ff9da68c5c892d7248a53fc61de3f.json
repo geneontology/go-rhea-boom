@@ -1,0 +1,65 @@
+{
+  "graphs" : [ {
+    "nodes" : [ {
+      "id" : "http://purl.obolibrary.org/obo/GO_0004165",
+      "lbl" : "dodecenoyl-CoA delta-isomerase activity"
+    } ],
+    "edges" : [ {
+      "sub" : "http://rdf.rhea-db.org/23716",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0004165"
+    }, {
+      "sub" : "http://rdf.rhea-db.org/23716",
+      "pred" : "is_a",
+      "obj" : "http://purl.uniprot.org/enzyme/5.3.3.8"
+    }, {
+      "sub" : "http://rdf.rhea-db.org/23716",
+      "pred" : "is_a",
+      "obj" : "http://rdf.rhea-db.org/45903"
+    }, {
+      "sub" : "http://rdf.rhea-db.org/45228",
+      "pred" : "is_a",
+      "obj" : "http://purl.uniprot.org/enzyme/5.3.3.8"
+    }, {
+      "sub" : "http://rdf.rhea-db.org/23716",
+      "pred" : "is_a",
+      "obj" : "http://rdf.rhea-db.org/45900"
+    }, {
+      "sub" : "http://rdf.rhea-db.org/23719",
+      "pred" : "is_a",
+      "obj" : "http://rdf.rhea-db.org/45903"
+    }, {
+      "sub" : "http://rdf.rhea-db.org/23719",
+      "pred" : "is_a",
+      "obj" : "http://rdf.rhea-db.org/45900"
+    } ],
+    "id" : "urn:unnamed:ontology#ont38",
+    "meta" : {
+      "subsets" : [ ],
+      "xrefs" : [ ],
+      "basicPropertyValues" : [ ]
+    },
+    "equivalentNodesSets" : [ {
+      "nodeIds" : [ "http://metacyc.org/ENOYL-COA-DELTA-ISOM-RXN", "http://purl.obolibrary.org/obo/GO_0004165" ]
+    }, {
+      "nodeIds" : [ "http://rdf.rhea-db.org/23719", "http://rdf.rhea-db.org/23716" ]
+    }, {
+      "nodeIds" : [ "http://metacyc.org/RXN-7836", "http://rdf.rhea-db.org/45231" ]
+    }, {
+      "nodeIds" : [ "http://rdf.rhea-db.org/45228", "http://rdf.rhea-db.org/45231" ]
+    }, {
+      "nodeIds" : [ "http://purl.uniprot.org/enzyme/5.3.3.8", "http://purl.obolibrary.org/obo/GO_0004165" ]
+    }, {
+      "nodeIds" : [ "http://rdf.rhea-db.org/45900", "http://rdf.rhea-db.org/45903" ]
+    }, {
+      "nodeIds" : [ "http://rdf.rhea-db.org/23719", "http://metacyc.org/RXN-7931" ]
+    }, {
+      "nodeIds" : [ "http://purl.uniprot.org/enzyme/5.3.3.8", "http://rdf.rhea-db.org/45900" ]
+    }, {
+      "nodeIds" : [ "http://metacyc.org/ENOYL-COA-DELTA-ISOM-RXN", "http://rdf.rhea-db.org/45903" ]
+    } ],
+    "logicalDefinitionAxioms" : [ ],
+    "domainRangeAxioms" : [ ],
+    "propertyChainAxioms" : [ ]
+  } ]
+}

@@ -1,0 +1,61 @@
+{
+  "graphs" : [ {
+    "nodes" : [ {
+      "id" : "http://purl.obolibrary.org/obo/GO_0106352",
+      "type" : "CLASS",
+      "lbl" : "aspartate dehydrogenase NADP activity"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0106351",
+      "type" : "CLASS",
+      "lbl" : "aspartate dehydrogenase NAD activity"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0033735",
+      "lbl" : "aspartate dehydrogenase activity"
+    } ],
+    "edges" : [ {
+      "sub" : "http://purl.obolibrary.org/obo/GO_0106352",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0033735"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GO_0106351",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0033735"
+    }, {
+      "sub" : "http://rdf.rhea-db.org/11787",
+      "pred" : "is_a",
+      "obj" : "http://metacyc.org/1.4.1.21-RXN"
+    }, {
+      "sub" : "http://rdf.rhea-db.org/11784",
+      "pred" : "is_a",
+      "obj" : "http://purl.uniprot.org/enzyme/1.4.1.21"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GO_0106351",
+      "pred" : "is_a",
+      "obj" : "http://rdf.rhea-db.org/11788"
+    } ],
+    "id" : "urn:unnamed:ontology#ont28",
+    "meta" : {
+      "subsets" : [ ],
+      "xrefs" : [ ],
+      "basicPropertyValues" : [ ]
+    },
+    "equivalentNodesSets" : [ {
+      "nodeIds" : [ "http://rdf.rhea-db.org/11784", "http://rdf.rhea-db.org/11787" ]
+    }, {
+      "nodeIds" : [ "http://purl.obolibrary.org/obo/GO_0033735", "http://purl.uniprot.org/enzyme/1.4.1.21" ]
+    }, {
+      "nodeIds" : [ "http://metacyc.org/1.4.1.21-RXN", "http://rdf.rhea-db.org/11791" ]
+    }, {
+      "nodeIds" : [ "http://rdf.rhea-db.org/11788", "http://purl.uniprot.org/enzyme/1.4.1.21" ]
+    }, {
+      "nodeIds" : [ "http://metacyc.org/1.4.1.21-RXN", "http://purl.obolibrary.org/obo/GO_0033735" ]
+    }, {
+      "nodeIds" : [ "http://rdf.rhea-db.org/11791", "http://rdf.rhea-db.org/11788" ]
+    }, {
+      "nodeIds" : [ "http://purl.obolibrary.org/obo/GO_0106352", "http://rdf.rhea-db.org/11784" ]
+    } ],
+    "logicalDefinitionAxioms" : [ ],
+    "domainRangeAxioms" : [ ],
+    "propertyChainAxioms" : [ ]
+  } ]
+}

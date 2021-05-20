@@ -1,0 +1,40 @@
+{
+  "graphs" : [ {
+    "nodes" : [ {
+      "id" : "http://purl.obolibrary.org/obo/GO_0103064",
+      "type" : "CLASS",
+      "lbl" : "inositol phosphorylceramide mannosyltransferase activity"
+    } ],
+    "edges" : [ {
+      "sub" : "http://purl.obolibrary.org/obo/GO_0103064",
+      "pred" : "is_a",
+      "obj" : "http://rdf.rhea-db.org/61496"
+    }, {
+      "sub" : "http://rdf.rhea-db.org/64596",
+      "pred" : "is_a",
+      "obj" : "http://rdf.rhea-db.org/61496"
+    }, {
+      "sub" : "http://rdf.rhea-db.org/64597",
+      "pred" : "is_a",
+      "obj" : "http://rdf.rhea-db.org/61496"
+    } ],
+    "id" : "urn:unnamed:ontology#ont26",
+    "meta" : {
+      "subsets" : [ ],
+      "xrefs" : [ ],
+      "basicPropertyValues" : [ ]
+    },
+    "equivalentNodesSets" : [ {
+      "nodeIds" : [ "http://rdf.rhea-db.org/64597", "http://rdf.rhea-db.org/64596" ]
+    }, {
+      "nodeIds" : [ "http://purl.uniprot.org/enzyme/2.4.1.370", "http://rdf.rhea-db.org/64596" ]
+    }, {
+      "nodeIds" : [ "http://purl.obolibrary.org/obo/GO_0103064", "http://metacyc.org/RXN3O-663" ]
+    }, {
+      "nodeIds" : [ "http://rdf.rhea-db.org/64597", "http://metacyc.org/RXN3O-663" ]
+    } ],
+    "logicalDefinitionAxioms" : [ ],
+    "domainRangeAxioms" : [ ],
+    "propertyChainAxioms" : [ ]
+  } ]
+}

@@ -1,0 +1,41 @@
+{
+  "graphs" : [ {
+    "nodes" : [ {
+      "id" : "http://purl.obolibrary.org/obo/GO_0043814",
+      "lbl" : "phospholactate guanylyltransferase activity"
+    } ],
+    "edges" : [ {
+      "sub" : "http://rdf.rhea-db.org/30520",
+      "pred" : "is_a",
+      "obj" : "http://metacyc.org/RXN-8077"
+    }, {
+      "sub" : "http://rdf.rhea-db.org/30519",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0043814"
+    } ],
+    "id" : "urn:unnamed:ontology#ont8",
+    "meta" : {
+      "subsets" : [ ],
+      "xrefs" : [ ],
+      "basicPropertyValues" : [ ]
+    },
+    "equivalentNodesSets" : [ {
+      "nodeIds" : [ "http://purl.obolibrary.org/obo/GO_0043814", "http://purl.uniprot.org/enzyme/2.7.7.68" ]
+    }, {
+      "nodeIds" : [ "http://rdf.rhea-db.org/63425", "http://metacyc.org/RXN-8077" ]
+    }, {
+      "nodeIds" : [ "http://purl.obolibrary.org/obo/GO_0043814", "http://metacyc.org/RXN-8077" ]
+    }, {
+      "nodeIds" : [ "http://purl.uniprot.org/enzyme/2.7.7.105", "http://rdf.rhea-db.org/30519" ]
+    }, {
+      "nodeIds" : [ "http://rdf.rhea-db.org/30520", "http://rdf.rhea-db.org/30519" ]
+    }, {
+      "nodeIds" : [ "http://rdf.rhea-db.org/63424", "http://purl.uniprot.org/enzyme/2.7.7.68" ]
+    }, {
+      "nodeIds" : [ "http://rdf.rhea-db.org/63424", "http://rdf.rhea-db.org/63425" ]
+    } ],
+    "logicalDefinitionAxioms" : [ ],
+    "domainRangeAxioms" : [ ],
+    "propertyChainAxioms" : [ ]
+  } ]
+}

@@ -1,0 +1,38 @@
+{
+  "graphs" : [ {
+    "nodes" : [ {
+      "id" : "http://purl.obolibrary.org/obo/GO_0001733",
+      "type" : "CLASS",
+      "lbl" : "galactosylceramide sulfotransferase activity"
+    } ],
+    "edges" : [ {
+      "sub" : "http://rdf.rhea-db.org/41744",
+      "pred" : "is_a",
+      "obj" : "http://purl.uniprot.org/enzyme/2.8.2.11"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GO_0001733",
+      "pred" : "is_a",
+      "obj" : "http://rdf.rhea-db.org/43304"
+    } ],
+    "id" : "urn:unnamed:ontology#ont30",
+    "meta" : {
+      "subsets" : [ ],
+      "xrefs" : [ ],
+      "basicPropertyValues" : [ ]
+    },
+    "equivalentNodesSets" : [ {
+      "nodeIds" : [ "http://metacyc.org/GALACTOSYLCERAMIDE-SULFOTRANSFERASE-RXN", "http://rdf.rhea-db.org/20616" ]
+    }, {
+      "nodeIds" : [ "http://purl.obolibrary.org/obo/GO_0001733", "http://metacyc.org/GALACTOSYLCERAMIDE-SULFOTRANSFERASE-RXN" ]
+    }, {
+      "nodeIds" : [ "http://rdf.rhea-db.org/20613", "http://rdf.rhea-db.org/20616" ]
+    }, {
+      "nodeIds" : [ "http://rdf.rhea-db.org/20613", "http://purl.uniprot.org/enzyme/2.8.2.11" ]
+    }, {
+      "nodeIds" : [ "http://purl.obolibrary.org/obo/GO_0001733", "http://purl.uniprot.org/enzyme/2.8.2.11" ]
+    } ],
+    "logicalDefinitionAxioms" : [ ],
+    "domainRangeAxioms" : [ ],
+    "propertyChainAxioms" : [ ]
+  } ]
+}

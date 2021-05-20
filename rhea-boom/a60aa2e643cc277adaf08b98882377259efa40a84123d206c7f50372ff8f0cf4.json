@@ -1,0 +1,73 @@
+{
+  "graphs" : [ {
+    "nodes" : [ {
+      "id" : "http://purl.obolibrary.org/obo/GO_0004367",
+      "type" : "CLASS",
+      "lbl" : "glycerol-3-phosphate dehydrogenase [NAD+] activity"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0106257",
+      "type" : "CLASS",
+      "lbl" : "glycerol-3-phosphate dehydrogenase [NADP+] activity"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0047952",
+      "lbl" : "glycerol-3-phosphate dehydrogenase [NAD(P)+] activity"
+    } ],
+    "edges" : [ {
+      "sub" : "http://reactome.org/R-HSA-75889.2",
+      "pred" : "is_a",
+      "obj" : "http://rdf.rhea-db.org/11094"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GO_0106257",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0047952"
+    }, {
+      "sub" : "http://rdf.rhea-db.org/11094",
+      "pred" : "is_a",
+      "obj" : "http://metacyc.org/GLYC3PDEHYDROGBIOSYN-RXN"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GO_0106257",
+      "pred" : "is_a",
+      "obj" : "http://rdf.rhea-db.org/11096"
+    }, {
+      "sub" : "http://rdf.rhea-db.org/11092",
+      "pred" : "is_a",
+      "obj" : "http://purl.uniprot.org/enzyme/1.1.1.94"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GO_0004367",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0047952"
+    } ],
+    "id" : "urn:unnamed:ontology#ont22",
+    "meta" : {
+      "subsets" : [ ],
+      "xrefs" : [ ],
+      "basicPropertyValues" : [ ]
+    },
+    "equivalentNodesSets" : [ {
+      "nodeIds" : [ "http://purl.uniprot.org/enzyme/1.1.1.8", "http://purl.obolibrary.org/obo/GO_0004367" ]
+    }, {
+      "nodeIds" : [ "http://purl.uniprot.org/enzyme/1.1.1.8", "http://rdf.rhea-db.org/11092" ]
+    }, {
+      "nodeIds" : [ "http://purl.obolibrary.org/obo/GO_0047952", "http://purl.uniprot.org/enzyme/1.1.1.94" ]
+    }, {
+      "nodeIds" : [ "http://rdf.rhea-db.org/11092", "http://rdf.rhea-db.org/11094" ]
+    }, {
+      "nodeIds" : [ "http://metacyc.org/1.1.1.8-RXN", "http://purl.obolibrary.org/obo/GO_0004367" ]
+    }, {
+      "nodeIds" : [ "http://rdf.rhea-db.org/11096", "http://rdf.rhea-db.org/11098" ]
+    }, {
+      "nodeIds" : [ "http://rdf.rhea-db.org/11096", "http://purl.uniprot.org/enzyme/1.1.1.94" ]
+    }, {
+      "nodeIds" : [ "http://purl.obolibrary.org/obo/GO_0004367", "http://rdf.rhea-db.org/11092" ]
+    }, {
+      "nodeIds" : [ "http://metacyc.org/1.1.1.8-RXN", "http://rdf.rhea-db.org/11094" ]
+    }, {
+      "nodeIds" : [ "http://metacyc.org/GLYC3PDEHYDROGBIOSYN-RXN", "http://purl.obolibrary.org/obo/GO_0047952" ]
+    }, {
+      "nodeIds" : [ "http://rdf.rhea-db.org/11098", "http://metacyc.org/GLYC3PDEHYDROGBIOSYN-RXN" ]
+    } ],
+    "logicalDefinitionAxioms" : [ ],
+    "domainRangeAxioms" : [ ],
+    "propertyChainAxioms" : [ ]
+  } ]
+}

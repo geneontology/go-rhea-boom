@@ -1,0 +1,68 @@
+{
+  "graphs" : [ {
+    "nodes" : [ {
+      "id" : "http://purl.obolibrary.org/obo/GO_0004324",
+      "lbl" : "ferredoxin-NADP+ reductase activity"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0008860",
+      "lbl" : "ferredoxin-NAD+ reductase activity"
+    } ],
+    "edges" : [ {
+      "sub" : "http://rdf.rhea-db.org/20125",
+      "pred" : "is_a",
+      "obj" : "http://purl.uniprot.org/enzyme/1.18.1.7"
+    }, {
+      "sub" : "http://rdf.rhea-db.org/16524",
+      "pred" : "is_a",
+      "obj" : "http://metacyc.org/FERREDOXIN--NAD%2b-REDUCTASE-RXN"
+    }, {
+      "sub" : "http://rdf.rhea-db.org/16521",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0008860"
+    }, {
+      "sub" : "http://rdf.rhea-db.org/20128",
+      "pred" : "is_a",
+      "obj" : "http://metacyc.org/RXN-14040"
+    }, {
+      "sub" : "http://rdf.rhea-db.org/16521",
+      "pred" : "is_a",
+      "obj" : "http://purl.uniprot.org/enzyme/1.18.1.3"
+    } ],
+    "id" : "urn:unnamed:ontology#ont9",
+    "meta" : {
+      "subsets" : [ ],
+      "xrefs" : [ ],
+      "basicPropertyValues" : [ ]
+    },
+    "equivalentNodesSets" : [ {
+      "nodeIds" : [ "http://purl.uniprot.org/enzyme/1.18.1.3", "http://purl.obolibrary.org/obo/GO_0008860" ]
+    }, {
+      "nodeIds" : [ "http://rdf.rhea-db.org/20125", "http://purl.obolibrary.org/obo/GO_0004324" ]
+    }, {
+      "nodeIds" : [ "http://rdf.rhea-db.org/20128", "http://rdf.rhea-db.org/20125" ]
+    }, {
+      "nodeIds" : [ "http://purl.obolibrary.org/obo/GO_0004324", "http://purl.uniprot.org/enzyme/1.18.1.2" ]
+    }, {
+      "nodeIds" : [ "http://rdf.rhea-db.org/20125", "http://purl.uniprot.org/enzyme/1.18.1.2" ]
+    }, {
+      "nodeIds" : [ "http://rdf.rhea-db.org/20126", "http://rdf.rhea-db.org/20125" ]
+    }, {
+      "nodeIds" : [ "http://rdf.rhea-db.org/20128", "http://rdf.rhea-db.org/20126" ]
+    }, {
+      "nodeIds" : [ "http://rdf.rhea-db.org/16524", "http://metacyc.org/RXN-14040" ]
+    }, {
+      "nodeIds" : [ "http://rdf.rhea-db.org/16521", "http://rdf.rhea-db.org/16524" ]
+    }, {
+      "nodeIds" : [ "http://metacyc.org/FERREDOXIN--NAD+-REDUCTASE-RXN", "http://purl.obolibrary.org/obo/GO_0008860" ]
+    }, {
+      "nodeIds" : [ "http://rdf.rhea-db.org/16521", "http://purl.uniprot.org/enzyme/1.18.1.7" ]
+    }, {
+      "nodeIds" : [ "http://metacyc.org/1.18.1.2-RXN", "http://rdf.rhea-db.org/20126" ]
+    }, {
+      "nodeIds" : [ "http://metacyc.org/1.18.1.2-RXN", "http://purl.obolibrary.org/obo/GO_0004324" ]
+    } ],
+    "logicalDefinitionAxioms" : [ ],
+    "domainRangeAxioms" : [ ],
+    "propertyChainAxioms" : [ ]
+  } ]
+}

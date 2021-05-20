@@ -1,0 +1,52 @@
+{
+  "graphs" : [ {
+    "nodes" : [ {
+      "id" : "http://purl.obolibrary.org/obo/GO_0102025",
+      "type" : "CLASS",
+      "lbl" : "ABC-type thiosulfate transporter activity"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0015419",
+      "type" : "CLASS",
+      "lbl" : "ABC-type sulfate transporter activity"
+    } ],
+    "edges" : [ {
+      "sub" : "http://purl.obolibrary.org/obo/GO_0015419",
+      "pred" : "is_a",
+      "obj" : "http://purl.uniprot.org/enzyme/7.3.2.3"
+    }, {
+      "sub" : "http://rdf.rhea-db.org/10192",
+      "pred" : "is_a",
+      "obj" : "http://purl.uniprot.org/enzyme/7.3.2.3"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GO_0102025",
+      "pred" : "is_a",
+      "obj" : "http://rdf.rhea-db.org/29871"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GO_0102025",
+      "pred" : "is_a",
+      "obj" : "http://purl.uniprot.org/enzyme/7.3.2.3"
+    } ],
+    "id" : "urn:unnamed:ontology#ont2",
+    "meta" : {
+      "subsets" : [ ],
+      "xrefs" : [ ],
+      "basicPropertyValues" : [ ]
+    },
+    "equivalentNodesSets" : [ {
+      "nodeIds" : [ "http://rdf.rhea-db.org/10193", "http://rdf.rhea-db.org/10192" ]
+    }, {
+      "nodeIds" : [ "http://purl.obolibrary.org/obo/GO_0015419", "http://rdf.rhea-db.org/10192" ]
+    }, {
+      "nodeIds" : [ "http://purl.obolibrary.org/obo/GO_0015419", "http://metacyc.org/3.6.3.25-RXN" ]
+    }, {
+      "nodeIds" : [ "http://metacyc.org/ABC-7-RXN", "http://purl.obolibrary.org/obo/GO_0102025" ]
+    }, {
+      "nodeIds" : [ "http://purl.uniprot.org/enzyme/7.3.2.3", "http://rdf.rhea-db.org/29871" ]
+    }, {
+      "nodeIds" : [ "http://rdf.rhea-db.org/10193", "http://metacyc.org/3.6.3.25-RXN" ]
+    } ],
+    "logicalDefinitionAxioms" : [ ],
+    "domainRangeAxioms" : [ ],
+    "propertyChainAxioms" : [ ]
+  } ]
+}

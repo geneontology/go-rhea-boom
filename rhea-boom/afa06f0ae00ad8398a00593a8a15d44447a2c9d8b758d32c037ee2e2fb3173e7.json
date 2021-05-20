@@ -1,0 +1,159 @@
+{
+  "graphs" : [ {
+    "nodes" : [ {
+      "id" : "http://purl.obolibrary.org/obo/GO_0030744",
+      "type" : "CLASS",
+      "lbl" : "luteolin O-methyltransferase activity"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0070448",
+      "lbl" : "laricitrin 5'-O-methyltransferase activity"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0033799",
+      "type" : "CLASS",
+      "lbl" : "myricetin 3'-O-methyltransferase activity"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0102822",
+      "type" : "CLASS",
+      "lbl" : "quercetin 3'-O-methyltransferase activity"
+    } ],
+    "edges" : [ {
+      "sub" : "http://rdf.rhea-db.org/14589",
+      "pred" : "is_a",
+      "obj" : "http://rdf.rhea-db.org/55332"
+    }, {
+      "sub" : "http://rdf.rhea-db.org/60945",
+      "pred" : "is_a",
+      "obj" : "http://rdf.rhea-db.org/55333"
+    }, {
+      "sub" : "http://rdf.rhea-db.org/25629",
+      "pred" : "is_a",
+      "obj" : "http://rdf.rhea-db.org/55332"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GO_0102822",
+      "pred" : "is_a",
+      "obj" : "http://rdf.rhea-db.org/55332"
+    }, {
+      "sub" : "http://rdf.rhea-db.org/25633",
+      "pred" : "is_a",
+      "obj" : "http://rdf.rhea-db.org/55337"
+    }, {
+      "sub" : "http://rdf.rhea-db.org/25634",
+      "pred" : "is_a",
+      "obj" : "http://rdf.rhea-db.org/55337"
+    }, {
+      "sub" : "http://rdf.rhea-db.org/25630",
+      "pred" : "is_a",
+      "obj" : "http://rdf.rhea-db.org/55333"
+    }, {
+      "sub" : "http://rdf.rhea-db.org/14590",
+      "pred" : "is_a",
+      "obj" : "http://rdf.rhea-db.org/55333"
+    }, {
+      "sub" : "http://rdf.rhea-db.org/14589",
+      "pred" : "is_a",
+      "obj" : "http://rdf.rhea-db.org/55333"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GO_0033799",
+      "pred" : "is_a",
+      "obj" : "http://metacyc.org/RXN-13912"
+    }, {
+      "sub" : "http://rdf.rhea-db.org/25629",
+      "pred" : "is_a",
+      "obj" : "http://purl.uniprot.org/enzyme/2.1.1.267"
+    }, {
+      "sub" : "http://rdf.rhea-db.org/55332",
+      "pred" : "is_a",
+      "obj" : "http://purl.uniprot.org/enzyme/2.1.1.267"
+    }, {
+      "sub" : "http://rdf.rhea-db.org/60945",
+      "pred" : "is_a",
+      "obj" : "http://rdf.rhea-db.org/55332"
+    }, {
+      "sub" : "http://rdf.rhea-db.org/25629",
+      "pred" : "is_a",
+      "obj" : "http://rdf.rhea-db.org/55333"
+    }, {
+      "sub" : "http://purl.uniprot.org/enzyme/2.1.1.267",
+      "pred" : "is_a",
+      "obj" : "http://rdf.rhea-db.org/55336"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GO_0030744",
+      "pred" : "is_a",
+      "obj" : "http://purl.uniprot.org/enzyme/2.1.1.42"
+    }, {
+      "sub" : "http://rdf.rhea-db.org/25633",
+      "pred" : "is_a",
+      "obj" : "http://rdf.rhea-db.org/55336"
+    }, {
+      "sub" : "http://rdf.rhea-db.org/25634",
+      "pred" : "is_a",
+      "obj" : "http://rdf.rhea-db.org/55336"
+    }, {
+      "sub" : "http://rdf.rhea-db.org/25630",
+      "pred" : "is_a",
+      "obj" : "http://rdf.rhea-db.org/55332"
+    }, {
+      "sub" : "http://rdf.rhea-db.org/14590",
+      "pred" : "is_a",
+      "obj" : "http://rdf.rhea-db.org/55332"
+    }, {
+      "sub" : "http://purl.uniprot.org/enzyme/2.1.1.42",
+      "pred" : "is_a",
+      "obj" : "http://rdf.rhea-db.org/55332"
+    } ],
+    "id" : "urn:unnamed:ontology#ont23",
+    "meta" : {
+      "subsets" : [ ],
+      "xrefs" : [ ],
+      "basicPropertyValues" : [ ]
+    },
+    "equivalentNodesSets" : [ {
+      "nodeIds" : [ "http://purl.obolibrary.org/obo/GO_0070448", "http://rdf.rhea-db.org/25633" ]
+    }, {
+      "nodeIds" : [ "http://rdf.rhea-db.org/25633", "http://purl.uniprot.org/enzyme/2.1.1.267" ]
+    }, {
+      "nodeIds" : [ "http://purl.obolibrary.org/obo/GO_0033799", "http://rdf.rhea-db.org/25629" ]
+    }, {
+      "nodeIds" : [ "http://rdf.rhea-db.org/14589", "http://rdf.rhea-db.org/14590" ]
+    }, {
+      "nodeIds" : [ "http://purl.uniprot.org/enzyme/2.1.1.267;", "http://purl.obolibrary.org/obo/GO_0033799" ]
+    }, {
+      "nodeIds" : [ "http://rdf.rhea-db.org/25630", "http://metacyc.org/RXN-8451" ]
+    }, {
+      "nodeIds" : [ "http://rdf.rhea-db.org/25630", "http://rdf.rhea-db.org/25629" ]
+    }, {
+      "nodeIds" : [ "http://rdf.rhea-db.org/55333", "http://rdf.rhea-db.org/55332" ]
+    }, {
+      "nodeIds" : [ "http://rdf.rhea-db.org/55337", "http://rdf.rhea-db.org/55336" ]
+    }, {
+      "nodeIds" : [ "http://rdf.rhea-db.org/25634", "http://metacyc.org/RXN-8452" ]
+    }, {
+      "nodeIds" : [ "http://metacyc.org/RXN-8262", "http://purl.obolibrary.org/obo/GO_0102822" ]
+    }, {
+      "nodeIds" : [ "http://metacyc.org/LUTEOLIN-O-METHYLTRANSFERASE-RXN", "http://rdf.rhea-db.org/14590" ]
+    }, {
+      "nodeIds" : [ "http://purl.obolibrary.org/obo/GO_0070448", "http://metacyc.org/RXN-8452" ]
+    }, {
+      "nodeIds" : [ "http://metacyc.org/RXN-8262", "http://rdf.rhea-db.org/60945" ]
+    }, {
+      "nodeIds" : [ "http://rdf.rhea-db.org/55337", "http://metacyc.org/RXN-13956" ]
+    }, {
+      "nodeIds" : [ "http://metacyc.org/RXN-13955", "http://rdf.rhea-db.org/55333" ]
+    }, {
+      "nodeIds" : [ "http://purl.obolibrary.org/obo/GO_0102822", "http://purl.uniprot.org/enzyme/2.1.1.42" ]
+    }, {
+      "nodeIds" : [ "http://metacyc.org/LUTEOLIN-O-METHYLTRANSFERASE-RXN", "http://purl.obolibrary.org/obo/GO_0030744" ]
+    }, {
+      "nodeIds" : [ "http://purl.obolibrary.org/obo/GO_0033799", "http://metacyc.org/RXN-8451" ]
+    }, {
+      "nodeIds" : [ "http://rdf.rhea-db.org/25633", "http://rdf.rhea-db.org/25634" ]
+    }, {
+      "nodeIds" : [ "http://purl.obolibrary.org/obo/GO_0070448", "http://purl.uniprot.org/enzyme/2.1.1.267" ]
+    }, {
+      "nodeIds" : [ "http://purl.obolibrary.org/obo/GO_0030744", "http://rdf.rhea-db.org/14589" ]
+    } ],
+    "logicalDefinitionAxioms" : [ ],
+    "domainRangeAxioms" : [ ],
+    "propertyChainAxioms" : [ ]
+  } ]
+}

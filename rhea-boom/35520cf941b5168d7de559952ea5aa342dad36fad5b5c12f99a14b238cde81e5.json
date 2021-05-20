@@ -1,0 +1,69 @@
+{
+  "graphs" : [ {
+    "nodes" : [ {
+      "id" : "http://purl.obolibrary.org/obo/GO_0004647",
+      "lbl" : "phosphoserine phosphatase activity"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0036424",
+      "type" : "CLASS",
+      "lbl" : "L-phosphoserine phosphatase activity"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0036425",
+      "type" : "CLASS",
+      "lbl" : "D-phosphoserine phosphatase activity"
+    } ],
+    "edges" : [ {
+      "sub" : "http://rdf.rhea-db.org/21209",
+      "pred" : "is_a",
+      "obj" : "http://metacyc.org/PSERPHOSPHA-RXN"
+    }, {
+      "sub" : "http://reactome.org/R-HSA-977324.2",
+      "pred" : "is_a",
+      "obj" : "http://rdf.rhea-db.org/21209"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GO_0036425",
+      "pred" : "is_a",
+      "obj" : "http://rdf.rhea-db.org/24873"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GO_0036425",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0004647"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GO_0036424",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0004647"
+    }, {
+      "sub" : "http://rdf.rhea-db.org/21208",
+      "pred" : "is_a",
+      "obj" : "http://purl.uniprot.org/enzyme/3.1.3.3"
+    } ],
+    "id" : "urn:unnamed:ontology#ont27",
+    "meta" : {
+      "subsets" : [ ],
+      "xrefs" : [ ],
+      "basicPropertyValues" : [ ]
+    },
+    "equivalentNodesSets" : [ {
+      "nodeIds" : [ "http://rdf.rhea-db.org/21208", "http://purl.obolibrary.org/obo/GO_0036424" ]
+    }, {
+      "nodeIds" : [ "http://metacyc.org/PSERPHOSPHA-RXN", "http://rdf.rhea-db.org/24874" ]
+    }, {
+      "nodeIds" : [ "http://purl.obolibrary.org/obo/GO_0004647", "http://metacyc.org/PSERPHOSPHA-RXN" ]
+    }, {
+      "nodeIds" : [ "http://rdf.rhea-db.org/24873", "http://purl.uniprot.org/enzyme/3.1.3.3" ]
+    }, {
+      "nodeIds" : [ "http://metacyc.org/RXN0-5114", "http://rdf.rhea-db.org/21209" ]
+    }, {
+      "nodeIds" : [ "http://rdf.rhea-db.org/24873", "http://rdf.rhea-db.org/24874" ]
+    }, {
+      "nodeIds" : [ "http://purl.obolibrary.org/obo/GO_0004647", "http://purl.uniprot.org/enzyme/3.1.3.3" ]
+    }, {
+      "nodeIds" : [ "http://metacyc.org/RXN0-5114", "http://purl.obolibrary.org/obo/GO_0036424" ]
+    }, {
+      "nodeIds" : [ "http://rdf.rhea-db.org/21208", "http://rdf.rhea-db.org/21209" ]
+    } ],
+    "logicalDefinitionAxioms" : [ ],
+    "domainRangeAxioms" : [ ],
+    "propertyChainAxioms" : [ ]
+  } ]
+}

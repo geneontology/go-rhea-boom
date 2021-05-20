@@ -1,0 +1,50 @@
+{
+  "graphs" : [ {
+    "nodes" : [ {
+      "id" : "http://purl.obolibrary.org/obo/GO_0016213",
+      "type" : "CLASS",
+      "lbl" : "linoleoyl-CoA desaturase activity"
+    } ],
+    "edges" : [ {
+      "sub" : "http://rdf.rhea-db.org/47141",
+      "pred" : "is_a",
+      "obj" : "http://rdf.rhea-db.org/22196"
+    }, {
+      "sub" : "http://rdf.rhea-db.org/47144",
+      "pred" : "is_a",
+      "obj" : "http://purl.uniprot.org/enzyme/1.14.19.3"
+    }, {
+      "sub" : "http://rdf.rhea-db.org/47140",
+      "pred" : "is_a",
+      "obj" : "http://rdf.rhea-db.org/22196"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GO_0016213",
+      "pred" : "is_a",
+      "obj" : "http://rdf.rhea-db.org/22196"
+    } ],
+    "id" : "urn:unnamed:ontology#ont20",
+    "meta" : {
+      "subsets" : [ ],
+      "xrefs" : [ ],
+      "basicPropertyValues" : [ ]
+    },
+    "equivalentNodesSets" : [ {
+      "nodeIds" : [ "http://purl.obolibrary.org/obo/GO_0016213", "http://metacyc.org/1.14.19.3-RXN" ]
+    }, {
+      "nodeIds" : [ "http://purl.obolibrary.org/obo/GO_0016213", "http://purl.uniprot.org/enzyme/1.14.19.3" ]
+    }, {
+      "nodeIds" : [ "http://rdf.rhea-db.org/47140", "http://rdf.rhea-db.org/47141" ]
+    }, {
+      "nodeIds" : [ "http://rdf.rhea-db.org/47144", "http://rdf.rhea-db.org/47145" ]
+    }, {
+      "nodeIds" : [ "http://rdf.rhea-db.org/47140", "http://purl.uniprot.org/enzyme/1.14.19.3" ]
+    }, {
+      "nodeIds" : [ "http://rdf.rhea-db.org/47141", "http://metacyc.org/1.14.19.3-RXN" ]
+    }, {
+      "nodeIds" : [ "http://metacyc.org/RXN-13426", "http://rdf.rhea-db.org/47145" ]
+    } ],
+    "logicalDefinitionAxioms" : [ ],
+    "domainRangeAxioms" : [ ],
+    "propertyChainAxioms" : [ ]
+  } ]
+}

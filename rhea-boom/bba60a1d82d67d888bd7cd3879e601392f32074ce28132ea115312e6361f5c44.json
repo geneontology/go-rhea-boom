@@ -1,0 +1,111 @@
+{
+  "graphs" : [ {
+    "nodes" : [ {
+      "id" : "http://purl.obolibrary.org/obo/GO_0052854",
+      "type" : "CLASS",
+      "lbl" : "medium-chain-(S)-2-hydroxy-acid oxidase activity"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0052853",
+      "type" : "CLASS",
+      "lbl" : "long-chain-(S)-2-hydroxy-long-chain-acid oxidase activity"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0052852",
+      "type" : "CLASS",
+      "lbl" : "very-long-chain-(S)-2-hydroxy-acid oxidase activity"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0003973",
+      "lbl" : "(S)-2-hydroxy-acid oxidase activity"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0008891",
+      "type" : "CLASS",
+      "lbl" : "glycolate oxidase activity"
+    } ],
+    "edges" : [ {
+      "sub" : "http://purl.obolibrary.org/obo/GO_0008891",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0003973"
+    }, {
+      "sub" : "http://rdf.rhea-db.org/16789",
+      "pred" : "is_a",
+      "obj" : "http://rdf.rhea-db.org/25312"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GO_0008891",
+      "pred" : "is_a",
+      "obj" : "http://rdf.rhea-db.org/25311"
+    }, {
+      "sub" : "http://rdf.rhea-db.org/16790",
+      "pred" : "is_a",
+      "obj" : "http://rdf.rhea-db.org/25311"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GO_0052852",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0003973"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GO_0052852",
+      "pred" : "is_a",
+      "obj" : "http://purl.uniprot.org/enzyme/1.1.3.15"
+    }, {
+      "sub" : "http://metacyc.org/RXN-969",
+      "pred" : "is_a",
+      "obj" : "http://rdf.rhea-db.org/25312"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GO_0052854",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0003973"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GO_0052853",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0003973"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GO_0052854",
+      "pred" : "is_a",
+      "obj" : "http://purl.uniprot.org/enzyme/1.1.3.15"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GO_0052853",
+      "pred" : "is_a",
+      "obj" : "http://purl.uniprot.org/enzyme/1.1.3.15"
+    }, {
+      "sub" : "http://reactome.org/R-HSA-389842.5",
+      "pred" : "is_a",
+      "obj" : "http://rdf.rhea-db.org/25312"
+    }, {
+      "sub" : "http://purl.uniprot.org/enzyme/1.1.3.15",
+      "pred" : "is_a",
+      "obj" : "http://rdf.rhea-db.org/25311"
+    }, {
+      "sub" : "http://rdf.rhea-db.org/16789",
+      "pred" : "is_a",
+      "obj" : "http://rdf.rhea-db.org/25311"
+    }, {
+      "sub" : "http://rdf.rhea-db.org/16790",
+      "pred" : "is_a",
+      "obj" : "http://rdf.rhea-db.org/25312"
+    } ],
+    "id" : "urn:unnamed:ontology#ont35",
+    "meta" : {
+      "subsets" : [ ],
+      "xrefs" : [ ],
+      "basicPropertyValues" : [ ]
+    },
+    "equivalentNodesSets" : [ {
+      "nodeIds" : [ "http://rdf.rhea-db.org/16789", "http://purl.obolibrary.org/obo/GO_0003973" ]
+    }, {
+      "nodeIds" : [ "http://purl.uniprot.org/enzyme/1.1.3.15", "http://purl.obolibrary.org/obo/GO_0003973" ]
+    }, {
+      "nodeIds" : [ "http://metacyc.org/RXN-969", "http://purl.obolibrary.org/obo/GO_0008891" ]
+    }, {
+      "nodeIds" : [ "http://purl.uniprot.org/enzyme/1.1.3.15", "http://rdf.rhea-db.org/16789" ]
+    }, {
+      "nodeIds" : [ "http://rdf.rhea-db.org/16789", "http://rdf.rhea-db.org/16790" ]
+    }, {
+      "nodeIds" : [ "http://metacyc.org/S-2-HYDROXY-ACID-OXIDASE-RXN", "http://rdf.rhea-db.org/16790" ]
+    }, {
+      "nodeIds" : [ "http://rdf.rhea-db.org/25312", "http://rdf.rhea-db.org/25311" ]
+    }, {
+      "nodeIds" : [ "http://metacyc.org/S-2-HYDROXY-ACID-OXIDASE-RXN", "http://purl.obolibrary.org/obo/GO_0003973" ]
+    } ],
+    "logicalDefinitionAxioms" : [ ],
+    "domainRangeAxioms" : [ ],
+    "propertyChainAxioms" : [ ]
+  } ]
+}

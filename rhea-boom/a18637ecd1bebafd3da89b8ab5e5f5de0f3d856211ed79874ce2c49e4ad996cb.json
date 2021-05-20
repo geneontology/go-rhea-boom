@@ -1,0 +1,34 @@
+{
+  "graphs" : [ {
+    "nodes" : [ {
+      "id" : "http://purl.obolibrary.org/obo/GO_0003834",
+      "type" : "CLASS",
+      "lbl" : "beta-carotene 15,15'-monooxygenase activity"
+    } ],
+    "edges" : [ {
+      "sub" : "http://purl.obolibrary.org/obo/GO_0003834",
+      "pred" : "is_a",
+      "obj" : "http://rdf.rhea-db.org/32887"
+    } ],
+    "id" : "urn:unnamed:ontology#ont16",
+    "meta" : {
+      "subsets" : [ ],
+      "xrefs" : [ ],
+      "basicPropertyValues" : [ ]
+    },
+    "equivalentNodesSets" : [ {
+      "nodeIds" : [ "http://purl.obolibrary.org/obo/GO_0003834", "http://metacyc.org/BETA-CAROTENE-1515-DIOXYGENASE-RXN" ]
+    }, {
+      "nodeIds" : [ "http://rdf.rhea-db.org/32888", "http://metacyc.org/RXN-13374" ]
+    }, {
+      "nodeIds" : [ "http://rdf.rhea-db.org/32887", "http://rdf.rhea-db.org/32888" ]
+    }, {
+      "nodeIds" : [ "http://rdf.rhea-db.org/32887", "http://purl.uniprot.org/enzyme/1.13.11.63" ]
+    }, {
+      "nodeIds" : [ "http://purl.obolibrary.org/obo/GO_0003834", "http://purl.uniprot.org/enzyme/1.14.99.36" ]
+    } ],
+    "logicalDefinitionAxioms" : [ ],
+    "domainRangeAxioms" : [ ],
+    "propertyChainAxioms" : [ ]
+  } ]
+}

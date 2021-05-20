@@ -1,0 +1,56 @@
+{
+  "graphs" : [ {
+    "nodes" : [ {
+      "id" : "http://purl.obolibrary.org/obo/GO_0046933",
+      "lbl" : "proton-transporting ATP synthase activity, rotational mechanism"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0046961",
+      "lbl" : "proton-transporting ATPase activity, rotational mechanism"
+    } ],
+    "edges" : [ {
+      "sub" : "http://purl.uniprot.org/enzyme/7.1.2.2",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0046961"
+    }, {
+      "sub" : "http://rdf.rhea-db.org/57721",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0046961"
+    }, {
+      "sub" : "http://metacyc.org/ATPSYN-RXN",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0046961"
+    } ],
+    "id" : "urn:unnamed:ontology#ont34",
+    "meta" : {
+      "subsets" : [ ],
+      "xrefs" : [ ],
+      "basicPropertyValues" : [ ]
+    },
+    "equivalentNodesSets" : [ {
+      "nodeIds" : [ "http://purl.obolibrary.org/obo/GO_0046933", "http://metacyc.org/ATPSYN-RXN" ]
+    }, {
+      "nodeIds" : [ "http://purl.obolibrary.org/obo/GO_0046933", "http://purl.uniprot.org/enzyme/7.1.2.2" ]
+    }, {
+      "nodeIds" : [ "http://rdf.rhea-db.org/57723", "http://rdf.rhea-db.org/57720" ]
+    }, {
+      "nodeIds" : [ "http://rdf.rhea-db.org/57722", "http://purl.obolibrary.org/obo/GO_0046933" ]
+    }, {
+      "nodeIds" : [ "http://rdf.rhea-db.org/57722", "http://rdf.rhea-db.org/57720" ]
+    }, {
+      "nodeIds" : [ "http://rdf.rhea-db.org/57721", "http://rdf.rhea-db.org/57723" ]
+    }, {
+      "nodeIds" : [ "http://rdf.rhea-db.org/57721", "http://rdf.rhea-db.org/57722" ]
+    }, {
+      "nodeIds" : [ "http://rdf.rhea-db.org/57721", "http://rdf.rhea-db.org/57720" ]
+    }, {
+      "nodeIds" : [ "http://rdf.rhea-db.org/57722", "http://rdf.rhea-db.org/57723" ]
+    }, {
+      "nodeIds" : [ "http://purl.uniprot.org/enzyme/7.1.2.2", "http://rdf.rhea-db.org/57720" ]
+    }, {
+      "nodeIds" : [ "http://rdf.rhea-db.org/57723", "http://metacyc.org/ATPSYN-RXN" ]
+    } ],
+    "logicalDefinitionAxioms" : [ ],
+    "domainRangeAxioms" : [ ],
+    "propertyChainAxioms" : [ ]
+  } ]
+}

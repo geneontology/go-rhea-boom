@@ -1,0 +1,55 @@
+{
+  "graphs" : [ {
+    "nodes" : [ {
+      "id" : "http://purl.obolibrary.org/obo/GO_0106357",
+      "type" : "CLASS",
+      "lbl" : "glycerol-1-phosphate dehydrogenase [NAD+] activity"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0050492",
+      "lbl" : "glycerol-1-phosphate dehydrogenase [NAD(P)+] activity"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0106358",
+      "type" : "CLASS",
+      "lbl" : "glycerol-1-phosphate dehydrogenase [NADP+] activity"
+    } ],
+    "edges" : [ {
+      "sub" : "http://purl.obolibrary.org/obo/GO_0106357",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0050492"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GO_0106358",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0050492"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GO_0106357",
+      "pred" : "is_a",
+      "obj" : "http://rdf.rhea-db.org/21412"
+    }, {
+      "sub" : "http://rdf.rhea-db.org/21416",
+      "pred" : "is_a",
+      "obj" : "http://purl.uniprot.org/enzyme/1.1.1.261"
+    } ],
+    "id" : "urn:unnamed:ontology#ont15",
+    "meta" : {
+      "subsets" : [ ],
+      "xrefs" : [ ],
+      "basicPropertyValues" : [ ]
+    },
+    "equivalentNodesSets" : [ {
+      "nodeIds" : [ "http://rdf.rhea-db.org/21416", "http://purl.obolibrary.org/obo/GO_0106358" ]
+    }, {
+      "nodeIds" : [ "http://rdf.rhea-db.org/21412", "http://purl.uniprot.org/enzyme/1.1.1.261" ]
+    }, {
+      "nodeIds" : [ "http://metacyc.org/1.1.1.261-RXN", "http://purl.obolibrary.org/obo/GO_0050492" ]
+    }, {
+      "nodeIds" : [ "http://rdf.rhea-db.org/21414", "http://metacyc.org/1.1.1.261-RXN" ]
+    }, {
+      "nodeIds" : [ "http://purl.uniprot.org/enzyme/1.1.1.261", "http://purl.obolibrary.org/obo/GO_0050492" ]
+    }, {
+      "nodeIds" : [ "http://rdf.rhea-db.org/21414", "http://rdf.rhea-db.org/21412" ]
+    } ],
+    "logicalDefinitionAxioms" : [ ],
+    "domainRangeAxioms" : [ ],
+    "propertyChainAxioms" : [ ]
+  } ]
+}

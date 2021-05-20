@@ -1,0 +1,52 @@
+{
+  "graphs" : [ {
+    "nodes" : [ {
+      "id" : "http://purl.obolibrary.org/obo/GO_0052676",
+      "lbl" : "3-methylbutanol:NAD oxidoreductase activity"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0052675",
+      "type" : "CLASS",
+      "lbl" : "3-methylbutanol:NADP oxidoreductase activity"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0046568",
+      "lbl" : "3-methylbutanol:NAD(P) oxidoreductase activity"
+    } ],
+    "edges" : [ {
+      "sub" : "http://purl.obolibrary.org/obo/GO_0052675",
+      "pred" : "is_a",
+      "obj" : "http://rdf.rhea-db.org/18525"
+    }, {
+      "sub" : "http://rdf.rhea-db.org/18529",
+      "pred" : "is_a",
+      "obj" : "http://purl.uniprot.org/enzyme/1.1.1.265"
+    }, {
+      "sub" : "http://rdf.rhea-db.org/18531",
+      "pred" : "is_a",
+      "obj" : "http://metacyc.org/1.1.1.265-RXN"
+    } ],
+    "id" : "urn:unnamed:ontology#ont31",
+    "meta" : {
+      "subsets" : [ ],
+      "xrefs" : [ ],
+      "basicPropertyValues" : [ ]
+    },
+    "equivalentNodesSets" : [ {
+      "nodeIds" : [ "http://purl.obolibrary.org/obo/GO_0046568", "http://metacyc.org/1.1.1.265-RXN" ]
+    }, {
+      "nodeIds" : [ "http://rdf.rhea-db.org/18531", "http://rdf.rhea-db.org/18529" ]
+    }, {
+      "nodeIds" : [ "http://rdf.rhea-db.org/18525", "http://purl.uniprot.org/enzyme/1.1.1.265" ]
+    }, {
+      "nodeIds" : [ "http://rdf.rhea-db.org/18525", "http://rdf.rhea-db.org/18527" ]
+    }, {
+      "nodeIds" : [ "http://purl.obolibrary.org/obo/GO_0046568", "http://purl.uniprot.org/enzyme/1.1.1.265" ]
+    }, {
+      "nodeIds" : [ "http://purl.obolibrary.org/obo/GO_0052676", "http://rdf.rhea-db.org/18529" ]
+    }, {
+      "nodeIds" : [ "http://rdf.rhea-db.org/18527", "http://metacyc.org/1.1.1.265-RXN" ]
+    } ],
+    "logicalDefinitionAxioms" : [ ],
+    "domainRangeAxioms" : [ ],
+    "propertyChainAxioms" : [ ]
+  } ]
+}

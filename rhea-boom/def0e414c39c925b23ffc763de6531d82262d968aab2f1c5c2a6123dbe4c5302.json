@@ -1,0 +1,34 @@
+{
+  "graphs" : [ {
+    "nodes" : [ {
+      "id" : "http://purl.obolibrary.org/obo/GO_0033817",
+      "type" : "CLASS",
+      "lbl" : "beta-ketoacyl-acyl-carrier-protein synthase II activity"
+    } ],
+    "edges" : [ {
+      "sub" : "http://purl.obolibrary.org/obo/GO_0033817",
+      "pred" : "is_a",
+      "obj" : "http://rdf.rhea-db.org/14565"
+    } ],
+    "id" : "urn:unnamed:ontology#ont24",
+    "meta" : {
+      "subsets" : [ ],
+      "xrefs" : [ ],
+      "basicPropertyValues" : [ ]
+    },
+    "equivalentNodesSets" : [ {
+      "nodeIds" : [ "http://rdf.rhea-db.org/55040", "http://purl.uniprot.org/enzyme/2.3.1.179" ]
+    }, {
+      "nodeIds" : [ "http://metacyc.org/2.3.1.179-RXN", "http://rdf.rhea-db.org/55041" ]
+    }, {
+      "nodeIds" : [ "http://purl.obolibrary.org/obo/GO_0033817", "http://purl.uniprot.org/enzyme/2.3.1.179" ]
+    }, {
+      "nodeIds" : [ "http://purl.obolibrary.org/obo/GO_0033817", "http://metacyc.org/2.3.1.179-RXN" ]
+    }, {
+      "nodeIds" : [ "http://rdf.rhea-db.org/55041", "http://rdf.rhea-db.org/55040" ]
+    } ],
+    "logicalDefinitionAxioms" : [ ],
+    "domainRangeAxioms" : [ ],
+    "propertyChainAxioms" : [ ]
+  } ]
+}

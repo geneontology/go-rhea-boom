@@ -1,0 +1,47 @@
+{
+  "graphs" : [ {
+    "nodes" : [ {
+      "id" : "http://purl.obolibrary.org/obo/GO_0015411",
+      "type" : "CLASS",
+      "lbl" : "ABC-type taurine transporter transporter activity"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0005368",
+      "lbl" : "taurine transmembrane transporter activity"
+    } ],
+    "edges" : [ {
+      "sub" : "http://purl.obolibrary.org/obo/GO_0015411",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0005368"
+    }, {
+      "sub" : "http://rdf.rhea-db.org/14614",
+      "pred" : "is_a",
+      "obj" : "http://metacyc.org/ABC-64-RXN"
+    }, {
+      "sub" : "http://rdf.rhea-db.org/14613",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0005368"
+    } ],
+    "id" : "urn:unnamed:ontology#ont36",
+    "meta" : {
+      "subsets" : [ ],
+      "xrefs" : [ ],
+      "basicPropertyValues" : [ ]
+    },
+    "equivalentNodesSets" : [ {
+      "nodeIds" : [ "http://purl.uniprot.org/enzyme/7.6.2.7", "http://rdf.rhea-db.org/14613" ]
+    }, {
+      "nodeIds" : [ "http://rdf.rhea-db.org/14614", "http://rdf.rhea-db.org/14613" ]
+    }, {
+      "nodeIds" : [ "http://purl.uniprot.org/enzyme/7.6.2.7", "http://purl.obolibrary.org/obo/GO_0015411" ]
+    }, {
+      "nodeIds" : [ "http://purl.obolibrary.org/obo/GO_0015411", "http://rdf.rhea-db.org/14614" ]
+    }, {
+      "nodeIds" : [ "http://purl.obolibrary.org/obo/GO_0015411", "http://metacyc.org/3.6.3.36-RXN" ]
+    }, {
+      "nodeIds" : [ "http://rdf.rhea-db.org/14614", "http://metacyc.org/3.6.3.36-RXN" ]
+    } ],
+    "logicalDefinitionAxioms" : [ ],
+    "domainRangeAxioms" : [ ],
+    "propertyChainAxioms" : [ ]
+  } ]
+}

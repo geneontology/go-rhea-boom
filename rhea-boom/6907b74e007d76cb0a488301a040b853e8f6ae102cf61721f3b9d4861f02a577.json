@@ -1,0 +1,74 @@
+{
+  "graphs" : [ {
+    "nodes" : [ {
+      "id" : "http://purl.obolibrary.org/obo/GO_0018659",
+      "lbl" : "4-hydroxybenzoate 3-monooxygenase activity"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0106356",
+      "type" : "CLASS",
+      "lbl" : "4-hydroxybenzoate 3-monooxygenase [NADPH] activity"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0106355",
+      "type" : "CLASS",
+      "lbl" : "4-hydroxybenzoate 3-monooxygenase [NADH] activity"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0018671",
+      "lbl" : "4-hydroxybenzoate 3-monooxygenase [NAD(P)H] activity"
+    } ],
+    "edges" : [ {
+      "sub" : "http://rdf.rhea-db.org/19477",
+      "pred" : "is_a",
+      "obj" : "http://purl.uniprot.org/enzyme/1.14.13.33"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GO_0106355",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0018671"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GO_0106356",
+      "pred" : "is_a",
+      "obj" : "http://rdf.rhea-db.org/19477"
+    }, {
+      "sub" : "http://rdf.rhea-db.org/19478",
+      "pred" : "is_a",
+      "obj" : "http://metacyc.org/1.14.13.33-RXN"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GO_0106356",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0018671"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GO_0106355",
+      "pred" : "is_a",
+      "obj" : "http://rdf.rhea-db.org/19473"
+    } ],
+    "id" : "urn:unnamed:ontology#ont10",
+    "meta" : {
+      "subsets" : [ ],
+      "xrefs" : [ ],
+      "basicPropertyValues" : [ ]
+    },
+    "equivalentNodesSets" : [ {
+      "nodeIds" : [ "http://purl.obolibrary.org/obo/GO_0018659", "http://purl.uniprot.org/enzyme/1.14.13.2" ]
+    }, {
+      "nodeIds" : [ "http://purl.obolibrary.org/obo/GO_0018659", "http://metacyc.org/4-HYDROXYBENZOATE-3-MONOOXYGENASE-RXN" ]
+    }, {
+      "nodeIds" : [ "http://purl.uniprot.org/enzyme/1.14.13.2", "http://rdf.rhea-db.org/19477" ]
+    }, {
+      "nodeIds" : [ "http://purl.uniprot.org/enzyme/1.14.13.33", "http://purl.obolibrary.org/obo/GO_0018671" ]
+    }, {
+      "nodeIds" : [ "http://rdf.rhea-db.org/19478", "http://metacyc.org/4-HYDROXYBENZOATE-3-MONOOXYGENASE-RXN" ]
+    }, {
+      "nodeIds" : [ "http://metacyc.org/1.14.13.33-RXN", "http://purl.obolibrary.org/obo/GO_0018671" ]
+    }, {
+      "nodeIds" : [ "http://rdf.rhea-db.org/19473", "http://purl.uniprot.org/enzyme/1.14.13.33" ]
+    }, {
+      "nodeIds" : [ "http://rdf.rhea-db.org/19474", "http://rdf.rhea-db.org/19473" ]
+    }, {
+      "nodeIds" : [ "http://rdf.rhea-db.org/19478", "http://rdf.rhea-db.org/19477" ]
+    }, {
+      "nodeIds" : [ "http://metacyc.org/1.14.13.33-RXN", "http://rdf.rhea-db.org/19474" ]
+    } ],
+    "logicalDefinitionAxioms" : [ ],
+    "domainRangeAxioms" : [ ],
+    "propertyChainAxioms" : [ ]
+  } ]
+}

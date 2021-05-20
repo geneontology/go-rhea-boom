@@ -1,0 +1,42 @@
+{
+  "graphs" : [ {
+    "nodes" : [ {
+      "id" : "http://purl.obolibrary.org/obo/GO_0003846",
+      "type" : "CLASS",
+      "lbl" : "2-acylglycerol O-acyltransferase activity"
+    } ],
+    "edges" : [ {
+      "sub" : "http://rdf.rhea-db.org/32950",
+      "pred" : "is_a",
+      "obj" : "http://rdf.rhea-db.org/16741"
+    }, {
+      "sub" : "http://rdf.rhea-db.org/32947",
+      "pred" : "is_a",
+      "obj" : "http://rdf.rhea-db.org/16741"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GO_0003846",
+      "pred" : "is_a",
+      "obj" : "http://rdf.rhea-db.org/16741"
+    } ],
+    "id" : "urn:unnamed:ontology#ont4",
+    "meta" : {
+      "subsets" : [ ],
+      "xrefs" : [ ],
+      "basicPropertyValues" : [ ]
+    },
+    "equivalentNodesSets" : [ {
+      "nodeIds" : [ "http://purl.uniprot.org/enzyme/2.3.1.22", "http://rdf.rhea-db.org/32947" ]
+    }, {
+      "nodeIds" : [ "http://metacyc.org/2-ACYLGLYCEROL-O-ACYLTRANSFERASE-RXN", "http://rdf.rhea-db.org/32950" ]
+    }, {
+      "nodeIds" : [ "http://purl.uniprot.org/enzyme/2.3.1.22", "http://purl.obolibrary.org/obo/GO_0003846" ]
+    }, {
+      "nodeIds" : [ "http://rdf.rhea-db.org/32950", "http://rdf.rhea-db.org/32947" ]
+    }, {
+      "nodeIds" : [ "http://metacyc.org/2-ACYLGLYCEROL-O-ACYLTRANSFERASE-RXN", "http://purl.obolibrary.org/obo/GO_0003846" ]
+    } ],
+    "logicalDefinitionAxioms" : [ ],
+    "domainRangeAxioms" : [ ],
+    "propertyChainAxioms" : [ ]
+  } ]
+}

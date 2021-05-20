@@ -1,0 +1,53 @@
+{
+  "graphs" : [ {
+    "nodes" : [ {
+      "id" : "http://purl.obolibrary.org/obo/GO_0004043",
+      "lbl" : "L-aminoadipate-semialdehyde dehydrogenase activity"
+    } ],
+    "edges" : [ {
+      "sub" : "http://rdf.rhea-db.org/12308",
+      "pred" : "is_a",
+      "obj" : "http://purl.uniprot.org/enzyme/1.2.1.31"
+    }, {
+      "sub" : "http://rdf.rhea-db.org/12308",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0004043"
+    }, {
+      "sub" : "http://rdf.rhea-db.org/12309",
+      "pred" : "is_a",
+      "obj" : "http://metacyc.org/1.2.1.31-RXN"
+    }, {
+      "sub" : "http://reactome.org/R-HSA-70941.4",
+      "pred" : "is_a",
+      "obj" : "http://rdf.rhea-db.org/12309"
+    } ],
+    "id" : "urn:unnamed:ontology#ont6",
+    "meta" : {
+      "subsets" : [ ],
+      "xrefs" : [ ],
+      "basicPropertyValues" : [ ]
+    },
+    "equivalentNodesSets" : [ {
+      "nodeIds" : [ "http://purl.obolibrary.org/obo/GO_0004043", "http://purl.uniprot.org/enzyme/1.2.1.31" ]
+    }, {
+      "nodeIds" : [ "http://metacyc.org/1.2.1.31-RXN", "http://rdf.rhea-db.org/12305" ]
+    }, {
+      "nodeIds" : [ "http://rdf.rhea-db.org/12309", "http://rdf.rhea-db.org/12308" ]
+    }, {
+      "nodeIds" : [ "http://rdf.rhea-db.org/12305", "http://rdf.rhea-db.org/12304" ]
+    }, {
+      "nodeIds" : [ "http://rdf.rhea-db.org/12311", "http://metacyc.org/ALLYSINE-DEHYDROG-RXN" ]
+    }, {
+      "nodeIds" : [ "http://metacyc.org/1.2.1.31-RXN", "http://purl.obolibrary.org/obo/GO_0004043" ]
+    }, {
+      "nodeIds" : [ "http://purl.uniprot.org/enzyme/1.2.1.31", "http://rdf.rhea-db.org/12304" ]
+    }, {
+      "nodeIds" : [ "http://rdf.rhea-db.org/12311", "http://rdf.rhea-db.org/12308" ]
+    }, {
+      "nodeIds" : [ "http://rdf.rhea-db.org/12311", "http://rdf.rhea-db.org/12309" ]
+    } ],
+    "logicalDefinitionAxioms" : [ ],
+    "domainRangeAxioms" : [ ],
+    "propertyChainAxioms" : [ ]
+  } ]
+}

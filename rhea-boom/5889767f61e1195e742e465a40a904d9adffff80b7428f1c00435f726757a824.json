@@ -1,0 +1,47 @@
+{
+  "graphs" : [ {
+    "nodes" : [ {
+      "id" : "http://purl.obolibrary.org/obo/GO_0052876",
+      "lbl" : "methylamine dehydrogenase (amicyanin) activity"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0030058",
+      "type" : "CLASS",
+      "lbl" : "amine dehydrogenase activity"
+    } ],
+    "edges" : [ {
+      "sub" : "http://purl.obolibrary.org/obo/GO_0030058",
+      "pred" : "is_a",
+      "obj" : "http://purl.uniprot.org/enzyme/1.4.9.1"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GO_0030058",
+      "pred" : "is_a",
+      "obj" : "http://rdf.rhea-db.org/30207"
+    }, {
+      "sub" : "http://rdf.rhea-db.org/21919",
+      "pred" : "is_a",
+      "obj" : "http://metacyc.org/AMINE-DEHYDROGENASE-RXN"
+    } ],
+    "id" : "urn:unnamed:ontology#ont14",
+    "meta" : {
+      "subsets" : [ ],
+      "xrefs" : [ ],
+      "basicPropertyValues" : [ ]
+    },
+    "equivalentNodesSets" : [ {
+      "nodeIds" : [ "http://purl.obolibrary.org/obo/GO_0052876", "http://purl.uniprot.org/enzyme/1.4.9.1" ]
+    }, {
+      "nodeIds" : [ "http://metacyc.org/AMINE-DEHYDROGENASE-RXN", "http://purl.obolibrary.org/obo/GO_0030058" ]
+    }, {
+      "nodeIds" : [ "http://metacyc.org/RXN-2841", "http://rdf.rhea-db.org/30208" ]
+    }, {
+      "nodeIds" : [ "http://rdf.rhea-db.org/30208", "http://rdf.rhea-db.org/30207" ]
+    }, {
+      "nodeIds" : [ "http://rdf.rhea-db.org/51128", "http://metacyc.org/AMINE-DEHYDROGENASE-RXN" ]
+    }, {
+      "nodeIds" : [ "http://purl.uniprot.org/enzyme/1.4.9.1", "http://rdf.rhea-db.org/30207" ]
+    } ],
+    "logicalDefinitionAxioms" : [ ],
+    "domainRangeAxioms" : [ ],
+    "propertyChainAxioms" : [ ]
+  } ]
+}

@@ -1,0 +1,34 @@
+{
+  "graphs" : [ {
+    "nodes" : [ {
+      "id" : "http://purl.obolibrary.org/obo/GO_0050380",
+      "type" : "CLASS",
+      "lbl" : "undecaprenyl-diphosphatase activity"
+    } ],
+    "edges" : [ {
+      "sub" : "http://purl.obolibrary.org/obo/GO_0050380",
+      "pred" : "is_a",
+      "obj" : "http://rdf.rhea-db.org/17069"
+    } ],
+    "id" : "urn:unnamed:ontology#ont5",
+    "meta" : {
+      "subsets" : [ ],
+      "xrefs" : [ ],
+      "basicPropertyValues" : [ ]
+    },
+    "equivalentNodesSets" : [ {
+      "nodeIds" : [ "http://purl.uniprot.org/enzyme/3.6.1.27", "http://rdf.rhea-db.org/28094" ]
+    }, {
+      "nodeIds" : [ "http://rdf.rhea-db.org/28095", "http://rdf.rhea-db.org/28094" ]
+    }, {
+      "nodeIds" : [ "http://metacyc.org/UNDECAPRENYL-DIPHOSPHATASE-RXN", "http://purl.obolibrary.org/obo/GO_0050380" ]
+    }, {
+      "nodeIds" : [ "http://metacyc.org/UNDECAPRENYL-DIPHOSPHATASE-RXN", "http://rdf.rhea-db.org/28095" ]
+    }, {
+      "nodeIds" : [ "http://purl.uniprot.org/enzyme/3.6.1.27", "http://purl.obolibrary.org/obo/GO_0050380" ]
+    } ],
+    "logicalDefinitionAxioms" : [ ],
+    "domainRangeAxioms" : [ ],
+    "propertyChainAxioms" : [ ]
+  } ]
+}

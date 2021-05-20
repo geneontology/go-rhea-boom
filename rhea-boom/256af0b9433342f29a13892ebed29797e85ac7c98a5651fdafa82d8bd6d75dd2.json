@@ -1,0 +1,65 @@
+{
+  "graphs" : [ {
+    "nodes" : [ {
+      "id" : "http://purl.obolibrary.org/obo/GO_0061759",
+      "type" : "CLASS",
+      "lbl" : "alpha-ketoglutarate reductase activity"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0061758",
+      "type" : "CLASS",
+      "lbl" : "2-hydroxyglutarate dehydrogenase activity, forward reaction"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0047545",
+      "lbl" : "2-hydroxyglutarate dehydrogenase activity"
+    } ],
+    "edges" : [ {
+      "sub" : "http://purl.obolibrary.org/obo/GO_0061758",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0047545"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GO_0061759",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0047545"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GO_0061758",
+      "pred" : "is_a",
+      "obj" : "http://rdf.rhea-db.org/21253"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GO_0061759",
+      "pred" : "is_a",
+      "obj" : "http://rdf.rhea-db.org/21254"
+    } ],
+    "id" : "urn:unnamed:ontology#ont17",
+    "meta" : {
+      "subsets" : [ ],
+      "xrefs" : [ ],
+      "basicPropertyValues" : [ ]
+    },
+    "equivalentNodesSets" : [ {
+      "nodeIds" : [ "http://purl.uniprot.org/enzyme/1.1.99.2", "http://rdf.rhea-db.org/21252" ]
+    }, {
+      "nodeIds" : [ "http://metacyc.org/2-HYDROXYGLUTARATE-DEHYDROGENASE-RXN", "http://purl.obolibrary.org/obo/GO_0047545" ]
+    }, {
+      "nodeIds" : [ "http://rdf.rhea-db.org/21255", "http://rdf.rhea-db.org/21253" ]
+    }, {
+      "nodeIds" : [ "http://rdf.rhea-db.org/21254", "http://rdf.rhea-db.org/21252" ]
+    }, {
+      "nodeIds" : [ "http://rdf.rhea-db.org/21253", "http://rdf.rhea-db.org/21252" ]
+    }, {
+      "nodeIds" : [ "http://rdf.rhea-db.org/21254", "http://rdf.rhea-db.org/21253" ]
+    }, {
+      "nodeIds" : [ "http://rdf.rhea-db.org/21255", "http://rdf.rhea-db.org/21254" ]
+    }, {
+      "nodeIds" : [ "http://purl.uniprot.org/enzyme/1.1.99.2", "http://purl.obolibrary.org/obo/GO_0047545" ]
+    }, {
+      "nodeIds" : [ "http://rdf.rhea-db.org/21255", "http://metacyc.org/2-HYDROXYGLUTARATE-DEHYDROGENASE-RXN" ]
+    }, {
+      "nodeIds" : [ "http://purl.obolibrary.org/obo/GO_0047545", "http://rdf.rhea-db.org/21252" ]
+    }, {
+      "nodeIds" : [ "http://rdf.rhea-db.org/21255", "http://rdf.rhea-db.org/21252" ]
+    } ],
+    "logicalDefinitionAxioms" : [ ],
+    "domainRangeAxioms" : [ ],
+    "propertyChainAxioms" : [ ]
+  } ]
+}

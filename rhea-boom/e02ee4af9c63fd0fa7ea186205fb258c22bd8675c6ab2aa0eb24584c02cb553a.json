@@ -1,0 +1,46 @@
+{
+  "graphs" : [ {
+    "nodes" : [ {
+      "id" : "http://purl.obolibrary.org/obo/GO_0003883",
+      "type" : "CLASS",
+      "lbl" : "CTP synthase activity"
+    } ],
+    "edges" : [ {
+      "sub" : "http://purl.obolibrary.org/obo/GO_0003883",
+      "pred" : "is_a",
+      "obj" : "http://rdf.rhea-db.org/16597"
+    }, {
+      "sub" : "http://reactome.org/R-HSA-73647.3",
+      "pred" : "is_a",
+      "obj" : "http://rdf.rhea-db.org/26427"
+    }, {
+      "sub" : "http://reactome.org/R-HSA-504054.3",
+      "pred" : "is_a",
+      "obj" : "http://rdf.rhea-db.org/26427"
+    } ],
+    "id" : "urn:unnamed:ontology#ont3",
+    "meta" : {
+      "subsets" : [ ],
+      "xrefs" : [ ],
+      "basicPropertyValues" : [ ]
+    },
+    "equivalentNodesSets" : [ {
+      "nodeIds" : [ "http://metacyc.org/CTPSYN-RXN", "http://rdf.rhea-db.org/26427" ]
+    }, {
+      "nodeIds" : [ "http://rdf.rhea-db.org/16598", "http://rdf.rhea-db.org/16597" ]
+    }, {
+      "nodeIds" : [ "http://metacyc.org/CTPSYN-RXN", "http://purl.obolibrary.org/obo/GO_0003883" ]
+    }, {
+      "nodeIds" : [ "http://purl.obolibrary.org/obo/GO_0003883", "http://purl.uniprot.org/enzyme/6.3.4.2" ]
+    }, {
+      "nodeIds" : [ "http://rdf.rhea-db.org/16598", "http://metacyc.org/RXN-14325" ]
+    }, {
+      "nodeIds" : [ "http://rdf.rhea-db.org/26426", "http://purl.uniprot.org/enzyme/6.3.4.2" ]
+    }, {
+      "nodeIds" : [ "http://rdf.rhea-db.org/26427", "http://rdf.rhea-db.org/26426" ]
+    } ],
+    "logicalDefinitionAxioms" : [ ],
+    "domainRangeAxioms" : [ ],
+    "propertyChainAxioms" : [ ]
+  } ]
+}

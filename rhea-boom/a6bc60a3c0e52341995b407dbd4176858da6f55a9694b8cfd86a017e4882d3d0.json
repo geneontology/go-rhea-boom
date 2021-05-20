@@ -1,0 +1,85 @@
+{
+  "graphs" : [ {
+    "nodes" : [ {
+      "id" : "http://purl.obolibrary.org/obo/GO_0072582",
+      "type" : "CLASS",
+      "lbl" : "17-beta-hydroxysteroid dehydrogenase (NADP+) activity"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0004303",
+      "lbl" : "estradiol 17-beta-dehydrogenase activity"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0044594",
+      "type" : "CLASS",
+      "lbl" : "17-beta-hydroxysteroid dehydrogenase (NAD+) activity"
+    } ],
+    "edges" : [ {
+      "sub" : "http://purl.obolibrary.org/obo/GO_0072582",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0004303"
+    }, {
+      "sub" : "http://reactome.org/R-HSA-6810594.1",
+      "pred" : "is_a",
+      "obj" : "http://rdf.rhea-db.org/24617"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GO_0044594",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0004303"
+    }, {
+      "sub" : "http://reactome.org/R-HSA-804969.2",
+      "pred" : "is_a",
+      "obj" : "http://rdf.rhea-db.org/24618"
+    }, {
+      "sub" : "http://reactome.org/R-HSA-5693390.1",
+      "pred" : "is_a",
+      "obj" : "http://rdf.rhea-db.org/24617"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GO_0044594",
+      "pred" : "is_a",
+      "obj" : "http://rdf.rhea-db.org/24612"
+    }, {
+      "sub" : "http://reactome.org/R-HSA-5696822.1",
+      "pred" : "is_a",
+      "obj" : "http://rdf.rhea-db.org/24617"
+    }, {
+      "sub" : "http://reactome.org/R-HSA-8862137.2",
+      "pred" : "is_a",
+      "obj" : "http://rdf.rhea-db.org/24617"
+    }, {
+      "sub" : "http://rdf.rhea-db.org/24616",
+      "pred" : "is_a",
+      "obj" : "http://purl.uniprot.org/enzyme/1.1.1.62"
+    }, {
+      "sub" : "http://rdf.rhea-db.org/24618",
+      "pred" : "is_a",
+      "obj" : "http://metacyc.org/ESTRADIOL-17-BETA-DEHYDROGENASE-RXN"
+    } ],
+    "id" : "urn:unnamed:ontology#ont37",
+    "meta" : {
+      "subsets" : [ ],
+      "xrefs" : [ ],
+      "basicPropertyValues" : [ ]
+    },
+    "equivalentNodesSets" : [ {
+      "nodeIds" : [ "http://purl.obolibrary.org/obo/GO_0004303", "http://metacyc.org/ESTRADIOL-17-BETA-DEHYDROGENASE-RXN" ]
+    }, {
+      "nodeIds" : [ "http://rdf.rhea-db.org/24612", "http://purl.uniprot.org/enzyme/1.1.1.62" ]
+    }, {
+      "nodeIds" : [ "http://purl.obolibrary.org/obo/GO_0072582", "http://rdf.rhea-db.org/24616" ]
+    }, {
+      "nodeIds" : [ "http://rdf.rhea-db.org/24617", "http://rdf.rhea-db.org/24618" ]
+    }, {
+      "nodeIds" : [ "http://rdf.rhea-db.org/24616", "http://rdf.rhea-db.org/24617" ]
+    }, {
+      "nodeIds" : [ "http://rdf.rhea-db.org/24616", "http://rdf.rhea-db.org/24618" ]
+    }, {
+      "nodeIds" : [ "http://rdf.rhea-db.org/24612", "http://rdf.rhea-db.org/24614" ]
+    }, {
+      "nodeIds" : [ "http://purl.obolibrary.org/obo/GO_0004303", "http://purl.uniprot.org/enzyme/1.1.1.62" ]
+    }, {
+      "nodeIds" : [ "http://rdf.rhea-db.org/24614", "http://metacyc.org/ESTRADIOL-17-BETA-DEHYDROGENASE-RXN" ]
+    } ],
+    "logicalDefinitionAxioms" : [ ],
+    "domainRangeAxioms" : [ ],
+    "propertyChainAxioms" : [ ]
+  } ]
+}

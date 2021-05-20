@@ -1,0 +1,67 @@
+{
+  "graphs" : [ {
+    "nodes" : [ {
+      "id" : "http://purl.obolibrary.org/obo/GO_0036456",
+      "type" : "CLASS",
+      "lbl" : "L-methionine-(S)-S-oxide reductase activity"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0033744",
+      "lbl" : "L-methionine:thioredoxin-disulfide S-oxidoreductase activity"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0008113",
+      "type" : "CLASS",
+      "lbl" : "peptide-methionine (S)-S-oxide reductase activity"
+    } ],
+    "edges" : [ {
+      "sub" : "http://rdf.rhea-db.org/19993",
+      "pred" : "is_a",
+      "obj" : "http://purl.uniprot.org/enzyme/1.8.4.11"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GO_0036456",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0033744"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GO_0008113",
+      "pred" : "is_a",
+      "obj" : "http://metacyc.org/RXN-8669"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GO_0036456",
+      "pred" : "is_a",
+      "obj" : "http://rdf.rhea-db.org/19995"
+    } ],
+    "id" : "urn:unnamed:ontology#ont25",
+    "meta" : {
+      "subsets" : [ ],
+      "xrefs" : [ ],
+      "basicPropertyValues" : [ ]
+    },
+    "equivalentNodesSets" : [ {
+      "nodeIds" : [ "http://metacyc.org/RXN-8668", "http://rdf.rhea-db.org/14219" ]
+    }, {
+      "nodeIds" : [ "http://purl.uniprot.org/enzyme/1.8.4.13", "http://purl.obolibrary.org/obo/GO_0033744" ]
+    }, {
+      "nodeIds" : [ "http://purl.obolibrary.org/obo/GO_0008113", "http://rdf.rhea-db.org/14217" ]
+    }, {
+      "nodeIds" : [ "http://purl.uniprot.org/enzyme/1.8.4.11", "http://rdf.rhea-db.org/14217" ]
+    }, {
+      "nodeIds" : [ "http://purl.obolibrary.org/obo/GO_0033744", "http://rdf.rhea-db.org/19993" ]
+    }, {
+      "nodeIds" : [ "http://rdf.rhea-db.org/14219", "http://rdf.rhea-db.org/14217" ]
+    }, {
+      "nodeIds" : [ "http://purl.obolibrary.org/obo/GO_0033744", "http://metacyc.org/1.8.4.13-RXN" ]
+    }, {
+      "nodeIds" : [ "http://metacyc.org/RXN-8668", "http://purl.obolibrary.org/obo/GO_0008113" ]
+    }, {
+      "nodeIds" : [ "http://rdf.rhea-db.org/19995", "http://rdf.rhea-db.org/19993" ]
+    }, {
+      "nodeIds" : [ "http://purl.uniprot.org/enzyme/1.8.4.13", "http://rdf.rhea-db.org/19993" ]
+    }, {
+      "nodeIds" : [ "http://purl.uniprot.org/enzyme/1.8.4.11", "http://purl.obolibrary.org/obo/GO_0008113" ]
+    }, {
+      "nodeIds" : [ "http://rdf.rhea-db.org/19995", "http://metacyc.org/1.8.4.13-RXN" ]
+    } ],
+    "logicalDefinitionAxioms" : [ ],
+    "domainRangeAxioms" : [ ],
+    "propertyChainAxioms" : [ ]
+  } ]
+}
