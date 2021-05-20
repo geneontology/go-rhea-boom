@@ -1,6 +1,0 @@
-## http://metacyc.org/PGPPHOSPHA-RXN http://purl.obolibrary.org/obo/GO_0008962 http://purl.uniprot.org/enzyme/3.1.3.27 http://rdf.rhea-db.org/16725 http://rdf.rhea-db.org/16726 http://rdf.rhea-db.org/16727 http://rdf.rhea-db.org/16728 http://rdf.rhea-db.org/33751 http://rdf.rhea-db.org/33752 http://rdf.rhea-db.org/33753 http://rdf.rhea-db.org/33754
-Equivalent(AtomicConcept(http://rdf.rhea-db.org/33752),AtomicConcept(http://metacyc.org/PGPPHOSPHA-RXN))	(most probable)	0.75
-Equivalent(AtomicConcept(http://purl.obolibrary.org/obo/GO_0008962),AtomicConcept(http://purl.uniprot.org/enzyme/3.1.3.27))	(most probable)	0.8
-ProperSubClassOf(AtomicConcept(http://purl.obolibrary.org/obo/GO_0008962),AtomicConcept(http://rdf.rhea-db.org/16725))		0.08
-Equivalent(AtomicConcept(http://purl.obolibrary.org/obo/GO_0008962),AtomicConcept(http://metacyc.org/PGPPHOSPHA-RXN))	(most probable)	0.8
-Equivalent(AtomicConcept(http://rdf.rhea-db.org/33751),AtomicConcept(http://purl.uniprot.org/enzyme/3.1.3.27))	(most probable)	0.75

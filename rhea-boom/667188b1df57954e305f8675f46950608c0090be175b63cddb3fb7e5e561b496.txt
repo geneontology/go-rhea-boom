@@ -1,8 +1,0 @@
-## http://metacyc.org/DHLAXANAU-RXN http://metacyc.org/HALOALKANE-DEHALOGENASE-RXN http://purl.obolibrary.org/obo/GO_0018786 http://purl.uniprot.org/enzyme/3.8.1.5 http://rdf.rhea-db.org/19081 http://rdf.rhea-db.org/19082 http://rdf.rhea-db.org/19083 http://rdf.rhea-db.org/19084 http://rdf.rhea-db.org/25185 http://rdf.rhea-db.org/25186 http://rdf.rhea-db.org/25187 http://rdf.rhea-db.org/25188
-Equivalent(AtomicConcept(http://rdf.rhea-db.org/19081),AtomicConcept(http://purl.uniprot.org/enzyme/3.8.1.5))	(most probable)	0.75
-Equivalent(AtomicConcept(http://purl.obolibrary.org/obo/GO_0018786),AtomicConcept(http://metacyc.org/HALOALKANE-DEHALOGENASE-RXN))	(most probable)	0.8
-ProperSuperClassOf(AtomicConcept(http://purl.obolibrary.org/obo/GO_0018786),AtomicConcept(http://rdf.rhea-db.org/25185))		0.08
-Equivalent(AtomicConcept(http://rdf.rhea-db.org/25186),AtomicConcept(http://metacyc.org/DHLAXANAU-RXN))	(most probable)	0.75
-Equivalent(AtomicConcept(http://rdf.rhea-db.org/19082),AtomicConcept(http://metacyc.org/HALOALKANE-DEHALOGENASE-RXN))	(most probable)	0.75
-Equivalent(AtomicConcept(http://purl.obolibrary.org/obo/GO_0018786),AtomicConcept(http://purl.uniprot.org/enzyme/3.8.1.5))	(most probable)	0.8
-ProperSubClassOf(AtomicConcept(http://rdf.rhea-db.org/25185),AtomicConcept(http://purl.uniprot.org/enzyme/3.8.1.5))		0.1

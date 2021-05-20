@@ -1,9 +1,0 @@
-## http://metacyc.org/AMINE-DEHYDROGENASE-RXN http://metacyc.org/RXN-2841 http://purl.obolibrary.org/obo/GO_0030058 http://purl.obolibrary.org/obo/GO_0052876 http://purl.uniprot.org/enzyme/1.4.9.1 http://rdf.rhea-db.org/21916 http://rdf.rhea-db.org/21917 http://rdf.rhea-db.org/21918 http://rdf.rhea-db.org/21919 http://rdf.rhea-db.org/30207 http://rdf.rhea-db.org/30208 http://rdf.rhea-db.org/30209 http://rdf.rhea-db.org/30210 http://rdf.rhea-db.org/51128 http://rdf.rhea-db.org/51129 http://rdf.rhea-db.org/51130 http://rdf.rhea-db.org/51131
-Equivalent(AtomicConcept(http://purl.obolibrary.org/obo/GO_0052876),AtomicConcept(http://purl.uniprot.org/enzyme/1.4.9.1))	(most probable)	0.8
-Equivalent(AtomicConcept(http://purl.obolibrary.org/obo/GO_0030058),AtomicConcept(http://metacyc.org/AMINE-DEHYDROGENASE-RXN))	(most probable)	0.8
-Equivalent(AtomicConcept(http://rdf.rhea-db.org/30207),AtomicConcept(http://purl.uniprot.org/enzyme/1.4.9.1))	(most probable)	0.75
-Equivalent(AtomicConcept(http://rdf.rhea-db.org/51128),AtomicConcept(http://metacyc.org/AMINE-DEHYDROGENASE-RXN))	(most probable)	0.75
-Equivalent(AtomicConcept(http://rdf.rhea-db.org/30208),AtomicConcept(http://metacyc.org/RXN-2841))	(most probable)	0.75
-ProperSubClassOf(AtomicConcept(http://purl.obolibrary.org/obo/GO_0030058),AtomicConcept(http://purl.uniprot.org/enzyme/1.4.9.1))		0.08
-ProperSubClassOf(AtomicConcept(http://rdf.rhea-db.org/21919),AtomicConcept(http://metacyc.org/AMINE-DEHYDROGENASE-RXN))		0.1
-ProperSubClassOf(AtomicConcept(http://purl.obolibrary.org/obo/GO_0030058),AtomicConcept(http://rdf.rhea-db.org/30207))		0.08

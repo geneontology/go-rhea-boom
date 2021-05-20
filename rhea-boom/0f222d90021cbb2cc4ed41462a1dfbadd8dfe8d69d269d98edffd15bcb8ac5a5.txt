@@ -1,8 +1,0 @@
-## http://metacyc.org/HYDROPEROXIDE-DEHYDRATASE-RXN http://metacyc.org/RXN1F-19 http://purl.obolibrary.org/obo/GO_0009978 http://purl.obolibrary.org/obo/GO_0047987 http://purl.uniprot.org/enzyme/4.2.1.92 http://rdf.rhea-db.org/25074 http://rdf.rhea-db.org/25075 http://rdf.rhea-db.org/25076 http://rdf.rhea-db.org/25077
-Equivalent(AtomicConcept(http://purl.obolibrary.org/obo/GO_0047987),AtomicConcept(http://rdf.rhea-db.org/25075))	(most probable)	0.8
-Equivalent(AtomicConcept(http://rdf.rhea-db.org/25074),AtomicConcept(http://purl.uniprot.org/enzyme/4.2.1.92))	(most probable)	0.75
-Equivalent(AtomicConcept(http://purl.obolibrary.org/obo/GO_0047987),AtomicConcept(http://purl.uniprot.org/enzyme/4.2.1.92))	(most probable)	0.8
-ProperSubClassOf(AtomicConcept(http://rdf.rhea-db.org/25075),AtomicConcept(http://metacyc.org/RXN1F-19))		0.1
-ProperSuperClassOf(AtomicConcept(http://purl.obolibrary.org/obo/GO_0009978),AtomicConcept(http://rdf.rhea-db.org/25074))		0.15
-Equivalent(AtomicConcept(http://purl.obolibrary.org/obo/GO_0047987),AtomicConcept(http://metacyc.org/HYDROPEROXIDE-DEHYDRATASE-RXN))	(most probable)	0.8
-Equivalent(AtomicConcept(http://purl.obolibrary.org/obo/GO_0009978),AtomicConcept(http://metacyc.org/RXN1F-19))	(most probable)	0.8

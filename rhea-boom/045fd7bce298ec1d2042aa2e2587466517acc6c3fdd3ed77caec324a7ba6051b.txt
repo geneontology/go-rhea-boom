@@ -1,7 +1,0 @@
-## http://metacyc.org/GALACTOSYLCERAMIDE-SULFOTRANSFERASE-RXN http://purl.obolibrary.org/obo/GO_0001733 http://purl.uniprot.org/enzyme/2.8.2.11 http://rdf.rhea-db.org/20613 http://rdf.rhea-db.org/20614 http://rdf.rhea-db.org/20615 http://rdf.rhea-db.org/20616 http://rdf.rhea-db.org/41744 http://rdf.rhea-db.org/41745 http://rdf.rhea-db.org/41746 http://rdf.rhea-db.org/41747 http://rdf.rhea-db.org/43304 http://rdf.rhea-db.org/43305 http://rdf.rhea-db.org/43306 http://rdf.rhea-db.org/43307
-Equivalent(AtomicConcept(http://purl.obolibrary.org/obo/GO_0001733),AtomicConcept(http://metacyc.org/GALACTOSYLCERAMIDE-SULFOTRANSFERASE-RXN))	(most probable)	0.8
-Equivalent(AtomicConcept(http://purl.obolibrary.org/obo/GO_0001733),AtomicConcept(http://purl.uniprot.org/enzyme/2.8.2.11))	(most probable)	0.8
-ProperSubClassOf(AtomicConcept(http://rdf.rhea-db.org/41744),AtomicConcept(http://purl.uniprot.org/enzyme/2.8.2.11))		0.1
-ProperSubClassOf(AtomicConcept(http://purl.obolibrary.org/obo/GO_0001733),AtomicConcept(http://rdf.rhea-db.org/43304))		0.08
-Equivalent(AtomicConcept(http://rdf.rhea-db.org/20616),AtomicConcept(http://metacyc.org/GALACTOSYLCERAMIDE-SULFOTRANSFERASE-RXN))	(most probable)	0.75
-Equivalent(AtomicConcept(http://rdf.rhea-db.org/20613),AtomicConcept(http://purl.uniprot.org/enzyme/2.8.2.11))	(most probable)	0.75
