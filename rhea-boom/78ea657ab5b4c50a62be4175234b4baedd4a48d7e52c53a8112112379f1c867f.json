@@ -1,55 +1,181 @@
 {
-  "graphs" : [ {
-    "nodes" : [ {
-      "id" : "http://purl.obolibrary.org/obo/GO_0106357",
-      "type" : "CLASS",
-      "lbl" : "glycerol-1-phosphate dehydrogenase [NAD+] activity"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/GO_0050492",
-      "lbl" : "glycerol-1-phosphate dehydrogenase [NAD(P)+] activity"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/GO_0106358",
-      "type" : "CLASS",
-      "lbl" : "glycerol-1-phosphate dehydrogenase [NADP+] activity"
-    } ],
-    "edges" : [ {
-      "sub" : "http://purl.obolibrary.org/obo/GO_0106357",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/GO_0050492"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/GO_0106358",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/GO_0050492"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/GO_0106357",
-      "pred" : "is_a",
-      "obj" : "http://rdf.rhea-db.org/21412"
-    }, {
-      "sub" : "http://rdf.rhea-db.org/21416",
-      "pred" : "is_a",
-      "obj" : "http://purl.uniprot.org/enzyme/1.1.1.261"
-    } ],
-    "id" : "urn:unnamed:ontology#ont15",
-    "meta" : {
-      "subsets" : [ ],
-      "xrefs" : [ ],
-      "basicPropertyValues" : [ ]
-    },
-    "equivalentNodesSets" : [ {
-      "nodeIds" : [ "http://rdf.rhea-db.org/21416", "http://purl.obolibrary.org/obo/GO_0106358" ]
-    }, {
-      "nodeIds" : [ "http://rdf.rhea-db.org/21412", "http://purl.uniprot.org/enzyme/1.1.1.261" ]
-    }, {
-      "nodeIds" : [ "http://metacyc.org/1.1.1.261-RXN", "http://purl.obolibrary.org/obo/GO_0050492" ]
-    }, {
-      "nodeIds" : [ "http://rdf.rhea-db.org/21414", "http://metacyc.org/1.1.1.261-RXN" ]
-    }, {
-      "nodeIds" : [ "http://purl.uniprot.org/enzyme/1.1.1.261", "http://purl.obolibrary.org/obo/GO_0050492" ]
-    }, {
-      "nodeIds" : [ "http://rdf.rhea-db.org/21414", "http://rdf.rhea-db.org/21412" ]
-    } ],
-    "logicalDefinitionAxioms" : [ ],
-    "domainRangeAxioms" : [ ],
-    "propertyChainAxioms" : [ ]
-  } ]
+  "graphs" : [
+    {
+      "id" : "urn:unnamed:ontology#ont15",
+      "nodes" : [
+        {
+          "id" : "GO:0106357",
+          "type" : "CLASS",
+          "lbl" : "glycerol-1-phosphate dehydrogenase [NAD+] activity"
+        },
+        {
+          "id" : "GO:0106358",
+          "type" : "CLASS",
+          "lbl" : "glycerol-1-phosphate dehydrogenase [NADP+] activity"
+        },
+        {
+          "id" : "EC:1.1.1.261",
+          "type" : "CLASS"
+        },
+        {
+          "id" : "METACYC:1.1.1.261-RXN",
+          "type" : "CLASS"
+        },
+        {
+          "id" : "GO:0050492",
+          "type" : "CLASS",
+          "lbl" : "glycerol-1-phosphate dehydrogenase [NAD(P)+] activity"
+        },
+        {
+          "id" : "RHEA:21414",
+          "type" : "CLASS"
+        },
+        {
+          "id" : "RHEA:21416",
+          "type" : "CLASS"
+        },
+        {
+          "id" : "RHEA:21412",
+          "type" : "CLASS"
+        }
+      ],
+      "edges" : [
+        {
+          "sub" : "GO:0106357",
+          "pred" : "is_a",
+          "obj" : "GO:0050492",
+          "meta" : {
+            "basicPropertyValues" : [
+            ]
+          }
+        },
+        {
+          "sub" : "GO:0050492",
+          "pred" : "owl:equivalentClass",
+          "obj" : "EC:1.1.1.261",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/width",
+                "value" : 8.0
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "GO:0106358",
+          "pred" : "owl:equivalentClass",
+          "obj" : "RHEA:21416",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/width",
+                "value" : 8.0
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "GO:0106357",
+          "pred" : "is_a",
+          "obj" : "RHEA:21412",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/width",
+                "value" : 0.8
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "RHEA:21416",
+          "pred" : "is_a",
+          "obj" : "EC:1.1.1.261",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/width",
+                "value" : 1.0
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "METACYC:1.1.1.261-RXN",
+          "pred" : "owl:equivalentClass",
+          "obj" : "GO:0050492",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/width",
+                "value" : 8.0
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "METACYC:1.1.1.261-RXN",
+          "pred" : "owl:equivalentClass",
+          "obj" : "RHEA:21414",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/width",
+                "value" : 7.5
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "RHEA:21412",
+          "pred" : "owl:equivalentClass",
+          "obj" : "RHEA:21414",
+          "meta" : {
+            "basicPropertyValues" : [
+            ]
+          }
+        },
+        {
+          "sub" : "EC:1.1.1.261",
+          "pred" : "owl:equivalentClass",
+          "obj" : "RHEA:21412",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/width",
+                "value" : 7.5
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "GO:0106358",
+          "pred" : "is_a",
+          "obj" : "GO:0050492",
+          "meta" : {
+            "basicPropertyValues" : [
+            ]
+          }
+        }
+      ],
+      "equivalentNodesSets" : [
+        {
+          "nodeIds" : [
+            "GO:0106358",
+            "RHEA:21416"
+          ]
+        },
+        {
+          "nodeIds" : [
+            "GO:0050492",
+            "METACYC:1.1.1.261-RXN",
+            "EC:1.1.1.261",
+            "RHEA:21412",
+            "RHEA:21414"
+          ]
+        }
+      ]
+    }
+  ]
 }

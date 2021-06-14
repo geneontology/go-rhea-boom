@@ -1,52 +1,190 @@
 {
-  "graphs" : [ {
-    "nodes" : [ {
-      "id" : "http://purl.obolibrary.org/obo/GO_0052676",
-      "lbl" : "3-methylbutanol:NAD oxidoreductase activity"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/GO_0052675",
-      "type" : "CLASS",
-      "lbl" : "3-methylbutanol:NADP oxidoreductase activity"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/GO_0046568",
-      "lbl" : "3-methylbutanol:NAD(P) oxidoreductase activity"
-    } ],
-    "edges" : [ {
-      "sub" : "http://purl.obolibrary.org/obo/GO_0052675",
-      "pred" : "is_a",
-      "obj" : "http://rdf.rhea-db.org/18525"
-    }, {
-      "sub" : "http://rdf.rhea-db.org/18529",
-      "pred" : "is_a",
-      "obj" : "http://purl.uniprot.org/enzyme/1.1.1.265"
-    }, {
-      "sub" : "http://rdf.rhea-db.org/18531",
-      "pred" : "is_a",
-      "obj" : "http://metacyc.org/1.1.1.265-RXN"
-    } ],
-    "id" : "urn:unnamed:ontology#ont31",
-    "meta" : {
-      "subsets" : [ ],
-      "xrefs" : [ ],
-      "basicPropertyValues" : [ ]
-    },
-    "equivalentNodesSets" : [ {
-      "nodeIds" : [ "http://purl.obolibrary.org/obo/GO_0046568", "http://metacyc.org/1.1.1.265-RXN" ]
-    }, {
-      "nodeIds" : [ "http://rdf.rhea-db.org/18531", "http://rdf.rhea-db.org/18529" ]
-    }, {
-      "nodeIds" : [ "http://rdf.rhea-db.org/18525", "http://purl.uniprot.org/enzyme/1.1.1.265" ]
-    }, {
-      "nodeIds" : [ "http://rdf.rhea-db.org/18525", "http://rdf.rhea-db.org/18527" ]
-    }, {
-      "nodeIds" : [ "http://purl.obolibrary.org/obo/GO_0046568", "http://purl.uniprot.org/enzyme/1.1.1.265" ]
-    }, {
-      "nodeIds" : [ "http://purl.obolibrary.org/obo/GO_0052676", "http://rdf.rhea-db.org/18529" ]
-    }, {
-      "nodeIds" : [ "http://rdf.rhea-db.org/18527", "http://metacyc.org/1.1.1.265-RXN" ]
-    } ],
-    "logicalDefinitionAxioms" : [ ],
-    "domainRangeAxioms" : [ ],
-    "propertyChainAxioms" : [ ]
-  } ]
+  "graphs" : [
+    {
+      "id" : "urn:unnamed:ontology#ont31",
+      "nodes" : [
+        {
+          "id" : "GO:0052676",
+          "type" : "CLASS",
+          "lbl" : "3-methylbutanol:NAD oxidoreductase activity"
+        },
+        {
+          "id" : "GO:0046568",
+          "type" : "CLASS",
+          "lbl" : "3-methylbutanol:NAD(P) oxidoreductase activity"
+        },
+        {
+          "id" : "RHEA:18531",
+          "type" : "CLASS"
+        },
+        {
+          "id" : "RHEA:18527",
+          "type" : "CLASS"
+        },
+        {
+          "id" : "RHEA:18525",
+          "type" : "CLASS"
+        },
+        {
+          "id" : "EC:1.1.1.265",
+          "type" : "CLASS"
+        },
+        {
+          "id" : "METACYC:1.1.1.265-RXN",
+          "type" : "CLASS"
+        },
+        {
+          "id" : "RHEA:18529",
+          "type" : "CLASS"
+        },
+        {
+          "id" : "GO:0052675",
+          "type" : "CLASS",
+          "lbl" : "3-methylbutanol:NADP oxidoreductase activity"
+        }
+      ],
+      "edges" : [
+        {
+          "sub" : "RHEA:18529",
+          "pred" : "owl:equivalentClass",
+          "obj" : "RHEA:18531",
+          "meta" : {
+            "basicPropertyValues" : [
+            ]
+          }
+        },
+        {
+          "sub" : "RHEA:18529",
+          "pred" : "is_a",
+          "obj" : "EC:1.1.1.265",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/width",
+                "value" : 1.0
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "GO:0052675",
+          "pred" : "is_a",
+          "obj" : "RHEA:18525",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/width",
+                "value" : 0.8
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "GO:0052676",
+          "pred" : "owl:equivalentClass",
+          "obj" : "RHEA:18529",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/width",
+                "value" : 8.0
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "RHEA:18531",
+          "pred" : "is_a",
+          "obj" : "METACYC:1.1.1.265-RXN",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/width",
+                "value" : 1.0
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "METACYC:1.1.1.265-RXN",
+          "pred" : "owl:equivalentClass",
+          "obj" : "RHEA:18527",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/width",
+                "value" : 7.5
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "GO:0046568",
+          "pred" : "owl:equivalentClass",
+          "obj" : "EC:1.1.1.265",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/width",
+                "value" : 8.0
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "RHEA:18525",
+          "pred" : "owl:equivalentClass",
+          "obj" : "RHEA:18527",
+          "meta" : {
+            "basicPropertyValues" : [
+            ]
+          }
+        },
+        {
+          "sub" : "METACYC:1.1.1.265-RXN",
+          "pred" : "owl:equivalentClass",
+          "obj" : "GO:0046568",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/width",
+                "value" : 8.0
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "EC:1.1.1.265",
+          "pred" : "owl:equivalentClass",
+          "obj" : "RHEA:18525",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/width",
+                "value" : 7.5
+              }
+            ]
+          }
+        }
+      ],
+      "equivalentNodesSets" : [
+        {
+          "nodeIds" : [
+            "GO:0046568",
+            "EC:1.1.1.265",
+            "METACYC:1.1.1.265-RXN",
+            "RHEA:18525",
+            "RHEA:18527"
+          ]
+        },
+        {
+          "nodeIds" : [
+            "RHEA:18529",
+            "GO:0052676",
+            "RHEA:18531"
+          ]
+        }
+      ]
+    }
+  ]
 }

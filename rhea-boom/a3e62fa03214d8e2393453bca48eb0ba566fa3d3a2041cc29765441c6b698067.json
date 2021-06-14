@@ -1,34 +1,127 @@
 {
-  "graphs" : [ {
-    "nodes" : [ {
-      "id" : "http://purl.obolibrary.org/obo/GO_0050380",
-      "type" : "CLASS",
-      "lbl" : "undecaprenyl-diphosphatase activity"
-    } ],
-    "edges" : [ {
-      "sub" : "http://purl.obolibrary.org/obo/GO_0050380",
-      "pred" : "is_a",
-      "obj" : "http://rdf.rhea-db.org/17069"
-    } ],
-    "id" : "urn:unnamed:ontology#ont5",
-    "meta" : {
-      "subsets" : [ ],
-      "xrefs" : [ ],
-      "basicPropertyValues" : [ ]
-    },
-    "equivalentNodesSets" : [ {
-      "nodeIds" : [ "http://purl.uniprot.org/enzyme/3.6.1.27", "http://rdf.rhea-db.org/28094" ]
-    }, {
-      "nodeIds" : [ "http://rdf.rhea-db.org/28095", "http://rdf.rhea-db.org/28094" ]
-    }, {
-      "nodeIds" : [ "http://metacyc.org/UNDECAPRENYL-DIPHOSPHATASE-RXN", "http://purl.obolibrary.org/obo/GO_0050380" ]
-    }, {
-      "nodeIds" : [ "http://metacyc.org/UNDECAPRENYL-DIPHOSPHATASE-RXN", "http://rdf.rhea-db.org/28095" ]
-    }, {
-      "nodeIds" : [ "http://purl.uniprot.org/enzyme/3.6.1.27", "http://purl.obolibrary.org/obo/GO_0050380" ]
-    } ],
-    "logicalDefinitionAxioms" : [ ],
-    "domainRangeAxioms" : [ ],
-    "propertyChainAxioms" : [ ]
-  } ]
+  "graphs" : [
+    {
+      "id" : "urn:unnamed:ontology#ont5",
+      "nodes" : [
+        {
+          "id" : "GO:0050380",
+          "type" : "CLASS",
+          "lbl" : "undecaprenyl-diphosphatase activity"
+        },
+        {
+          "id" : "EC:3.6.1.27",
+          "type" : "CLASS"
+        },
+        {
+          "id" : "RHEA:17069",
+          "type" : "CLASS"
+        },
+        {
+          "id" : "RHEA:28095",
+          "type" : "CLASS"
+        },
+        {
+          "id" : "RHEA:28094",
+          "type" : "CLASS"
+        },
+        {
+          "id" : "METACYC:UNDECAPRENYL-DIPHOSPHATASE-RXN",
+          "type" : "CLASS"
+        }
+      ],
+      "edges" : [
+        {
+          "sub" : "RHEA:28094",
+          "pred" : "owl:equivalentClass",
+          "obj" : "RHEA:28095",
+          "meta" : {
+            "basicPropertyValues" : [
+            ]
+          }
+        },
+        {
+          "sub" : "METACYC:UNDECAPRENYL-DIPHOSPHATASE-RXN",
+          "pred" : "owl:equivalentClass",
+          "obj" : "GO:0050380",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/width",
+                "value" : 8.0
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "GO:0050380",
+          "pred" : "is_a",
+          "obj" : "RHEA:17069",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/width",
+                "value" : 0.8
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "EC:3.6.1.27",
+          "pred" : "owl:equivalentClass",
+          "obj" : "RHEA:28094",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/width",
+                "value" : 7.5
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "GO:0050380",
+          "pred" : "owl:equivalentClass",
+          "obj" : "EC:3.6.1.27",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/width",
+                "value" : 8.0
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "METACYC:UNDECAPRENYL-DIPHOSPHATASE-RXN",
+          "pred" : "owl:equivalentClass",
+          "obj" : "RHEA:28095",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/width",
+                "value" : 7.5
+              }
+            ]
+          }
+        }
+      ],
+      "equivalentNodesSets" : [
+        {
+          "nodeIds" : [
+            "GO:0050380",
+            "METACYC:UNDECAPRENYL-DIPHOSPHATASE-RXN",
+            "RHEA:28095"
+          ]
+        },
+        {
+          "nodeIds" : [
+            "EC:3.6.1.27",
+            "RHEA:28094",
+            "RHEA:28095",
+            "GO:0050380"
+          ]
+        }
+      ]
+    }
+  ]
 }

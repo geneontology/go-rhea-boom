@@ -1,47 +1,185 @@
 {
-  "graphs" : [ {
-    "nodes" : [ {
-      "id" : "http://purl.obolibrary.org/obo/GO_0052876",
-      "lbl" : "methylamine dehydrogenase (amicyanin) activity"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/GO_0030058",
-      "type" : "CLASS",
-      "lbl" : "amine dehydrogenase activity"
-    } ],
-    "edges" : [ {
-      "sub" : "http://purl.obolibrary.org/obo/GO_0030058",
-      "pred" : "is_a",
-      "obj" : "http://purl.uniprot.org/enzyme/1.4.9.1"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/GO_0030058",
-      "pred" : "is_a",
-      "obj" : "http://rdf.rhea-db.org/30207"
-    }, {
-      "sub" : "http://rdf.rhea-db.org/21919",
-      "pred" : "is_a",
-      "obj" : "http://metacyc.org/AMINE-DEHYDROGENASE-RXN"
-    } ],
-    "id" : "urn:unnamed:ontology#ont14",
-    "meta" : {
-      "subsets" : [ ],
-      "xrefs" : [ ],
-      "basicPropertyValues" : [ ]
-    },
-    "equivalentNodesSets" : [ {
-      "nodeIds" : [ "http://purl.obolibrary.org/obo/GO_0052876", "http://purl.uniprot.org/enzyme/1.4.9.1" ]
-    }, {
-      "nodeIds" : [ "http://metacyc.org/AMINE-DEHYDROGENASE-RXN", "http://purl.obolibrary.org/obo/GO_0030058" ]
-    }, {
-      "nodeIds" : [ "http://metacyc.org/RXN-2841", "http://rdf.rhea-db.org/30208" ]
-    }, {
-      "nodeIds" : [ "http://rdf.rhea-db.org/30208", "http://rdf.rhea-db.org/30207" ]
-    }, {
-      "nodeIds" : [ "http://rdf.rhea-db.org/51128", "http://metacyc.org/AMINE-DEHYDROGENASE-RXN" ]
-    }, {
-      "nodeIds" : [ "http://purl.uniprot.org/enzyme/1.4.9.1", "http://rdf.rhea-db.org/30207" ]
-    } ],
-    "logicalDefinitionAxioms" : [ ],
-    "domainRangeAxioms" : [ ],
-    "propertyChainAxioms" : [ ]
-  } ]
+  "graphs" : [
+    {
+      "id" : "urn:unnamed:ontology#ont14",
+      "nodes" : [
+        {
+          "id" : "RHEA:21919",
+          "type" : "CLASS"
+        },
+        {
+          "id" : "METACYC:RXN-2841",
+          "type" : "CLASS"
+        },
+        {
+          "id" : "GO:0030058",
+          "type" : "CLASS",
+          "lbl" : "amine dehydrogenase activity"
+        },
+        {
+          "id" : "GO:0052876",
+          "type" : "CLASS",
+          "lbl" : "methylamine dehydrogenase (amicyanin) activity"
+        },
+        {
+          "id" : "EC:1.4.9.1",
+          "type" : "CLASS"
+        },
+        {
+          "id" : "RHEA:51128",
+          "type" : "CLASS"
+        },
+        {
+          "id" : "RHEA:30207",
+          "type" : "CLASS"
+        },
+        {
+          "id" : "METACYC:AMINE-DEHYDROGENASE-RXN",
+          "type" : "CLASS"
+        },
+        {
+          "id" : "RHEA:30208",
+          "type" : "CLASS"
+        }
+      ],
+      "edges" : [
+        {
+          "sub" : "METACYC:AMINE-DEHYDROGENASE-RXN",
+          "pred" : "owl:equivalentClass",
+          "obj" : "RHEA:51128",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/width",
+                "value" : 7.5
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "METACYC:AMINE-DEHYDROGENASE-RXN",
+          "pred" : "owl:equivalentClass",
+          "obj" : "GO:0030058",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/width",
+                "value" : 8.0
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "GO:0030058",
+          "pred" : "is_a",
+          "obj" : "RHEA:30207",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/width",
+                "value" : 0.8
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "METACYC:RXN-2841",
+          "pred" : "owl:equivalentClass",
+          "obj" : "RHEA:30208",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/width",
+                "value" : 7.5
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "RHEA:21919",
+          "pred" : "is_a",
+          "obj" : "METACYC:AMINE-DEHYDROGENASE-RXN",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/width",
+                "value" : 1.0
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "EC:1.4.9.1",
+          "pred" : "owl:equivalentClass",
+          "obj" : "RHEA:30207",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/width",
+                "value" : 7.5
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "GO:0030058",
+          "pred" : "is_a",
+          "obj" : "EC:1.4.9.1",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/width",
+                "value" : 0.8
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "GO:0052876",
+          "pred" : "owl:equivalentClass",
+          "obj" : "EC:1.4.9.1",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/width",
+                "value" : 8.0
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "RHEA:30207",
+          "pred" : "owl:equivalentClass",
+          "obj" : "RHEA:30208",
+          "meta" : {
+            "basicPropertyValues" : [
+            ]
+          }
+        }
+      ],
+      "equivalentNodesSets" : [
+        {
+          "nodeIds" : [
+            "METACYC:RXN-2841",
+            "RHEA:30208",
+            "RHEA:30207"
+          ]
+        },
+        {
+          "nodeIds" : [
+            "METACYC:AMINE-DEHYDROGENASE-RXN",
+            "GO:0030058",
+            "RHEA:51128"
+          ]
+        },
+        {
+          "nodeIds" : [
+            "GO:0052876",
+            "EC:1.4.9.1",
+            "RHEA:30207"
+          ]
+        }
+      ]
+    }
+  ]
 }

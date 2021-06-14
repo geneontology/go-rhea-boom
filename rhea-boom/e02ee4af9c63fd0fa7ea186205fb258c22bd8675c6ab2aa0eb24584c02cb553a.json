@@ -1,46 +1,192 @@
 {
-  "graphs" : [ {
-    "nodes" : [ {
-      "id" : "http://purl.obolibrary.org/obo/GO_0003883",
-      "type" : "CLASS",
-      "lbl" : "CTP synthase activity"
-    } ],
-    "edges" : [ {
-      "sub" : "http://purl.obolibrary.org/obo/GO_0003883",
-      "pred" : "is_a",
-      "obj" : "http://rdf.rhea-db.org/16597"
-    }, {
-      "sub" : "http://reactome.org/R-HSA-73647.3",
-      "pred" : "is_a",
-      "obj" : "http://rdf.rhea-db.org/26427"
-    }, {
-      "sub" : "http://reactome.org/R-HSA-504054.3",
-      "pred" : "is_a",
-      "obj" : "http://rdf.rhea-db.org/26427"
-    } ],
-    "id" : "urn:unnamed:ontology#ont3",
-    "meta" : {
-      "subsets" : [ ],
-      "xrefs" : [ ],
-      "basicPropertyValues" : [ ]
-    },
-    "equivalentNodesSets" : [ {
-      "nodeIds" : [ "http://metacyc.org/CTPSYN-RXN", "http://rdf.rhea-db.org/26427" ]
-    }, {
-      "nodeIds" : [ "http://rdf.rhea-db.org/16598", "http://rdf.rhea-db.org/16597" ]
-    }, {
-      "nodeIds" : [ "http://metacyc.org/CTPSYN-RXN", "http://purl.obolibrary.org/obo/GO_0003883" ]
-    }, {
-      "nodeIds" : [ "http://purl.obolibrary.org/obo/GO_0003883", "http://purl.uniprot.org/enzyme/6.3.4.2" ]
-    }, {
-      "nodeIds" : [ "http://rdf.rhea-db.org/16598", "http://metacyc.org/RXN-14325" ]
-    }, {
-      "nodeIds" : [ "http://rdf.rhea-db.org/26426", "http://purl.uniprot.org/enzyme/6.3.4.2" ]
-    }, {
-      "nodeIds" : [ "http://rdf.rhea-db.org/26427", "http://rdf.rhea-db.org/26426" ]
-    } ],
-    "logicalDefinitionAxioms" : [ ],
-    "domainRangeAxioms" : [ ],
-    "propertyChainAxioms" : [ ]
-  } ]
+  "graphs" : [
+    {
+      "id" : "urn:unnamed:ontology#ont3",
+      "nodes" : [
+        {
+          "id" : "EC:6.3.4.2",
+          "type" : "CLASS"
+        },
+        {
+          "id" : "REACTOME:R-HSA-504054.3",
+          "type" : "CLASS"
+        },
+        {
+          "id" : "REACTOME:R-HSA-73647.3",
+          "type" : "CLASS"
+        },
+        {
+          "id" : "RHEA:16598",
+          "type" : "CLASS"
+        },
+        {
+          "id" : "RHEA:26427",
+          "type" : "CLASS"
+        },
+        {
+          "id" : "RHEA:26426",
+          "type" : "CLASS"
+        },
+        {
+          "id" : "RHEA:16597",
+          "type" : "CLASS"
+        },
+        {
+          "id" : "METACYC:CTPSYN-RXN",
+          "type" : "CLASS"
+        },
+        {
+          "id" : "METACYC:RXN-14325",
+          "type" : "CLASS"
+        },
+        {
+          "id" : "GO:0003883",
+          "type" : "CLASS",
+          "lbl" : "CTP synthase activity"
+        }
+      ],
+      "edges" : [
+        {
+          "sub" : "METACYC:CTPSYN-RXN",
+          "pred" : "owl:equivalentClass",
+          "obj" : "GO:0003883",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/width",
+                "value" : 8.0
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "RHEA:16597",
+          "pred" : "owl:equivalentClass",
+          "obj" : "RHEA:16598",
+          "meta" : {
+            "basicPropertyValues" : [
+            ]
+          }
+        },
+        {
+          "sub" : "REACTOME:R-HSA-504054.3",
+          "pred" : "is_a",
+          "obj" : "RHEA:26427",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/width",
+                "value" : 7.0
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "EC:6.3.4.2",
+          "pred" : "owl:equivalentClass",
+          "obj" : "RHEA:26426",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/width",
+                "value" : 7.5
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "GO:0003883",
+          "pred" : "is_a",
+          "obj" : "RHEA:16597",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/width",
+                "value" : 0.8
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "GO:0003883",
+          "pred" : "owl:equivalentClass",
+          "obj" : "EC:6.3.4.2",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/width",
+                "value" : 8.0
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "METACYC:RXN-14325",
+          "pred" : "owl:equivalentClass",
+          "obj" : "RHEA:16598",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/width",
+                "value" : 7.5
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "METACYC:CTPSYN-RXN",
+          "pred" : "owl:equivalentClass",
+          "obj" : "RHEA:26427",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/width",
+                "value" : 7.5
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "REACTOME:R-HSA-73647.3",
+          "pred" : "is_a",
+          "obj" : "RHEA:26427",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/width",
+                "value" : 7.0
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "RHEA:26426",
+          "pred" : "owl:equivalentClass",
+          "obj" : "RHEA:26427",
+          "meta" : {
+            "basicPropertyValues" : [
+            ]
+          }
+        }
+      ],
+      "equivalentNodesSets" : [
+        {
+          "nodeIds" : [
+            "RHEA:16597",
+            "RHEA:16598",
+            "METACYC:RXN-14325"
+          ]
+        },
+        {
+          "nodeIds" : [
+            "RHEA:26426",
+            "RHEA:26427",
+            "EC:6.3.4.2",
+            "METACYC:CTPSYN-RXN",
+            "GO:0003883"
+          ]
+        }
+      ]
+    }
+  ]
 }

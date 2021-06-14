@@ -1,34 +1,127 @@
 {
-  "graphs" : [ {
-    "nodes" : [ {
-      "id" : "http://purl.obolibrary.org/obo/GO_0008840",
-      "type" : "CLASS",
-      "lbl" : "4-hydroxy-tetrahydrodipicolinate synthase activity"
-    } ],
-    "edges" : [ {
-      "sub" : "http://purl.obolibrary.org/obo/GO_0008840",
-      "pred" : "is_a",
-      "obj" : "http://rdf.rhea-db.org/14845"
-    } ],
-    "id" : "urn:unnamed:ontology#ont18",
-    "meta" : {
-      "subsets" : [ ],
-      "xrefs" : [ ],
-      "basicPropertyValues" : [ ]
-    },
-    "equivalentNodesSets" : [ {
-      "nodeIds" : [ "http://metacyc.org/DIHYDRODIPICSYN-RXN", "http://rdf.rhea-db.org/34174" ]
-    }, {
-      "nodeIds" : [ "http://rdf.rhea-db.org/34171", "http://rdf.rhea-db.org/34174" ]
-    }, {
-      "nodeIds" : [ "http://purl.uniprot.org/enzyme/4.3.3.7", "http://purl.obolibrary.org/obo/GO_0008840" ]
-    }, {
-      "nodeIds" : [ "http://metacyc.org/DIHYDRODIPICSYN-RXN", "http://purl.obolibrary.org/obo/GO_0008840" ]
-    }, {
-      "nodeIds" : [ "http://rdf.rhea-db.org/34171", "http://purl.uniprot.org/enzyme/4.3.3.7" ]
-    } ],
-    "logicalDefinitionAxioms" : [ ],
-    "domainRangeAxioms" : [ ],
-    "propertyChainAxioms" : [ ]
-  } ]
+  "graphs" : [
+    {
+      "id" : "urn:unnamed:ontology#ont18",
+      "nodes" : [
+        {
+          "id" : "METACYC:DIHYDRODIPICSYN-RXN",
+          "type" : "CLASS"
+        },
+        {
+          "id" : "RHEA:34171",
+          "type" : "CLASS"
+        },
+        {
+          "id" : "RHEA:14845",
+          "type" : "CLASS"
+        },
+        {
+          "id" : "EC:4.3.3.7",
+          "type" : "CLASS"
+        },
+        {
+          "id" : "RHEA:34174",
+          "type" : "CLASS"
+        },
+        {
+          "id" : "GO:0008840",
+          "type" : "CLASS",
+          "lbl" : "4-hydroxy-tetrahydrodipicolinate synthase activity"
+        }
+      ],
+      "edges" : [
+        {
+          "sub" : "GO:0008840",
+          "pred" : "is_a",
+          "obj" : "RHEA:14845",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/width",
+                "value" : 0.8
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "GO:0008840",
+          "pred" : "owl:equivalentClass",
+          "obj" : "EC:4.3.3.7",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/width",
+                "value" : 8.0
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "RHEA:34171",
+          "pred" : "owl:equivalentClass",
+          "obj" : "RHEA:34174",
+          "meta" : {
+            "basicPropertyValues" : [
+            ]
+          }
+        },
+        {
+          "sub" : "METACYC:DIHYDRODIPICSYN-RXN",
+          "pred" : "owl:equivalentClass",
+          "obj" : "RHEA:34174",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/width",
+                "value" : 7.5
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "EC:4.3.3.7",
+          "pred" : "owl:equivalentClass",
+          "obj" : "RHEA:34171",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/width",
+                "value" : 7.5
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "METACYC:DIHYDRODIPICSYN-RXN",
+          "pred" : "owl:equivalentClass",
+          "obj" : "GO:0008840",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/width",
+                "value" : 8.0
+              }
+            ]
+          }
+        }
+      ],
+      "equivalentNodesSets" : [
+        {
+          "nodeIds" : [
+            "RHEA:34174",
+            "METACYC:DIHYDRODIPICSYN-RXN",
+            "RHEA:34171",
+            "GO:0008840"
+          ]
+        },
+        {
+          "nodeIds" : [
+            "EC:4.3.3.7",
+            "GO:0008840",
+            "RHEA:34171"
+          ]
+        }
+      ]
+    }
+  ]
 }

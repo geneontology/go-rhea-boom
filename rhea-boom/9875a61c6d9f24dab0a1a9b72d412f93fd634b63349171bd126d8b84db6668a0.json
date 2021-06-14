@@ -1,52 +1,193 @@
 {
-  "graphs" : [ {
-    "nodes" : [ {
-      "id" : "http://purl.obolibrary.org/obo/GO_0102025",
-      "type" : "CLASS",
-      "lbl" : "ABC-type thiosulfate transporter activity"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/GO_0015419",
-      "type" : "CLASS",
-      "lbl" : "ABC-type sulfate transporter activity"
-    } ],
-    "edges" : [ {
-      "sub" : "http://purl.obolibrary.org/obo/GO_0015419",
-      "pred" : "is_a",
-      "obj" : "http://purl.uniprot.org/enzyme/7.3.2.3"
-    }, {
-      "sub" : "http://rdf.rhea-db.org/10192",
-      "pred" : "is_a",
-      "obj" : "http://purl.uniprot.org/enzyme/7.3.2.3"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/GO_0102025",
-      "pred" : "is_a",
-      "obj" : "http://rdf.rhea-db.org/29871"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/GO_0102025",
-      "pred" : "is_a",
-      "obj" : "http://purl.uniprot.org/enzyme/7.3.2.3"
-    } ],
-    "id" : "urn:unnamed:ontology#ont2",
-    "meta" : {
-      "subsets" : [ ],
-      "xrefs" : [ ],
-      "basicPropertyValues" : [ ]
-    },
-    "equivalentNodesSets" : [ {
-      "nodeIds" : [ "http://rdf.rhea-db.org/10193", "http://rdf.rhea-db.org/10192" ]
-    }, {
-      "nodeIds" : [ "http://purl.obolibrary.org/obo/GO_0015419", "http://rdf.rhea-db.org/10192" ]
-    }, {
-      "nodeIds" : [ "http://purl.obolibrary.org/obo/GO_0015419", "http://metacyc.org/3.6.3.25-RXN" ]
-    }, {
-      "nodeIds" : [ "http://metacyc.org/ABC-7-RXN", "http://purl.obolibrary.org/obo/GO_0102025" ]
-    }, {
-      "nodeIds" : [ "http://purl.uniprot.org/enzyme/7.3.2.3", "http://rdf.rhea-db.org/29871" ]
-    }, {
-      "nodeIds" : [ "http://rdf.rhea-db.org/10193", "http://metacyc.org/3.6.3.25-RXN" ]
-    } ],
-    "logicalDefinitionAxioms" : [ ],
-    "domainRangeAxioms" : [ ],
-    "propertyChainAxioms" : [ ]
-  } ]
+  "graphs" : [
+    {
+      "id" : "urn:unnamed:ontology#ont2",
+      "nodes" : [
+        {
+          "id" : "EC:7.3.2.3",
+          "type" : "CLASS"
+        },
+        {
+          "id" : "GO:0015419",
+          "type" : "CLASS",
+          "lbl" : "ABC-type sulfate transporter activity"
+        },
+        {
+          "id" : "RHEA:10193",
+          "type" : "CLASS"
+        },
+        {
+          "id" : "GO:0102025",
+          "type" : "CLASS",
+          "lbl" : "ABC-type thiosulfate transporter activity"
+        },
+        {
+          "id" : "RHEA:29871",
+          "type" : "CLASS"
+        },
+        {
+          "id" : "METACYC:3.6.3.25-RXN",
+          "type" : "CLASS"
+        },
+        {
+          "id" : "METACYC:ABC-7-RXN",
+          "type" : "CLASS"
+        },
+        {
+          "id" : "RHEA:10192",
+          "type" : "CLASS"
+        }
+      ],
+      "edges" : [
+        {
+          "sub" : "EC:7.3.2.3",
+          "pred" : "owl:equivalentClass",
+          "obj" : "RHEA:29871",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/width",
+                "value" : 7.5
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "GO:0102025",
+          "pred" : "is_a",
+          "obj" : "EC:7.3.2.3",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/width",
+                "value" : 8.0
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "GO:0015419",
+          "pred" : "is_a",
+          "obj" : "EC:7.3.2.3",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/width",
+                "value" : 8.0
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "GO:0015419",
+          "pred" : "owl:equivalentClass",
+          "obj" : "RHEA:10192",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/width",
+                "value" : 8.0
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "RHEA:10192",
+          "pred" : "owl:equivalentClass",
+          "obj" : "RHEA:10193",
+          "meta" : {
+            "basicPropertyValues" : [
+            ]
+          }
+        },
+        {
+          "sub" : "METACYC:ABC-7-RXN",
+          "pred" : "owl:equivalentClass",
+          "obj" : "GO:0102025",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/width",
+                "value" : 8.0
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "METACYC:3.6.3.25-RXN",
+          "pred" : "owl:equivalentClass",
+          "obj" : "RHEA:10193",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/width",
+                "value" : 7.5
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "GO:0102025",
+          "pred" : "is_a",
+          "obj" : "RHEA:29871",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/width",
+                "value" : 1.5
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "METACYC:3.6.3.25-RXN",
+          "pred" : "owl:equivalentClass",
+          "obj" : "GO:0015419",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/width",
+                "value" : 8.0
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "RHEA:10192",
+          "pred" : "is_a",
+          "obj" : "EC:7.3.2.3",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/width",
+                "value" : 1.0
+              }
+            ]
+          }
+        }
+      ],
+      "equivalentNodesSets" : [
+        {
+          "nodeIds" : [
+            "METACYC:ABC-7-RXN",
+            "GO:0102025"
+          ]
+        },
+        {
+          "nodeIds" : [
+            "EC:7.3.2.3",
+            "RHEA:29871"
+          ]
+        },
+        {
+          "nodeIds" : [
+            "RHEA:10192",
+            "RHEA:10193",
+            "GO:0015419",
+            "METACYC:3.6.3.25-RXN"
+          ]
+        }
+      ]
+    }
+  ]
 }

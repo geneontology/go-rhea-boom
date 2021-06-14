@@ -1,40 +1,131 @@
 {
-  "graphs" : [ {
-    "nodes" : [ {
-      "id" : "http://purl.obolibrary.org/obo/GO_0103064",
-      "type" : "CLASS",
-      "lbl" : "inositol phosphorylceramide mannosyltransferase activity"
-    } ],
-    "edges" : [ {
-      "sub" : "http://purl.obolibrary.org/obo/GO_0103064",
-      "pred" : "is_a",
-      "obj" : "http://rdf.rhea-db.org/61496"
-    }, {
-      "sub" : "http://rdf.rhea-db.org/64596",
-      "pred" : "is_a",
-      "obj" : "http://rdf.rhea-db.org/61496"
-    }, {
-      "sub" : "http://rdf.rhea-db.org/64597",
-      "pred" : "is_a",
-      "obj" : "http://rdf.rhea-db.org/61496"
-    } ],
-    "id" : "urn:unnamed:ontology#ont26",
-    "meta" : {
-      "subsets" : [ ],
-      "xrefs" : [ ],
-      "basicPropertyValues" : [ ]
-    },
-    "equivalentNodesSets" : [ {
-      "nodeIds" : [ "http://rdf.rhea-db.org/64597", "http://rdf.rhea-db.org/64596" ]
-    }, {
-      "nodeIds" : [ "http://purl.uniprot.org/enzyme/2.4.1.370", "http://rdf.rhea-db.org/64596" ]
-    }, {
-      "nodeIds" : [ "http://purl.obolibrary.org/obo/GO_0103064", "http://metacyc.org/RXN3O-663" ]
-    }, {
-      "nodeIds" : [ "http://rdf.rhea-db.org/64597", "http://metacyc.org/RXN3O-663" ]
-    } ],
-    "logicalDefinitionAxioms" : [ ],
-    "domainRangeAxioms" : [ ],
-    "propertyChainAxioms" : [ ]
-  } ]
+  "graphs" : [
+    {
+      "id" : "urn:unnamed:ontology#ont26",
+      "nodes" : [
+        {
+          "id" : "RHEA:64597",
+          "type" : "CLASS"
+        },
+        {
+          "id" : "GO:0103064",
+          "type" : "CLASS",
+          "lbl" : "inositol phosphorylceramide mannosyltransferase activity"
+        },
+        {
+          "id" : "METACYC:RXN3O-663",
+          "type" : "CLASS"
+        },
+        {
+          "id" : "EC:2.4.1.370",
+          "type" : "CLASS"
+        },
+        {
+          "id" : "RHEA:61496",
+          "type" : "CLASS"
+        },
+        {
+          "id" : "RHEA:64596",
+          "type" : "CLASS"
+        }
+      ],
+      "edges" : [
+        {
+          "sub" : "METACYC:RXN3O-663",
+          "pred" : "owl:equivalentClass",
+          "obj" : "RHEA:64597",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/width",
+                "value" : 7.5
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "RHEA:64596",
+          "pred" : "owl:equivalentClass",
+          "obj" : "RHEA:64597",
+          "meta" : {
+            "basicPropertyValues" : [
+            ]
+          }
+        },
+        {
+          "sub" : "RHEA:64597",
+          "pred" : "is_a",
+          "obj" : "RHEA:61496",
+          "meta" : {
+            "basicPropertyValues" : [
+            ]
+          }
+        },
+        {
+          "sub" : "EC:2.4.1.370",
+          "pred" : "owl:equivalentClass",
+          "obj" : "RHEA:64596",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/width",
+                "value" : 7.5
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "GO:0103064",
+          "pred" : "is_a",
+          "obj" : "RHEA:61496",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/width",
+                "value" : 1.5
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "METACYC:RXN3O-663",
+          "pred" : "owl:equivalentClass",
+          "obj" : "GO:0103064",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/width",
+                "value" : 8.0
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "RHEA:64596",
+          "pred" : "is_a",
+          "obj" : "RHEA:61496",
+          "meta" : {
+            "basicPropertyValues" : [
+            ]
+          }
+        }
+      ],
+      "equivalentNodesSets" : [
+        {
+          "nodeIds" : [
+            "METACYC:RXN3O-663",
+            "GO:0103064"
+          ]
+        },
+        {
+          "nodeIds" : [
+            "RHEA:64596",
+            "RHEA:64597",
+            "EC:2.4.1.370",
+            "METACYC:RXN3O-663"
+          ]
+        }
+      ]
+    }
+  ]
 }

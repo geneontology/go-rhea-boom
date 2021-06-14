@@ -1,73 +1,299 @@
 {
-  "graphs" : [ {
-    "nodes" : [ {
-      "id" : "http://purl.obolibrary.org/obo/GO_0004367",
-      "type" : "CLASS",
-      "lbl" : "glycerol-3-phosphate dehydrogenase [NAD+] activity"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/GO_0106257",
-      "type" : "CLASS",
-      "lbl" : "glycerol-3-phosphate dehydrogenase [NADP+] activity"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/GO_0047952",
-      "lbl" : "glycerol-3-phosphate dehydrogenase [NAD(P)+] activity"
-    } ],
-    "edges" : [ {
-      "sub" : "http://reactome.org/R-HSA-75889.2",
-      "pred" : "is_a",
-      "obj" : "http://rdf.rhea-db.org/11094"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/GO_0106257",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/GO_0047952"
-    }, {
-      "sub" : "http://rdf.rhea-db.org/11094",
-      "pred" : "is_a",
-      "obj" : "http://metacyc.org/GLYC3PDEHYDROGBIOSYN-RXN"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/GO_0106257",
-      "pred" : "is_a",
-      "obj" : "http://rdf.rhea-db.org/11096"
-    }, {
-      "sub" : "http://rdf.rhea-db.org/11092",
-      "pred" : "is_a",
-      "obj" : "http://purl.uniprot.org/enzyme/1.1.1.94"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/GO_0004367",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/GO_0047952"
-    } ],
-    "id" : "urn:unnamed:ontology#ont22",
-    "meta" : {
-      "subsets" : [ ],
-      "xrefs" : [ ],
-      "basicPropertyValues" : [ ]
-    },
-    "equivalentNodesSets" : [ {
-      "nodeIds" : [ "http://purl.uniprot.org/enzyme/1.1.1.8", "http://purl.obolibrary.org/obo/GO_0004367" ]
-    }, {
-      "nodeIds" : [ "http://purl.uniprot.org/enzyme/1.1.1.8", "http://rdf.rhea-db.org/11092" ]
-    }, {
-      "nodeIds" : [ "http://purl.obolibrary.org/obo/GO_0047952", "http://purl.uniprot.org/enzyme/1.1.1.94" ]
-    }, {
-      "nodeIds" : [ "http://rdf.rhea-db.org/11092", "http://rdf.rhea-db.org/11094" ]
-    }, {
-      "nodeIds" : [ "http://metacyc.org/1.1.1.8-RXN", "http://purl.obolibrary.org/obo/GO_0004367" ]
-    }, {
-      "nodeIds" : [ "http://rdf.rhea-db.org/11096", "http://rdf.rhea-db.org/11098" ]
-    }, {
-      "nodeIds" : [ "http://rdf.rhea-db.org/11096", "http://purl.uniprot.org/enzyme/1.1.1.94" ]
-    }, {
-      "nodeIds" : [ "http://purl.obolibrary.org/obo/GO_0004367", "http://rdf.rhea-db.org/11092" ]
-    }, {
-      "nodeIds" : [ "http://metacyc.org/1.1.1.8-RXN", "http://rdf.rhea-db.org/11094" ]
-    }, {
-      "nodeIds" : [ "http://metacyc.org/GLYC3PDEHYDROGBIOSYN-RXN", "http://purl.obolibrary.org/obo/GO_0047952" ]
-    }, {
-      "nodeIds" : [ "http://rdf.rhea-db.org/11098", "http://metacyc.org/GLYC3PDEHYDROGBIOSYN-RXN" ]
-    } ],
-    "logicalDefinitionAxioms" : [ ],
-    "domainRangeAxioms" : [ ],
-    "propertyChainAxioms" : [ ]
-  } ]
+  "graphs" : [
+    {
+      "id" : "urn:unnamed:ontology#ont22",
+      "nodes" : [
+        {
+          "id" : "RHEA:11094",
+          "type" : "CLASS"
+        },
+        {
+          "id" : "RHEA:11098",
+          "type" : "CLASS"
+        },
+        {
+          "id" : "REACTOME:R-HSA-75889.2",
+          "type" : "CLASS"
+        },
+        {
+          "id" : "METACYC:1.1.1.8-RXN",
+          "type" : "CLASS"
+        },
+        {
+          "id" : "RHEA:11096",
+          "type" : "CLASS"
+        },
+        {
+          "id" : "METACYC:GLYC3PDEHYDROGBIOSYN-RXN",
+          "type" : "CLASS"
+        },
+        {
+          "id" : "GO:0106257",
+          "type" : "CLASS",
+          "lbl" : "glycerol-3-phosphate dehydrogenase [NADP+] activity"
+        },
+        {
+          "id" : "EC:1.1.1.94",
+          "type" : "CLASS"
+        },
+        {
+          "id" : "GO:0047952",
+          "type" : "CLASS",
+          "lbl" : "glycerol-3-phosphate dehydrogenase [NAD(P)+] activity"
+        },
+        {
+          "id" : "EC:1.1.1.8",
+          "type" : "CLASS"
+        },
+        {
+          "id" : "RHEA:11092",
+          "type" : "CLASS"
+        },
+        {
+          "id" : "GO:0004367",
+          "type" : "CLASS",
+          "lbl" : "glycerol-3-phosphate dehydrogenase [NAD+] activity"
+        }
+      ],
+      "edges" : [
+        {
+          "sub" : "GO:0047952",
+          "pred" : "owl:equivalentClass",
+          "obj" : "EC:1.1.1.94",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/width",
+                "value" : 8.0
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "EC:1.1.1.8",
+          "pred" : "owl:equivalentClass",
+          "obj" : "RHEA:11092",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/width",
+                "value" : 7.5
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "METACYC:GLYC3PDEHYDROGBIOSYN-RXN",
+          "pred" : "owl:equivalentClass",
+          "obj" : "GO:0047952",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/width",
+                "value" : 8.0
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "GO:0004367",
+          "pred" : "is_a",
+          "obj" : "GO:0047952",
+          "meta" : {
+            "basicPropertyValues" : [
+            ]
+          }
+        },
+        {
+          "sub" : "REACTOME:R-HSA-75889.2",
+          "pred" : "is_a",
+          "obj" : "RHEA:11094",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/width",
+                "value" : 7.0
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "GO:0106257",
+          "pred" : "is_a",
+          "obj" : "GO:0047952",
+          "meta" : {
+            "basicPropertyValues" : [
+            ]
+          }
+        },
+        {
+          "sub" : "METACYC:1.1.1.8-RXN",
+          "pred" : "owl:equivalentClass",
+          "obj" : "GO:0004367",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/width",
+                "value" : 8.0
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "RHEA:11094",
+          "pred" : "is_a",
+          "obj" : "METACYC:GLYC3PDEHYDROGBIOSYN-RXN",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/width",
+                "value" : 1.0
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "RHEA:11092",
+          "pred" : "owl:equivalentClass",
+          "obj" : "RHEA:11094",
+          "meta" : {
+            "basicPropertyValues" : [
+            ]
+          }
+        },
+        {
+          "sub" : "RHEA:11096",
+          "pred" : "owl:equivalentClass",
+          "obj" : "RHEA:11098",
+          "meta" : {
+            "basicPropertyValues" : [
+            ]
+          }
+        },
+        {
+          "sub" : "METACYC:GLYC3PDEHYDROGBIOSYN-RXN",
+          "pred" : "owl:equivalentClass",
+          "obj" : "RHEA:11098",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/width",
+                "value" : 7.5
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "GO:0106257",
+          "pred" : "is_a",
+          "obj" : "RHEA:11096",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/width",
+                "value" : 0.8
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "GO:0004367",
+          "pred" : "owl:equivalentClass",
+          "obj" : "RHEA:11092",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/width",
+                "value" : 8.0
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "GO:0004367",
+          "pred" : "owl:equivalentClass",
+          "obj" : "EC:1.1.1.8",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/width",
+                "value" : 8.0
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "EC:1.1.1.94",
+          "pred" : "owl:equivalentClass",
+          "obj" : "RHEA:11096",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/width",
+                "value" : 7.5
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "RHEA:11092",
+          "pred" : "is_a",
+          "obj" : "EC:1.1.1.94",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/width",
+                "value" : 1.0
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "METACYC:1.1.1.8-RXN",
+          "pred" : "owl:equivalentClass",
+          "obj" : "RHEA:11094",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/width",
+                "value" : 7.5
+              }
+            ]
+          }
+        }
+      ],
+      "equivalentNodesSets" : [
+        {
+          "nodeIds" : [
+            "RHEA:11094",
+            "METACYC:1.1.1.8-RXN",
+            "RHEA:11092"
+          ]
+        },
+        {
+          "nodeIds" : [
+            "GO:0004367",
+            "RHEA:11092",
+            "EC:1.1.1.8",
+            "METACYC:1.1.1.8-RXN"
+          ]
+        },
+        {
+          "nodeIds" : [
+            "RHEA:11098",
+            "RHEA:11096",
+            "METACYC:GLYC3PDEHYDROGBIOSYN-RXN"
+          ]
+        },
+        {
+          "nodeIds" : [
+            "GO:0047952",
+            "METACYC:GLYC3PDEHYDROGBIOSYN-RXN",
+            "EC:1.1.1.94",
+            "RHEA:11096"
+          ]
+        }
+      ]
+    }
+  ]
 }

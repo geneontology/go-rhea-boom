@@ -237,11 +237,11 @@
 - [RHEA:60945](http://rdf.rhea-db.org/60945) EquivalentTo [METACYC:RXN-8262](http://metacyc.org/RXN-8262)	(most probable)	0.75
 - [RHEA:25630](http://rdf.rhea-db.org/25630) EquivalentTo [METACYC:RXN-8451](http://metacyc.org/RXN-8451)	(most probable)	0.75
 - [RHEA:55333](http://rdf.rhea-db.org/55333) EquivalentTo [METACYC:RXN-13955](http://metacyc.org/RXN-13955)	(most probable)	0.75
-- [quercetin 3'-O-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0102822) EquivalentTo [EC:2.1.1.42](http://purl.uniprot.org/enzyme/2.1.1.42)	(most probable)	0.8
+- [quercetin 3'-O-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0102822) ProperSubClassOf [EC:2.1.1.42](http://purl.uniprot.org/enzyme/2.1.1.42)		0.08
 - [RHEA:55332](http://rdf.rhea-db.org/55332) ProperSubClassOf [EC:2.1.1.267](http://purl.uniprot.org/enzyme/2.1.1.267)		0.1
 - [myricetin 3'-O-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0033799) EquivalentTo [METACYC:RXN-8451](http://metacyc.org/RXN-8451)	(most probable)	0.8
 - [RHEA:25634](http://rdf.rhea-db.org/25634) EquivalentTo [METACYC:RXN-8452](http://metacyc.org/RXN-8452)	(most probable)	0.75
-- [luteolin O-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0030744) ProperSubClassOf [EC:2.1.1.42](http://purl.uniprot.org/enzyme/2.1.1.42)		0.08
+- [luteolin O-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0030744) EquivalentTo [EC:2.1.1.42](http://purl.uniprot.org/enzyme/2.1.1.42)	(most probable)	0.8
 - [myricetin 3'-O-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0033799) EquivalentTo [RHEA:25629](http://rdf.rhea-db.org/25629)	(most probable)	0.8
 - [luteolin O-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0030744) EquivalentTo [METACYC:LUTEOLIN-O-METHYLTRANSFERASE-RXN](http://metacyc.org/LUTEOLIN-O-METHYLTRANSFERASE-RXN)	(most probable)	0.8
 - [laricitrin 5'-O-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0070448) EquivalentTo [RHEA:25633](http://rdf.rhea-db.org/25633)	(most probable)	0.8
@@ -286,8 +286,8 @@
 ## [EC:2.4.1.370](http://purl.uniprot.org/enzyme/2.4.1.370) [METACYC:RXN3O-663](http://metacyc.org/RXN3O-663) [RHEA:61496](http://rdf.rhea-db.org/61496) [RHEA:61497](http://rdf.rhea-db.org/61497) [RHEA:61498](http://rdf.rhea-db.org/61498) [RHEA:61499](http://rdf.rhea-db.org/61499) [RHEA:64596](http://rdf.rhea-db.org/64596) [RHEA:64597](http://rdf.rhea-db.org/64597) [RHEA:64598](http://rdf.rhea-db.org/64598) [RHEA:64599](http://rdf.rhea-db.org/64599) [inositol phosphorylceramide mannosyltransferase activity](http://purl.obolibrary.org/obo/GO_0103064)
 
 - [inositol phosphorylceramide mannosyltransferase activity](http://purl.obolibrary.org/obo/GO_0103064) ProperSubClassOf [RHEA:61496](http://rdf.rhea-db.org/61496)		0.15
-- [RHEA:64596](http://rdf.rhea-db.org/64596) EquivalentTo [EC:2.4.1.370](http://purl.uniprot.org/enzyme/2.4.1.370)	(most probable)	0.75
 - [RHEA:64597](http://rdf.rhea-db.org/64597) EquivalentTo [METACYC:RXN3O-663](http://metacyc.org/RXN3O-663)	(most probable)	0.75
+- [RHEA:64596](http://rdf.rhea-db.org/64596) EquivalentTo [EC:2.4.1.370](http://purl.uniprot.org/enzyme/2.4.1.370)	(most probable)	0.75
 - [inositol phosphorylceramide mannosyltransferase activity](http://purl.obolibrary.org/obo/GO_0103064) EquivalentTo [METACYC:RXN3O-663](http://metacyc.org/RXN3O-663)	(most probable)	0.8
 
 ## [D-phosphoserine phosphatase activity](http://purl.obolibrary.org/obo/GO_0036425) [EC:3.1.3.3](http://purl.uniprot.org/enzyme/3.1.3.3) [L-phosphoserine phosphatase activity](http://purl.obolibrary.org/obo/GO_0036424) [METACYC:PSERPHOSPHA-RXN](http://metacyc.org/PSERPHOSPHA-RXN) [METACYC:RXN0-5114](http://metacyc.org/RXN0-5114) [REACTOME:R-HSA-977324.2](http://reactome.org/R-HSA-977324.2) [RHEA:21208](http://rdf.rhea-db.org/21208) [RHEA:21209](http://rdf.rhea-db.org/21209) [RHEA:21210](http://rdf.rhea-db.org/21210) [RHEA:21211](http://rdf.rhea-db.org/21211) [RHEA:24873](http://rdf.rhea-db.org/24873) [RHEA:24874](http://rdf.rhea-db.org/24874) [RHEA:24875](http://rdf.rhea-db.org/24875) [RHEA:24876](http://rdf.rhea-db.org/24876) [phosphoserine phosphatase activity](http://purl.obolibrary.org/obo/GO_0004647)

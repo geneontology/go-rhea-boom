@@ -1,34 +1,127 @@
 {
-  "graphs" : [ {
-    "nodes" : [ {
-      "id" : "http://purl.obolibrary.org/obo/GO_0008962",
-      "type" : "CLASS",
-      "lbl" : "phosphatidylglycerophosphatase activity"
-    } ],
-    "edges" : [ {
-      "sub" : "http://purl.obolibrary.org/obo/GO_0008962",
-      "pred" : "is_a",
-      "obj" : "http://rdf.rhea-db.org/16725"
-    } ],
-    "id" : "urn:unnamed:ontology#ont11",
-    "meta" : {
-      "subsets" : [ ],
-      "xrefs" : [ ],
-      "basicPropertyValues" : [ ]
-    },
-    "equivalentNodesSets" : [ {
-      "nodeIds" : [ "http://purl.uniprot.org/enzyme/3.1.3.27", "http://rdf.rhea-db.org/33751" ]
-    }, {
-      "nodeIds" : [ "http://metacyc.org/PGPPHOSPHA-RXN", "http://purl.obolibrary.org/obo/GO_0008962" ]
-    }, {
-      "nodeIds" : [ "http://rdf.rhea-db.org/33752", "http://rdf.rhea-db.org/33751" ]
-    }, {
-      "nodeIds" : [ "http://metacyc.org/PGPPHOSPHA-RXN", "http://rdf.rhea-db.org/33752" ]
-    }, {
-      "nodeIds" : [ "http://purl.uniprot.org/enzyme/3.1.3.27", "http://purl.obolibrary.org/obo/GO_0008962" ]
-    } ],
-    "logicalDefinitionAxioms" : [ ],
-    "domainRangeAxioms" : [ ],
-    "propertyChainAxioms" : [ ]
-  } ]
+  "graphs" : [
+    {
+      "id" : "urn:unnamed:ontology#ont11",
+      "nodes" : [
+        {
+          "id" : "RHEA:16725",
+          "type" : "CLASS"
+        },
+        {
+          "id" : "RHEA:33751",
+          "type" : "CLASS"
+        },
+        {
+          "id" : "GO:0008962",
+          "type" : "CLASS",
+          "lbl" : "phosphatidylglycerophosphatase activity"
+        },
+        {
+          "id" : "RHEA:33752",
+          "type" : "CLASS"
+        },
+        {
+          "id" : "EC:3.1.3.27",
+          "type" : "CLASS"
+        },
+        {
+          "id" : "METACYC:PGPPHOSPHA-RXN",
+          "type" : "CLASS"
+        }
+      ],
+      "edges" : [
+        {
+          "sub" : "GO:0008962",
+          "pred" : "is_a",
+          "obj" : "RHEA:16725",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/width",
+                "value" : 0.8
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "METACYC:PGPPHOSPHA-RXN",
+          "pred" : "owl:equivalentClass",
+          "obj" : "RHEA:33752",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/width",
+                "value" : 7.5
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "EC:3.1.3.27",
+          "pred" : "owl:equivalentClass",
+          "obj" : "RHEA:33751",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/width",
+                "value" : 7.5
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "RHEA:33751",
+          "pred" : "owl:equivalentClass",
+          "obj" : "RHEA:33752",
+          "meta" : {
+            "basicPropertyValues" : [
+            ]
+          }
+        },
+        {
+          "sub" : "METACYC:PGPPHOSPHA-RXN",
+          "pred" : "owl:equivalentClass",
+          "obj" : "GO:0008962",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/width",
+                "value" : 8.0
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "GO:0008962",
+          "pred" : "owl:equivalentClass",
+          "obj" : "EC:3.1.3.27",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/width",
+                "value" : 8.0
+              }
+            ]
+          }
+        }
+      ],
+      "equivalentNodesSets" : [
+        {
+          "nodeIds" : [
+            "METACYC:PGPPHOSPHA-RXN",
+            "GO:0008962",
+            "RHEA:33752"
+          ]
+        },
+        {
+          "nodeIds" : [
+            "EC:3.1.3.27",
+            "RHEA:33751",
+            "RHEA:33752",
+            "GO:0008962"
+          ]
+        }
+      ]
+    }
+  ]
 }

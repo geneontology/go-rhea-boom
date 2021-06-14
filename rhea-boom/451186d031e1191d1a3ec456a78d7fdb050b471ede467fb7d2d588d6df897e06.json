@@ -1,47 +1,161 @@
 {
-  "graphs" : [ {
-    "nodes" : [ {
-      "id" : "http://purl.obolibrary.org/obo/GO_0015411",
-      "type" : "CLASS",
-      "lbl" : "ABC-type taurine transporter transporter activity"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/GO_0005368",
-      "lbl" : "taurine transmembrane transporter activity"
-    } ],
-    "edges" : [ {
-      "sub" : "http://purl.obolibrary.org/obo/GO_0015411",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/GO_0005368"
-    }, {
-      "sub" : "http://rdf.rhea-db.org/14614",
-      "pred" : "is_a",
-      "obj" : "http://metacyc.org/ABC-64-RXN"
-    }, {
-      "sub" : "http://rdf.rhea-db.org/14613",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/GO_0005368"
-    } ],
-    "id" : "urn:unnamed:ontology#ont36",
-    "meta" : {
-      "subsets" : [ ],
-      "xrefs" : [ ],
-      "basicPropertyValues" : [ ]
-    },
-    "equivalentNodesSets" : [ {
-      "nodeIds" : [ "http://purl.uniprot.org/enzyme/7.6.2.7", "http://rdf.rhea-db.org/14613" ]
-    }, {
-      "nodeIds" : [ "http://rdf.rhea-db.org/14614", "http://rdf.rhea-db.org/14613" ]
-    }, {
-      "nodeIds" : [ "http://purl.uniprot.org/enzyme/7.6.2.7", "http://purl.obolibrary.org/obo/GO_0015411" ]
-    }, {
-      "nodeIds" : [ "http://purl.obolibrary.org/obo/GO_0015411", "http://rdf.rhea-db.org/14614" ]
-    }, {
-      "nodeIds" : [ "http://purl.obolibrary.org/obo/GO_0015411", "http://metacyc.org/3.6.3.36-RXN" ]
-    }, {
-      "nodeIds" : [ "http://rdf.rhea-db.org/14614", "http://metacyc.org/3.6.3.36-RXN" ]
-    } ],
-    "logicalDefinitionAxioms" : [ ],
-    "domainRangeAxioms" : [ ],
-    "propertyChainAxioms" : [ ]
-  } ]
+  "graphs" : [
+    {
+      "id" : "urn:unnamed:ontology#ont36",
+      "nodes" : [
+        {
+          "id" : "EC:7.6.2.7",
+          "type" : "CLASS"
+        },
+        {
+          "id" : "GO:0015411",
+          "type" : "CLASS",
+          "lbl" : "ABC-type taurine transporter transporter activity"
+        },
+        {
+          "id" : "METACYC:ABC-64-RXN",
+          "type" : "CLASS"
+        },
+        {
+          "id" : "METACYC:3.6.3.36-RXN",
+          "type" : "CLASS"
+        },
+        {
+          "id" : "RHEA:14613",
+          "type" : "CLASS"
+        },
+        {
+          "id" : "RHEA:14614",
+          "type" : "CLASS"
+        },
+        {
+          "id" : "GO:0005368",
+          "type" : "CLASS",
+          "lbl" : "taurine transmembrane transporter activity"
+        }
+      ],
+      "edges" : [
+        {
+          "sub" : "METACYC:3.6.3.36-RXN",
+          "pred" : "owl:equivalentClass",
+          "obj" : "RHEA:14614",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/width",
+                "value" : 7.5
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "GO:0015411",
+          "pred" : "owl:equivalentClass",
+          "obj" : "EC:7.6.2.7",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/width",
+                "value" : 8.0
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "RHEA:14613",
+          "pred" : "is_a",
+          "obj" : "GO:0005368",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/width",
+                "value" : 0.8
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "GO:0015411",
+          "pred" : "is_a",
+          "obj" : "GO:0005368",
+          "meta" : {
+            "basicPropertyValues" : [
+            ]
+          }
+        },
+        {
+          "sub" : "EC:7.6.2.7",
+          "pred" : "owl:equivalentClass",
+          "obj" : "RHEA:14613",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/width",
+                "value" : 7.5
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "RHEA:14613",
+          "pred" : "owl:equivalentClass",
+          "obj" : "RHEA:14614",
+          "meta" : {
+            "basicPropertyValues" : [
+            ]
+          }
+        },
+        {
+          "sub" : "GO:0015411",
+          "pred" : "owl:equivalentClass",
+          "obj" : "RHEA:14614",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/width",
+                "value" : 8.0
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "RHEA:14614",
+          "pred" : "is_a",
+          "obj" : "METACYC:ABC-64-RXN",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/width",
+                "value" : 1.0
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "METACYC:3.6.3.36-RXN",
+          "pred" : "owl:equivalentClass",
+          "obj" : "GO:0015411",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/width",
+                "value" : 8.0
+              }
+            ]
+          }
+        }
+      ],
+      "equivalentNodesSets" : [
+        {
+          "nodeIds" : [
+            "RHEA:14613",
+            "METACYC:3.6.3.36-RXN",
+            "EC:7.6.2.7",
+            "GO:0015411",
+            "RHEA:14614"
+          ]
+        }
+      ]
+    }
+  ]
 }

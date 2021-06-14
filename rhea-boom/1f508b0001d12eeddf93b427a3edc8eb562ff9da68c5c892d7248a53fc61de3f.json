@@ -1,65 +1,267 @@
 {
-  "graphs" : [ {
-    "nodes" : [ {
-      "id" : "http://purl.obolibrary.org/obo/GO_0004165",
-      "lbl" : "dodecenoyl-CoA delta-isomerase activity"
-    } ],
-    "edges" : [ {
-      "sub" : "http://rdf.rhea-db.org/23716",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/GO_0004165"
-    }, {
-      "sub" : "http://rdf.rhea-db.org/23716",
-      "pred" : "is_a",
-      "obj" : "http://purl.uniprot.org/enzyme/5.3.3.8"
-    }, {
-      "sub" : "http://rdf.rhea-db.org/23716",
-      "pred" : "is_a",
-      "obj" : "http://rdf.rhea-db.org/45903"
-    }, {
-      "sub" : "http://rdf.rhea-db.org/45228",
-      "pred" : "is_a",
-      "obj" : "http://purl.uniprot.org/enzyme/5.3.3.8"
-    }, {
-      "sub" : "http://rdf.rhea-db.org/23716",
-      "pred" : "is_a",
-      "obj" : "http://rdf.rhea-db.org/45900"
-    }, {
-      "sub" : "http://rdf.rhea-db.org/23719",
-      "pred" : "is_a",
-      "obj" : "http://rdf.rhea-db.org/45903"
-    }, {
-      "sub" : "http://rdf.rhea-db.org/23719",
-      "pred" : "is_a",
-      "obj" : "http://rdf.rhea-db.org/45900"
-    } ],
-    "id" : "urn:unnamed:ontology#ont38",
-    "meta" : {
-      "subsets" : [ ],
-      "xrefs" : [ ],
-      "basicPropertyValues" : [ ]
-    },
-    "equivalentNodesSets" : [ {
-      "nodeIds" : [ "http://metacyc.org/ENOYL-COA-DELTA-ISOM-RXN", "http://purl.obolibrary.org/obo/GO_0004165" ]
-    }, {
-      "nodeIds" : [ "http://rdf.rhea-db.org/23719", "http://rdf.rhea-db.org/23716" ]
-    }, {
-      "nodeIds" : [ "http://metacyc.org/RXN-7836", "http://rdf.rhea-db.org/45231" ]
-    }, {
-      "nodeIds" : [ "http://rdf.rhea-db.org/45228", "http://rdf.rhea-db.org/45231" ]
-    }, {
-      "nodeIds" : [ "http://purl.uniprot.org/enzyme/5.3.3.8", "http://purl.obolibrary.org/obo/GO_0004165" ]
-    }, {
-      "nodeIds" : [ "http://rdf.rhea-db.org/45900", "http://rdf.rhea-db.org/45903" ]
-    }, {
-      "nodeIds" : [ "http://rdf.rhea-db.org/23719", "http://metacyc.org/RXN-7931" ]
-    }, {
-      "nodeIds" : [ "http://purl.uniprot.org/enzyme/5.3.3.8", "http://rdf.rhea-db.org/45900" ]
-    }, {
-      "nodeIds" : [ "http://metacyc.org/ENOYL-COA-DELTA-ISOM-RXN", "http://rdf.rhea-db.org/45903" ]
-    } ],
-    "logicalDefinitionAxioms" : [ ],
-    "domainRangeAxioms" : [ ],
-    "propertyChainAxioms" : [ ]
-  } ]
+  "graphs" : [
+    {
+      "id" : "urn:unnamed:ontology#ont38",
+      "nodes" : [
+        {
+          "id" : "RHEA:45231",
+          "type" : "CLASS"
+        },
+        {
+          "id" : "METACYC:RXN-7836",
+          "type" : "CLASS"
+        },
+        {
+          "id" : "RHEA:23719",
+          "type" : "CLASS"
+        },
+        {
+          "id" : "METACYC:ENOYL-COA-DELTA-ISOM-RXN",
+          "type" : "CLASS"
+        },
+        {
+          "id" : "RHEA:45903",
+          "type" : "CLASS"
+        },
+        {
+          "id" : "RHEA:45228",
+          "type" : "CLASS"
+        },
+        {
+          "id" : "RHEA:45900",
+          "type" : "CLASS"
+        },
+        {
+          "id" : "METACYC:RXN-7931",
+          "type" : "CLASS"
+        },
+        {
+          "id" : "EC:5.3.3.8",
+          "type" : "CLASS"
+        },
+        {
+          "id" : "GO:0004165",
+          "type" : "CLASS",
+          "lbl" : "dodecenoyl-CoA delta-isomerase activity"
+        },
+        {
+          "id" : "RHEA:23716",
+          "type" : "CLASS"
+        }
+      ],
+      "edges" : [
+        {
+          "sub" : "METACYC:ENOYL-COA-DELTA-ISOM-RXN",
+          "pred" : "owl:equivalentClass",
+          "obj" : "GO:0004165",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/width",
+                "value" : 8.0
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "RHEA:23716",
+          "pred" : "owl:equivalentClass",
+          "obj" : "RHEA:23719",
+          "meta" : {
+            "basicPropertyValues" : [
+            ]
+          }
+        },
+        {
+          "sub" : "RHEA:23716",
+          "pred" : "is_a",
+          "obj" : "EC:5.3.3.8",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/width",
+                "value" : 1.0
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "METACYC:RXN-7836",
+          "pred" : "owl:equivalentClass",
+          "obj" : "RHEA:45231",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/width",
+                "value" : 7.5
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "GO:0004165",
+          "pred" : "owl:equivalentClass",
+          "obj" : "EC:5.3.3.8",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/width",
+                "value" : 8.0
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "RHEA:45228",
+          "pred" : "is_a",
+          "obj" : "EC:5.3.3.8",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/width",
+                "value" : 1.0
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "RHEA:23719",
+          "pred" : "is_a",
+          "obj" : "RHEA:45900",
+          "meta" : {
+            "basicPropertyValues" : [
+            ]
+          }
+        },
+        {
+          "sub" : "RHEA:23716",
+          "pred" : "is_a",
+          "obj" : "GO:0004165",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/width",
+                "value" : 0.8
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "RHEA:45228",
+          "pred" : "owl:equivalentClass",
+          "obj" : "RHEA:45231",
+          "meta" : {
+            "basicPropertyValues" : [
+            ]
+          }
+        },
+        {
+          "sub" : "RHEA:23716",
+          "pred" : "is_a",
+          "obj" : "RHEA:45900",
+          "meta" : {
+            "basicPropertyValues" : [
+            ]
+          }
+        },
+        {
+          "sub" : "METACYC:ENOYL-COA-DELTA-ISOM-RXN",
+          "pred" : "owl:equivalentClass",
+          "obj" : "RHEA:45903",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/width",
+                "value" : 7.5
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "RHEA:45900",
+          "pred" : "owl:equivalentClass",
+          "obj" : "RHEA:45903",
+          "meta" : {
+            "basicPropertyValues" : [
+            ]
+          }
+        },
+        {
+          "sub" : "RHEA:23719",
+          "pred" : "is_a",
+          "obj" : "RHEA:45903",
+          "meta" : {
+            "basicPropertyValues" : [
+            ]
+          }
+        },
+        {
+          "sub" : "RHEA:23716",
+          "pred" : "is_a",
+          "obj" : "RHEA:45903",
+          "meta" : {
+            "basicPropertyValues" : [
+            ]
+          }
+        },
+        {
+          "sub" : "EC:5.3.3.8",
+          "pred" : "owl:equivalentClass",
+          "obj" : "RHEA:45900",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/width",
+                "value" : 7.5
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "METACYC:RXN-7931",
+          "pred" : "owl:equivalentClass",
+          "obj" : "RHEA:23719",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/width",
+                "value" : 7.5
+              }
+            ]
+          }
+        }
+      ],
+      "equivalentNodesSets" : [
+        {
+          "nodeIds" : [
+            "RHEA:45231",
+            "METACYC:RXN-7836",
+            "RHEA:45228"
+          ]
+        },
+        {
+          "nodeIds" : [
+            "GO:0004165",
+            "METACYC:ENOYL-COA-DELTA-ISOM-RXN",
+            "EC:5.3.3.8"
+          ]
+        },
+        {
+          "nodeIds" : [
+            "RHEA:23719",
+            "RHEA:23716",
+            "METACYC:RXN-7931"
+          ]
+        },
+        {
+          "nodeIds" : [
+            "RHEA:45903",
+            "RHEA:45900",
+            "EC:5.3.3.8",
+            "METACYC:ENOYL-COA-DELTA-ISOM-RXN"
+          ]
+        }
+      ]
+    }
+  ]
 }

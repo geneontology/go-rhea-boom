@@ -1,77 +1,273 @@
 {
-  "graphs" : [ {
-    "nodes" : [ {
-      "id" : "http://purl.obolibrary.org/obo/GO_0003953",
-      "lbl" : "NAD+ nucleosidase activity"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/GO_0050135",
-      "type" : "CLASS",
-      "lbl" : "NAD(P)+ nucleosidase activity"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/GO_0061810",
-      "type" : "CLASS",
-      "lbl" : "NAD glycohydrolase activity"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/GO_0061809",
-      "type" : "CLASS",
-      "lbl" : "NAD+ nucleotidase, cyclic ADP-ribose generating"
-    } ],
-    "edges" : [ {
-      "sub" : "http://reactome.org/R-HSA-8938076.1",
-      "pred" : "is_a",
-      "obj" : "http://rdf.rhea-db.org/16302"
-    }, {
-      "sub" : "http://rdf.rhea-db.org/16301",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/GO_0003953"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/GO_0061810",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/GO_0003953"
-    }, {
-      "sub" : "http://reactome.org/R-HSA-8870346.2",
-      "pred" : "is_a",
-      "obj" : "http://rdf.rhea-db.org/16302"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/GO_0061809",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/GO_0003953"
-    }, {
-      "sub" : "http://reactome.org/R-HSA-9637699.1",
-      "pred" : "is_a",
-      "obj" : "http://rdf.rhea-db.org/16302"
-    }, {
-      "sub" : "http://rdf.rhea-db.org/16301",
-      "pred" : "is_a",
-      "obj" : "http://purl.uniprot.org/enzyme/3.2.2.5"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/GO_0050135",
-      "pred" : "is_a",
-      "obj" : "http://purl.uniprot.org/enzyme/3.2.2.6"
-    } ],
-    "id" : "urn:unnamed:ontology#ont7",
-    "meta" : {
-      "subsets" : [ ],
-      "xrefs" : [ ],
-      "basicPropertyValues" : [ ]
-    },
-    "equivalentNodesSets" : [ {
-      "nodeIds" : [ "http://rdf.rhea-db.org/16301", "http://purl.uniprot.org/enzyme/3.2.2.6" ]
-    }, {
-      "nodeIds" : [ "http://purl.obolibrary.org/obo/GO_0061810", "http://purl.uniprot.org/enzyme/3.2.2.5" ]
-    }, {
-      "nodeIds" : [ "http://metacyc.org/NADP+-NUCLEOSIDASE-RXN", "http://purl.obolibrary.org/obo/GO_0050135" ]
-    }, {
-      "nodeIds" : [ "http://metacyc.org/NADNUCLEOSID-RXN", "http://purl.obolibrary.org/obo/GO_0061809" ]
-    }, {
-      "nodeIds" : [ "http://metacyc.org/NADNUCLEOSID-RXN", "http://rdf.rhea-db.org/16302" ]
-    }, {
-      "nodeIds" : [ "http://rdf.rhea-db.org/16301", "http://rdf.rhea-db.org/16302" ]
-    }, {
-      "nodeIds" : [ "http://purl.obolibrary.org/obo/GO_0061809", "http://purl.uniprot.org/enzyme/3.2.2.6" ]
-    } ],
-    "logicalDefinitionAxioms" : [ ],
-    "domainRangeAxioms" : [ ],
-    "propertyChainAxioms" : [ ]
-  } ]
+  "graphs" : [
+    {
+      "id" : "urn:unnamed:ontology#ont7",
+      "nodes" : [
+        {
+          "id" : "REACTOME:R-HSA-8870346.2",
+          "type" : "CLASS"
+        },
+        {
+          "id" : "REACTOME:R-HSA-9637699.1",
+          "type" : "CLASS"
+        },
+        {
+          "id" : "GO:0003953",
+          "type" : "CLASS",
+          "lbl" : "NAD+ nucleosidase activity"
+        },
+        {
+          "id" : "EC:3.2.2.6",
+          "type" : "CLASS"
+        },
+        {
+          "id" : "GO:0061809",
+          "type" : "CLASS",
+          "lbl" : "NAD+ nucleotidase, cyclic ADP-ribose generating"
+        },
+        {
+          "id" : "GO:0061810",
+          "type" : "CLASS",
+          "lbl" : "NAD glycohydrolase activity"
+        },
+        {
+          "id" : "RHEA:16301",
+          "type" : "CLASS"
+        },
+        {
+          "id" : "METACYC:NADNUCLEOSID-RXN",
+          "type" : "CLASS"
+        },
+        {
+          "id" : "REACTOME:R-HSA-8938076.1",
+          "type" : "CLASS"
+        },
+        {
+          "id" : "RHEA:16302",
+          "type" : "CLASS"
+        },
+        {
+          "id" : "GO:0050135",
+          "type" : "CLASS",
+          "lbl" : "NAD(P)+ nucleosidase activity"
+        },
+        {
+          "id" : "EC:3.2.2.5",
+          "type" : "CLASS"
+        },
+        {
+          "id" : "METACYC:NADP+-NUCLEOSIDASE-RXN",
+          "type" : "CLASS"
+        }
+      ],
+      "edges" : [
+        {
+          "sub" : "METACYC:NADP+-NUCLEOSIDASE-RXN",
+          "pred" : "owl:equivalentClass",
+          "obj" : "GO:0050135",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/width",
+                "value" : 8.0
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "GO:0061809",
+          "pred" : "is_a",
+          "obj" : "GO:0003953",
+          "meta" : {
+            "basicPropertyValues" : [
+            ]
+          }
+        },
+        {
+          "sub" : "REACTOME:R-HSA-9637699.1",
+          "pred" : "is_a",
+          "obj" : "RHEA:16302",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/width",
+                "value" : 7.0
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "GO:0061810",
+          "pred" : "is_a",
+          "obj" : "GO:0003953",
+          "meta" : {
+            "basicPropertyValues" : [
+            ]
+          }
+        },
+        {
+          "sub" : "GO:0050135",
+          "pred" : "is_a",
+          "obj" : "EC:3.2.2.6",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/width",
+                "value" : 0.8
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "METACYC:NADNUCLEOSID-RXN",
+          "pred" : "owl:equivalentClass",
+          "obj" : "RHEA:16302",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/width",
+                "value" : 7.5
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "REACTOME:R-HSA-8870346.2",
+          "pred" : "is_a",
+          "obj" : "RHEA:16302",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/width",
+                "value" : 7.0
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "RHEA:16301",
+          "pred" : "is_a",
+          "obj" : "EC:3.2.2.5",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/width",
+                "value" : 1.0
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "EC:3.2.2.6",
+          "pred" : "owl:equivalentClass",
+          "obj" : "RHEA:16301",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/width",
+                "value" : 7.5
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "REACTOME:R-HSA-8938076.1",
+          "pred" : "is_a",
+          "obj" : "RHEA:16302",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/width",
+                "value" : 7.0
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "RHEA:16301",
+          "pred" : "owl:equivalentClass",
+          "obj" : "RHEA:16302",
+          "meta" : {
+            "basicPropertyValues" : [
+            ]
+          }
+        },
+        {
+          "sub" : "GO:0061810",
+          "pred" : "owl:equivalentClass",
+          "obj" : "EC:3.2.2.5",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/width",
+                "value" : 8.0
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "METACYC:NADNUCLEOSID-RXN",
+          "pred" : "owl:equivalentClass",
+          "obj" : "GO:0061809",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/width",
+                "value" : 8.0
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "RHEA:16301",
+          "pred" : "is_a",
+          "obj" : "GO:0003953",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/width",
+                "value" : 0.8
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "GO:0061809",
+          "pred" : "owl:equivalentClass",
+          "obj" : "EC:3.2.2.6",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/width",
+                "value" : 8.0
+              }
+            ]
+          }
+        }
+      ],
+      "equivalentNodesSets" : [
+        {
+          "nodeIds" : [
+            "GO:0061810",
+            "EC:3.2.2.5"
+          ]
+        },
+        {
+          "nodeIds" : [
+            "GO:0050135",
+            "METACYC:NADP+-NUCLEOSIDASE-RXN"
+          ]
+        },
+        {
+          "nodeIds" : [
+            "RHEA:16301",
+            "METACYC:NADNUCLEOSID-RXN",
+            "GO:0061809",
+            "RHEA:16302",
+            "EC:3.2.2.6"
+          ]
+        }
+      ]
+    }
+  ]
 }

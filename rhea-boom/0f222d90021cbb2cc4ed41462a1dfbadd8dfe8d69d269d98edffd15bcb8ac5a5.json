@@ -1,42 +1,164 @@
 {
-  "graphs" : [ {
-    "nodes" : [ {
-      "id" : "http://purl.obolibrary.org/obo/GO_0047987",
-      "lbl" : "hydroperoxide dehydratase activity"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/GO_0009978",
-      "lbl" : "allene oxide synthase activity"
-    } ],
-    "edges" : [ {
-      "sub" : "http://rdf.rhea-db.org/25075",
-      "pred" : "is_a",
-      "obj" : "http://metacyc.org/RXN1F-19"
-    }, {
-      "sub" : "http://rdf.rhea-db.org/25074",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/GO_0009978"
-    } ],
-    "id" : "urn:unnamed:ontology#ont21",
-    "meta" : {
-      "subsets" : [ ],
-      "xrefs" : [ ],
-      "basicPropertyValues" : [ ]
-    },
-    "equivalentNodesSets" : [ {
-      "nodeIds" : [ "http://rdf.rhea-db.org/25075", "http://rdf.rhea-db.org/25074" ]
-    }, {
-      "nodeIds" : [ "http://purl.uniprot.org/enzyme/4.2.1.92", "http://rdf.rhea-db.org/25074" ]
-    }, {
-      "nodeIds" : [ "http://purl.obolibrary.org/obo/GO_0047987", "http://rdf.rhea-db.org/25075" ]
-    }, {
-      "nodeIds" : [ "http://purl.obolibrary.org/obo/GO_0047987", "http://purl.uniprot.org/enzyme/4.2.1.92" ]
-    }, {
-      "nodeIds" : [ "http://metacyc.org/HYDROPEROXIDE-DEHYDRATASE-RXN", "http://purl.obolibrary.org/obo/GO_0047987" ]
-    }, {
-      "nodeIds" : [ "http://metacyc.org/RXN1F-19", "http://purl.obolibrary.org/obo/GO_0009978" ]
-    } ],
-    "logicalDefinitionAxioms" : [ ],
-    "domainRangeAxioms" : [ ],
-    "propertyChainAxioms" : [ ]
-  } ]
+  "graphs" : [
+    {
+      "id" : "urn:unnamed:ontology#ont21",
+      "nodes" : [
+        {
+          "id" : "METACYC:RXN1F-19",
+          "type" : "CLASS"
+        },
+        {
+          "id" : "METACYC:HYDROPEROXIDE-DEHYDRATASE-RXN",
+          "type" : "CLASS"
+        },
+        {
+          "id" : "RHEA:25074",
+          "type" : "CLASS"
+        },
+        {
+          "id" : "GO:0047987",
+          "type" : "CLASS",
+          "lbl" : "hydroperoxide dehydratase activity"
+        },
+        {
+          "id" : "RHEA:25075",
+          "type" : "CLASS"
+        },
+        {
+          "id" : "GO:0009978",
+          "type" : "CLASS",
+          "lbl" : "allene oxide synthase activity"
+        },
+        {
+          "id" : "EC:4.2.1.92",
+          "type" : "CLASS"
+        }
+      ],
+      "edges" : [
+        {
+          "sub" : "METACYC:HYDROPEROXIDE-DEHYDRATASE-RXN",
+          "pred" : "owl:equivalentClass",
+          "obj" : "GO:0047987",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/width",
+                "value" : 8.0
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "EC:4.2.1.92",
+          "pred" : "owl:equivalentClass",
+          "obj" : "RHEA:25074",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/width",
+                "value" : 7.5
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "RHEA:25074",
+          "pred" : "owl:equivalentClass",
+          "obj" : "RHEA:25075",
+          "meta" : {
+            "basicPropertyValues" : [
+            ]
+          }
+        },
+        {
+          "sub" : "GO:0047987",
+          "pred" : "owl:equivalentClass",
+          "obj" : "RHEA:25075",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/width",
+                "value" : 8.0
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "RHEA:25075",
+          "pred" : "is_a",
+          "obj" : "METACYC:RXN1F-19",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/width",
+                "value" : 1.0
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "RHEA:25074",
+          "pred" : "is_a",
+          "obj" : "GO:0009978",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/width",
+                "value" : 1.5
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "METACYC:RXN1F-19",
+          "pred" : "owl:equivalentClass",
+          "obj" : "GO:0009978",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/width",
+                "value" : 8.0
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "GO:0047987",
+          "pred" : "owl:equivalentClass",
+          "obj" : "EC:4.2.1.92",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/width",
+                "value" : 8.0
+              }
+            ]
+          }
+        }
+      ],
+      "equivalentNodesSets" : [
+        {
+          "nodeIds" : [
+            "RHEA:25075",
+            "RHEA:25074",
+            "EC:4.2.1.92",
+            "GO:0047987"
+          ]
+        },
+        {
+          "nodeIds" : [
+            "METACYC:HYDROPEROXIDE-DEHYDRATASE-RXN",
+            "GO:0047987",
+            "RHEA:25075"
+          ]
+        },
+        {
+          "nodeIds" : [
+            "METACYC:RXN1F-19",
+            "GO:0009978"
+          ]
+        }
+      ]
+    }
+  ]
 }
