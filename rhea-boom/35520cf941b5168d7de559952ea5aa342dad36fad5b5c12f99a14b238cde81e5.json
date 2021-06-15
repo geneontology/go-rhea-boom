@@ -1,7 +1,7 @@
 {
   "graphs" : [
     {
-      "id" : "urn:unnamed:ontology#ont27",
+      "id" : "urn:clique:35520cf941b5168d7de559952ea5aa342dad36fad5b5c12f99a14b238cde81e5",
       "nodes" : [
         {
           "id" : "RHEA:21208",
@@ -53,88 +53,14 @@
       ],
       "edges" : [
         {
-          "sub" : "GO:0036425",
-          "pred" : "is_a",
-          "obj" : "RHEA:24873",
-          "meta" : {
-            "basicPropertyValues" : [
-              {
-                "pred" : "https://w3id.org/kgviz/width",
-                "value" : 0.8
-              }
-            ]
-          }
-        },
-        {
-          "sub" : "RHEA:21208",
-          "pred" : "is_a",
+          "sub" : "GO:0004647",
+          "pred" : "owl:equivalentClass",
           "obj" : "EC:3.1.3.3",
           "meta" : {
             "basicPropertyValues" : [
               {
-                "pred" : "https://w3id.org/kgviz/width",
-                "value" : 1.0
-              }
-            ]
-          }
-        },
-        {
-          "sub" : "METACYC:RXN0-5114",
-          "pred" : "owl:equivalentClass",
-          "obj" : "GO:0036424",
-          "meta" : {
-            "basicPropertyValues" : [
-              {
-                "pred" : "https://w3id.org/kgviz/width",
-                "value" : 8.0
-              }
-            ]
-          }
-        },
-        {
-          "sub" : "METACYC:PSERPHOSPHA-RXN",
-          "pred" : "owl:equivalentClass",
-          "obj" : "GO:0004647",
-          "meta" : {
-            "basicPropertyValues" : [
-              {
-                "pred" : "https://w3id.org/kgviz/width",
-                "value" : 8.0
-              }
-            ]
-          }
-        },
-        {
-          "sub" : "GO:0036425",
-          "pred" : "is_a",
-          "obj" : "GO:0004647",
-          "meta" : {
-            "basicPropertyValues" : [
-            ]
-          }
-        },
-        {
-          "sub" : "METACYC:RXN0-5114",
-          "pred" : "owl:equivalentClass",
-          "obj" : "RHEA:21209",
-          "meta" : {
-            "basicPropertyValues" : [
-              {
-                "pred" : "https://w3id.org/kgviz/width",
-                "value" : 7.5
-              }
-            ]
-          }
-        },
-        {
-          "sub" : "RHEA:21209",
-          "pred" : "is_a",
-          "obj" : "METACYC:PSERPHOSPHA-RXN",
-          "meta" : {
-            "basicPropertyValues" : [
-              {
-                "pred" : "https://w3id.org/kgviz/width",
-                "value" : 1.0
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 8.0
               }
             ]
           }
@@ -146,8 +72,8 @@
           "meta" : {
             "basicPropertyValues" : [
               {
-                "pred" : "https://w3id.org/kgviz/width",
-                "value" : 8.0
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 8.0
               }
             ]
           }
@@ -159,8 +85,130 @@
           "meta" : {
             "basicPropertyValues" : [
               {
-                "pred" : "https://w3id.org/kgviz/width",
-                "value" : 7.5
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 7.5
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "GO:0036425",
+          "pred" : "is_a",
+          "obj" : "GO:0004647",
+          "meta" : {
+            "basicPropertyValues" : [
+            ]
+          }
+        },
+        {
+          "sub" : "GO:0036425",
+          "pred" : "is_a",
+          "obj" : "RHEA:24873",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 0.8
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "REACTOME:R-HSA-977324.2",
+          "pred" : "is_a",
+          "obj" : "RHEA:21209",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 7.0
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "RHEA:21208",
+          "pred" : "is_a",
+          "obj" : "EC:3.1.3.3",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 1.0
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "METACYC:RXN0-5114",
+          "pred" : "owl:equivalentClass",
+          "obj" : "GO:0036424",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 8.0
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "GO:0036424",
+          "pred" : "is_a",
+          "obj" : "GO:0004647",
+          "meta" : {
+            "basicPropertyValues" : [
+            ]
+          }
+        },
+        {
+          "sub" : "METACYC:PSERPHOSPHA-RXN",
+          "pred" : "owl:equivalentClass",
+          "obj" : "GO:0004647",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 8.0
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "RHEA:21209",
+          "pred" : "is_a",
+          "obj" : "METACYC:PSERPHOSPHA-RXN",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 1.0
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "METACYC:RXN0-5114",
+          "pred" : "owl:equivalentClass",
+          "obj" : "RHEA:21209",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 7.5
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "METACYC:PSERPHOSPHA-RXN",
+          "pred" : "owl:equivalentClass",
+          "obj" : "RHEA:24874",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 7.5
               }
             ]
           }
@@ -182,70 +230,22 @@
             "basicPropertyValues" : [
             ]
           }
-        },
-        {
-          "sub" : "REACTOME:R-HSA-977324.2",
-          "pred" : "is_a",
-          "obj" : "RHEA:21209",
-          "meta" : {
-            "basicPropertyValues" : [
-              {
-                "pred" : "https://w3id.org/kgviz/width",
-                "value" : 7.0
-              }
-            ]
-          }
-        },
-        {
-          "sub" : "METACYC:PSERPHOSPHA-RXN",
-          "pred" : "owl:equivalentClass",
-          "obj" : "RHEA:24874",
-          "meta" : {
-            "basicPropertyValues" : [
-              {
-                "pred" : "https://w3id.org/kgviz/width",
-                "value" : 7.5
-              }
-            ]
-          }
-        },
-        {
-          "sub" : "GO:0036424",
-          "pred" : "is_a",
-          "obj" : "GO:0004647",
-          "meta" : {
-            "basicPropertyValues" : [
-            ]
-          }
-        },
-        {
-          "sub" : "GO:0004647",
-          "pred" : "owl:equivalentClass",
-          "obj" : "EC:3.1.3.3",
-          "meta" : {
-            "basicPropertyValues" : [
-              {
-                "pred" : "https://w3id.org/kgviz/width",
-                "value" : 8.0
-              }
-            ]
-          }
         }
       ],
       "equivalentNodesSets" : [
+        {
+          "nodeIds" : [
+            "GO:0004647",
+            "EC:3.1.3.3",
+            "RHEA:24873"
+          ]
+        },
         {
           "nodeIds" : [
             "RHEA:24874",
             "RHEA:24873",
             "METACYC:PSERPHOSPHA-RXN",
             "GO:0004647"
-          ]
-        },
-        {
-          "nodeIds" : [
-            "GO:0004647",
-            "EC:3.1.3.3",
-            "RHEA:24873"
           ]
         },
         {

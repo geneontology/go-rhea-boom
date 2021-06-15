@@ -1,4 +1,4 @@
-# Need on path: boomer & robot
+# Need on path: boomer, robot, og2dot.js, dot
 
 all: rhea-boom.txt
 
@@ -70,6 +70,19 @@ go-rhea.ofn: go-plus.owl rhea.ofn enzyme.rdf
 rhea-boom: go-rhea.ofn probs.tsv prefixes.yaml
 	rm -rf rhea-boom &&\
 	boomer --ptable probs.tsv --ontology go-rhea.ofn --window-count 20 --runs 100 --prefixes prefixes.yaml --output rhea-boom --exhaustive-search-limit 14 --restrict-output-to-prefixes=GO --restrict-output-to-prefixes=RHEA
+
+JSONS=$(wildcard rhea-boom/*.json)
+PNGS=$(patsubst %.json, %.png, $(JSONS))
+
+rhea-boom/%.json: rhea-boom
+
+%.dot: %.json
+	og2dot.js -s rhea-go-style.json $< >$@
+
+%.png: %.dot
+	dot $< -Tpng -Grankdir=BT >$@
+
+pngs: $(PNGS)
 
 go.obo:
 #	curl -L -s http://purl.obolibrary.org/obo/go.obo > $@

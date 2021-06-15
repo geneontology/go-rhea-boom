@@ -1,7 +1,7 @@
 {
   "graphs" : [
     {
-      "id" : "urn:unnamed:ontology#ont16",
+      "id" : "urn:clique:a18637ecd1bebafd3da89b8ab5e5f5de0f3d856211ed79874ce2c49e4ad996cb",
       "nodes" : [
         {
           "id" : "RHEA:32887",
@@ -36,13 +36,13 @@
       "edges" : [
         {
           "sub" : "GO:0003834",
-          "pred" : "owl:equivalentClass",
-          "obj" : "EC:1.14.99.36",
+          "pred" : "is_a",
+          "obj" : "RHEA:32887",
           "meta" : {
             "basicPropertyValues" : [
               {
-                "pred" : "https://w3id.org/kgviz/width",
-                "value" : 8.0
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 0.8
               }
             ]
           }
@@ -54,21 +54,8 @@
           "meta" : {
             "basicPropertyValues" : [
               {
-                "pred" : "https://w3id.org/kgviz/width",
-                "value" : 8.0
-              }
-            ]
-          }
-        },
-        {
-          "sub" : "EC:1.13.11.63",
-          "pred" : "owl:equivalentClass",
-          "obj" : "RHEA:32887",
-          "meta" : {
-            "basicPropertyValues" : [
-              {
-                "pred" : "https://w3id.org/kgviz/width",
-                "value" : 7.5
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 8.0
               }
             ]
           }
@@ -80,8 +67,34 @@
           "meta" : {
             "basicPropertyValues" : [
               {
-                "pred" : "https://w3id.org/kgviz/width",
-                "value" : 7.5
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 7.5
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "EC:1.13.11.63",
+          "pred" : "owl:equivalentClass",
+          "obj" : "RHEA:32887",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 7.5
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "GO:0003834",
+          "pred" : "owl:equivalentClass",
+          "obj" : "EC:1.14.99.36",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 8.0
               }
             ]
           }
@@ -94,35 +107,22 @@
             "basicPropertyValues" : [
             ]
           }
-        },
-        {
-          "sub" : "GO:0003834",
-          "pred" : "is_a",
-          "obj" : "RHEA:32887",
-          "meta" : {
-            "basicPropertyValues" : [
-              {
-                "pred" : "https://w3id.org/kgviz/width",
-                "value" : 0.8
-              }
-            ]
-          }
         }
       ],
       "equivalentNodesSets" : [
         {
           "nodeIds" : [
-            "METACYC:RXN-13374",
-            "RHEA:32888",
-            "RHEA:32887",
-            "EC:1.13.11.63"
+            "EC:1.14.99.36",
+            "GO:0003834",
+            "METACYC:BETA-CAROTENE-1515-DIOXYGENASE-RXN"
           ]
         },
         {
           "nodeIds" : [
-            "GO:0003834",
-            "METACYC:BETA-CAROTENE-1515-DIOXYGENASE-RXN",
-            "EC:1.14.99.36"
+            "RHEA:32887",
+            "EC:1.13.11.63",
+            "RHEA:32888",
+            "METACYC:RXN-13374"
           ]
         }
       ]

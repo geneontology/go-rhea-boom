@@ -1,27 +1,23 @@
 {
   "graphs" : [
     {
-      "id" : "urn:unnamed:ontology#ont30",
+      "id" : "urn:clique:045fd7bce298ec1d2042aa2e2587466517acc6c3fdd3ed77caec324a7ba6051b",
       "nodes" : [
         {
           "id" : "METACYC:GALACTOSYLCERAMIDE-SULFOTRANSFERASE-RXN",
-          "type" : "CLASS",
-          "lbl": "METACYC:GALACTOSYLCERAMIDE-SULFOTRANSFERASE-RXN"
+          "type" : "CLASS"
         },
         {
           "id" : "EC:2.8.2.11",
-          "type" : "CLASS",
-          "lbl": "EC:2.8.2.11"
+          "type" : "CLASS"
         },
         {
           "id" : "RHEA:20616",
-          "type" : "CLASS",
-          "lbl": "RHEA:20616"
+          "type" : "CLASS"
         },
         {
           "id" : "RHEA:43304",
-          "type" : "CLASS",
-          "lbl": "RHEA:43304"
+          "type" : "CLASS"
         },
         {
           "id" : "GO:0001733",
@@ -30,29 +26,14 @@
         },
         {
           "id" : "RHEA:41744",
-          "type" : "CLASS",
-          "lbl": "RHEA:41744"
+          "type" : "CLASS"
         },
         {
           "id" : "RHEA:20613",
-          "type" : "CLASS",
-          "lbl": "RHEA:20613"
+          "type" : "CLASS"
         }
       ],
       "edges" : [
-        {
-          "sub" : "GO:0001733",
-          "pred" : "owl:equivalentClass",
-          "obj" : "EC:2.8.2.11",
-          "meta" : {
-            "basicPropertyValues" : [
-              {
-                "pred" : "https://w3id.org/kgviz/width",
-                "value" : 8.0
-              }
-            ]
-          }
-        },
         {
           "sub" : "GO:0001733",
           "pred" : "is_a",
@@ -60,8 +41,21 @@
           "meta" : {
             "basicPropertyValues" : [
               {
-                "pred" : "https://w3id.org/kgviz/width",
-                "value" : 0.8
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 0.8
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "EC:2.8.2.11",
+          "pred" : "owl:equivalentClass",
+          "obj" : "RHEA:20613",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 7.5
               }
             ]
           }
@@ -73,8 +67,8 @@
           "meta" : {
             "basicPropertyValues" : [
               {
-                "pred" : "https://w3id.org/kgviz/width",
-                "value" : 7.5
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 7.5
               }
             ]
           }
@@ -95,8 +89,21 @@
           "meta" : {
             "basicPropertyValues" : [
               {
-                "pred" : "https://w3id.org/kgviz/width",
-                "value" : 1.0
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 1.0
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "GO:0001733",
+          "pred" : "owl:equivalentClass",
+          "obj" : "EC:2.8.2.11",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 8.0
               }
             ]
           }
@@ -108,21 +115,8 @@
           "meta" : {
             "basicPropertyValues" : [
               {
-                "pred" : "https://w3id.org/kgviz/width",
-                "value" : 8.0
-              }
-            ]
-          }
-        },
-        {
-          "sub" : "EC:2.8.2.11",
-          "pred" : "owl:equivalentClass",
-          "obj" : "RHEA:20613",
-          "meta" : {
-            "basicPropertyValues" : [
-              {
-                "pred" : "https://w3id.org/kgviz/width",
-                "value" : 7.5
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 8.0
               }
             ]
           }
@@ -131,11 +125,17 @@
       "equivalentNodesSets" : [
         {
           "nodeIds" : [
-            "RHEA:20616",
-            "GO:0001733",
             "RHEA:20613",
             "EC:2.8.2.11",
-            "METACYC:GALACTOSYLCERAMIDE-SULFOTRANSFERASE-RXN"
+            "GO:0001733"
+          ]
+        },
+        {
+          "nodeIds" : [
+            "METACYC:GALACTOSYLCERAMIDE-SULFOTRANSFERASE-RXN",
+            "RHEA:20616",
+            "RHEA:20613",
+            "GO:0001733"
           ]
         }
       ]

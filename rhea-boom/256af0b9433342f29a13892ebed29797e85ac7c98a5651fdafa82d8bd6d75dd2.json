@@ -1,7 +1,7 @@
 {
   "graphs" : [
     {
-      "id" : "urn:unnamed:ontology#ont17",
+      "id" : "urn:clique:256af0b9433342f29a13892ebed29797e85ac7c98a5651fdafa82d8bd6d75dd2",
       "nodes" : [
         {
           "id" : "EC:1.1.99.2",
@@ -45,19 +45,6 @@
       ],
       "edges" : [
         {
-          "sub" : "METACYC:2-HYDROXYGLUTARATE-DEHYDROGENASE-RXN",
-          "pred" : "owl:equivalentClass",
-          "obj" : "RHEA:21255",
-          "meta" : {
-            "basicPropertyValues" : [
-              {
-                "pred" : "https://w3id.org/kgviz/width",
-                "value" : 7.5
-              }
-            ]
-          }
-        },
-        {
           "sub" : "RHEA:21252",
           "pred" : "owl:equivalentClass",
           "obj" : "RHEA:21254",
@@ -76,32 +63,6 @@
           }
         },
         {
-          "sub" : "GO:0061759",
-          "pred" : "is_a",
-          "obj" : "RHEA:21254",
-          "meta" : {
-            "basicPropertyValues" : [
-              {
-                "pred" : "https://w3id.org/kgviz/width",
-                "value" : 0.8
-              }
-            ]
-          }
-        },
-        {
-          "sub" : "GO:0047545",
-          "pred" : "owl:equivalentClass",
-          "obj" : "EC:1.1.99.2",
-          "meta" : {
-            "basicPropertyValues" : [
-              {
-                "pred" : "https://w3id.org/kgviz/width",
-                "value" : 8.0
-              }
-            ]
-          }
-        },
-        {
           "sub" : "GO:0061758",
           "pred" : "is_a",
           "obj" : "GO:0047545",
@@ -111,24 +72,24 @@
           }
         },
         {
+          "sub" : "METACYC:2-HYDROXYGLUTARATE-DEHYDROGENASE-RXN",
+          "pred" : "owl:equivalentClass",
+          "obj" : "RHEA:21255",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 7.5
+              }
+            ]
+          }
+        },
+        {
           "sub" : "GO:0061759",
           "pred" : "is_a",
           "obj" : "GO:0047545",
           "meta" : {
             "basicPropertyValues" : [
-            ]
-          }
-        },
-        {
-          "sub" : "EC:1.1.99.2",
-          "pred" : "owl:equivalentClass",
-          "obj" : "RHEA:21252",
-          "meta" : {
-            "basicPropertyValues" : [
-              {
-                "pred" : "https://w3id.org/kgviz/width",
-                "value" : 7.5
-              }
             ]
           }
         },
@@ -142,27 +103,14 @@
           }
         },
         {
-          "sub" : "METACYC:2-HYDROXYGLUTARATE-DEHYDROGENASE-RXN",
-          "pred" : "owl:equivalentClass",
-          "obj" : "GO:0047545",
-          "meta" : {
-            "basicPropertyValues" : [
-              {
-                "pred" : "https://w3id.org/kgviz/width",
-                "value" : 8.0
-              }
-            ]
-          }
-        },
-        {
-          "sub" : "GO:0061758",
+          "sub" : "GO:0061759",
           "pred" : "is_a",
-          "obj" : "RHEA:21253",
+          "obj" : "RHEA:21254",
           "meta" : {
             "basicPropertyValues" : [
               {
-                "pred" : "https://w3id.org/kgviz/width",
-                "value" : 0.8
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 0.8
               }
             ]
           }
@@ -174,8 +122,78 @@
           "meta" : {
             "basicPropertyValues" : [
               {
-                "pred" : "https://w3id.org/kgviz/width",
-                "value" : 8.0
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 8.0
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "EC:1.1.99.2",
+          "pred" : "owl:equivalentClass",
+          "obj" : "RHEA:21252",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 7.5
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "METACYC:2-HYDROXYGLUTARATE-DEHYDROGENASE-RXN",
+          "pred" : "owl:equivalentClass",
+          "obj" : "GO:0047545",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 8.0
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "RHEA:21252",
+          "pred" : "owl:equivalentClass",
+          "obj" : "RHEA:21255",
+          "meta" : {
+            "basicPropertyValues" : [
+            ]
+          }
+        },
+        {
+          "sub" : "RHEA:21252",
+          "pred" : "owl:equivalentClass",
+          "obj" : "RHEA:21253",
+          "meta" : {
+            "basicPropertyValues" : [
+            ]
+          }
+        },
+        {
+          "sub" : "GO:0061758",
+          "pred" : "is_a",
+          "obj" : "RHEA:21253",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 0.8
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "GO:0047545",
+          "pred" : "owl:equivalentClass",
+          "obj" : "EC:1.1.99.2",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 8.0
               }
             ]
           }
@@ -188,32 +206,24 @@
             "basicPropertyValues" : [
             ]
           }
-        },
-        {
-          "sub" : "RHEA:21252",
-          "pred" : "owl:equivalentClass",
-          "obj" : "RHEA:21255",
-          "meta" : {
-            "basicPropertyValues" : [
-            ]
-          }
-        },
-        {
-          "sub" : "RHEA:21252",
-          "pred" : "owl:equivalentClass",
-          "obj" : "RHEA:21253",
-          "meta" : {
-            "basicPropertyValues" : [
-            ]
-          }
         }
       ],
       "equivalentNodesSets" : [
         {
           "nodeIds" : [
+            "RHEA:21255",
+            "RHEA:21253",
+            "METACYC:2-HYDROXYGLUTARATE-DEHYDROGENASE-RXN",
+            "RHEA:21254",
+            "RHEA:21252"
+          ]
+        },
+        {
+          "nodeIds" : [
+            "METACYC:2-HYDROXYGLUTARATE-DEHYDROGENASE-RXN",
             "GO:0047545",
             "EC:1.1.99.2",
-            "METACYC:2-HYDROXYGLUTARATE-DEHYDROGENASE-RXN"
+            "RHEA:21252"
           ]
         },
         {
@@ -221,17 +231,7 @@
             "RHEA:21253",
             "RHEA:21255",
             "RHEA:21252",
-            "METACYC:2-HYDROXYGLUTARATE-DEHYDROGENASE-RXN"
-          ]
-        },
-        {
-          "nodeIds" : [
-            "RHEA:21255",
-            "GO:0047545",
-            "RHEA:21253",
-            "EC:1.1.99.2",
-            "RHEA:21254",
-            "RHEA:21252"
+            "EC:1.1.99.2"
           ]
         }
       ]

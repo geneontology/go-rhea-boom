@@ -1,7 +1,7 @@
 {
   "graphs" : [
     {
-      "id" : "urn:unnamed:ontology#ont14",
+      "id" : "urn:clique:5889767f61e1195e742e465a40a904d9adffff80b7428f1c00435f726757a824",
       "nodes" : [
         {
           "id" : "RHEA:21919",
@@ -44,53 +44,14 @@
       ],
       "edges" : [
         {
-          "sub" : "METACYC:AMINE-DEHYDROGENASE-RXN",
-          "pred" : "owl:equivalentClass",
-          "obj" : "RHEA:51128",
-          "meta" : {
-            "basicPropertyValues" : [
-              {
-                "pred" : "https://w3id.org/kgviz/width",
-                "value" : 7.5
-              }
-            ]
-          }
-        },
-        {
-          "sub" : "METACYC:AMINE-DEHYDROGENASE-RXN",
-          "pred" : "owl:equivalentClass",
-          "obj" : "GO:0030058",
-          "meta" : {
-            "basicPropertyValues" : [
-              {
-                "pred" : "https://w3id.org/kgviz/width",
-                "value" : 8.0
-              }
-            ]
-          }
-        },
-        {
           "sub" : "GO:0030058",
           "pred" : "is_a",
           "obj" : "RHEA:30207",
           "meta" : {
             "basicPropertyValues" : [
               {
-                "pred" : "https://w3id.org/kgviz/width",
-                "value" : 0.8
-              }
-            ]
-          }
-        },
-        {
-          "sub" : "METACYC:RXN-2841",
-          "pred" : "owl:equivalentClass",
-          "obj" : "RHEA:30208",
-          "meta" : {
-            "basicPropertyValues" : [
-              {
-                "pred" : "https://w3id.org/kgviz/width",
-                "value" : 7.5
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 0.8
               }
             ]
           }
@@ -102,21 +63,21 @@
           "meta" : {
             "basicPropertyValues" : [
               {
-                "pred" : "https://w3id.org/kgviz/width",
-                "value" : 1.0
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 1.0
               }
             ]
           }
         },
         {
-          "sub" : "EC:1.4.9.1",
+          "sub" : "METACYC:AMINE-DEHYDROGENASE-RXN",
           "pred" : "owl:equivalentClass",
-          "obj" : "RHEA:30207",
+          "obj" : "RHEA:51128",
           "meta" : {
             "basicPropertyValues" : [
               {
-                "pred" : "https://w3id.org/kgviz/width",
-                "value" : 7.5
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 7.5
               }
             ]
           }
@@ -128,8 +89,56 @@
           "meta" : {
             "basicPropertyValues" : [
               {
-                "pred" : "https://w3id.org/kgviz/width",
-                "value" : 0.8
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 0.8
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "RHEA:30207",
+          "pred" : "owl:equivalentClass",
+          "obj" : "RHEA:30208",
+          "meta" : {
+            "basicPropertyValues" : [
+            ]
+          }
+        },
+        {
+          "sub" : "METACYC:AMINE-DEHYDROGENASE-RXN",
+          "pred" : "owl:equivalentClass",
+          "obj" : "GO:0030058",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 8.0
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "EC:1.4.9.1",
+          "pred" : "owl:equivalentClass",
+          "obj" : "RHEA:30207",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 7.5
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "METACYC:RXN-2841",
+          "pred" : "owl:equivalentClass",
+          "obj" : "RHEA:30208",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 7.5
               }
             ]
           }
@@ -141,18 +150,9 @@
           "meta" : {
             "basicPropertyValues" : [
               {
-                "pred" : "https://w3id.org/kgviz/width",
-                "value" : 8.0
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 8.0
               }
-            ]
-          }
-        },
-        {
-          "sub" : "RHEA:30207",
-          "pred" : "owl:equivalentClass",
-          "obj" : "RHEA:30208",
-          "meta" : {
-            "basicPropertyValues" : [
             ]
           }
         }
@@ -167,9 +167,9 @@
         },
         {
           "nodeIds" : [
+            "RHEA:51128",
             "METACYC:AMINE-DEHYDROGENASE-RXN",
-            "GO:0030058",
-            "RHEA:51128"
+            "GO:0030058"
           ]
         },
         {

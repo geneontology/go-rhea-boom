@@ -1,7 +1,7 @@
 {
   "graphs" : [
     {
-      "id" : "urn:unnamed:ontology#ont38",
+      "id" : "urn:clique:1f508b0001d12eeddf93b427a3edc8eb562ff9da68c5c892d7248a53fc61de3f",
       "nodes" : [
         {
           "id" : "RHEA:45231",
@@ -51,37 +51,11 @@
       ],
       "edges" : [
         {
-          "sub" : "METACYC:ENOYL-COA-DELTA-ISOM-RXN",
-          "pred" : "owl:equivalentClass",
-          "obj" : "GO:0004165",
-          "meta" : {
-            "basicPropertyValues" : [
-              {
-                "pred" : "https://w3id.org/kgviz/width",
-                "value" : 8.0
-              }
-            ]
-          }
-        },
-        {
           "sub" : "RHEA:23716",
           "pred" : "owl:equivalentClass",
           "obj" : "RHEA:23719",
           "meta" : {
             "basicPropertyValues" : [
-            ]
-          }
-        },
-        {
-          "sub" : "RHEA:23716",
-          "pred" : "is_a",
-          "obj" : "EC:5.3.3.8",
-          "meta" : {
-            "basicPropertyValues" : [
-              {
-                "pred" : "https://w3id.org/kgviz/width",
-                "value" : 1.0
-              }
             ]
           }
         },
@@ -92,34 +66,8 @@
           "meta" : {
             "basicPropertyValues" : [
               {
-                "pred" : "https://w3id.org/kgviz/width",
-                "value" : 7.5
-              }
-            ]
-          }
-        },
-        {
-          "sub" : "GO:0004165",
-          "pred" : "owl:equivalentClass",
-          "obj" : "EC:5.3.3.8",
-          "meta" : {
-            "basicPropertyValues" : [
-              {
-                "pred" : "https://w3id.org/kgviz/width",
-                "value" : 8.0
-              }
-            ]
-          }
-        },
-        {
-          "sub" : "RHEA:45228",
-          "pred" : "is_a",
-          "obj" : "EC:5.3.3.8",
-          "meta" : {
-            "basicPropertyValues" : [
-              {
-                "pred" : "https://w3id.org/kgviz/width",
-                "value" : 1.0
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 7.5
               }
             ]
           }
@@ -134,24 +82,41 @@
           }
         },
         {
-          "sub" : "RHEA:23716",
-          "pred" : "is_a",
+          "sub" : "METACYC:ENOYL-COA-DELTA-ISOM-RXN",
+          "pred" : "owl:equivalentClass",
           "obj" : "GO:0004165",
           "meta" : {
             "basicPropertyValues" : [
               {
-                "pred" : "https://w3id.org/kgviz/width",
-                "value" : 0.8
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 8.0
               }
             ]
           }
         },
         {
-          "sub" : "RHEA:45228",
+          "sub" : "GO:0004165",
           "pred" : "owl:equivalentClass",
-          "obj" : "RHEA:45231",
+          "obj" : "EC:5.3.3.8",
           "meta" : {
             "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 8.0
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "RHEA:23716",
+          "pred" : "is_a",
+          "obj" : "EC:5.3.3.8",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 1.0
+              }
             ]
           }
         },
@@ -165,14 +130,14 @@
           }
         },
         {
-          "sub" : "METACYC:ENOYL-COA-DELTA-ISOM-RXN",
-          "pred" : "owl:equivalentClass",
-          "obj" : "RHEA:45903",
+          "sub" : "RHEA:45228",
+          "pred" : "is_a",
+          "obj" : "EC:5.3.3.8",
           "meta" : {
             "basicPropertyValues" : [
               {
-                "pred" : "https://w3id.org/kgviz/width",
-                "value" : 7.5
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 1.0
               }
             ]
           }
@@ -196,11 +161,15 @@
           }
         },
         {
-          "sub" : "RHEA:23716",
-          "pred" : "is_a",
+          "sub" : "METACYC:ENOYL-COA-DELTA-ISOM-RXN",
+          "pred" : "owl:equivalentClass",
           "obj" : "RHEA:45903",
           "meta" : {
             "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 7.5
+              }
             ]
           }
         },
@@ -211,9 +180,40 @@
           "meta" : {
             "basicPropertyValues" : [
               {
-                "pred" : "https://w3id.org/kgviz/width",
-                "value" : 7.5
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 7.5
               }
+            ]
+          }
+        },
+        {
+          "sub" : "RHEA:23716",
+          "pred" : "is_a",
+          "obj" : "GO:0004165",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 0.8
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "RHEA:45228",
+          "pred" : "owl:equivalentClass",
+          "obj" : "RHEA:45231",
+          "meta" : {
+            "basicPropertyValues" : [
+            ]
+          }
+        },
+        {
+          "sub" : "RHEA:23716",
+          "pred" : "is_a",
+          "obj" : "RHEA:45903",
+          "meta" : {
+            "basicPropertyValues" : [
             ]
           }
         },
@@ -224,14 +224,21 @@
           "meta" : {
             "basicPropertyValues" : [
               {
-                "pred" : "https://w3id.org/kgviz/width",
-                "value" : 7.5
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 7.5
               }
             ]
           }
         }
       ],
       "equivalentNodesSets" : [
+        {
+          "nodeIds" : [
+            "RHEA:23719",
+            "METACYC:RXN-7931",
+            "RHEA:23716"
+          ]
+        },
         {
           "nodeIds" : [
             "RHEA:45231",
@@ -241,24 +248,11 @@
         },
         {
           "nodeIds" : [
-            "GO:0004165",
             "METACYC:ENOYL-COA-DELTA-ISOM-RXN",
-            "EC:5.3.3.8"
-          ]
-        },
-        {
-          "nodeIds" : [
-            "RHEA:23719",
-            "RHEA:23716",
-            "METACYC:RXN-7931"
-          ]
-        },
-        {
-          "nodeIds" : [
-            "RHEA:45903",
-            "RHEA:45900",
             "EC:5.3.3.8",
-            "METACYC:ENOYL-COA-DELTA-ISOM-RXN"
+            "GO:0004165",
+            "RHEA:45903",
+            "RHEA:45900"
           ]
         }
       ]

@@ -1,7 +1,7 @@
 {
   "graphs" : [
     {
-      "id" : "urn:unnamed:ontology#ont11",
+      "id" : "urn:clique:1183996d3afb72a9de105d5a66b219ee1c1900ecf49e4a42b76d3eeea0d3ce1e",
       "nodes" : [
         {
           "id" : "RHEA:16725",
@@ -31,14 +31,14 @@
       ],
       "edges" : [
         {
-          "sub" : "GO:0008962",
-          "pred" : "is_a",
-          "obj" : "RHEA:16725",
+          "sub" : "EC:3.1.3.27",
+          "pred" : "owl:equivalentClass",
+          "obj" : "RHEA:33751",
           "meta" : {
             "basicPropertyValues" : [
               {
-                "pred" : "https://w3id.org/kgviz/width",
-                "value" : 0.8
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 7.5
               }
             ]
           }
@@ -50,21 +50,8 @@
           "meta" : {
             "basicPropertyValues" : [
               {
-                "pred" : "https://w3id.org/kgviz/width",
-                "value" : 7.5
-              }
-            ]
-          }
-        },
-        {
-          "sub" : "EC:3.1.3.27",
-          "pred" : "owl:equivalentClass",
-          "obj" : "RHEA:33751",
-          "meta" : {
-            "basicPropertyValues" : [
-              {
-                "pred" : "https://w3id.org/kgviz/width",
-                "value" : 7.5
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 7.5
               }
             ]
           }
@@ -85,8 +72,8 @@
           "meta" : {
             "basicPropertyValues" : [
               {
-                "pred" : "https://w3id.org/kgviz/width",
-                "value" : 8.0
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 8.0
               }
             ]
           }
@@ -98,8 +85,21 @@
           "meta" : {
             "basicPropertyValues" : [
               {
-                "pred" : "https://w3id.org/kgviz/width",
-                "value" : 8.0
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 8.0
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "GO:0008962",
+          "pred" : "is_a",
+          "obj" : "RHEA:16725",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 0.8
               }
             ]
           }
@@ -108,17 +108,11 @@
       "equivalentNodesSets" : [
         {
           "nodeIds" : [
+            "RHEA:33751",
             "METACYC:PGPPHOSPHA-RXN",
             "GO:0008962",
-            "RHEA:33752"
-          ]
-        },
-        {
-          "nodeIds" : [
             "EC:3.1.3.27",
-            "RHEA:33751",
-            "RHEA:33752",
-            "GO:0008962"
+            "RHEA:33752"
           ]
         }
       ]

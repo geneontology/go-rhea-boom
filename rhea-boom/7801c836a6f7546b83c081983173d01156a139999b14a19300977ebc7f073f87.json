@@ -1,7 +1,7 @@
 {
   "graphs" : [
     {
-      "id" : "urn:unnamed:ontology#ont4",
+      "id" : "urn:clique:7801c836a6f7546b83c081983173d01156a139999b14a19300977ebc7f073f87",
       "nodes" : [
         {
           "id" : "RHEA:32950",
@@ -49,27 +49,14 @@
           }
         },
         {
-          "sub" : "EC:2.3.1.22",
-          "pred" : "owl:equivalentClass",
-          "obj" : "RHEA:32947",
-          "meta" : {
-            "basicPropertyValues" : [
-              {
-                "pred" : "https://w3id.org/kgviz/width",
-                "value" : 7.5
-              }
-            ]
-          }
-        },
-        {
           "sub" : "GO:0003846",
           "pred" : "is_a",
           "obj" : "RHEA:16741",
           "meta" : {
             "basicPropertyValues" : [
               {
-                "pred" : "https://w3id.org/kgviz/width",
-                "value" : 0.8
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 0.8
               }
             ]
           }
@@ -81,8 +68,8 @@
           "meta" : {
             "basicPropertyValues" : [
               {
-                "pred" : "https://w3id.org/kgviz/width",
-                "value" : 8.0
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 8.0
               }
             ]
           }
@@ -97,14 +84,14 @@
           }
         },
         {
-          "sub" : "METACYC:2-ACYLGLYCEROL-O-ACYLTRANSFERASE-RXN",
+          "sub" : "EC:2.3.1.22",
           "pred" : "owl:equivalentClass",
-          "obj" : "RHEA:32950",
+          "obj" : "RHEA:32947",
           "meta" : {
             "basicPropertyValues" : [
               {
-                "pred" : "https://w3id.org/kgviz/width",
-                "value" : 7.5
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 7.5
               }
             ]
           }
@@ -116,8 +103,21 @@
           "meta" : {
             "basicPropertyValues" : [
               {
-                "pred" : "https://w3id.org/kgviz/width",
-                "value" : 8.0
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 8.0
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "METACYC:2-ACYLGLYCEROL-O-ACYLTRANSFERASE-RXN",
+          "pred" : "owl:equivalentClass",
+          "obj" : "RHEA:32950",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 7.5
               }
             ]
           }
@@ -126,17 +126,17 @@
       "equivalentNodesSets" : [
         {
           "nodeIds" : [
-            "METACYC:2-ACYLGLYCEROL-O-ACYLTRANSFERASE-RXN",
-            "RHEA:32950",
-            "RHEA:32947"
+            "EC:2.3.1.22",
+            "RHEA:32947",
+            "RHEA:32950"
           ]
         },
         {
           "nodeIds" : [
-            "EC:2.3.1.22",
-            "RHEA:32947",
+            "METACYC:2-ACYLGLYCEROL-O-ACYLTRANSFERASE-RXN",
+            "RHEA:32950",
             "GO:0003846",
-            "METACYC:2-ACYLGLYCEROL-O-ACYLTRANSFERASE-RXN"
+            "EC:2.3.1.22"
           ]
         }
       ]

@@ -1,7 +1,7 @@
 {
   "graphs" : [
     {
-      "id" : "urn:unnamed:ontology#ont5",
+      "id" : "urn:clique:a3e62fa03214d8e2393453bca48eb0ba566fa3d3a2041cc29765441c6b698067",
       "nodes" : [
         {
           "id" : "GO:0050380",
@@ -31,49 +31,14 @@
       ],
       "edges" : [
         {
-          "sub" : "RHEA:28094",
-          "pred" : "owl:equivalentClass",
-          "obj" : "RHEA:28095",
-          "meta" : {
-            "basicPropertyValues" : [
-            ]
-          }
-        },
-        {
-          "sub" : "METACYC:UNDECAPRENYL-DIPHOSPHATASE-RXN",
-          "pred" : "owl:equivalentClass",
-          "obj" : "GO:0050380",
-          "meta" : {
-            "basicPropertyValues" : [
-              {
-                "pred" : "https://w3id.org/kgviz/width",
-                "value" : 8.0
-              }
-            ]
-          }
-        },
-        {
           "sub" : "GO:0050380",
           "pred" : "is_a",
           "obj" : "RHEA:17069",
           "meta" : {
             "basicPropertyValues" : [
               {
-                "pred" : "https://w3id.org/kgviz/width",
-                "value" : 0.8
-              }
-            ]
-          }
-        },
-        {
-          "sub" : "EC:3.6.1.27",
-          "pred" : "owl:equivalentClass",
-          "obj" : "RHEA:28094",
-          "meta" : {
-            "basicPropertyValues" : [
-              {
-                "pred" : "https://w3id.org/kgviz/width",
-                "value" : 7.5
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 0.8
               }
             ]
           }
@@ -85,9 +50,18 @@
           "meta" : {
             "basicPropertyValues" : [
               {
-                "pred" : "https://w3id.org/kgviz/width",
-                "value" : 8.0
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 8.0
               }
+            ]
+          }
+        },
+        {
+          "sub" : "RHEA:28094",
+          "pred" : "owl:equivalentClass",
+          "obj" : "RHEA:28095",
+          "meta" : {
+            "basicPropertyValues" : [
             ]
           }
         },
@@ -98,8 +72,34 @@
           "meta" : {
             "basicPropertyValues" : [
               {
-                "pred" : "https://w3id.org/kgviz/width",
-                "value" : 7.5
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 7.5
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "EC:3.6.1.27",
+          "pred" : "owl:equivalentClass",
+          "obj" : "RHEA:28094",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 7.5
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "METACYC:UNDECAPRENYL-DIPHOSPHATASE-RXN",
+          "pred" : "owl:equivalentClass",
+          "obj" : "GO:0050380",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 8.0
               }
             ]
           }
@@ -109,16 +109,10 @@
         {
           "nodeIds" : [
             "GO:0050380",
-            "METACYC:UNDECAPRENYL-DIPHOSPHATASE-RXN",
-            "RHEA:28095"
-          ]
-        },
-        {
-          "nodeIds" : [
-            "EC:3.6.1.27",
-            "RHEA:28094",
             "RHEA:28095",
-            "GO:0050380"
+            "RHEA:28094",
+            "EC:3.6.1.27",
+            "METACYC:UNDECAPRENYL-DIPHOSPHATASE-RXN"
           ]
         }
       ]

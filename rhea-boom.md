@@ -286,8 +286,8 @@
 ## [EC:2.4.1.370](http://purl.uniprot.org/enzyme/2.4.1.370) [METACYC:RXN3O-663](http://metacyc.org/RXN3O-663) [RHEA:61496](http://rdf.rhea-db.org/61496) [RHEA:61497](http://rdf.rhea-db.org/61497) [RHEA:61498](http://rdf.rhea-db.org/61498) [RHEA:61499](http://rdf.rhea-db.org/61499) [RHEA:64596](http://rdf.rhea-db.org/64596) [RHEA:64597](http://rdf.rhea-db.org/64597) [RHEA:64598](http://rdf.rhea-db.org/64598) [RHEA:64599](http://rdf.rhea-db.org/64599) [inositol phosphorylceramide mannosyltransferase activity](http://purl.obolibrary.org/obo/GO_0103064)
 
 - [inositol phosphorylceramide mannosyltransferase activity](http://purl.obolibrary.org/obo/GO_0103064) ProperSubClassOf [RHEA:61496](http://rdf.rhea-db.org/61496)		0.15
-- [RHEA:64597](http://rdf.rhea-db.org/64597) EquivalentTo [METACYC:RXN3O-663](http://metacyc.org/RXN3O-663)	(most probable)	0.75
 - [RHEA:64596](http://rdf.rhea-db.org/64596) EquivalentTo [EC:2.4.1.370](http://purl.uniprot.org/enzyme/2.4.1.370)	(most probable)	0.75
+- [RHEA:64597](http://rdf.rhea-db.org/64597) EquivalentTo [METACYC:RXN3O-663](http://metacyc.org/RXN3O-663)	(most probable)	0.75
 - [inositol phosphorylceramide mannosyltransferase activity](http://purl.obolibrary.org/obo/GO_0103064) EquivalentTo [METACYC:RXN3O-663](http://metacyc.org/RXN3O-663)	(most probable)	0.8
 
 ## [D-phosphoserine phosphatase activity](http://purl.obolibrary.org/obo/GO_0036425) [EC:3.1.3.3](http://purl.uniprot.org/enzyme/3.1.3.3) [L-phosphoserine phosphatase activity](http://purl.obolibrary.org/obo/GO_0036424) [METACYC:PSERPHOSPHA-RXN](http://metacyc.org/PSERPHOSPHA-RXN) [METACYC:RXN0-5114](http://metacyc.org/RXN0-5114) [REACTOME:R-HSA-977324.2](http://reactome.org/R-HSA-977324.2) [RHEA:21208](http://rdf.rhea-db.org/21208) [RHEA:21209](http://rdf.rhea-db.org/21209) [RHEA:21210](http://rdf.rhea-db.org/21210) [RHEA:21211](http://rdf.rhea-db.org/21211) [RHEA:24873](http://rdf.rhea-db.org/24873) [RHEA:24874](http://rdf.rhea-db.org/24874) [RHEA:24875](http://rdf.rhea-db.org/24875) [RHEA:24876](http://rdf.rhea-db.org/24876) [phosphoserine phosphatase activity](http://purl.obolibrary.org/obo/GO_0004647)
@@ -317,22 +317,22 @@
 
 ## [EC:7.2.2.1](http://purl.uniprot.org/enzyme/7.2.2.1) [EC:7.2.2.3](http://purl.uniprot.org/enzyme/7.2.2.3) [EC:7.2.2.4](http://purl.uniprot.org/enzyme/7.2.2.4) [METACYC:3.6.3.15-RXN](http://metacyc.org/3.6.3.15-RXN) [METACYC:3.6.3.7-RXN](http://metacyc.org/3.6.3.7-RXN) [METACYC:RXN-19779](http://metacyc.org/RXN-19779) [P-type sodium transporter activity](http://purl.obolibrary.org/obo/GO_0008554) [RHEA:14633](http://rdf.rhea-db.org/14633) [RHEA:14634](http://rdf.rhea-db.org/14634) [RHEA:14635](http://rdf.rhea-db.org/14635) [RHEA:14636](http://rdf.rhea-db.org/14636) [RHEA:58156](http://rdf.rhea-db.org/58156) [RHEA:58157](http://rdf.rhea-db.org/58157) [RHEA:58158](http://rdf.rhea-db.org/58158) [RHEA:58159](http://rdf.rhea-db.org/58159) [sodium-transporting ATP synthase activity, rotational mechanism](http://purl.obolibrary.org/obo/GO_0046932) [sodium-transporting ATPase activity, rotational mechanism](http://purl.obolibrary.org/obo/GO_0046962)
 
-- [sodium-transporting ATPase activity, rotational mechanism](http://purl.obolibrary.org/obo/GO_0046962) ProperSubClassOf [RHEA:58157](http://rdf.rhea-db.org/58157)		0.08
+- [sodium-transporting ATPase activity, rotational mechanism](http://purl.obolibrary.org/obo/GO_0046962) EquivalentTo [RHEA:58157](http://rdf.rhea-db.org/58157)	(most probable)	0.8
 - [RHEA:14634](http://rdf.rhea-db.org/14634) EquivalentTo [METACYC:3.6.3.7-RXN](http://metacyc.org/3.6.3.7-RXN)	(most probable)	0.75
-- [sodium-transporting ATP synthase activity, rotational mechanism](http://purl.obolibrary.org/obo/GO_0046932) EquivalentTo [METACYC:3.6.3.15-RXN](http://metacyc.org/3.6.3.15-RXN)	(most probable)	0.8
-- [sodium-transporting ATPase activity, rotational mechanism](http://purl.obolibrary.org/obo/GO_0046962) ProperSubClassOf [EC:7.2.2.1](http://purl.uniprot.org/enzyme/7.2.2.1)		0.08
+- [sodium-transporting ATP synthase activity, rotational mechanism](http://purl.obolibrary.org/obo/GO_0046932) ProperSubClassOf [METACYC:3.6.3.15-RXN](http://metacyc.org/3.6.3.15-RXN)		0.08
+- [sodium-transporting ATPase activity, rotational mechanism](http://purl.obolibrary.org/obo/GO_0046962) EquivalentTo [EC:7.2.2.1](http://purl.uniprot.org/enzyme/7.2.2.1)	(most probable)	0.8
 - [RHEA:14633](http://rdf.rhea-db.org/14633) EquivalentTo [EC:7.2.2.3](http://purl.uniprot.org/enzyme/7.2.2.3)	(most probable)	0.75
 - [RHEA:58156](http://rdf.rhea-db.org/58156) EquivalentTo [EC:7.2.2.1](http://purl.uniprot.org/enzyme/7.2.2.1)	(most probable)	0.75
 - [P-type sodium transporter activity](http://purl.obolibrary.org/obo/GO_0008554) EquivalentTo [METACYC:3.6.3.7-RXN](http://metacyc.org/3.6.3.7-RXN)	(most probable)	0.8
 - [RHEA:14634](http://rdf.rhea-db.org/14634) ProperSubClassOf [METACYC:3.6.3.15-RXN](http://metacyc.org/3.6.3.15-RXN)		0.1
 - [RHEA:58159](http://rdf.rhea-db.org/58159) EquivalentTo [METACYC:3.6.3.15-RXN](http://metacyc.org/3.6.3.15-RXN)	(most probable)	0.75
-- [sodium-transporting ATPase activity, rotational mechanism](http://purl.obolibrary.org/obo/GO_0046962) ProperSubClassOf [METACYC:3.6.3.15-RXN](http://metacyc.org/3.6.3.15-RXN)		0.08
+- [sodium-transporting ATPase activity, rotational mechanism](http://purl.obolibrary.org/obo/GO_0046962) EquivalentTo [METACYC:3.6.3.15-RXN](http://metacyc.org/3.6.3.15-RXN)	(most probable)	0.8
 - [P-type sodium transporter activity](http://purl.obolibrary.org/obo/GO_0008554) EquivalentTo [RHEA:14633](http://rdf.rhea-db.org/14633)	(most probable)	0.8
 - [RHEA:14633](http://rdf.rhea-db.org/14633) ProperSubClassOf [EC:7.2.2.4](http://purl.uniprot.org/enzyme/7.2.2.4)		0.1
-- [sodium-transporting ATP synthase activity, rotational mechanism](http://purl.obolibrary.org/obo/GO_0046932) EquivalentTo [EC:7.2.2.1](http://purl.uniprot.org/enzyme/7.2.2.1)	(most probable)	0.8
+- [sodium-transporting ATP synthase activity, rotational mechanism](http://purl.obolibrary.org/obo/GO_0046932) ProperSubClassOf [EC:7.2.2.1](http://purl.uniprot.org/enzyme/7.2.2.1)		0.08
 - [P-type sodium transporter activity](http://purl.obolibrary.org/obo/GO_0008554) EquivalentTo [EC:7.2.2.3](http://purl.uniprot.org/enzyme/7.2.2.3)	(most probable)	0.8
 - [RHEA:14634](http://rdf.rhea-db.org/14634) ProperSubClassOf [METACYC:RXN-19779](http://metacyc.org/RXN-19779)		0.1
-- [sodium-transporting ATP synthase activity, rotational mechanism](http://purl.obolibrary.org/obo/GO_0046932) EquivalentTo [RHEA:58158](http://rdf.rhea-db.org/58158)	(most probable)	0.8
+- [sodium-transporting ATP synthase activity, rotational mechanism](http://purl.obolibrary.org/obo/GO_0046932) ProperSubClassOf [RHEA:58158](http://rdf.rhea-db.org/58158)		0.08
 
 ## [EC:2.8.2.11](http://purl.uniprot.org/enzyme/2.8.2.11) [METACYC:GALACTOSYLCERAMIDE-SULFOTRANSFERASE-RXN](http://metacyc.org/GALACTOSYLCERAMIDE-SULFOTRANSFERASE-RXN) [RHEA:20613](http://rdf.rhea-db.org/20613) [RHEA:20614](http://rdf.rhea-db.org/20614) [RHEA:20615](http://rdf.rhea-db.org/20615) [RHEA:20616](http://rdf.rhea-db.org/20616) [RHEA:41744](http://rdf.rhea-db.org/41744) [RHEA:41745](http://rdf.rhea-db.org/41745) [RHEA:41746](http://rdf.rhea-db.org/41746) [RHEA:41747](http://rdf.rhea-db.org/41747) [RHEA:43304](http://rdf.rhea-db.org/43304) [RHEA:43305](http://rdf.rhea-db.org/43305) [RHEA:43306](http://rdf.rhea-db.org/43306) [RHEA:43307](http://rdf.rhea-db.org/43307) [galactosylceramide sulfotransferase activity](http://purl.obolibrary.org/obo/GO_0001733)
 
@@ -375,7 +375,7 @@
 - [aldehyde dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0004029) EquivalentTo [RHEA:16185](http://rdf.rhea-db.org/16185)	(most probable)	0.8
 - [4-hydroxymethylsalicyaldehyde dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0034530) ProperSubClassOf [EC:1.2.1.-](http://purl.uniprot.org/enzyme/1.2.1.-)		0.08
 - [oxidoreductase activity, acting on the aldehyde or oxo group of donors, NAD or NADP as acceptor](http://purl.obolibrary.org/obo/GO_0016620) EquivalentTo [EC:1.2.1.-](http://purl.uniprot.org/enzyme/1.2.1.-)	(most probable)	0.8
-- [RHEA:42763](http://rdf.rhea-db.org/42763) EquivalentTo [METACYC:RXN-15754](http://metacyc.org/RXN-15754)	(most probable)	0.75
+- [RHEA:42763](http://rdf.rhea-db.org/42763) ProperSubClassOf [METACYC:RXN-15754](http://metacyc.org/RXN-15754)		0.1
 - [RHEA:11888](http://rdf.rhea-db.org/11888) EquivalentTo [METACYC:ALDEHYDE-DEHYDROGENASE-NADORNOP%252b-RXN](http://metacyc.org/ALDEHYDE-DEHYDROGENASE-NADORNOP%252b-RXN)	(most probable)	0.75
 - [glyceraldehyde-3-phosphate dehydrogenase (NADP+) (non-phosphorylating) activity](http://purl.obolibrary.org/obo/GO_0008886) EquivalentTo [METACYC:1.2.1.9-RXN](http://metacyc.org/1.2.1.9-RXN)	(most probable)	0.8
 - [aldehyde dehydrogenase [NAD(P)+] activity](http://purl.obolibrary.org/obo/GO_0004030) EquivalentTo [METACYC:ALDEHYDE-DEHYDROGENASE-NADP+-RXN](http://metacyc.org/ALDEHYDE-DEHYDROGENASE-NADP+-RXN)	(most probable)	0.8
@@ -394,7 +394,7 @@
 - [aldehyde dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0033721) EquivalentTo [EC:1.2.1.4](http://purl.uniprot.org/enzyme/1.2.1.4)	(most probable)	0.8
 - [RHEA:14669](http://rdf.rhea-db.org/14669) ProperSubClassOf [EC:1.2.1.90](http://purl.uniprot.org/enzyme/1.2.1.90)		0.1
 - [RHEA:11888](http://rdf.rhea-db.org/11888) ProperSubClassOf [EC:1.2.1.5](http://purl.uniprot.org/enzyme/1.2.1.5)		0.1
-- [RHEA:42761](http://rdf.rhea-db.org/42761) ProperSubClassOf [METACYC:RXN-3443](http://metacyc.org/RXN-3443)		0.1
+- [RHEA:42761](http://rdf.rhea-db.org/42761) EquivalentTo [METACYC:RXN-3443](http://metacyc.org/RXN-3443)	(most probable)	0.75
 - [glyceraldehyde-3-phosphate dehydrogenase (NADP+) (non-phosphorylating) activity](http://purl.obolibrary.org/obo/GO_0008886) EquivalentTo [RHEA:14669](http://rdf.rhea-db.org/14669)	(most probable)	0.8
 - [2-carboxybenzaldehyde dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0018474) ProperSubClassOf [EC:1.2.1.-](http://purl.uniprot.org/enzyme/1.2.1.-)		0.08
 - [aldehyde dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0033721) ProperSubClassOf [METACYC:ALDEHYDE-DEHYDROGENASE-NADP+-RXN](http://metacyc.org/ALDEHYDE-DEHYDROGENASE-NADP+-RXN)		0.08

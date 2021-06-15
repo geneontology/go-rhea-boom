@@ -1,7 +1,7 @@
 {
   "graphs" : [
     {
-      "id" : "urn:unnamed:ontology#ont12",
+      "id" : "urn:clique:b579b29dd9d12de0e561db2a3461b7c5f49c9761d049e48e1328a43c3ef0f212",
       "nodes" : [
         {
           "id" : "METACYC:MUCONATE-CYCLOISOMERASE-RXN",
@@ -37,8 +37,21 @@
           "meta" : {
             "basicPropertyValues" : [
               {
-                "pred" : "https://w3id.org/kgviz/width",
-                "value" : 8.0
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 8.0
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "EC:5.5.1.1",
+          "pred" : "owl:equivalentClass",
+          "obj" : "RHEA:30031",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 7.5
               }
             ]
           }
@@ -50,21 +63,8 @@
           "meta" : {
             "basicPropertyValues" : [
               {
-                "pred" : "https://w3id.org/kgviz/width",
-                "value" : 0.8
-              }
-            ]
-          }
-        },
-        {
-          "sub" : "METACYC:MUCONATE-CYCLOISOMERASE-RXN",
-          "pred" : "owl:equivalentClass",
-          "obj" : "GO:0018849",
-          "meta" : {
-            "basicPropertyValues" : [
-              {
-                "pred" : "https://w3id.org/kgviz/width",
-                "value" : 8.0
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 0.8
               }
             ]
           }
@@ -81,25 +81,25 @@
         {
           "sub" : "METACYC:MUCONATE-CYCLOISOMERASE-RXN",
           "pred" : "owl:equivalentClass",
-          "obj" : "RHEA:30033",
+          "obj" : "GO:0018849",
           "meta" : {
             "basicPropertyValues" : [
               {
-                "pred" : "https://w3id.org/kgviz/width",
-                "value" : 7.5
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 8.0
               }
             ]
           }
         },
         {
-          "sub" : "EC:5.5.1.1",
+          "sub" : "METACYC:MUCONATE-CYCLOISOMERASE-RXN",
           "pred" : "owl:equivalentClass",
-          "obj" : "RHEA:30031",
+          "obj" : "RHEA:30033",
           "meta" : {
             "basicPropertyValues" : [
               {
-                "pred" : "https://w3id.org/kgviz/width",
-                "value" : 7.5
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 7.5
               }
             ]
           }
@@ -108,17 +108,17 @@
       "equivalentNodesSets" : [
         {
           "nodeIds" : [
-            "EC:5.5.1.1",
+            "METACYC:MUCONATE-CYCLOISOMERASE-RXN",
             "GO:0018849",
-            "METACYC:MUCONATE-CYCLOISOMERASE-RXN"
+            "RHEA:30033"
           ]
         },
         {
           "nodeIds" : [
-            "RHEA:30033",
-            "METACYC:MUCONATE-CYCLOISOMERASE-RXN",
+            "EC:5.5.1.1",
             "RHEA:30031",
-            "EC:5.5.1.1"
+            "RHEA:30033",
+            "GO:0018849"
           ]
         }
       ]

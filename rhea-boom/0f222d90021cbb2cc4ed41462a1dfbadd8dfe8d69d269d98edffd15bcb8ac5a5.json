@@ -1,7 +1,7 @@
 {
   "graphs" : [
     {
-      "id" : "urn:unnamed:ontology#ont21",
+      "id" : "urn:clique:0f222d90021cbb2cc4ed41462a1dfbadd8dfe8d69d269d98edffd15bcb8ac5a5",
       "nodes" : [
         {
           "id" : "METACYC:RXN1F-19",
@@ -42,8 +42,8 @@
           "meta" : {
             "basicPropertyValues" : [
               {
-                "pred" : "https://w3id.org/kgviz/width",
-                "value" : 8.0
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 8.0
               }
             ]
           }
@@ -55,30 +55,8 @@
           "meta" : {
             "basicPropertyValues" : [
               {
-                "pred" : "https://w3id.org/kgviz/width",
-                "value" : 7.5
-              }
-            ]
-          }
-        },
-        {
-          "sub" : "RHEA:25074",
-          "pred" : "owl:equivalentClass",
-          "obj" : "RHEA:25075",
-          "meta" : {
-            "basicPropertyValues" : [
-            ]
-          }
-        },
-        {
-          "sub" : "GO:0047987",
-          "pred" : "owl:equivalentClass",
-          "obj" : "RHEA:25075",
-          "meta" : {
-            "basicPropertyValues" : [
-              {
-                "pred" : "https://w3id.org/kgviz/width",
-                "value" : 8.0
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 7.5
               }
             ]
           }
@@ -90,34 +68,8 @@
           "meta" : {
             "basicPropertyValues" : [
               {
-                "pred" : "https://w3id.org/kgviz/width",
-                "value" : 1.0
-              }
-            ]
-          }
-        },
-        {
-          "sub" : "RHEA:25074",
-          "pred" : "is_a",
-          "obj" : "GO:0009978",
-          "meta" : {
-            "basicPropertyValues" : [
-              {
-                "pred" : "https://w3id.org/kgviz/width",
-                "value" : 1.5
-              }
-            ]
-          }
-        },
-        {
-          "sub" : "METACYC:RXN1F-19",
-          "pred" : "owl:equivalentClass",
-          "obj" : "GO:0009978",
-          "meta" : {
-            "basicPropertyValues" : [
-              {
-                "pred" : "https://w3id.org/kgviz/width",
-                "value" : 8.0
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 1.0
               }
             ]
           }
@@ -129,9 +81,57 @@
           "meta" : {
             "basicPropertyValues" : [
               {
-                "pred" : "https://w3id.org/kgviz/width",
-                "value" : 8.0
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 8.0
               }
+            ]
+          }
+        },
+        {
+          "sub" : "METACYC:RXN1F-19",
+          "pred" : "owl:equivalentClass",
+          "obj" : "GO:0009978",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 8.0
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "RHEA:25074",
+          "pred" : "is_a",
+          "obj" : "GO:0009978",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 1.5
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "GO:0047987",
+          "pred" : "owl:equivalentClass",
+          "obj" : "RHEA:25075",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 8.0
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "RHEA:25074",
+          "pred" : "owl:equivalentClass",
+          "obj" : "RHEA:25075",
+          "meta" : {
+            "basicPropertyValues" : [
             ]
           }
         }
@@ -139,23 +139,23 @@
       "equivalentNodesSets" : [
         {
           "nodeIds" : [
-            "RHEA:25075",
-            "RHEA:25074",
             "EC:4.2.1.92",
-            "GO:0047987"
-          ]
-        },
-        {
-          "nodeIds" : [
-            "METACYC:HYDROPEROXIDE-DEHYDRATASE-RXN",
             "GO:0047987",
-            "RHEA:25075"
+            "METACYC:HYDROPEROXIDE-DEHYDRATASE-RXN"
           ]
         },
         {
           "nodeIds" : [
             "METACYC:RXN1F-19",
             "GO:0009978"
+          ]
+        },
+        {
+          "nodeIds" : [
+            "RHEA:25075",
+            "RHEA:25074",
+            "GO:0047987",
+            "EC:4.2.1.92"
           ]
         }
       ]

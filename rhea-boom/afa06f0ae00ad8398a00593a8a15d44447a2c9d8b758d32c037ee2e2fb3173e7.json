@@ -1,7 +1,7 @@
 {
   "graphs" : [
     {
-      "id" : "urn:unnamed:ontology#ont23",
+      "id" : "urn:clique:afa06f0ae00ad8398a00593a8a15d44447a2c9d8b758d32c037ee2e2fb3173e7",
       "nodes" : [
         {
           "id" : "RHEA:55337",
@@ -110,59 +110,11 @@
       ],
       "edges" : [
         {
-          "sub" : "RHEA:14589",
-          "pred" : "is_a",
-          "obj" : "RHEA:55332",
-          "meta" : {
-            "basicPropertyValues" : [
-            ]
-          }
-        },
-        {
           "sub" : "RHEA:25633",
           "pred" : "owl:equivalentClass",
           "obj" : "RHEA:25634",
           "meta" : {
             "basicPropertyValues" : [
-            ]
-          }
-        },
-        {
-          "sub" : "GO:0030744",
-          "pred" : "owl:equivalentClass",
-          "obj" : "RHEA:14589",
-          "meta" : {
-            "basicPropertyValues" : [
-              {
-                "pred" : "https://w3id.org/kgviz/width",
-                "value" : 8.0
-              }
-            ]
-          }
-        },
-        {
-          "sub" : "METACYC:RXN-8451",
-          "pred" : "owl:equivalentClass",
-          "obj" : "RHEA:25630",
-          "meta" : {
-            "basicPropertyValues" : [
-              {
-                "pred" : "https://w3id.org/kgviz/width",
-                "value" : 7.5
-              }
-            ]
-          }
-        },
-        {
-          "sub" : "METACYC:RXN-13955",
-          "pred" : "owl:equivalentClass",
-          "obj" : "RHEA:55333",
-          "meta" : {
-            "basicPropertyValues" : [
-              {
-                "pred" : "https://w3id.org/kgviz/width",
-                "value" : 7.5
-              }
             ]
           }
         },
@@ -173,18 +125,9 @@
           "meta" : {
             "basicPropertyValues" : [
               {
-                "pred" : "https://w3id.org/kgviz/width",
-                "value" : 8.0
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 8.0
               }
-            ]
-          }
-        },
-        {
-          "sub" : "RHEA:60945",
-          "pred" : "is_a",
-          "obj" : "RHEA:55333",
-          "meta" : {
-            "basicPropertyValues" : [
             ]
           }
         },
@@ -194,32 +137,6 @@
           "obj" : "RHEA:55332",
           "meta" : {
             "basicPropertyValues" : [
-            ]
-          }
-        },
-        {
-          "sub" : "GO:0102822",
-          "pred" : "is_a",
-          "obj" : "RHEA:55332",
-          "meta" : {
-            "basicPropertyValues" : [
-              {
-                "pred" : "https://w3id.org/kgviz/width",
-                "value" : 1.5
-              }
-            ]
-          }
-        },
-        {
-          "sub" : "GO:0030744",
-          "pred" : "owl:equivalentClass",
-          "obj" : "EC:2.1.1.42",
-          "meta" : {
-            "basicPropertyValues" : [
-              {
-                "pred" : "https://w3id.org/kgviz/width",
-                "value" : 8.0
-              }
             ]
           }
         },
@@ -242,27 +159,23 @@
           }
         },
         {
-          "sub" : "METACYC:RXN-8452",
-          "pred" : "owl:equivalentClass",
-          "obj" : "GO:0070448",
+          "sub" : "RHEA:14589",
+          "pred" : "is_a",
+          "obj" : "RHEA:55332",
           "meta" : {
             "basicPropertyValues" : [
-              {
-                "pred" : "https://w3id.org/kgviz/width",
-                "value" : 8.0
-              }
             ]
           }
         },
         {
-          "sub" : "METACYC:RXN-8452",
+          "sub" : "METACYC:RXN-8451",
           "pred" : "owl:equivalentClass",
-          "obj" : "RHEA:25634",
+          "obj" : "RHEA:25630",
           "meta" : {
             "basicPropertyValues" : [
               {
-                "pred" : "https://w3id.org/kgviz/width",
-                "value" : 7.5
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 7.5
               }
             ]
           }
@@ -283,21 +196,99 @@
           "meta" : {
             "basicPropertyValues" : [
               {
-                "pred" : "https://w3id.org/kgviz/width",
-                "value" : 8.0
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 8.0
               }
             ]
           }
         },
         {
-          "sub" : "RHEA:25629",
-          "pred" : "is_a",
+          "sub" : "GO:0070448",
+          "pred" : "owl:equivalentClass",
           "obj" : "EC:2.1.1.267",
           "meta" : {
             "basicPropertyValues" : [
               {
-                "pred" : "https://w3id.org/kgviz/width",
-                "value" : 1.0
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 8.0
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "METACYC:RXN-8262",
+          "pred" : "owl:equivalentClass",
+          "obj" : "RHEA:60945",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 7.5
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "METACYC:RXN-13956",
+          "pred" : "owl:equivalentClass",
+          "obj" : "RHEA:55337",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 7.5
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "EC:2.1.1.42",
+          "pred" : "is_a",
+          "obj" : "RHEA:55332",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 1.0
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "GO:0102822",
+          "pred" : "is_a",
+          "obj" : "RHEA:55332",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 1.5
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "EC:2.1.1.267",
+          "pred" : "is_a",
+          "obj" : "RHEA:55336",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 1.0
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "METACYC:RXN-8452",
+          "pred" : "owl:equivalentClass",
+          "obj" : "GO:0070448",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 8.0
               }
             ]
           }
@@ -321,20 +312,7 @@
           }
         },
         {
-          "sub" : "METACYC:LUTEOLIN-O-METHYLTRANSFERASE-RXN",
-          "pred" : "owl:equivalentClass",
-          "obj" : "GO:0030744",
-          "meta" : {
-            "basicPropertyValues" : [
-              {
-                "pred" : "https://w3id.org/kgviz/width",
-                "value" : 8.0
-              }
-            ]
-          }
-        },
-        {
-          "sub" : "RHEA:14589",
+          "sub" : "RHEA:60945",
           "pred" : "is_a",
           "obj" : "RHEA:55333",
           "meta" : {
@@ -349,8 +327,82 @@
           "meta" : {
             "basicPropertyValues" : [
               {
-                "pred" : "https://w3id.org/kgviz/width",
-                "value" : 0.8
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 0.8
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "GO:0030744",
+          "pred" : "owl:equivalentClass",
+          "obj" : "RHEA:14589",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 8.0
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "METACYC:LUTEOLIN-O-METHYLTRANSFERASE-RXN",
+          "pred" : "owl:equivalentClass",
+          "obj" : "GO:0030744",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 8.0
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "RHEA:14589",
+          "pred" : "is_a",
+          "obj" : "RHEA:55333",
+          "meta" : {
+            "basicPropertyValues" : [
+            ]
+          }
+        },
+        {
+          "sub" : "RHEA:25629",
+          "pred" : "is_a",
+          "obj" : "EC:2.1.1.267",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 1.0
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "GO:0033799",
+          "pred" : "owl:equivalentClass",
+          "obj" : "RHEA:25629",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 8.0
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "METACYC:RXN-8452",
+          "pred" : "owl:equivalentClass",
+          "obj" : "RHEA:25634",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 7.5
               }
             ]
           }
@@ -374,58 +426,6 @@
           }
         },
         {
-          "sub" : "GO:0033799",
-          "pred" : "is_a",
-          "obj" : "METACYC:RXN-13912",
-          "meta" : {
-            "basicPropertyValues" : [
-              {
-                "pred" : "https://w3id.org/kgviz/width",
-                "value" : 0.8
-              }
-            ]
-          }
-        },
-        {
-          "sub" : "RHEA:55332",
-          "pred" : "is_a",
-          "obj" : "EC:2.1.1.267",
-          "meta" : {
-            "basicPropertyValues" : [
-              {
-                "pred" : "https://w3id.org/kgviz/width",
-                "value" : 1.0
-              }
-            ]
-          }
-        },
-        {
-          "sub" : "METACYC:RXN-8262",
-          "pred" : "owl:equivalentClass",
-          "obj" : "RHEA:60945",
-          "meta" : {
-            "basicPropertyValues" : [
-              {
-                "pred" : "https://w3id.org/kgviz/width",
-                "value" : 7.5
-              }
-            ]
-          }
-        },
-        {
-          "sub" : "GO:0070448",
-          "pred" : "owl:equivalentClass",
-          "obj" : "RHEA:25633",
-          "meta" : {
-            "basicPropertyValues" : [
-              {
-                "pred" : "https://w3id.org/kgviz/width",
-                "value" : 8.0
-              }
-            ]
-          }
-        },
-        {
           "sub" : "RHEA:25634",
           "pred" : "is_a",
           "obj" : "RHEA:55336",
@@ -444,27 +444,27 @@
           }
         },
         {
-          "sub" : "EC:2.1.1.267",
-          "pred" : "is_a",
-          "obj" : "RHEA:55336",
+          "sub" : "METACYC:LUTEOLIN-O-METHYLTRANSFERASE-RXN",
+          "pred" : "owl:equivalentClass",
+          "obj" : "RHEA:14590",
           "meta" : {
             "basicPropertyValues" : [
               {
-                "pred" : "https://w3id.org/kgviz/width",
-                "value" : 1.0
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 7.5
               }
             ]
           }
         },
         {
-          "sub" : "GO:0070448",
+          "sub" : "METACYC:RXN-13955",
           "pred" : "owl:equivalentClass",
-          "obj" : "EC:2.1.1.267",
+          "obj" : "RHEA:55333",
           "meta" : {
             "basicPropertyValues" : [
               {
-                "pred" : "https://w3id.org/kgviz/width",
-                "value" : 8.0
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 7.5
               }
             ]
           }
@@ -497,19 +497,6 @@
           }
         },
         {
-          "sub" : "METACYC:RXN-8451",
-          "pred" : "owl:equivalentClass",
-          "obj" : "GO:0033799",
-          "meta" : {
-            "basicPropertyValues" : [
-              {
-                "pred" : "https://w3id.org/kgviz/width",
-                "value" : 8.0
-              }
-            ]
-          }
-        },
-        {
           "sub" : "RHEA:25629",
           "pred" : "is_a",
           "obj" : "RHEA:55333",
@@ -519,14 +506,14 @@
           }
         },
         {
-          "sub" : "METACYC:LUTEOLIN-O-METHYLTRANSFERASE-RXN",
-          "pred" : "owl:equivalentClass",
-          "obj" : "RHEA:14590",
+          "sub" : "RHEA:55332",
+          "pred" : "is_a",
+          "obj" : "EC:2.1.1.267",
           "meta" : {
             "basicPropertyValues" : [
               {
-                "pred" : "https://w3id.org/kgviz/width",
-                "value" : 7.5
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 1.0
               }
             ]
           }
@@ -541,14 +528,27 @@
           }
         },
         {
-          "sub" : "EC:2.1.1.42",
-          "pred" : "is_a",
-          "obj" : "RHEA:55332",
+          "sub" : "METACYC:RXN-8451",
+          "pred" : "owl:equivalentClass",
+          "obj" : "GO:0033799",
           "meta" : {
             "basicPropertyValues" : [
               {
-                "pred" : "https://w3id.org/kgviz/width",
-                "value" : 1.0
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 8.0
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "GO:0070448",
+          "pred" : "owl:equivalentClass",
+          "obj" : "RHEA:25633",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 8.0
               }
             ]
           }
@@ -560,40 +560,48 @@
           "meta" : {
             "basicPropertyValues" : [
               {
-                "pred" : "https://w3id.org/kgviz/width",
-                "value" : 7.5
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 7.5
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "GO:0030744",
+          "pred" : "owl:equivalentClass",
+          "obj" : "EC:2.1.1.42",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 8.0
               }
             ]
           }
         },
         {
           "sub" : "GO:0033799",
-          "pred" : "owl:equivalentClass",
-          "obj" : "RHEA:25629",
+          "pred" : "is_a",
+          "obj" : "METACYC:RXN-13912",
           "meta" : {
             "basicPropertyValues" : [
               {
-                "pred" : "https://w3id.org/kgviz/width",
-                "value" : 8.0
-              }
-            ]
-          }
-        },
-        {
-          "sub" : "METACYC:RXN-13956",
-          "pred" : "owl:equivalentClass",
-          "obj" : "RHEA:55337",
-          "meta" : {
-            "basicPropertyValues" : [
-              {
-                "pred" : "https://w3id.org/kgviz/width",
-                "value" : 7.5
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 0.8
               }
             ]
           }
         }
       ],
       "equivalentNodesSets" : [
+        {
+          "nodeIds" : [
+            "METACYC:LUTEOLIN-O-METHYLTRANSFERASE-RXN",
+            "GO:0030744",
+            "EC:2.1.1.42",
+            "RHEA:14590"
+          ]
+        },
         {
           "nodeIds" : [
             "RHEA:25634",
@@ -612,9 +620,9 @@
         },
         {
           "nodeIds" : [
-            "METACYC:LUTEOLIN-O-METHYLTRANSFERASE-RXN",
-            "GO:0030744",
-            "EC:2.1.1.42"
+            "RHEA:14589",
+            "RHEA:14590",
+            "GO:0030744"
           ]
         },
         {
@@ -638,20 +646,6 @@
             "RHEA:25630",
             "METACYC:RXN-8451",
             "GO:0033799"
-          ]
-        },
-        {
-          "nodeIds" : [
-            "RHEA:25634",
-            "METACYC:RXN-8452"
-          ]
-        },
-        {
-          "nodeIds" : [
-            "RHEA:14589",
-            "RHEA:14590",
-            "METACYC:LUTEOLIN-O-METHYLTRANSFERASE-RXN",
-            "GO:0030744"
           ]
         }
       ]
