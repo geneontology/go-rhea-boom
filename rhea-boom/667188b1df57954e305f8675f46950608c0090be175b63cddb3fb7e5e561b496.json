@@ -39,20 +39,15 @@
       ],
       "edges" : [
         {
-          "sub" : "RHEA:19081",
-          "pred" : "owl:equivalentClass",
-          "obj" : "RHEA:19082",
-          "meta" : {
-            "basicPropertyValues" : [
-            ]
-          }
-        },
-        {
           "sub" : "RHEA:25186",
           "pred" : "is_a",
           "obj" : "RHEA:19081",
           "meta" : {
             "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 10
+              }
             ]
           }
         },
@@ -72,24 +67,6 @@
         {
           "sub" : "RHEA:25185",
           "pred" : "is_a",
-          "obj" : "RHEA:19082",
-          "meta" : {
-            "basicPropertyValues" : [
-            ]
-          }
-        },
-        {
-          "sub" : "RHEA:25185",
-          "pred" : "is_a",
-          "obj" : "RHEA:19081",
-          "meta" : {
-            "basicPropertyValues" : [
-            ]
-          }
-        },
-        {
-          "sub" : "RHEA:25185",
-          "pred" : "is_a",
           "obj" : "EC:3.8.1.5",
           "meta" : {
             "basicPropertyValues" : [
@@ -101,14 +78,14 @@
           }
         },
         {
-          "sub" : "GO:0018786",
+          "sub" : "RHEA:25185",
           "pred" : "owl:equivalentClass",
-          "obj" : "EC:3.8.1.5",
+          "obj" : "RHEA:25186",
           "meta" : {
             "basicPropertyValues" : [
               {
                 "pred" : "https://w3id.org/kgviz/penwidth",
-                "val" : 8.0
+                "val" : 10
               }
             ]
           }
@@ -127,11 +104,67 @@
           }
         },
         {
+          "sub" : "RHEA:25185",
+          "pred" : "is_a",
+          "obj" : "RHEA:19082",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 10
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "RHEA:25185",
+          "pred" : "is_a",
+          "obj" : "RHEA:19081",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 10
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "RHEA:19081",
+          "pred" : "owl:equivalentClass",
+          "obj" : "RHEA:19082",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 10
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "GO:0018786",
+          "pred" : "owl:equivalentClass",
+          "obj" : "EC:3.8.1.5",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 8.0
+              }
+            ]
+          }
+        },
+        {
           "sub" : "RHEA:25186",
           "pred" : "is_a",
           "obj" : "RHEA:19082",
           "meta" : {
             "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 10
+              }
             ]
           }
         },
@@ -145,15 +178,6 @@
                 "pred" : "https://w3id.org/kgviz/penwidth",
                 "val" : 0.8
               }
-            ]
-          }
-        },
-        {
-          "sub" : "RHEA:25185",
-          "pred" : "owl:equivalentClass",
-          "obj" : "RHEA:25186",
-          "meta" : {
-            "basicPropertyValues" : [
             ]
           }
         },
@@ -187,13 +211,6 @@
       "equivalentNodesSets" : [
         {
           "nodeIds" : [
-            "EC:3.8.1.5",
-            "GO:0018786",
-            "METACYC:HALOALKANE-DEHALOGENASE-RXN"
-          ]
-        },
-        {
-          "nodeIds" : [
             "METACYC:DHLAXANAU-RXN",
             "RHEA:25186",
             "RHEA:25185"
@@ -201,10 +218,17 @@
         },
         {
           "nodeIds" : [
-            "RHEA:19081",
-            "RHEA:19082",
+            "EC:3.8.1.5",
+            "GO:0018786",
             "METACYC:HALOALKANE-DEHALOGENASE-RXN",
-            "EC:3.8.1.5"
+            "RHEA:19081"
+          ]
+        },
+        {
+          "nodeIds" : [
+            "METACYC:HALOALKANE-DEHALOGENASE-RXN",
+            "RHEA:19082",
+            "RHEA:19081"
           ]
         }
       ]

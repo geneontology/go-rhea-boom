@@ -47,28 +47,6 @@
       ],
       "edges" : [
         {
-          "sub" : "EC:6.3.4.2",
-          "pred" : "owl:equivalentClass",
-          "obj" : "RHEA:26426",
-          "meta" : {
-            "basicPropertyValues" : [
-              {
-                "pred" : "https://w3id.org/kgviz/penwidth",
-                "val" : 7.5
-              }
-            ]
-          }
-        },
-        {
-          "sub" : "RHEA:16597",
-          "pred" : "owl:equivalentClass",
-          "obj" : "RHEA:16598",
-          "meta" : {
-            "basicPropertyValues" : [
-            ]
-          }
-        },
-        {
           "sub" : "GO:0003883",
           "pred" : "is_a",
           "obj" : "RHEA:16597",
@@ -134,15 +112,6 @@
           }
         },
         {
-          "sub" : "RHEA:26426",
-          "pred" : "owl:equivalentClass",
-          "obj" : "RHEA:26427",
-          "meta" : {
-            "basicPropertyValues" : [
-            ]
-          }
-        },
-        {
           "sub" : "METACYC:CTPSYN-RXN",
           "pred" : "owl:equivalentClass",
           "obj" : "RHEA:26427",
@@ -167,16 +136,48 @@
               }
             ]
           }
+        },
+        {
+          "sub" : "RHEA:16597",
+          "pred" : "owl:equivalentClass",
+          "obj" : "RHEA:16598",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 10
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "EC:6.3.4.2",
+          "pred" : "owl:equivalentClass",
+          "obj" : "RHEA:26426",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 7.5
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "RHEA:26426",
+          "pred" : "owl:equivalentClass",
+          "obj" : "RHEA:26427",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 10
+              }
+            ]
+          }
         }
       ],
       "equivalentNodesSets" : [
-        {
-          "nodeIds" : [
-            "RHEA:16597",
-            "RHEA:16598",
-            "METACYC:RXN-14325"
-          ]
-        },
         {
           "nodeIds" : [
             "RHEA:26426",
@@ -184,6 +185,13 @@
             "EC:6.3.4.2",
             "METACYC:CTPSYN-RXN",
             "GO:0003883"
+          ]
+        },
+        {
+          "nodeIds" : [
+            "METACYC:RXN-14325",
+            "RHEA:16598",
+            "RHEA:16597"
           ]
         }
       ]

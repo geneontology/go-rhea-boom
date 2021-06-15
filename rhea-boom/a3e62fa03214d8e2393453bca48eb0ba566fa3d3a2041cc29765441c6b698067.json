@@ -62,6 +62,10 @@
           "obj" : "RHEA:28095",
           "meta" : {
             "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 10
+              }
             ]
           }
         },

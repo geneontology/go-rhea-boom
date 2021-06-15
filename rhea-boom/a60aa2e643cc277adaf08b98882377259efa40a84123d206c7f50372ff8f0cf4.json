@@ -70,11 +70,15 @@
           }
         },
         {
-          "sub" : "GO:0004367",
+          "sub" : "GO:0106257",
           "pred" : "is_a",
           "obj" : "GO:0047952",
           "meta" : {
             "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 10
+              }
             ]
           }
         },
@@ -105,15 +109,6 @@
           }
         },
         {
-          "sub" : "GO:0106257",
-          "pred" : "is_a",
-          "obj" : "GO:0047952",
-          "meta" : {
-            "basicPropertyValues" : [
-            ]
-          }
-        },
-        {
           "sub" : "EC:1.1.1.8",
           "pred" : "owl:equivalentClass",
           "obj" : "RHEA:11092",
@@ -127,33 +122,15 @@
           }
         },
         {
-          "sub" : "METACYC:1.1.1.8-RXN",
-          "pred" : "owl:equivalentClass",
-          "obj" : "RHEA:11094",
-          "meta" : {
-            "basicPropertyValues" : [
-              {
-                "pred" : "https://w3id.org/kgviz/penwidth",
-                "val" : 7.5
-              }
-            ]
-          }
-        },
-        {
-          "sub" : "RHEA:11092",
-          "pred" : "owl:equivalentClass",
-          "obj" : "RHEA:11094",
-          "meta" : {
-            "basicPropertyValues" : [
-            ]
-          }
-        },
-        {
           "sub" : "RHEA:11096",
           "pred" : "owl:equivalentClass",
           "obj" : "RHEA:11098",
           "meta" : {
             "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 10
+              }
             ]
           }
         },
@@ -236,6 +213,19 @@
           }
         },
         {
+          "sub" : "GO:0004367",
+          "pred" : "is_a",
+          "obj" : "GO:0047952",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 10
+              }
+            ]
+          }
+        },
+        {
           "sub" : "METACYC:GLYC3PDEHYDROGBIOSYN-RXN",
           "pred" : "owl:equivalentClass",
           "obj" : "GO:0047952",
@@ -260,13 +250,39 @@
               }
             ]
           }
+        },
+        {
+          "sub" : "RHEA:11092",
+          "pred" : "owl:equivalentClass",
+          "obj" : "RHEA:11094",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 10
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "METACYC:1.1.1.8-RXN",
+          "pred" : "owl:equivalentClass",
+          "obj" : "RHEA:11094",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 7.5
+              }
+            ]
+          }
         }
       ],
       "equivalentNodesSets" : [
         {
           "nodeIds" : [
-            "RHEA:11098",
-            "METACYC:GLYC3PDEHYDROGBIOSYN-RXN",
+            "GO:0047952",
+            "EC:1.1.1.94",
             "RHEA:11096"
           ]
         },
@@ -279,10 +295,10 @@
         },
         {
           "nodeIds" : [
-            "GO:0047952",
-            "EC:1.1.1.94",
+            "RHEA:11098",
+            "METACYC:GLYC3PDEHYDROGBIOSYN-RXN",
             "RHEA:11096",
-            "METACYC:GLYC3PDEHYDROGBIOSYN-RXN"
+            "GO:0047952"
           ]
         },
         {

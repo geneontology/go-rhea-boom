@@ -45,20 +45,15 @@
       ],
       "edges" : [
         {
-          "sub" : "RHEA:11784",
-          "pred" : "owl:equivalentClass",
-          "obj" : "RHEA:11787",
-          "meta" : {
-            "basicPropertyValues" : [
-            ]
-          }
-        },
-        {
           "sub" : "GO:0106351",
           "pred" : "is_a",
           "obj" : "GO:0033735",
           "meta" : {
             "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 10
+              }
             ]
           }
         },
@@ -77,6 +72,19 @@
         },
         {
           "sub" : "RHEA:11784",
+          "pred" : "owl:equivalentClass",
+          "obj" : "RHEA:11787",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 10
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "RHEA:11784",
           "pred" : "is_a",
           "obj" : "EC:1.4.1.21",
           "meta" : {
@@ -84,37 +92,6 @@
               {
                 "pred" : "https://w3id.org/kgviz/penwidth",
                 "val" : 1.0
-              }
-            ]
-          }
-        },
-        {
-          "sub" : "RHEA:11788",
-          "pred" : "owl:equivalentClass",
-          "obj" : "RHEA:11791",
-          "meta" : {
-            "basicPropertyValues" : [
-            ]
-          }
-        },
-        {
-          "sub" : "GO:0106352",
-          "pred" : "is_a",
-          "obj" : "GO:0033735",
-          "meta" : {
-            "basicPropertyValues" : [
-            ]
-          }
-        },
-        {
-          "sub" : "GO:0106351",
-          "pred" : "is_a",
-          "obj" : "RHEA:11788",
-          "meta" : {
-            "basicPropertyValues" : [
-              {
-                "pred" : "https://w3id.org/kgviz/penwidth",
-                "val" : 0.8
               }
             ]
           }
@@ -128,19 +105,6 @@
               {
                 "pred" : "https://w3id.org/kgviz/penwidth",
                 "val" : 1.0
-              }
-            ]
-          }
-        },
-        {
-          "sub" : "GO:0033735",
-          "pred" : "owl:equivalentClass",
-          "obj" : "EC:1.4.1.21",
-          "meta" : {
-            "basicPropertyValues" : [
-              {
-                "pred" : "https://w3id.org/kgviz/penwidth",
-                "val" : 8.0
               }
             ]
           }
@@ -175,6 +139,58 @@
           "sub" : "GO:0106352",
           "pred" : "owl:equivalentClass",
           "obj" : "RHEA:11784",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 8.0
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "GO:0106352",
+          "pred" : "is_a",
+          "obj" : "GO:0033735",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 10
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "GO:0106351",
+          "pred" : "is_a",
+          "obj" : "RHEA:11788",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 0.8
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "RHEA:11788",
+          "pred" : "owl:equivalentClass",
+          "obj" : "RHEA:11791",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 10
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "GO:0033735",
+          "pred" : "owl:equivalentClass",
+          "obj" : "EC:1.4.1.21",
           "meta" : {
             "basicPropertyValues" : [
               {

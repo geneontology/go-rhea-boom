@@ -114,6 +114,10 @@
           "obj" : "RHEA:36252",
           "meta" : {
             "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 10
+              }
             ]
           }
         }
@@ -128,9 +132,9 @@
         },
         {
           "nodeIds" : [
-            "METACYC:6.2.1.34-RXN",
-            "RHEA:36252",
             "RHEA:36251",
+            "RHEA:36252",
+            "METACYC:6.2.1.34-RXN",
             "GO:0050563"
           ]
         }

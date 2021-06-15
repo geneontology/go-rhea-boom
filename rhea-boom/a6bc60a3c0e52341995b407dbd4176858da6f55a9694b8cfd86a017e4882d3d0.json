@@ -69,11 +69,15 @@
       ],
       "edges" : [
         {
-          "sub" : "RHEA:24612",
+          "sub" : "RHEA:24616",
           "pred" : "owl:equivalentClass",
-          "obj" : "RHEA:24614",
+          "obj" : "RHEA:24618",
           "meta" : {
             "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 10
+              }
             ]
           }
         },
@@ -169,6 +173,19 @@
           }
         },
         {
+          "sub" : "RHEA:24617",
+          "pred" : "owl:equivalentClass",
+          "obj" : "RHEA:24618",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 10
+              }
+            ]
+          }
+        },
+        {
           "sub" : "REACTOME:R-HSA-8862137.2",
           "pred" : "is_a",
           "obj" : "RHEA:24617",
@@ -208,14 +225,27 @@
           }
         },
         {
-          "sub" : "REACTOME:R-HSA-5693390.1",
-          "pred" : "is_a",
-          "obj" : "RHEA:24617",
+          "sub" : "METACYC:ESTRADIOL-17-BETA-DEHYDROGENASE-RXN",
+          "pred" : "owl:equivalentClass",
+          "obj" : "GO:0004303",
           "meta" : {
             "basicPropertyValues" : [
               {
                 "pred" : "https://w3id.org/kgviz/penwidth",
-                "val" : 7.0
+                "val" : 8.0
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "GO:0044594",
+          "pred" : "is_a",
+          "obj" : "GO:0004303",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 10
               }
             ]
           }
@@ -239,24 +269,10 @@
           "obj" : "GO:0004303",
           "meta" : {
             "basicPropertyValues" : [
-            ]
-          }
-        },
-        {
-          "sub" : "RHEA:24617",
-          "pred" : "owl:equivalentClass",
-          "obj" : "RHEA:24618",
-          "meta" : {
-            "basicPropertyValues" : [
-            ]
-          }
-        },
-        {
-          "sub" : "GO:0044594",
-          "pred" : "is_a",
-          "obj" : "GO:0004303",
-          "meta" : {
-            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 10
+              }
             ]
           }
         },
@@ -266,28 +282,36 @@
           "obj" : "RHEA:24617",
           "meta" : {
             "basicPropertyValues" : [
-            ]
-          }
-        },
-        {
-          "sub" : "METACYC:ESTRADIOL-17-BETA-DEHYDROGENASE-RXN",
-          "pred" : "owl:equivalentClass",
-          "obj" : "GO:0004303",
-          "meta" : {
-            "basicPropertyValues" : [
               {
                 "pred" : "https://w3id.org/kgviz/penwidth",
-                "val" : 8.0
+                "val" : 10
               }
             ]
           }
         },
         {
-          "sub" : "RHEA:24616",
-          "pred" : "owl:equivalentClass",
-          "obj" : "RHEA:24618",
+          "sub" : "REACTOME:R-HSA-5693390.1",
+          "pred" : "is_a",
+          "obj" : "RHEA:24617",
           "meta" : {
             "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 7.0
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "RHEA:24612",
+          "pred" : "owl:equivalentClass",
+          "obj" : "RHEA:24614",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 10
+              }
             ]
           }
         }
@@ -295,19 +319,25 @@
       "equivalentNodesSets" : [
         {
           "nodeIds" : [
-            "RHEA:24618",
-            "RHEA:24617",
-            "RHEA:24616",
-            "GO:0072582"
+            "EC:1.1.1.62",
+            "RHEA:24612",
+            "GO:0004303",
+            "METACYC:ESTRADIOL-17-BETA-DEHYDROGENASE-RXN"
           ]
         },
         {
           "nodeIds" : [
-            "GO:0004303",
-            "RHEA:24612",
-            "EC:1.1.1.62",
+            "RHEA:24614",
             "METACYC:ESTRADIOL-17-BETA-DEHYDROGENASE-RXN",
-            "RHEA:24614"
+            "RHEA:24612"
+          ]
+        },
+        {
+          "nodeIds" : [
+            "GO:0072582",
+            "RHEA:24616",
+            "RHEA:24618",
+            "RHEA:24617"
           ]
         }
       ]

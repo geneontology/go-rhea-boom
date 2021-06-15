@@ -84,11 +84,28 @@
           }
         },
         {
-          "sub" : "RHEA:19473",
-          "pred" : "owl:equivalentClass",
-          "obj" : "RHEA:19474",
+          "sub" : "GO:0106356",
+          "pred" : "is_a",
+          "obj" : "GO:0018671",
           "meta" : {
             "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 10
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "GO:0106355",
+          "pred" : "is_a",
+          "obj" : "GO:0018671",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 10
+              }
             ]
           }
         },
@@ -106,28 +123,6 @@
           }
         },
         {
-          "sub" : "GO:0018659",
-          "pred" : "owl:equivalentClass",
-          "obj" : "EC:1.14.13.2",
-          "meta" : {
-            "basicPropertyValues" : [
-              {
-                "pred" : "https://w3id.org/kgviz/penwidth",
-                "val" : 8.0
-              }
-            ]
-          }
-        },
-        {
-          "sub" : "GO:0106355",
-          "pred" : "is_a",
-          "obj" : "GO:0018671",
-          "meta" : {
-            "basicPropertyValues" : [
-            ]
-          }
-        },
-        {
           "sub" : "RHEA:19477",
           "pred" : "is_a",
           "obj" : "EC:1.14.13.33",
@@ -136,28 +131,6 @@
               {
                 "pred" : "https://w3id.org/kgviz/penwidth",
                 "val" : 1.0
-              }
-            ]
-          }
-        },
-        {
-          "sub" : "GO:0106356",
-          "pred" : "is_a",
-          "obj" : "GO:0018671",
-          "meta" : {
-            "basicPropertyValues" : [
-            ]
-          }
-        },
-        {
-          "sub" : "EC:1.14.13.33",
-          "pred" : "owl:equivalentClass",
-          "obj" : "RHEA:19473",
-          "meta" : {
-            "basicPropertyValues" : [
-              {
-                "pred" : "https://w3id.org/kgviz/penwidth",
-                "val" : 7.5
               }
             ]
           }
@@ -189,15 +162,6 @@
           }
         },
         {
-          "sub" : "RHEA:19477",
-          "pred" : "owl:equivalentClass",
-          "obj" : "RHEA:19478",
-          "meta" : {
-            "basicPropertyValues" : [
-            ]
-          }
-        },
-        {
           "sub" : "METACYC:4-HYDROXYBENZOATE-3-MONOOXYGENASE-RXN",
           "pred" : "owl:equivalentClass",
           "obj" : "GO:0018659",
@@ -214,6 +178,58 @@
           "sub" : "METACYC:4-HYDROXYBENZOATE-3-MONOOXYGENASE-RXN",
           "pred" : "owl:equivalentClass",
           "obj" : "RHEA:19478",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 7.5
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "GO:0018659",
+          "pred" : "owl:equivalentClass",
+          "obj" : "EC:1.14.13.2",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 8.0
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "RHEA:19473",
+          "pred" : "owl:equivalentClass",
+          "obj" : "RHEA:19474",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 10
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "RHEA:19477",
+          "pred" : "owl:equivalentClass",
+          "obj" : "RHEA:19478",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 10
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "EC:1.14.13.33",
+          "pred" : "owl:equivalentClass",
+          "obj" : "RHEA:19473",
           "meta" : {
             "basicPropertyValues" : [
               {

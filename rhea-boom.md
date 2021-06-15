@@ -375,7 +375,7 @@
 - [aldehyde dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0004029) EquivalentTo [RHEA:16185](http://rdf.rhea-db.org/16185)	(most probable)	0.8
 - [4-hydroxymethylsalicyaldehyde dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0034530) ProperSubClassOf [EC:1.2.1.-](http://purl.uniprot.org/enzyme/1.2.1.-)		0.08
 - [oxidoreductase activity, acting on the aldehyde or oxo group of donors, NAD or NADP as acceptor](http://purl.obolibrary.org/obo/GO_0016620) EquivalentTo [EC:1.2.1.-](http://purl.uniprot.org/enzyme/1.2.1.-)	(most probable)	0.8
-- [RHEA:42763](http://rdf.rhea-db.org/42763) ProperSubClassOf [METACYC:RXN-15754](http://metacyc.org/RXN-15754)		0.1
+- [RHEA:42763](http://rdf.rhea-db.org/42763) EquivalentTo [METACYC:RXN-15754](http://metacyc.org/RXN-15754)	(most probable)	0.75
 - [RHEA:11888](http://rdf.rhea-db.org/11888) EquivalentTo [METACYC:ALDEHYDE-DEHYDROGENASE-NADORNOP%252b-RXN](http://metacyc.org/ALDEHYDE-DEHYDROGENASE-NADORNOP%252b-RXN)	(most probable)	0.75
 - [glyceraldehyde-3-phosphate dehydrogenase (NADP+) (non-phosphorylating) activity](http://purl.obolibrary.org/obo/GO_0008886) EquivalentTo [METACYC:1.2.1.9-RXN](http://metacyc.org/1.2.1.9-RXN)	(most probable)	0.8
 - [aldehyde dehydrogenase [NAD(P)+] activity](http://purl.obolibrary.org/obo/GO_0004030) EquivalentTo [METACYC:ALDEHYDE-DEHYDROGENASE-NADP+-RXN](http://metacyc.org/ALDEHYDE-DEHYDROGENASE-NADP+-RXN)	(most probable)	0.8
@@ -394,7 +394,7 @@
 - [aldehyde dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0033721) EquivalentTo [EC:1.2.1.4](http://purl.uniprot.org/enzyme/1.2.1.4)	(most probable)	0.8
 - [RHEA:14669](http://rdf.rhea-db.org/14669) ProperSubClassOf [EC:1.2.1.90](http://purl.uniprot.org/enzyme/1.2.1.90)		0.1
 - [RHEA:11888](http://rdf.rhea-db.org/11888) ProperSubClassOf [EC:1.2.1.5](http://purl.uniprot.org/enzyme/1.2.1.5)		0.1
-- [RHEA:42761](http://rdf.rhea-db.org/42761) EquivalentTo [METACYC:RXN-3443](http://metacyc.org/RXN-3443)	(most probable)	0.75
+- [RHEA:42761](http://rdf.rhea-db.org/42761) ProperSubClassOf [METACYC:RXN-3443](http://metacyc.org/RXN-3443)		0.1
 - [glyceraldehyde-3-phosphate dehydrogenase (NADP+) (non-phosphorylating) activity](http://purl.obolibrary.org/obo/GO_0008886) EquivalentTo [RHEA:14669](http://rdf.rhea-db.org/14669)	(most probable)	0.8
 - [2-carboxybenzaldehyde dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0018474) ProperSubClassOf [EC:1.2.1.-](http://purl.uniprot.org/enzyme/1.2.1.-)		0.08
 - [aldehyde dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0033721) ProperSubClassOf [METACYC:ALDEHYDE-DEHYDROGENASE-NADP+-RXN](http://metacyc.org/ALDEHYDE-DEHYDROGENASE-NADP+-RXN)		0.08

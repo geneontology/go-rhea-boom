@@ -39,23 +39,14 @@
       ],
       "edges" : [
         {
-          "sub" : "RHEA:30519",
-          "pred" : "owl:equivalentClass",
-          "obj" : "RHEA:30520",
-          "meta" : {
-            "basicPropertyValues" : [
-            ]
-          }
-        },
-        {
-          "sub" : "METACYC:RXN-8077",
+          "sub" : "RHEA:63424",
           "pred" : "owl:equivalentClass",
           "obj" : "RHEA:63425",
           "meta" : {
             "basicPropertyValues" : [
               {
                 "pred" : "https://w3id.org/kgviz/penwidth",
-                "val" : 7.5
+                "val" : 10
               }
             ]
           }
@@ -100,6 +91,19 @@
           }
         },
         {
+          "sub" : "METACYC:RXN-8077",
+          "pred" : "owl:equivalentClass",
+          "obj" : "GO:0043814",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 8.0
+              }
+            ]
+          }
+        },
+        {
           "sub" : "RHEA:30519",
           "pred" : "is_a",
           "obj" : "GO:0043814",
@@ -126,23 +130,27 @@
           }
         },
         {
-          "sub" : "RHEA:63424",
+          "sub" : "METACYC:RXN-8077",
           "pred" : "owl:equivalentClass",
           "obj" : "RHEA:63425",
           "meta" : {
             "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 7.5
+              }
             ]
           }
         },
         {
-          "sub" : "METACYC:RXN-8077",
+          "sub" : "RHEA:30519",
           "pred" : "owl:equivalentClass",
-          "obj" : "GO:0043814",
+          "obj" : "RHEA:30520",
           "meta" : {
             "basicPropertyValues" : [
               {
                 "pred" : "https://w3id.org/kgviz/penwidth",
-                "val" : 8.0
+                "val" : 10
               }
             ]
           }
@@ -151,22 +159,22 @@
       "equivalentNodesSets" : [
         {
           "nodeIds" : [
-            "EC:2.7.7.68",
-            "GO:0043814",
-            "RHEA:63424"
-          ]
-        },
-        {
-          "nodeIds" : [
             "RHEA:30519",
-            "EC:2.7.7.105",
-            "RHEA:30520"
+            "RHEA:30520",
+            "EC:2.7.7.105"
           ]
         },
         {
           "nodeIds" : [
             "RHEA:63425",
             "METACYC:RXN-8077",
+            "GO:0043814",
+            "RHEA:63424"
+          ]
+        },
+        {
+          "nodeIds" : [
+            "EC:2.7.7.68",
             "GO:0043814",
             "RHEA:63424"
           ]

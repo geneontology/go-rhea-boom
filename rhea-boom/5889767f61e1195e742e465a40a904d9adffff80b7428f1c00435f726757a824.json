@@ -44,19 +44,6 @@
       ],
       "edges" : [
         {
-          "sub" : "GO:0030058",
-          "pred" : "is_a",
-          "obj" : "RHEA:30207",
-          "meta" : {
-            "basicPropertyValues" : [
-              {
-                "pred" : "https://w3id.org/kgviz/penwidth",
-                "val" : 0.8
-              }
-            ]
-          }
-        },
-        {
           "sub" : "RHEA:21919",
           "pred" : "is_a",
           "obj" : "METACYC:AMINE-DEHYDROGENASE-RXN",
@@ -92,15 +79,6 @@
                 "pred" : "https://w3id.org/kgviz/penwidth",
                 "val" : 0.8
               }
-            ]
-          }
-        },
-        {
-          "sub" : "RHEA:30207",
-          "pred" : "owl:equivalentClass",
-          "obj" : "RHEA:30208",
-          "meta" : {
-            "basicPropertyValues" : [
             ]
           }
         },
@@ -155,14 +133,39 @@
               }
             ]
           }
+        },
+        {
+          "sub" : "GO:0030058",
+          "pred" : "is_a",
+          "obj" : "RHEA:30207",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 0.8
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "RHEA:30207",
+          "pred" : "owl:equivalentClass",
+          "obj" : "RHEA:30208",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 10
+              }
+            ]
+          }
         }
       ],
       "equivalentNodesSets" : [
         {
           "nodeIds" : [
-            "METACYC:RXN-2841",
-            "RHEA:30208",
-            "RHEA:30207"
+            "GO:0052876",
+            "EC:1.4.9.1"
           ]
         },
         {
@@ -174,9 +177,10 @@
         },
         {
           "nodeIds" : [
-            "GO:0052876",
-            "EC:1.4.9.1",
-            "RHEA:30207"
+            "RHEA:30207",
+            "RHEA:30208",
+            "METACYC:RXN-2841",
+            "EC:1.4.9.1"
           ]
         }
       ]

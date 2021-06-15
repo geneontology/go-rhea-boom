@@ -36,15 +36,10 @@
           "obj" : "RHEA:16741",
           "meta" : {
             "basicPropertyValues" : [
-            ]
-          }
-        },
-        {
-          "sub" : "RHEA:32950",
-          "pred" : "is_a",
-          "obj" : "RHEA:16741",
-          "meta" : {
-            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 10
+              }
             ]
           }
         },
@@ -71,15 +66,6 @@
                 "pred" : "https://w3id.org/kgviz/penwidth",
                 "val" : 8.0
               }
-            ]
-          }
-        },
-        {
-          "sub" : "RHEA:32947",
-          "pred" : "owl:equivalentClass",
-          "obj" : "RHEA:32950",
-          "meta" : {
-            "basicPropertyValues" : [
             ]
           }
         },
@@ -121,22 +107,48 @@
               }
             ]
           }
+        },
+        {
+          "sub" : "RHEA:32950",
+          "pred" : "is_a",
+          "obj" : "RHEA:16741",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 10
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "RHEA:32947",
+          "pred" : "owl:equivalentClass",
+          "obj" : "RHEA:32950",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 10
+              }
+            ]
+          }
         }
       ],
       "equivalentNodesSets" : [
         {
           "nodeIds" : [
-            "EC:2.3.1.22",
+            "METACYC:2-ACYLGLYCEROL-O-ACYLTRANSFERASE-RXN",
+            "RHEA:32950",
             "RHEA:32947",
-            "RHEA:32950"
+            "GO:0003846"
           ]
         },
         {
           "nodeIds" : [
-            "METACYC:2-ACYLGLYCEROL-O-ACYLTRANSFERASE-RXN",
-            "RHEA:32950",
-            "GO:0003846",
-            "EC:2.3.1.22"
+            "EC:2.3.1.22",
+            "RHEA:32947",
+            "GO:0003846"
           ]
         }
       ]

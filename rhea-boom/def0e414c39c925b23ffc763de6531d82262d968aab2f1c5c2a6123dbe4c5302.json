@@ -31,15 +31,6 @@
       ],
       "edges" : [
         {
-          "sub" : "RHEA:55040",
-          "pred" : "owl:equivalentClass",
-          "obj" : "RHEA:55041",
-          "meta" : {
-            "basicPropertyValues" : [
-            ]
-          }
-        },
-        {
           "sub" : "METACYC:2.3.1.179-RXN",
           "pred" : "owl:equivalentClass",
           "obj" : "GO:0033817",
@@ -61,6 +52,19 @@
               {
                 "pred" : "https://w3id.org/kgviz/penwidth",
                 "val" : 1.5
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "RHEA:55040",
+          "pred" : "owl:equivalentClass",
+          "obj" : "RHEA:55041",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 10
               }
             ]
           }

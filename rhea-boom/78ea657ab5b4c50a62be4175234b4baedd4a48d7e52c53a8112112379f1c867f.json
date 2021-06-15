@@ -41,19 +41,6 @@
       ],
       "edges" : [
         {
-          "sub" : "RHEA:21416",
-          "pred" : "is_a",
-          "obj" : "EC:1.1.1.261",
-          "meta" : {
-            "basicPropertyValues" : [
-              {
-                "pred" : "https://w3id.org/kgviz/penwidth",
-                "val" : 1.0
-              }
-            ]
-          }
-        },
-        {
           "sub" : "GO:0106357",
           "pred" : "is_a",
           "obj" : "RHEA:21412",
@@ -62,6 +49,19 @@
               {
                 "pred" : "https://w3id.org/kgviz/penwidth",
                 "val" : 0.8
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "GO:0106358",
+          "pred" : "is_a",
+          "obj" : "GO:0050492",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 10
               }
             ]
           }
@@ -80,11 +80,15 @@
           }
         },
         {
-          "sub" : "RHEA:21412",
+          "sub" : "GO:0106358",
           "pred" : "owl:equivalentClass",
-          "obj" : "RHEA:21414",
+          "obj" : "RHEA:21416",
           "meta" : {
             "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 8.0
+              }
             ]
           }
         },
@@ -115,15 +119,6 @@
           }
         },
         {
-          "sub" : "GO:0106357",
-          "pred" : "is_a",
-          "obj" : "GO:0050492",
-          "meta" : {
-            "basicPropertyValues" : [
-            ]
-          }
-        },
-        {
           "sub" : "METACYC:1.1.1.261-RXN",
           "pred" : "owl:equivalentClass",
           "obj" : "RHEA:21414",
@@ -137,24 +132,41 @@
           }
         },
         {
-          "sub" : "GO:0106358",
-          "pred" : "owl:equivalentClass",
-          "obj" : "RHEA:21416",
+          "sub" : "GO:0106357",
+          "pred" : "is_a",
+          "obj" : "GO:0050492",
           "meta" : {
             "basicPropertyValues" : [
               {
                 "pred" : "https://w3id.org/kgviz/penwidth",
-                "val" : 8.0
+                "val" : 10
               }
             ]
           }
         },
         {
-          "sub" : "GO:0106358",
+          "sub" : "RHEA:21416",
           "pred" : "is_a",
-          "obj" : "GO:0050492",
+          "obj" : "EC:1.1.1.261",
           "meta" : {
             "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 1.0
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "RHEA:21412",
+          "pred" : "owl:equivalentClass",
+          "obj" : "RHEA:21414",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 10
+              }
             ]
           }
         }
@@ -168,17 +180,17 @@
         },
         {
           "nodeIds" : [
-            "GO:0050492",
-            "EC:1.1.1.261",
-            "RHEA:21412"
+            "METACYC:1.1.1.261-RXN",
+            "RHEA:21414",
+            "RHEA:21412",
+            "EC:1.1.1.261"
           ]
         },
         {
           "nodeIds" : [
-            "METACYC:1.1.1.261-RXN",
-            "RHEA:21414",
-            "RHEA:21412",
-            "GO:0050492"
+            "GO:0050492",
+            "EC:1.1.1.261",
+            "METACYC:1.1.1.261-RXN"
           ]
         }
       ]

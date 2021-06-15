@@ -57,15 +57,6 @@
           }
         },
         {
-          "sub" : "RHEA:33751",
-          "pred" : "owl:equivalentClass",
-          "obj" : "RHEA:33752",
-          "meta" : {
-            "basicPropertyValues" : [
-            ]
-          }
-        },
-        {
           "sub" : "METACYC:PGPPHOSPHA-RXN",
           "pred" : "owl:equivalentClass",
           "obj" : "GO:0008962",
@@ -103,16 +94,35 @@
               }
             ]
           }
+        },
+        {
+          "sub" : "RHEA:33751",
+          "pred" : "owl:equivalentClass",
+          "obj" : "RHEA:33752",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 10
+              }
+            ]
+          }
         }
       ],
       "equivalentNodesSets" : [
         {
           "nodeIds" : [
-            "RHEA:33751",
-            "METACYC:PGPPHOSPHA-RXN",
-            "GO:0008962",
             "EC:3.1.3.27",
+            "GO:0008962",
+            "METACYC:PGPPHOSPHA-RXN",
             "RHEA:33752"
+          ]
+        },
+        {
+          "nodeIds" : [
+            "RHEA:33752",
+            "RHEA:33751",
+            "EC:3.1.3.27"
           ]
         }
       ]

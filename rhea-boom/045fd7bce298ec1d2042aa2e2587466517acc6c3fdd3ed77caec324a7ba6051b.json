@@ -61,6 +61,19 @@
           }
         },
         {
+          "sub" : "RHEA:41744",
+          "pred" : "is_a",
+          "obj" : "EC:2.8.2.11",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 1.0
+              }
+            ]
+          }
+        },
+        {
           "sub" : "METACYC:GALACTOSYLCERAMIDE-SULFOTRANSFERASE-RXN",
           "pred" : "owl:equivalentClass",
           "obj" : "RHEA:20616",
@@ -79,18 +92,9 @@
           "obj" : "RHEA:20616",
           "meta" : {
             "basicPropertyValues" : [
-            ]
-          }
-        },
-        {
-          "sub" : "RHEA:41744",
-          "pred" : "is_a",
-          "obj" : "EC:2.8.2.11",
-          "meta" : {
-            "basicPropertyValues" : [
               {
                 "pred" : "https://w3id.org/kgviz/penwidth",
-                "val" : 1.0
+                "val" : 10
               }
             ]
           }
@@ -125,17 +129,17 @@
       "equivalentNodesSets" : [
         {
           "nodeIds" : [
-            "RHEA:20613",
-            "EC:2.8.2.11",
-            "GO:0001733"
+            "METACYC:GALACTOSYLCERAMIDE-SULFOTRANSFERASE-RXN",
+            "RHEA:20616",
+            "RHEA:20613"
           ]
         },
         {
           "nodeIds" : [
-            "METACYC:GALACTOSYLCERAMIDE-SULFOTRANSFERASE-RXN",
-            "RHEA:20616",
             "RHEA:20613",
-            "GO:0001733"
+            "EC:2.8.2.11",
+            "GO:0001733",
+            "METACYC:GALACTOSYLCERAMIDE-SULFOTRANSFERASE-RXN"
           ]
         }
       ]

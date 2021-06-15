@@ -83,15 +83,6 @@
           }
         },
         {
-          "sub" : "GO:0036456",
-          "pred" : "is_a",
-          "obj" : "GO:0033744",
-          "meta" : {
-            "basicPropertyValues" : [
-            ]
-          }
-        },
-        {
           "sub" : "GO:0008113",
           "pred" : "owl:equivalentClass",
           "obj" : "RHEA:14217",
@@ -105,20 +96,28 @@
           }
         },
         {
-          "sub" : "RHEA:14217",
-          "pred" : "owl:equivalentClass",
-          "obj" : "RHEA:14219",
-          "meta" : {
-            "basicPropertyValues" : [
-            ]
-          }
-        },
-        {
           "sub" : "RHEA:19993",
           "pred" : "owl:equivalentClass",
           "obj" : "RHEA:19995",
           "meta" : {
             "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 10
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "RHEA:14217",
+          "pred" : "owl:equivalentClass",
+          "obj" : "RHEA:14219",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 10
+              }
             ]
           }
         },
@@ -131,6 +130,19 @@
               {
                 "pred" : "https://w3id.org/kgviz/penwidth",
                 "val" : 0.8
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "GO:0036456",
+          "pred" : "is_a",
+          "obj" : "GO:0033744",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 10
               }
             ]
           }
@@ -271,17 +283,11 @@
         },
         {
           "nodeIds" : [
+            "GO:0033744",
+            "EC:1.8.4.13",
             "METACYC:1.8.4.13-RXN",
             "RHEA:19995",
-            "RHEA:19993",
-            "GO:0033744"
-          ]
-        },
-        {
-          "nodeIds" : [
-            "EC:1.8.4.13",
-            "RHEA:19993",
-            "GO:0033744"
+            "RHEA:19993"
           ]
         }
       ]

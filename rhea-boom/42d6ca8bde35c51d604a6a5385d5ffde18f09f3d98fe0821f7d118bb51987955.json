@@ -86,15 +86,6 @@
           }
         },
         {
-          "sub" : "RHEA:12304",
-          "pred" : "owl:equivalentClass",
-          "obj" : "RHEA:12305",
-          "meta" : {
-            "basicPropertyValues" : [
-            ]
-          }
-        },
-        {
           "sub" : "METACYC:ALLYSINE-DEHYDROG-RXN",
           "pred" : "owl:equivalentClass",
           "obj" : "RHEA:12311",
@@ -109,19 +100,27 @@
         },
         {
           "sub" : "RHEA:12309",
-          "pred" : "owl:equivalentClass",
-          "obj" : "RHEA:12311",
+          "pred" : "is_a",
+          "obj" : "METACYC:1.2.1.31-RXN",
           "meta" : {
             "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 1.0
+              }
             ]
           }
         },
         {
-          "sub" : "RHEA:12308",
+          "sub" : "RHEA:12304",
           "pred" : "owl:equivalentClass",
-          "obj" : "RHEA:12309",
+          "obj" : "RHEA:12305",
           "meta" : {
             "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 10
+              }
             ]
           }
         },
@@ -152,24 +151,28 @@
           }
         },
         {
-          "sub" : "RHEA:12309",
-          "pred" : "is_a",
-          "obj" : "METACYC:1.2.1.31-RXN",
+          "sub" : "RHEA:12308",
+          "pred" : "owl:equivalentClass",
+          "obj" : "RHEA:12309",
           "meta" : {
             "basicPropertyValues" : [
               {
                 "pred" : "https://w3id.org/kgviz/penwidth",
-                "val" : 1.0
+                "val" : 10
               }
             ]
           }
         },
         {
-          "sub" : "RHEA:12308",
+          "sub" : "RHEA:12309",
           "pred" : "owl:equivalentClass",
           "obj" : "RHEA:12311",
           "meta" : {
             "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 10
+              }
             ]
           }
         },
@@ -198,9 +201,29 @@
               }
             ]
           }
+        },
+        {
+          "sub" : "RHEA:12308",
+          "pred" : "owl:equivalentClass",
+          "obj" : "RHEA:12311",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 10
+              }
+            ]
+          }
         }
       ],
       "equivalentNodesSets" : [
+        {
+          "nodeIds" : [
+            "RHEA:12309",
+            "RHEA:12308",
+            "RHEA:12311"
+          ]
+        },
         {
           "nodeIds" : [
             "METACYC:ALLYSINE-DEHYDROG-RXN",
@@ -215,13 +238,6 @@
             "EC:1.2.1.31",
             "METACYC:1.2.1.31-RXN",
             "RHEA:12305"
-          ]
-        },
-        {
-          "nodeIds" : [
-            "RHEA:12309",
-            "RHEA:12308",
-            "RHEA:12311"
           ]
         }
       ]

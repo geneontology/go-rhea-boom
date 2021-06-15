@@ -39,55 +39,15 @@
       ],
       "edges" : [
         {
-          "sub" : "RHEA:56212",
-          "pred" : "owl:equivalentClass",
-          "obj" : "RHEA:56213",
-          "meta" : {
-            "basicPropertyValues" : [
-            ]
-          }
-        },
-        {
-          "sub" : "RHEA:56212",
-          "pred" : "is_a",
-          "obj" : "EC:2.4.1.102",
-          "meta" : {
-            "basicPropertyValues" : [
-              {
-                "pred" : "https://w3id.org/kgviz/penwidth",
-                "val" : 1.0
-              }
-            ]
-          }
-        },
-        {
-          "sub" : "GO:0003829",
-          "pred" : "owl:equivalentClass",
-          "obj" : "EC:2.4.1.102",
-          "meta" : {
-            "basicPropertyValues" : [
-              {
-                "pred" : "https://w3id.org/kgviz/penwidth",
-                "val" : 8.0
-              }
-            ]
-          }
-        },
-        {
-          "sub" : "RHEA:56216",
-          "pred" : "owl:equivalentClass",
-          "obj" : "RHEA:56217",
-          "meta" : {
-            "basicPropertyValues" : [
-            ]
-          }
-        },
-        {
-          "sub" : "RHEA:56212",
+          "sub" : "RHEA:56213",
           "pred" : "is_a",
           "obj" : "RHEA:18705",
           "meta" : {
             "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 10
+              }
             ]
           }
         },
@@ -118,11 +78,15 @@
           }
         },
         {
-          "sub" : "RHEA:56217",
-          "pred" : "is_a",
-          "obj" : "RHEA:18705",
+          "sub" : "RHEA:56216",
+          "pred" : "owl:equivalentClass",
+          "obj" : "RHEA:56217",
           "meta" : {
             "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 10
+              }
             ]
           }
         },
@@ -140,20 +104,80 @@
           }
         },
         {
+          "sub" : "RHEA:56217",
+          "pred" : "is_a",
+          "obj" : "RHEA:18705",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 10
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "RHEA:56212",
+          "pred" : "owl:equivalentClass",
+          "obj" : "RHEA:56213",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 10
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "RHEA:56212",
+          "pred" : "is_a",
+          "obj" : "EC:2.4.1.102",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 1.0
+              }
+            ]
+          }
+        },
+        {
           "sub" : "RHEA:56216",
           "pred" : "is_a",
           "obj" : "RHEA:18705",
           "meta" : {
             "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 10
+              }
             ]
           }
         },
         {
-          "sub" : "RHEA:56213",
+          "sub" : "GO:0003829",
+          "pred" : "owl:equivalentClass",
+          "obj" : "EC:2.4.1.102",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 8.0
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "RHEA:56212",
           "pred" : "is_a",
           "obj" : "RHEA:18705",
           "meta" : {
             "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 10
+              }
             ]
           }
         },

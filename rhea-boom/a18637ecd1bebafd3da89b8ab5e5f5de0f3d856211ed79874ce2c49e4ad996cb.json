@@ -74,6 +74,19 @@
           }
         },
         {
+          "sub" : "RHEA:32887",
+          "pred" : "owl:equivalentClass",
+          "obj" : "RHEA:32888",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 10
+              }
+            ]
+          }
+        },
+        {
           "sub" : "EC:1.13.11.63",
           "pred" : "owl:equivalentClass",
           "obj" : "RHEA:32887",
@@ -96,15 +109,6 @@
                 "pred" : "https://w3id.org/kgviz/penwidth",
                 "val" : 8.0
               }
-            ]
-          }
-        },
-        {
-          "sub" : "RHEA:32887",
-          "pred" : "owl:equivalentClass",
-          "obj" : "RHEA:32888",
-          "meta" : {
-            "basicPropertyValues" : [
             ]
           }
         }

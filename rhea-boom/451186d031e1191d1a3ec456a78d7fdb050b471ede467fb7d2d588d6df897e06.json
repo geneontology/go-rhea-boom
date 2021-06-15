@@ -88,11 +88,15 @@
           }
         },
         {
-          "sub" : "GO:0015411",
-          "pred" : "is_a",
-          "obj" : "GO:0005368",
+          "sub" : "RHEA:14613",
+          "pred" : "owl:equivalentClass",
+          "obj" : "RHEA:14614",
           "meta" : {
             "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 10
+              }
             ]
           }
         },
@@ -106,15 +110,6 @@
                 "pred" : "https://w3id.org/kgviz/penwidth",
                 "val" : 8.0
               }
-            ]
-          }
-        },
-        {
-          "sub" : "RHEA:14613",
-          "pred" : "owl:equivalentClass",
-          "obj" : "RHEA:14614",
-          "meta" : {
-            "basicPropertyValues" : [
             ]
           }
         },
@@ -140,6 +135,19 @@
               {
                 "pred" : "https://w3id.org/kgviz/penwidth",
                 "val" : 7.5
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "GO:0015411",
+          "pred" : "is_a",
+          "obj" : "GO:0005368",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 10
               }
             ]
           }

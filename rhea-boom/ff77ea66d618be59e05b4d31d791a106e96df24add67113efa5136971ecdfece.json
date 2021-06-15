@@ -101,24 +101,6 @@
           }
         },
         {
-          "sub" : "GO:0061809",
-          "pred" : "is_a",
-          "obj" : "GO:0003953",
-          "meta" : {
-            "basicPropertyValues" : [
-            ]
-          }
-        },
-        {
-          "sub" : "GO:0061810",
-          "pred" : "is_a",
-          "obj" : "GO:0003953",
-          "meta" : {
-            "basicPropertyValues" : [
-            ]
-          }
-        },
-        {
           "sub" : "GO:0061810",
           "pred" : "owl:equivalentClass",
           "obj" : "EC:3.2.2.5",
@@ -132,6 +114,19 @@
           }
         },
         {
+          "sub" : "GO:0061810",
+          "pred" : "is_a",
+          "obj" : "GO:0003953",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 10
+              }
+            ]
+          }
+        },
+        {
           "sub" : "REACTOME:R-HSA-8870346.2",
           "pred" : "is_a",
           "obj" : "RHEA:16302",
@@ -140,6 +135,19 @@
               {
                 "pred" : "https://w3id.org/kgviz/penwidth",
                 "val" : 7.0
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "GO:0061809",
+          "pred" : "owl:equivalentClass",
+          "obj" : "EC:3.2.2.6",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 8.0
               }
             ]
           }
@@ -166,6 +174,19 @@
               {
                 "pred" : "https://w3id.org/kgviz/penwidth",
                 "val" : 0.8
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "GO:0061809",
+          "pred" : "is_a",
+          "obj" : "GO:0003953",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 10
               }
             ]
           }
@@ -210,31 +231,22 @@
           }
         },
         {
-          "sub" : "METACYC:NADP+-NUCLEOSIDASE-RXN",
-          "pred" : "owl:equivalentClass",
-          "obj" : "GO:0050135",
-          "meta" : {
-            "basicPropertyValues" : [
-              {
-                "pred" : "https://w3id.org/kgviz/penwidth",
-                "val" : 8.0
-              }
-            ]
-          }
-        },
-        {
           "sub" : "RHEA:16301",
           "pred" : "owl:equivalentClass",
           "obj" : "RHEA:16302",
           "meta" : {
             "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 10
+              }
             ]
           }
         },
         {
-          "sub" : "GO:0061809",
+          "sub" : "METACYC:NADP+-NUCLEOSIDASE-RXN",
           "pred" : "owl:equivalentClass",
-          "obj" : "EC:3.2.2.6",
+          "obj" : "GO:0050135",
           "meta" : {
             "basicPropertyValues" : [
               {
@@ -261,16 +273,10 @@
         {
           "nodeIds" : [
             "RHEA:16301",
+            "METACYC:NADNUCLEOSID-RXN",
+            "GO:0061809",
             "RHEA:16302",
             "EC:3.2.2.6"
-          ]
-        },
-        {
-          "nodeIds" : [
-            "EC:3.2.2.6",
-            "GO:0061809",
-            "METACYC:NADNUCLEOSID-RXN",
-            "RHEA:16302"
           ]
         }
       ]

@@ -45,24 +45,6 @@
       ],
       "edges" : [
         {
-          "sub" : "RHEA:18525",
-          "pred" : "owl:equivalentClass",
-          "obj" : "RHEA:18527",
-          "meta" : {
-            "basicPropertyValues" : [
-            ]
-          }
-        },
-        {
-          "sub" : "RHEA:18529",
-          "pred" : "owl:equivalentClass",
-          "obj" : "RHEA:18531",
-          "meta" : {
-            "basicPropertyValues" : [
-            ]
-          }
-        },
-        {
           "sub" : "GO:0052676",
           "pred" : "owl:equivalentClass",
           "obj" : "RHEA:18529",
@@ -77,6 +59,19 @@
         },
         {
           "sub" : "RHEA:18529",
+          "pred" : "owl:equivalentClass",
+          "obj" : "RHEA:18531",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 10
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "RHEA:18529",
           "pred" : "is_a",
           "obj" : "EC:1.1.1.265",
           "meta" : {
@@ -84,6 +79,19 @@
               {
                 "pred" : "https://w3id.org/kgviz/penwidth",
                 "val" : 1.0
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "RHEA:18525",
+          "pred" : "owl:equivalentClass",
+          "obj" : "RHEA:18527",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 10
               }
             ]
           }
@@ -170,6 +178,13 @@
       "equivalentNodesSets" : [
         {
           "nodeIds" : [
+            "RHEA:18529",
+            "GO:0052676",
+            "RHEA:18531"
+          ]
+        },
+        {
+          "nodeIds" : [
             "RHEA:18525",
             "RHEA:18527",
             "EC:1.1.1.265",
@@ -181,13 +196,6 @@
             "METACYC:1.1.1.265-RXN",
             "GO:0046568",
             "RHEA:18527"
-          ]
-        },
-        {
-          "nodeIds" : [
-            "RHEA:18529",
-            "GO:0052676",
-            "RHEA:18531"
           ]
         }
       ]

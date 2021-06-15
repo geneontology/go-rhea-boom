@@ -90,6 +90,19 @@
           }
         },
         {
+          "sub" : "RHEA:20125",
+          "pred" : "owl:equivalentClass",
+          "obj" : "RHEA:20128",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 10
+              }
+            ]
+          }
+        },
+        {
           "sub" : "METACYC:FERREDOXIN--NAD+-REDUCTASE-RXN",
           "pred" : "owl:equivalentClass",
           "obj" : "GO:0008860",
@@ -103,15 +116,6 @@
           }
         },
         {
-          "sub" : "RHEA:20125",
-          "pred" : "owl:equivalentClass",
-          "obj" : "RHEA:20126",
-          "meta" : {
-            "basicPropertyValues" : [
-            ]
-          }
-        },
-        {
           "sub" : "METACYC:1.18.1.2-RXN",
           "pred" : "owl:equivalentClass",
           "obj" : "GO:0004324",
@@ -120,6 +124,19 @@
               {
                 "pred" : "https://w3id.org/kgviz/penwidth",
                 "val" : 8.0
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "RHEA:16521",
+          "pred" : "owl:equivalentClass",
+          "obj" : "RHEA:16524",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 10
               }
             ]
           }
@@ -177,29 +194,15 @@
           }
         },
         {
-          "sub" : "RHEA:20125",
-          "pred" : "owl:equivalentClass",
-          "obj" : "RHEA:20128",
-          "meta" : {
-            "basicPropertyValues" : [
-            ]
-          }
-        },
-        {
           "sub" : "RHEA:20126",
           "pred" : "owl:equivalentClass",
           "obj" : "RHEA:20128",
           "meta" : {
             "basicPropertyValues" : [
-            ]
-          }
-        },
-        {
-          "sub" : "RHEA:16521",
-          "pred" : "owl:equivalentClass",
-          "obj" : "RHEA:16524",
-          "meta" : {
-            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 10
+              }
             ]
           }
         },
@@ -225,6 +228,19 @@
               {
                 "pred" : "https://w3id.org/kgviz/penwidth",
                 "val" : 8.0
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "RHEA:20125",
+          "pred" : "owl:equivalentClass",
+          "obj" : "RHEA:20126",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 10
               }
             ]
           }
@@ -286,8 +302,8 @@
         {
           "nodeIds" : [
             "RHEA:16524",
-            "METACYC:RXN-14040",
             "RHEA:16521",
+            "METACYC:RXN-14040",
             "EC:1.18.1.7"
           ]
         },
@@ -295,7 +311,6 @@
           "nodeIds" : [
             "GO:0004324",
             "METACYC:1.18.1.2-RXN",
-            "RHEA:20126",
             "EC:1.18.1.2"
           ]
         },
@@ -308,6 +323,7 @@
         },
         {
           "nodeIds" : [
+            "METACYC:1.18.1.2-RXN",
             "RHEA:20125",
             "GO:0004324",
             "RHEA:20126",
