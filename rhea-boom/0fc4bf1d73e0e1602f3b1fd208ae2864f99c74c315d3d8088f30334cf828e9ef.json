@@ -4,12 +4,9 @@
       "id" : "urn:clique:0fc4bf1d73e0e1602f3b1fd208ae2864f99c74c315d3d8088f30334cf828e9ef",
       "nodes" : [
         {
-          "id" : "RHEA:11787",
-          "type" : "CLASS"
-        },
-        {
           "id" : "RHEA:11788",
-          "type" : "CLASS"
+          "type" : "CLASS",
+          "lbl" : "H2O + L-aspartate + NAD(+) = H(+) + NADH + NH4(+) + oxaloacetate"
         },
         {
           "id" : "EC:1.4.1.21",
@@ -21,26 +18,33 @@
           "lbl" : "aspartate dehydrogenase activity"
         },
         {
-          "id" : "GO:0106351",
+          "id" : "RHEA:11787",
           "type" : "CLASS",
-          "lbl" : "aspartate dehydrogenase NAD activity"
+          "lbl" : "H2O + L-aspartate + NADP(+) <=> H(+) + NADPH + NH4(+) + oxaloacetate"
         },
         {
           "id" : "METACYC:1.4.1.21-RXN",
           "type" : "CLASS"
         },
         {
-          "id" : "RHEA:11784",
-          "type" : "CLASS"
-        },
-        {
-          "id" : "RHEA:11791",
-          "type" : "CLASS"
-        },
-        {
           "id" : "GO:0106352",
           "type" : "CLASS",
           "lbl" : "aspartate dehydrogenase NADP activity"
+        },
+        {
+          "id" : "RHEA:11791",
+          "type" : "CLASS",
+          "lbl" : "H2O + L-aspartate + NAD(+) <=> H(+) + NADH + NH4(+) + oxaloacetate"
+        },
+        {
+          "id" : "RHEA:11784",
+          "type" : "CLASS",
+          "lbl" : "H2O + L-aspartate + NADP(+) = H(+) + NADPH + NH4(+) + oxaloacetate"
+        },
+        {
+          "id" : "GO:0106351",
+          "type" : "CLASS",
+          "lbl" : "aspartate dehydrogenase NAD activity"
         }
       ],
       "edges" : [

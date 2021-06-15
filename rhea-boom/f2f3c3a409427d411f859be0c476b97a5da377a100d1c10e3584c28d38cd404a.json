@@ -5,7 +5,18 @@
       "nodes" : [
         {
           "id" : "RHEA:19389",
-          "type" : "CLASS"
+          "type" : "CLASS",
+          "lbl" : "(E)-ferulate + ATP + CoA = (E)-feruloyl-CoA + ADP + phosphate"
+        },
+        {
+          "id" : "RHEA:36252",
+          "type" : "CLASS",
+          "lbl" : "(E)-ferulate + ATP + CoA => (E)-feruloyl-CoA + AMP + diphosphate"
+        },
+        {
+          "id" : "RHEA:36251",
+          "type" : "CLASS",
+          "lbl" : "(E)-ferulate + ATP + CoA = (E)-feruloyl-CoA + AMP + diphosphate"
         },
         {
           "id" : "GO:0050563",
@@ -18,14 +29,6 @@
         },
         {
           "id" : "EC:6.2.1.34",
-          "type" : "CLASS"
-        },
-        {
-          "id" : "RHEA:36251",
-          "type" : "CLASS"
-        },
-        {
-          "id" : "RHEA:36252",
           "type" : "CLASS"
         }
       ],

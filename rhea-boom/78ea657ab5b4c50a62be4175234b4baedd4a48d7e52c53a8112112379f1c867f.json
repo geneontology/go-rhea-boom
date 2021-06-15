@@ -4,6 +4,11 @@
       "id" : "urn:clique:78ea657ab5b4c50a62be4175234b4baedd4a48d7e52c53a8112112379f1c867f",
       "nodes" : [
         {
+          "id" : "RHEA:21416",
+          "type" : "CLASS",
+          "lbl" : "NADP(+) + sn-glycerol 1-phosphate = dihydroxyacetone phosphate + H(+) + NADPH"
+        },
+        {
           "id" : "GO:0106357",
           "type" : "CLASS",
           "lbl" : "glycerol-1-phosphate dehydrogenase [NAD+] activity"
@@ -18,25 +23,23 @@
           "type" : "CLASS"
         },
         {
+          "id" : "RHEA:21412",
+          "type" : "CLASS",
+          "lbl" : "NAD(+) + sn-glycerol 1-phosphate = dihydroxyacetone phosphate + H(+) + NADH"
+        },
+        {
           "id" : "METACYC:1.1.1.261-RXN",
           "type" : "CLASS"
+        },
+        {
+          "id" : "RHEA:21414",
+          "type" : "CLASS",
+          "lbl" : "dihydroxyacetone phosphate + H(+) + NADH => NAD(+) + sn-glycerol 1-phosphate"
         },
         {
           "id" : "GO:0050492",
           "type" : "CLASS",
           "lbl" : "glycerol-1-phosphate dehydrogenase [NAD(P)+] activity"
-        },
-        {
-          "id" : "RHEA:21414",
-          "type" : "CLASS"
-        },
-        {
-          "id" : "RHEA:21416",
-          "type" : "CLASS"
-        },
-        {
-          "id" : "RHEA:21412",
-          "type" : "CLASS"
         }
       ],
       "edges" : [

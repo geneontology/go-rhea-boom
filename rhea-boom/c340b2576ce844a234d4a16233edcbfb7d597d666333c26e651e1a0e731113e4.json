@@ -4,28 +4,30 @@
       "id" : "urn:clique:c340b2576ce844a234d4a16233edcbfb7d597d666333c26e651e1a0e731113e4",
       "nodes" : [
         {
-          "id" : "RHEA:14634",
-          "type" : "CLASS"
-        },
-        {
           "id" : "GO:0046932",
           "type" : "CLASS",
           "lbl" : "sodium-transporting ATP synthase activity, rotational mechanism"
         },
         {
+          "id" : "RHEA:58156",
+          "type" : "CLASS",
+          "lbl" : "ATP + H2O + 4 Na(+)(in) = ADP + H(+) + 4 Na(+)(out) + phosphate"
+        },
+        {
           "id" : "RHEA:14633",
-          "type" : "CLASS"
+          "type" : "CLASS",
+          "lbl" : "ATP + H2O + Na(+)(in) = ADP + H(+) + Na(+)(out) + phosphate"
         },
         {
           "id" : "EC:7.2.2.3",
           "type" : "CLASS"
         },
         {
-          "id" : "METACYC:3.6.3.15-RXN",
+          "id" : "EC:7.2.2.4",
           "type" : "CLASS"
         },
         {
-          "id" : "RHEA:58157",
+          "id" : "METACYC:3.6.3.15-RXN",
           "type" : "CLASS"
         },
         {
@@ -37,17 +39,29 @@
           "type" : "CLASS"
         },
         {
+          "id" : "RHEA:58158",
+          "type" : "CLASS",
+          "lbl" : "ADP + H(+) + 4 Na(+)(out) + phosphate => ATP + H2O + 4 Na(+)(in)"
+        },
+        {
+          "id" : "RHEA:58159",
+          "type" : "CLASS",
+          "lbl" : "ATP + H2O + 4 Na(+)(in) <=> ADP + H(+) + 4 Na(+)(out) + phosphate"
+        },
+        {
           "id" : "GO:0046962",
           "type" : "CLASS",
           "lbl" : "sodium-transporting ATPase activity, rotational mechanism"
         },
         {
-          "id" : "EC:7.2.2.4",
-          "type" : "CLASS"
+          "id" : "RHEA:58157",
+          "type" : "CLASS",
+          "lbl" : "ATP + H2O + 4 Na(+)(in) => ADP + H(+) + 4 Na(+)(out) + phosphate"
         },
         {
-          "id" : "RHEA:58156",
-          "type" : "CLASS"
+          "id" : "RHEA:14634",
+          "type" : "CLASS",
+          "lbl" : "ATP + H2O + Na(+)(in) => ADP + H(+) + Na(+)(out) + phosphate"
         },
         {
           "id" : "GO:0008554",
@@ -56,14 +70,6 @@
         },
         {
           "id" : "EC:7.2.2.1",
-          "type" : "CLASS"
-        },
-        {
-          "id" : "RHEA:58158",
-          "type" : "CLASS"
-        },
-        {
-          "id" : "RHEA:58159",
           "type" : "CLASS"
         }
       ],

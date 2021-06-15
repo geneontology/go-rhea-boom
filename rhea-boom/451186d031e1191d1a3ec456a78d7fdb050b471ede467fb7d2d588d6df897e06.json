@@ -22,16 +22,18 @@
         },
         {
           "id" : "RHEA:14613",
-          "type" : "CLASS"
-        },
-        {
-          "id" : "RHEA:14614",
-          "type" : "CLASS"
+          "type" : "CLASS",
+          "lbl" : "ATP + H2O + taurine(out) = ADP + H(+) + phosphate + taurine(in)"
         },
         {
           "id" : "GO:0005368",
           "type" : "CLASS",
           "lbl" : "taurine transmembrane transporter activity"
+        },
+        {
+          "id" : "RHEA:14614",
+          "type" : "CLASS",
+          "lbl" : "ATP + H2O + taurine(out) => ADP + H(+) + phosphate + taurine(in)"
         }
       ],
       "edges" : [

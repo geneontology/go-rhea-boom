@@ -4,16 +4,13 @@
       "id" : "urn:clique:a18637ecd1bebafd3da89b8ab5e5f5de0f3d856211ed79874ce2c49e4ad996cb",
       "nodes" : [
         {
-          "id" : "RHEA:32887",
-          "type" : "CLASS"
-        },
-        {
           "id" : "METACYC:BETA-CAROTENE-1515-DIOXYGENASE-RXN",
           "type" : "CLASS"
         },
         {
-          "id" : "RHEA:32888",
-          "type" : "CLASS"
+          "id" : "RHEA:32887",
+          "type" : "CLASS",
+          "lbl" : "all-trans-beta-carotene + O2 = 2 all-trans-retinal"
         },
         {
           "id" : "METACYC:RXN-13374",
@@ -22,6 +19,11 @@
         {
           "id" : "EC:1.13.11.63",
           "type" : "CLASS"
+        },
+        {
+          "id" : "RHEA:32888",
+          "type" : "CLASS",
+          "lbl" : "all-trans-beta-carotene + O2 => 2 all-trans-retinal"
         },
         {
           "id" : "GO:0003834",

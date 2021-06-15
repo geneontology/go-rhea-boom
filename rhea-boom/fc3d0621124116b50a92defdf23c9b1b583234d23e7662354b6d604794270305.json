@@ -4,17 +4,52 @@
       "id" : "urn:clique:fc3d0621124116b50a92defdf23c9b1b583234d23e7662354b6d604794270305",
       "nodes" : [
         {
+          "id" : "GO:0018474",
+          "type" : "CLASS",
+          "lbl" : "2-carboxybenzaldehyde dehydrogenase activity"
+        },
+        {
+          "id" : "RHEA:25299",
+          "type" : "CLASS",
+          "lbl" : "acetaldehyde + H2O + NADP(+) => acetate + 2 H(+) + NADPH"
+        },
+        {
           "id" : "GO:0008886",
           "type" : "CLASS",
           "lbl" : "glyceraldehyde-3-phosphate dehydrogenase (NADP+) (non-phosphorylating) activity"
+        },
+        {
+          "id" : "METACYC:RXN-15754",
+          "type" : "CLASS"
         },
         {
           "id" : "REACTOME:R-HSA-71723.2",
           "type" : "CLASS"
         },
         {
-          "id" : "RHEA:14670",
-          "type" : "CLASS"
+          "id" : "RHEA:25295",
+          "type" : "CLASS",
+          "lbl" : "acetaldehyde + H2O + NAD(+) => acetate + 2 H(+) + NADH"
+        },
+        {
+          "id" : "GO:0004029",
+          "type" : "CLASS",
+          "lbl" : "aldehyde dehydrogenase (NAD+) activity"
+        },
+        {
+          "id" : "RHEA:16186",
+          "type" : "CLASS",
+          "lbl" : "an aldehyde + H2O + NAD(+) => a carboxylate + 2 H(+) + NADH"
+        },
+        {
+          "id" : "RHEA:14672",
+          "type" : "CLASS",
+          "lbl" : "D-glyceraldehyde 3-phosphate + H2O + NADP(+) <=> (2R)-3-phosphoglycerate + 2 H(+) + NADPH"
+        },
+        {
+          "id" : "GO:0034530",
+          "type" : "CLASS",
+          "lbl" : "4-hydroxymethylsalicyaldehyde dehydrogenase activity"
         },
         {
           "id" : "EC:1.2.1.3",
@@ -25,20 +60,32 @@
           "type" : "CLASS"
         },
         {
-          "id" : "RHEA:42763",
-          "type" : "CLASS"
+          "id" : "RHEA:16185",
+          "type" : "CLASS",
+          "lbl" : "an aldehyde + H2O + NAD(+) = a carboxylate + 2 H(+) + NADH"
         },
         {
           "id" : "METACYC:RXN66-3",
           "type" : "CLASS"
         },
         {
-          "id" : "RHEA:14672",
-          "type" : "CLASS"
+          "id" : "RHEA:11888",
+          "type" : "CLASS",
+          "lbl" : "an aldehyde + H2O + NADP(+) = a carboxylate + 2 H(+) + NADPH"
+        },
+        {
+          "id" : "GO:0034520",
+          "type" : "CLASS",
+          "lbl" : "2-naphthaldehyde dehydrogenase activity"
         },
         {
           "id" : "METACYC:1.2.1.9-RXN",
           "type" : "CLASS"
+        },
+        {
+          "id" : "RHEA:25298",
+          "type" : "CLASS",
+          "lbl" : "acetaldehyde + H2O + NADP(+) = acetate + 2 H(+) + NADPH"
         },
         {
           "id" : "METACYC:ALDEHYDE-DEHYDROGENASE-NADP+-RXN",
@@ -50,37 +97,27 @@
           "lbl" : "aldehyde dehydrogenase [NAD(P)+] activity"
         },
         {
-          "id" : "RHEA:14669",
+          "id" : "EC:1.2.1.9",
           "type" : "CLASS"
         },
         {
-          "id" : "EC:1.2.1.9",
-          "type" : "CLASS"
+          "id" : "RHEA:25294",
+          "type" : "CLASS",
+          "lbl" : "acetaldehyde + H2O + NAD(+) = acetate + 2 H(+) + NADH"
+        },
+        {
+          "id" : "RHEA:14670",
+          "type" : "CLASS",
+          "lbl" : "D-glyceraldehyde 3-phosphate + H2O + NADP(+) => (2R)-3-phosphoglycerate + 2 H(+) + NADPH"
         },
         {
           "id" : "METACYC:ALDHDEHYDROG-RXN",
           "type" : "CLASS"
         },
         {
-          "id" : "RHEA:16186",
-          "type" : "CLASS"
-        },
-        {
-          "id" : "RHEA:42760",
-          "type" : "CLASS"
-        },
-        {
-          "id" : "GO:0018474",
+          "id" : "RHEA:42761",
           "type" : "CLASS",
-          "lbl" : "2-carboxybenzaldehyde dehydrogenase activity"
-        },
-        {
-          "id" : "RHEA:16185",
-          "type" : "CLASS"
-        },
-        {
-          "id" : "METACYC:RXN-15754",
-          "type" : "CLASS"
+          "lbl" : "D-glyceraldehyde 3-phosphate + H2O + NAD(+) => (2R)-3-phosphoglycerate + 2 H(+) + NADH"
         },
         {
           "id" : "GO:0019115",
@@ -101,26 +138,9 @@
           "lbl" : "medium-chain-aldehyde dehydrogenase activity"
         },
         {
-          "id" : "RHEA:25294",
-          "type" : "CLASS"
-        },
-        {
-          "id" : "GO:0004029",
+          "id" : "RHEA:42760",
           "type" : "CLASS",
-          "lbl" : "aldehyde dehydrogenase (NAD+) activity"
-        },
-        {
-          "id" : "RHEA:25299",
-          "type" : "CLASS"
-        },
-        {
-          "id" : "GO:0034530",
-          "type" : "CLASS",
-          "lbl" : "4-hydroxymethylsalicyaldehyde dehydrogenase activity"
-        },
-        {
-          "id" : "RHEA:42761",
-          "type" : "CLASS"
+          "lbl" : "D-glyceraldehyde 3-phosphate + H2O + NAD(+) = (2R)-3-phosphoglycerate + 2 H(+) + NADH"
         },
         {
           "id" : "GO:0016620",
@@ -128,8 +148,9 @@
           "lbl" : "oxidoreductase activity, acting on the aldehyde or oxo group of donors, NAD or NADP as acceptor"
         },
         {
-          "id" : "RHEA:25298",
-          "type" : "CLASS"
+          "id" : "RHEA:14669",
+          "type" : "CLASS",
+          "lbl" : "D-glyceraldehyde 3-phosphate + H2O + NADP(+) = (2R)-3-phosphoglycerate + 2 H(+) + NADPH"
         },
         {
           "id" : "METACYC:ALDEHYDE-DEHYDROGENASE-NADORNOP%252b-RXN",
@@ -166,17 +187,9 @@
           "type" : "CLASS"
         },
         {
-          "id" : "RHEA:25295",
-          "type" : "CLASS"
-        },
-        {
-          "id" : "GO:0034520",
+          "id" : "RHEA:42763",
           "type" : "CLASS",
-          "lbl" : "2-naphthaldehyde dehydrogenase activity"
-        },
-        {
-          "id" : "RHEA:11888",
-          "type" : "CLASS"
+          "lbl" : "D-glyceraldehyde 3-phosphate + H2O + NAD(+) <=> (2R)-3-phosphoglycerate + 2 H(+) + NADH"
         }
       ],
       "edges" : [

@@ -4,6 +4,25 @@
       "id" : "urn:clique:631d8ba7f51636d9f98e9536a8dac9a699f2c9a62db15313190b0cb29ce290fb",
       "nodes" : [
         {
+          "id" : "EC:1.1.1.265",
+          "type" : "CLASS"
+        },
+        {
+          "id" : "RHEA:18531",
+          "type" : "CLASS",
+          "lbl" : "3-methylbutanal + H(+) + NADH => 3-methylbutanol + NAD(+)"
+        },
+        {
+          "id" : "RHEA:18529",
+          "type" : "CLASS",
+          "lbl" : "3-methylbutanol + NAD(+) = 3-methylbutanal + H(+) + NADH"
+        },
+        {
+          "id" : "RHEA:18525",
+          "type" : "CLASS",
+          "lbl" : "3-methylbutanol + NADP(+) = 3-methylbutanal + H(+) + NADPH"
+        },
+        {
           "id" : "GO:0052676",
           "type" : "CLASS",
           "lbl" : "3-methylbutanol:NAD oxidoreductase activity"
@@ -14,27 +33,12 @@
           "lbl" : "3-methylbutanol:NAD(P) oxidoreductase activity"
         },
         {
-          "id" : "RHEA:18531",
-          "type" : "CLASS"
-        },
-        {
           "id" : "RHEA:18527",
-          "type" : "CLASS"
-        },
-        {
-          "id" : "RHEA:18525",
-          "type" : "CLASS"
-        },
-        {
-          "id" : "EC:1.1.1.265",
-          "type" : "CLASS"
+          "type" : "CLASS",
+          "lbl" : "3-methylbutanal + H(+) + NADPH => 3-methylbutanol + NADP(+)"
         },
         {
           "id" : "METACYC:1.1.1.265-RXN",
-          "type" : "CLASS"
-        },
-        {
-          "id" : "RHEA:18529",
           "type" : "CLASS"
         },
         {

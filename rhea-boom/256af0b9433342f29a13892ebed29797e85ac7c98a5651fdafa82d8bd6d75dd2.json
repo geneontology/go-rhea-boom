@@ -4,12 +4,27 @@
       "id" : "urn:clique:256af0b9433342f29a13892ebed29797e85ac7c98a5651fdafa82d8bd6d75dd2",
       "nodes" : [
         {
-          "id" : "EC:1.1.99.2",
+          "id" : "RHEA:21255",
+          "type" : "CLASS",
+          "lbl" : "(S)-2-hydroxyglutarate + A <=> 2-oxoglutarate + AH2"
+        },
+        {
+          "id" : "METACYC:2-HYDROXYGLUTARATE-DEHYDROGENASE-RXN",
           "type" : "CLASS"
         },
         {
           "id" : "RHEA:21254",
+          "type" : "CLASS",
+          "lbl" : "2-oxoglutarate + AH2 => (S)-2-hydroxyglutarate + A"
+        },
+        {
+          "id" : "EC:1.1.99.2",
           "type" : "CLASS"
+        },
+        {
+          "id" : "RHEA:21253",
+          "type" : "CLASS",
+          "lbl" : "(S)-2-hydroxyglutarate + A => 2-oxoglutarate + AH2"
         },
         {
           "id" : "GO:0061758",
@@ -17,12 +32,9 @@
           "lbl" : "2-hydroxyglutarate dehydrogenase activity, forward reaction"
         },
         {
-          "id" : "RHEA:21253",
-          "type" : "CLASS"
-        },
-        {
           "id" : "RHEA:21252",
-          "type" : "CLASS"
+          "type" : "CLASS",
+          "lbl" : "(S)-2-hydroxyglutarate + A = 2-oxoglutarate + AH2"
         },
         {
           "id" : "GO:0061759",
@@ -33,14 +45,6 @@
           "id" : "GO:0047545",
           "type" : "CLASS",
           "lbl" : "2-hydroxyglutarate dehydrogenase activity"
-        },
-        {
-          "id" : "METACYC:2-HYDROXYGLUTARATE-DEHYDROGENASE-RXN",
-          "type" : "CLASS"
-        },
-        {
-          "id" : "RHEA:21255",
-          "type" : "CLASS"
         }
       ],
       "edges" : [

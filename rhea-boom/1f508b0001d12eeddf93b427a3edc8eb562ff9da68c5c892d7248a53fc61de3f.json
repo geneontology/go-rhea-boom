@@ -4,40 +4,27 @@
       "id" : "urn:clique:1f508b0001d12eeddf93b427a3edc8eb562ff9da68c5c892d7248a53fc61de3f",
       "nodes" : [
         {
-          "id" : "RHEA:45231",
-          "type" : "CLASS"
-        },
-        {
           "id" : "METACYC:RXN-7836",
           "type" : "CLASS"
         },
         {
-          "id" : "RHEA:23719",
-          "type" : "CLASS"
+          "id" : "RHEA:45231",
+          "type" : "CLASS",
+          "lbl" : "a (3E)-enoyl-CoA <=> a 4-saturated (2E)-enoyl-CoA"
+        },
+        {
+          "id" : "RHEA:45900",
+          "type" : "CLASS",
+          "lbl" : "a (3Z)-enoyl-CoA = a 4-saturated (2E)-enoyl-CoA"
         },
         {
           "id" : "METACYC:ENOYL-COA-DELTA-ISOM-RXN",
           "type" : "CLASS"
         },
         {
-          "id" : "RHEA:45903",
-          "type" : "CLASS"
-        },
-        {
-          "id" : "RHEA:45228",
-          "type" : "CLASS"
-        },
-        {
-          "id" : "RHEA:45900",
-          "type" : "CLASS"
-        },
-        {
-          "id" : "METACYC:RXN-7931",
-          "type" : "CLASS"
-        },
-        {
-          "id" : "EC:5.3.3.8",
-          "type" : "CLASS"
+          "id" : "RHEA:23716",
+          "type" : "CLASS",
+          "lbl" : "(3Z)-dodecenoyl-CoA = (2E)-dodecenoyl-CoA"
         },
         {
           "id" : "GO:0004165",
@@ -45,8 +32,27 @@
           "lbl" : "dodecenoyl-CoA delta-isomerase activity"
         },
         {
-          "id" : "RHEA:23716",
+          "id" : "METACYC:RXN-7931",
           "type" : "CLASS"
+        },
+        {
+          "id" : "RHEA:45228",
+          "type" : "CLASS",
+          "lbl" : "a (3E)-enoyl-CoA = a 4-saturated (2E)-enoyl-CoA"
+        },
+        {
+          "id" : "EC:5.3.3.8",
+          "type" : "CLASS"
+        },
+        {
+          "id" : "RHEA:45903",
+          "type" : "CLASS",
+          "lbl" : "a (3Z)-enoyl-CoA <=> a 4-saturated (2E)-enoyl-CoA"
+        },
+        {
+          "id" : "RHEA:23719",
+          "type" : "CLASS",
+          "lbl" : "(3Z)-dodecenoyl-CoA <=> (2E)-dodecenoyl-CoA"
         }
       ],
       "edges" : [

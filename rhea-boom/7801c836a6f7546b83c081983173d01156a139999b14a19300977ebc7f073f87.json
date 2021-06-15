@@ -4,25 +4,28 @@
       "id" : "urn:clique:7801c836a6f7546b83c081983173d01156a139999b14a19300977ebc7f073f87",
       "nodes" : [
         {
-          "id" : "RHEA:32950",
-          "type" : "CLASS"
-        },
-        {
           "id" : "METACYC:2-ACYLGLYCEROL-O-ACYLTRANSFERASE-RXN",
           "type" : "CLASS"
         },
         {
           "id" : "RHEA:32947",
-          "type" : "CLASS"
+          "type" : "CLASS",
+          "lbl" : "a 2-acylglycerol + an acyl-CoA = a 1,2-diacyl-sn-glycerol + CoA"
         },
         {
-          "id" : "RHEA:16741",
-          "type" : "CLASS"
+          "id" : "RHEA:32950",
+          "type" : "CLASS",
+          "lbl" : "a 2-acylglycerol + an acyl-CoA <=> a 1,2-diacyl-sn-glycerol + CoA"
         },
         {
           "id" : "GO:0003846",
           "type" : "CLASS",
           "lbl" : "2-acylglycerol O-acyltransferase activity"
+        },
+        {
+          "id" : "RHEA:16741",
+          "type" : "CLASS",
+          "lbl" : "a 2-acylglycerol + an acyl-CoA = a 1,2-diacylglycerol + CoA"
         },
         {
           "id" : "EC:2.3.1.22",

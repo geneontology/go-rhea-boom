@@ -12,28 +12,23 @@
           "type" : "CLASS"
         },
         {
-          "id" : "REACTOME:R-HSA-73647.3",
-          "type" : "CLASS"
-        },
-        {
-          "id" : "RHEA:16598",
-          "type" : "CLASS"
-        },
-        {
-          "id" : "RHEA:26427",
-          "type" : "CLASS"
-        },
-        {
           "id" : "RHEA:26426",
-          "type" : "CLASS"
+          "type" : "CLASS",
+          "lbl" : "ATP + H2O + L-glutamine + UTP = ADP + CTP + 2 H(+) + L-glutamate + phosphate"
         },
         {
           "id" : "RHEA:16597",
-          "type" : "CLASS"
+          "type" : "CLASS",
+          "lbl" : "ATP + NH4(+) + UTP = ADP + CTP + 2 H(+) + phosphate"
         },
         {
           "id" : "METACYC:CTPSYN-RXN",
           "type" : "CLASS"
+        },
+        {
+          "id" : "RHEA:26427",
+          "type" : "CLASS",
+          "lbl" : "ATP + H2O + L-glutamine + UTP => ADP + CTP + 2 H(+) + L-glutamate + phosphate"
         },
         {
           "id" : "METACYC:RXN-14325",
@@ -43,6 +38,15 @@
           "id" : "GO:0003883",
           "type" : "CLASS",
           "lbl" : "CTP synthase activity"
+        },
+        {
+          "id" : "REACTOME:R-HSA-73647.3",
+          "type" : "CLASS"
+        },
+        {
+          "id" : "RHEA:16598",
+          "type" : "CLASS",
+          "lbl" : "ATP + NH4(+) + UTP => ADP + CTP + 2 H(+) + phosphate"
         }
       ],
       "edges" : [

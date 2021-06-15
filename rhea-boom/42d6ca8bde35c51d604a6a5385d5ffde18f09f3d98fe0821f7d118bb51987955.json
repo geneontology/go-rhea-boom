@@ -8,21 +8,19 @@
           "type" : "CLASS"
         },
         {
-          "id" : "GO:0004043",
-          "type" : "CLASS",
-          "lbl" : "L-aminoadipate-semialdehyde dehydrogenase activity"
-        },
-        {
-          "id" : "RHEA:12305",
-          "type" : "CLASS"
-        },
-        {
-          "id" : "RHEA:12311",
-          "type" : "CLASS"
-        },
-        {
           "id" : "RHEA:12309",
-          "type" : "CLASS"
+          "type" : "CLASS",
+          "lbl" : "(S)-2-amino-6-oxohexanoate + H2O + NAD(+) => 2 H(+) + L-2-aminoadipate + NADH"
+        },
+        {
+          "id" : "RHEA:12304",
+          "type" : "CLASS",
+          "lbl" : "(S)-2-amino-6-oxohexanoate + H2O + NADP(+) = 2 H(+) + L-2-aminoadipate + NADPH"
+        },
+        {
+          "id" : "RHEA:12308",
+          "type" : "CLASS",
+          "lbl" : "(S)-2-amino-6-oxohexanoate + H2O + NAD(+) = 2 H(+) + L-2-aminoadipate + NADH"
         },
         {
           "id" : "EC:1.2.1.31",
@@ -33,15 +31,22 @@
           "type" : "CLASS"
         },
         {
-          "id" : "RHEA:12308",
-          "type" : "CLASS"
+          "id" : "GO:0004043",
+          "type" : "CLASS",
+          "lbl" : "L-aminoadipate-semialdehyde dehydrogenase activity"
+        },
+        {
+          "id" : "RHEA:12305",
+          "type" : "CLASS",
+          "lbl" : "(S)-2-amino-6-oxohexanoate + H2O + NADP(+) => 2 H(+) + L-2-aminoadipate + NADPH"
+        },
+        {
+          "id" : "RHEA:12311",
+          "type" : "CLASS",
+          "lbl" : "(S)-2-amino-6-oxohexanoate + H2O + NAD(+) <=> 2 H(+) + L-2-aminoadipate + NADH"
         },
         {
           "id" : "REACTOME:R-HSA-70941.4",
-          "type" : "CLASS"
-        },
-        {
-          "id" : "RHEA:12304",
           "type" : "CLASS"
         }
       ],

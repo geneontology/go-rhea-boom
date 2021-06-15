@@ -4,28 +4,22 @@
       "id" : "urn:clique:a60aa2e643cc277adaf08b98882377259efa40a84123d206c7f50372ff8f0cf4",
       "nodes" : [
         {
-          "id" : "RHEA:11094",
-          "type" : "CLASS"
-        },
-        {
-          "id" : "RHEA:11098",
-          "type" : "CLASS"
-        },
-        {
-          "id" : "REACTOME:R-HSA-75889.2",
-          "type" : "CLASS"
+          "id" : "RHEA:11092",
+          "type" : "CLASS",
+          "lbl" : "NAD(+) + sn-glycerol 3-phosphate = dihydroxyacetone phosphate + H(+) + NADH"
         },
         {
           "id" : "METACYC:1.1.1.8-RXN",
           "type" : "CLASS"
         },
         {
-          "id" : "RHEA:11096",
+          "id" : "METACYC:GLYC3PDEHYDROGBIOSYN-RXN",
           "type" : "CLASS"
         },
         {
-          "id" : "METACYC:GLYC3PDEHYDROGBIOSYN-RXN",
-          "type" : "CLASS"
+          "id" : "RHEA:11096",
+          "type" : "CLASS",
+          "lbl" : "NADP(+) + sn-glycerol 3-phosphate = dihydroxyacetone phosphate + H(+) + NADPH"
         },
         {
           "id" : "GO:0106257",
@@ -37,6 +31,11 @@
           "type" : "CLASS"
         },
         {
+          "id" : "RHEA:11098",
+          "type" : "CLASS",
+          "lbl" : "dihydroxyacetone phosphate + H(+) + NADPH => NADP(+) + sn-glycerol 3-phosphate"
+        },
+        {
           "id" : "GO:0047952",
           "type" : "CLASS",
           "lbl" : "glycerol-3-phosphate dehydrogenase [NAD(P)+] activity"
@@ -46,13 +45,18 @@
           "type" : "CLASS"
         },
         {
-          "id" : "RHEA:11092",
-          "type" : "CLASS"
-        },
-        {
           "id" : "GO:0004367",
           "type" : "CLASS",
           "lbl" : "glycerol-3-phosphate dehydrogenase [NAD+] activity"
+        },
+        {
+          "id" : "REACTOME:R-HSA-75889.2",
+          "type" : "CLASS"
+        },
+        {
+          "id" : "RHEA:11094",
+          "type" : "CLASS",
+          "lbl" : "dihydroxyacetone phosphate + H(+) + NADH => NAD(+) + sn-glycerol 3-phosphate"
         }
       ],
       "edges" : [

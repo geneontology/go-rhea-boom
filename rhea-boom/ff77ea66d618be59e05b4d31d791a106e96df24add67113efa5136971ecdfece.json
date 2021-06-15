@@ -12,6 +12,11 @@
           "type" : "CLASS"
         },
         {
+          "id" : "RHEA:16302",
+          "type" : "CLASS",
+          "lbl" : "H2O + NAD(+) => ADP-D-ribose + H(+) + nicotinamide"
+        },
+        {
           "id" : "GO:0003953",
           "type" : "CLASS",
           "lbl" : "NAD+ nucleosidase activity"
@@ -31,10 +36,6 @@
           "lbl" : "NAD glycohydrolase activity"
         },
         {
-          "id" : "RHEA:16301",
-          "type" : "CLASS"
-        },
-        {
           "id" : "METACYC:NADNUCLEOSID-RXN",
           "type" : "CLASS"
         },
@@ -43,13 +44,14 @@
           "type" : "CLASS"
         },
         {
-          "id" : "RHEA:16302",
-          "type" : "CLASS"
-        },
-        {
           "id" : "GO:0050135",
           "type" : "CLASS",
           "lbl" : "NAD(P)+ nucleosidase activity"
+        },
+        {
+          "id" : "RHEA:16301",
+          "type" : "CLASS",
+          "lbl" : "H2O + NAD(+) = ADP-D-ribose + H(+) + nicotinamide"
         },
         {
           "id" : "EC:3.2.2.5",

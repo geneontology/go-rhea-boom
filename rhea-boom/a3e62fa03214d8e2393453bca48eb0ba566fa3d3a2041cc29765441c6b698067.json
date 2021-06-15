@@ -9,24 +9,27 @@
           "lbl" : "undecaprenyl-diphosphatase activity"
         },
         {
-          "id" : "EC:3.6.1.27",
-          "type" : "CLASS"
+          "id" : "RHEA:28094",
+          "type" : "CLASS",
+          "lbl" : "di-trans,octa-cis-undecaprenyl diphosphate + H2O = di-trans,octa-cis-undecaprenyl phosphate + H(+) + phosphate"
         },
         {
           "id" : "RHEA:17069",
-          "type" : "CLASS"
-        },
-        {
-          "id" : "RHEA:28095",
-          "type" : "CLASS"
-        },
-        {
-          "id" : "RHEA:28094",
-          "type" : "CLASS"
+          "type" : "CLASS",
+          "lbl" : "all-trans-undecaprenyl diphosphate + H2O = all-trans-undecaprenyl phosphate + H(+) + phosphate"
         },
         {
           "id" : "METACYC:UNDECAPRENYL-DIPHOSPHATASE-RXN",
           "type" : "CLASS"
+        },
+        {
+          "id" : "EC:3.6.1.27",
+          "type" : "CLASS"
+        },
+        {
+          "id" : "RHEA:28095",
+          "type" : "CLASS",
+          "lbl" : "di-trans,octa-cis-undecaprenyl diphosphate + H2O => di-trans,octa-cis-undecaprenyl phosphate + H(+) + phosphate"
         }
       ],
       "edges" : [

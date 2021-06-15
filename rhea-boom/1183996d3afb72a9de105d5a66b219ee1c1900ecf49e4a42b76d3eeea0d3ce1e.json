@@ -4,21 +4,24 @@
       "id" : "urn:clique:1183996d3afb72a9de105d5a66b219ee1c1900ecf49e4a42b76d3eeea0d3ce1e",
       "nodes" : [
         {
-          "id" : "RHEA:16725",
-          "type" : "CLASS"
-        },
-        {
-          "id" : "RHEA:33751",
-          "type" : "CLASS"
-        },
-        {
           "id" : "GO:0008962",
           "type" : "CLASS",
           "lbl" : "phosphatidylglycerophosphatase activity"
         },
         {
+          "id" : "RHEA:33751",
+          "type" : "CLASS",
+          "lbl" : "1,2-diacyl-sn-glycero-3-phospho-(1'-sn-glycero-3'-phosphate) + H2O = 1,2-diacyl-sn-glycero-3-phospho-(1'-sn-glycerol) + phosphate"
+        },
+        {
+          "id" : "RHEA:16725",
+          "type" : "CLASS",
+          "lbl" : "a phosphatidylglycerol phosphate + H2O = a phosphatidylglycerol + phosphate"
+        },
+        {
           "id" : "RHEA:33752",
-          "type" : "CLASS"
+          "type" : "CLASS",
+          "lbl" : "1,2-diacyl-sn-glycero-3-phospho-(1'-sn-glycero-3'-phosphate) + H2O => 1,2-diacyl-sn-glycero-3-phospho-(1'-sn-glycerol) + phosphate"
         },
         {
           "id" : "EC:3.1.3.27",

@@ -4,29 +4,23 @@
       "id" : "urn:clique:b2956f0b3b1acaa6b17a1b802499ad2ff859a618ab1a30ba06e69c6b5d4a1d1a",
       "nodes" : [
         {
+          "id" : "RHEA:56216",
+          "type" : "CLASS",
+          "lbl" : "O(3)-[beta-D-galactosyl-(1->3)-N-acetyl-alpha-D-galactosaminyl]-L-threonyl-[protein] + UDP-N-acetyl-alpha-D-glucosamine = 3-O-{beta-D-galactosyl-(1->3)-[N-acetyl-beta-D-glucosaminyl-(1->6)]-N-acetyl-alpha-D-galactosaminyl}-L-threonyl-[protein] + H(+) + UDP"
+        },
+        {
           "id" : "RHEA:56217",
-          "type" : "CLASS"
+          "type" : "CLASS",
+          "lbl" : "O(3)-[beta-D-galactosyl-(1->3)-N-acetyl-alpha-D-galactosaminyl]-L-threonyl-[protein] + UDP-N-acetyl-alpha-D-glucosamine => 3-O-{beta-D-galactosyl-(1->3)-[N-acetyl-beta-D-glucosaminyl-(1->6)]-N-acetyl-alpha-D-galactosaminyl}-L-threonyl-[protein] + H(+) + UDP"
         },
         {
           "id" : "RHEA:56212",
-          "type" : "CLASS"
-        },
-        {
-          "id" : "RHEA:18705",
-          "type" : "CLASS"
+          "type" : "CLASS",
+          "lbl" : "O(3)-[beta-D-galactosyl-(1->3)-N-acetyl-alpha-D-galactosaminyl]-L-seryl-[protein] + UDP-N-acetyl-alpha-D-glucosamine = 3-O-{beta-D-galactosyl-(1->3)-[N-acetyl-beta-D-glucosaminyl-(1->6)]-N-acetyl-alpha-D-galactosaminyl}-L-seryl-[protein] + H(+) + UDP"
         },
         {
           "id" : "METACYC:2.4.1.102-RXN",
           "type" : "CLASS"
-        },
-        {
-          "id" : "RHEA:56216",
-          "type" : "CLASS"
-        },
-        {
-          "id" : "GO:0003829",
-          "type" : "CLASS",
-          "lbl" : "beta-1,3-galactosyl-O-glycosyl-glycoprotein beta-1,6-N-acetylglucosaminyltransferase activity"
         },
         {
           "id" : "EC:2.4.1.102",
@@ -34,7 +28,18 @@
         },
         {
           "id" : "RHEA:56213",
-          "type" : "CLASS"
+          "type" : "CLASS",
+          "lbl" : "O(3)-[beta-D-galactosyl-(1->3)-N-acetyl-alpha-D-galactosaminyl]-L-seryl-[protein] + UDP-N-acetyl-alpha-D-glucosamine => 3-O-{beta-D-galactosyl-(1->3)-[N-acetyl-beta-D-glucosaminyl-(1->6)]-N-acetyl-alpha-D-galactosaminyl}-L-seryl-[protein] + H(+) + UDP"
+        },
+        {
+          "id" : "GO:0003829",
+          "type" : "CLASS",
+          "lbl" : "beta-1,3-galactosyl-O-glycosyl-glycoprotein beta-1,6-N-acetylglucosaminyltransferase activity"
+        },
+        {
+          "id" : "RHEA:18705",
+          "type" : "CLASS",
+          "lbl" : "a beta-D-galactosyl-(1->3)-N-acetyl-alpha-D-galactosaminyl derivative + UDP-N-acetyl-alpha-D-glucosamine = a beta-D-galactosyl-(1->3)-[N-acetyl-beta-D-glucosaminyl-(1->6)]-N-acetyl-alpha-D-galactosaminyl derivative + H(+) + UDP"
         }
       ],
       "edges" : [

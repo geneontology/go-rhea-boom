@@ -8,8 +8,18 @@
           "type" : "CLASS"
         },
         {
+          "id" : "RHEA:19082",
+          "type" : "CLASS",
+          "lbl" : "1-haloalkane + H2O => a halide anion + a primary alcohol + H(+)"
+        },
+        {
           "id" : "METACYC:HALOALKANE-DEHALOGENASE-RXN",
           "type" : "CLASS"
+        },
+        {
+          "id" : "RHEA:25186",
+          "type" : "CLASS",
+          "lbl" : "1,2-dichloroethane + H2O => 2-chloroethanol + chloride + H(+)"
         },
         {
           "id" : "GO:0018786",
@@ -17,24 +27,18 @@
           "lbl" : "haloalkane dehalogenase activity"
         },
         {
-          "id" : "RHEA:19082",
-          "type" : "CLASS"
-        },
-        {
-          "id" : "RHEA:25186",
-          "type" : "CLASS"
+          "id" : "RHEA:19081",
+          "type" : "CLASS",
+          "lbl" : "1-haloalkane + H2O = a halide anion + a primary alcohol + H(+)"
         },
         {
           "id" : "METACYC:DHLAXANAU-RXN",
           "type" : "CLASS"
         },
         {
-          "id" : "RHEA:19081",
-          "type" : "CLASS"
-        },
-        {
           "id" : "RHEA:25185",
-          "type" : "CLASS"
+          "type" : "CLASS",
+          "lbl" : "1,2-dichloroethane + H2O = 2-chloroethanol + chloride + H(+)"
         }
       ],
       "edges" : [

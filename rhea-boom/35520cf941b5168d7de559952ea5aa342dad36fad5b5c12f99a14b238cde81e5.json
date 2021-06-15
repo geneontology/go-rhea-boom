@@ -4,17 +4,9 @@
       "id" : "urn:clique:35520cf941b5168d7de559952ea5aa342dad36fad5b5c12f99a14b238cde81e5",
       "nodes" : [
         {
-          "id" : "RHEA:21208",
-          "type" : "CLASS"
-        },
-        {
           "id" : "GO:0036424",
           "type" : "CLASS",
           "lbl" : "L-phosphoserine phosphatase activity"
-        },
-        {
-          "id" : "RHEA:21209",
-          "type" : "CLASS"
         },
         {
           "id" : "METACYC:RXN0-5114",
@@ -23,6 +15,26 @@
         {
           "id" : "METACYC:PSERPHOSPHA-RXN",
           "type" : "CLASS"
+        },
+        {
+          "id" : "RHEA:24874",
+          "type" : "CLASS",
+          "lbl" : "H2O + O-phospho-D-serine => D-serine + phosphate"
+        },
+        {
+          "id" : "RHEA:21209",
+          "type" : "CLASS",
+          "lbl" : "H2O + O-phospho-L-serine => L-serine + phosphate"
+        },
+        {
+          "id" : "RHEA:24873",
+          "type" : "CLASS",
+          "lbl" : "H2O + O-phospho-D-serine = D-serine + phosphate"
+        },
+        {
+          "id" : "RHEA:21208",
+          "type" : "CLASS",
+          "lbl" : "H2O + O-phospho-L-serine = L-serine + phosphate"
         },
         {
           "id" : "GO:0004647",
@@ -34,20 +46,12 @@
           "type" : "CLASS"
         },
         {
-          "id" : "RHEA:24873",
-          "type" : "CLASS"
-        },
-        {
           "id" : "GO:0036425",
           "type" : "CLASS",
           "lbl" : "D-phosphoserine phosphatase activity"
         },
         {
           "id" : "EC:3.1.3.3",
-          "type" : "CLASS"
-        },
-        {
-          "id" : "RHEA:24874",
           "type" : "CLASS"
         }
       ],

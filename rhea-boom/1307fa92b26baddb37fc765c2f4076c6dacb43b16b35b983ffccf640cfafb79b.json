@@ -4,10 +4,6 @@
       "id" : "urn:clique:1307fa92b26baddb37fc765c2f4076c6dacb43b16b35b983ffccf640cfafb79b",
       "nodes" : [
         {
-          "id" : "EC:2.7.7.68",
-          "type" : "CLASS"
-        },
-        {
           "id" : "EC:2.7.7.105",
           "type" : "CLASS"
         },
@@ -21,19 +17,27 @@
           "lbl" : "phospholactate guanylyltransferase activity"
         },
         {
-          "id" : "RHEA:30520",
-          "type" : "CLASS"
-        },
-        {
           "id" : "RHEA:30519",
-          "type" : "CLASS"
+          "type" : "CLASS",
+          "lbl" : "GTP + H(+) + phosphoenolpyruvate = diphosphate + enolpyruvoyl-2-diphospho-5'-guanosine"
         },
         {
           "id" : "RHEA:63424",
-          "type" : "CLASS"
+          "type" : "CLASS",
+          "lbl" : "(2S)-2-phospholactate + GTP + H(+) = (2S)-lactyl-2-diphospho-5'-guanosine + diphosphate"
+        },
+        {
+          "id" : "RHEA:30520",
+          "type" : "CLASS",
+          "lbl" : "GTP + H(+) + phosphoenolpyruvate => diphosphate + enolpyruvoyl-2-diphospho-5'-guanosine"
         },
         {
           "id" : "RHEA:63425",
+          "type" : "CLASS",
+          "lbl" : "(2S)-2-phospholactate + GTP + H(+) => (2S)-lactyl-2-diphospho-5'-guanosine + diphosphate"
+        },
+        {
+          "id" : "EC:2.7.7.68",
           "type" : "CLASS"
         }
       ],

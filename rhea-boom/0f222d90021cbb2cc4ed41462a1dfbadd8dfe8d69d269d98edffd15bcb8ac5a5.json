@@ -12,8 +12,9 @@
           "type" : "CLASS"
         },
         {
-          "id" : "RHEA:25074",
-          "type" : "CLASS"
+          "id" : "RHEA:25075",
+          "type" : "CLASS",
+          "lbl" : "(13S)-hydroperoxy-(9Z,11E,15Z)-octadecatrienoate => (9Z,13S,15Z)-12,13-epoxyoctadeca-9,11,15-trienoate + H2O"
         },
         {
           "id" : "GO:0047987",
@@ -21,8 +22,9 @@
           "lbl" : "hydroperoxide dehydratase activity"
         },
         {
-          "id" : "RHEA:25075",
-          "type" : "CLASS"
+          "id" : "RHEA:25074",
+          "type" : "CLASS",
+          "lbl" : "(13S)-hydroperoxy-(9Z,11E,15Z)-octadecatrienoate = (9Z,13S,15Z)-12,13-epoxyoctadeca-9,11,15-trienoate + H2O"
         },
         {
           "id" : "GO:0009978",

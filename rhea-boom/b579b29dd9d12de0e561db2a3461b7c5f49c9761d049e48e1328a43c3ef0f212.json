@@ -13,20 +13,23 @@
           "lbl" : "muconate cycloisomerase activity"
         },
         {
-          "id" : "RHEA:30033",
-          "type" : "CLASS"
-        },
-        {
           "id" : "EC:5.5.1.1",
           "type" : "CLASS"
         },
         {
-          "id" : "RHEA:10640",
-          "type" : "CLASS"
+          "id" : "RHEA:30033",
+          "type" : "CLASS",
+          "lbl" : "cis,cis-muconate + H(+) => (S)-muconolactone"
         },
         {
           "id" : "RHEA:30031",
-          "type" : "CLASS"
+          "type" : "CLASS",
+          "lbl" : "(S)-muconolactone = cis,cis-muconate + H(+)"
+        },
+        {
+          "id" : "RHEA:10640",
+          "type" : "CLASS",
+          "lbl" : "muconolactone = cis,cis-muconate + H(+)"
         }
       ],
       "edges" : [

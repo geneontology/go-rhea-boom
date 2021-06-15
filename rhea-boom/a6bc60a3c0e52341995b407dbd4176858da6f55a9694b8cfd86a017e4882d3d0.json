@@ -25,8 +25,29 @@
           "lbl" : "17-beta-hydroxysteroid dehydrogenase (NAD+) activity"
         },
         {
+          "id" : "RHEA:24617",
+          "type" : "CLASS",
+          "lbl" : "17beta-estradiol + NADP(+) => estrone + H(+) + NADPH"
+        },
+        {
           "id" : "RHEA:24614",
-          "type" : "CLASS"
+          "type" : "CLASS",
+          "lbl" : "estrone + H(+) + NADH => 17beta-estradiol + NAD(+)"
+        },
+        {
+          "id" : "GO:0004303",
+          "type" : "CLASS",
+          "lbl" : "estradiol 17-beta-dehydrogenase activity"
+        },
+        {
+          "id" : "RHEA:24612",
+          "type" : "CLASS",
+          "lbl" : "17beta-estradiol + NAD(+) = estrone + H(+) + NADH"
+        },
+        {
+          "id" : "RHEA:24616",
+          "type" : "CLASS",
+          "lbl" : "17beta-estradiol + NADP(+) = estrone + H(+) + NADPH"
         },
         {
           "id" : "GO:0072582",
@@ -38,28 +59,12 @@
           "type" : "CLASS"
         },
         {
-          "id" : "RHEA:24617",
-          "type" : "CLASS"
-        },
-        {
-          "id" : "RHEA:24616",
-          "type" : "CLASS"
-        },
-        {
-          "id" : "GO:0004303",
+          "id" : "RHEA:24618",
           "type" : "CLASS",
-          "lbl" : "estradiol 17-beta-dehydrogenase activity"
-        },
-        {
-          "id" : "RHEA:24612",
-          "type" : "CLASS"
+          "lbl" : "estrone + H(+) + NADPH => 17beta-estradiol + NADP(+)"
         },
         {
           "id" : "REACTOME:R-HSA-5696822.1",
-          "type" : "CLASS"
-        },
-        {
-          "id" : "RHEA:24618",
           "type" : "CLASS"
         },
         {

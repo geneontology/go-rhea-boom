@@ -4,17 +4,9 @@
       "id" : "urn:clique:582e13f2f06cfa38889b7e8bf259cba0db2545d378bd58c6a60d548d7d612ea4",
       "nodes" : [
         {
-          "id" : "RHEA:20125",
-          "type" : "CLASS"
-        },
-        {
           "id" : "RHEA:16521",
-          "type" : "CLASS"
-        },
-        {
-          "id" : "GO:0008860",
           "type" : "CLASS",
-          "lbl" : "ferredoxin-NAD+ reductase activity"
+          "lbl" : "H(+) + NAD(+) + 2 reduced [2Fe-2S]-[ferredoxin] = NADH + 2 oxidized [2Fe-2S]-[ferredoxin]"
         },
         {
           "id" : "METACYC:FERREDOXIN--NAD%2b-REDUCTASE-RXN",
@@ -25,12 +17,31 @@
           "type" : "CLASS"
         },
         {
+          "id" : "RHEA:20126",
+          "type" : "CLASS",
+          "lbl" : "H(+) + NADP(+) + 2 reduced [2Fe-2S]-[ferredoxin] => NADPH + 2 oxidized [2Fe-2S]-[ferredoxin]"
+        },
+        {
+          "id" : "METACYC:FERREDOXIN--NAD+-REDUCTASE-RXN",
+          "type" : "CLASS"
+        },
+        {
           "id" : "EC:1.18.1.2",
           "type" : "CLASS"
         },
         {
-          "id" : "RHEA:20128",
+          "id" : "EC:1.18.1.7",
           "type" : "CLASS"
+        },
+        {
+          "id" : "RHEA:16524",
+          "type" : "CLASS",
+          "lbl" : "H(+) + NAD(+) + 2 reduced [2Fe-2S]-[ferredoxin] <=> NADH + 2 oxidized [2Fe-2S]-[ferredoxin]"
+        },
+        {
+          "id" : "RHEA:20128",
+          "type" : "CLASS",
+          "lbl" : "H(+) + NADP(+) + 2 reduced [2Fe-2S]-[ferredoxin] <=> NADPH + 2 oxidized [2Fe-2S]-[ferredoxin]"
         },
         {
           "id" : "METACYC:1.18.1.2-RXN",
@@ -46,20 +57,14 @@
           "type" : "CLASS"
         },
         {
-          "id" : "RHEA:20126",
-          "type" : "CLASS"
+          "id" : "GO:0008860",
+          "type" : "CLASS",
+          "lbl" : "ferredoxin-NAD+ reductase activity"
         },
         {
-          "id" : "METACYC:FERREDOXIN--NAD+-REDUCTASE-RXN",
-          "type" : "CLASS"
-        },
-        {
-          "id" : "RHEA:16524",
-          "type" : "CLASS"
-        },
-        {
-          "id" : "EC:1.18.1.7",
-          "type" : "CLASS"
+          "id" : "RHEA:20125",
+          "type" : "CLASS",
+          "lbl" : "H(+) + NADP(+) + 2 reduced [2Fe-2S]-[ferredoxin] = NADPH + 2 oxidized [2Fe-2S]-[ferredoxin]"
         }
       ],
       "edges" : [

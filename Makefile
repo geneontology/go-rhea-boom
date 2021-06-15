@@ -33,6 +33,9 @@ rhea.ofn: rhea-relationships.ofn rhea-equivalents.ofn
 	cat rhea-equivalents.ofn >>$@.tmp &&\
 	echo ')' >> $@.tmp && mv $@.tmp $@
 
+rhea-labels.ttl:
+	curl -X POST -F 'query=@sparql/rhea-labels.rq' --header "Accept:text/turtle" https://sparql.rhea-db.org/sparql >$@
+
 enzyme.rdf:
 	curl -L -O https://ftp.expasy.org/databases/enzyme/enzyme.rdf
 
@@ -64,8 +67,8 @@ go-broad-xrefs-probs.tsv: go-ec-rhea-metacyc-xrefs-filtered.tsv
 probs.tsv: rhea-ec-probs.tsv rhea-metacyc-probs.tsv rhea-reactome-probs.tsv go-exact-xrefs-probs.tsv go-narrow-xrefs-probs.tsv go-broad-xrefs-probs.tsv go-exact-xrefs-probs-questionable.tsv
 	cat $^ >$@
 
-go-rhea.ofn: go-plus.owl rhea.ofn enzyme.rdf
-	robot merge -i go-plus.owl -i rhea.ofn -i enzyme.rdf -o $@
+go-rhea.ofn: go-plus.owl rhea.ofn rhea-labels.ttl enzyme.rdf
+	robot merge -i go-plus.owl -i rhea.ofn -i rhea-labels.ttl -i enzyme.rdf -o $@
 
 rhea-boom: go-rhea.ofn probs.tsv prefixes.yaml
 	rm -rf rhea-boom &&\

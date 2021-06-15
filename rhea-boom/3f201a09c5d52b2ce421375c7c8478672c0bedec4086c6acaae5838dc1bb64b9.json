@@ -4,29 +4,33 @@
       "id" : "urn:clique:3f201a09c5d52b2ce421375c7c8478672c0bedec4086c6acaae5838dc1bb64b9",
       "nodes" : [
         {
-          "id" : "METACYC:ATPSYN-RXN",
-          "type" : "CLASS"
-        },
-        {
-          "id" : "RHEA:57722",
-          "type" : "CLASS"
-        },
-        {
-          "id" : "RHEA:57723",
-          "type" : "CLASS"
-        },
-        {
-          "id" : "RHEA:57720",
-          "type" : "CLASS"
-        },
-        {
           "id" : "GO:0046933",
           "type" : "CLASS",
           "lbl" : "proton-transporting ATP synthase activity, rotational mechanism"
         },
         {
-          "id" : "RHEA:57721",
+          "id" : "METACYC:ATPSYN-RXN",
           "type" : "CLASS"
+        },
+        {
+          "id" : "RHEA:57721",
+          "type" : "CLASS",
+          "lbl" : "ATP + 4 H(+)(in) + H2O => ADP + 5 H(+)(out) + phosphate"
+        },
+        {
+          "id" : "RHEA:57723",
+          "type" : "CLASS",
+          "lbl" : "ATP + 4 H(+)(in) + H2O <=> ADP + 5 H(+)(out) + phosphate"
+        },
+        {
+          "id" : "RHEA:57720",
+          "type" : "CLASS",
+          "lbl" : "ATP + 4 H(+)(in) + H2O = ADP + 5 H(+)(out) + phosphate"
+        },
+        {
+          "id" : "RHEA:57722",
+          "type" : "CLASS",
+          "lbl" : "ADP + 5 H(+)(out) + phosphate => ATP + 4 H(+)(in) + H2O"
         },
         {
           "id" : "EC:7.1.2.2",

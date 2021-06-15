@@ -8,13 +8,24 @@
           "type" : "CLASS"
         },
         {
+          "id" : "RHEA:29871",
+          "type" : "CLASS",
+          "lbl" : "ATP + H2O + thiosulfate(out) = ADP + H(+) + phosphate + thiosulfate(in)"
+        },
+        {
+          "id" : "RHEA:10193",
+          "type" : "CLASS",
+          "lbl" : "ATP + H2O + sulfate(out) => ADP + H(+) + phosphate + sulfate(in)"
+        },
+        {
           "id" : "GO:0015419",
           "type" : "CLASS",
           "lbl" : "ABC-type sulfate transporter activity"
         },
         {
-          "id" : "RHEA:10193",
-          "type" : "CLASS"
+          "id" : "RHEA:10192",
+          "type" : "CLASS",
+          "lbl" : "ATP + H2O + sulfate(out) = ADP + H(+) + phosphate + sulfate(in)"
         },
         {
           "id" : "GO:0102025",
@@ -22,19 +33,11 @@
           "lbl" : "ABC-type thiosulfate transporter activity"
         },
         {
-          "id" : "RHEA:29871",
-          "type" : "CLASS"
-        },
-        {
           "id" : "METACYC:3.6.3.25-RXN",
           "type" : "CLASS"
         },
         {
           "id" : "METACYC:ABC-7-RXN",
-          "type" : "CLASS"
-        },
-        {
-          "id" : "RHEA:10192",
           "type" : "CLASS"
         }
       ],

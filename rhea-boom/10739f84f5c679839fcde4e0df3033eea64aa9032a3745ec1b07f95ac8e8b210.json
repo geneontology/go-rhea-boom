@@ -8,25 +8,28 @@
           "type" : "CLASS"
         },
         {
+          "id" : "GO:0008840",
+          "type" : "CLASS",
+          "lbl" : "4-hydroxy-tetrahydrodipicolinate synthase activity"
+        },
+        {
           "id" : "RHEA:34171",
-          "type" : "CLASS"
+          "type" : "CLASS",
+          "lbl" : "L-aspartate 4-semialdehyde + pyruvate = (2S,4S)-4-hydroxy-2,3,4,5-tetrahydrodipicolinate + H(+) + H2O"
         },
         {
           "id" : "RHEA:14845",
-          "type" : "CLASS"
+          "type" : "CLASS",
+          "lbl" : "L-aspartate 4-semialdehyde + pyruvate = (S)-2,3-dihydrodipicolinate + H(+) + 2 H2O"
+        },
+        {
+          "id" : "RHEA:34174",
+          "type" : "CLASS",
+          "lbl" : "L-aspartate 4-semialdehyde + pyruvate <=> (2S,4S)-4-hydroxy-2,3,4,5-tetrahydrodipicolinate + H(+) + H2O"
         },
         {
           "id" : "EC:4.3.3.7",
           "type" : "CLASS"
-        },
-        {
-          "id" : "RHEA:34174",
-          "type" : "CLASS"
-        },
-        {
-          "id" : "GO:0008840",
-          "type" : "CLASS",
-          "lbl" : "4-hydroxy-tetrahydrodipicolinate synthase activity"
         }
       ],
       "edges" : [
