@@ -1,4 +1,4 @@
-# Need on path: boomer & robot
+# Need on path: boomer, robot, og2dot.js, dot
 
 all: rhea-boom.txt
 
@@ -19,28 +19,73 @@ rhea-relationships.tsv:
 	curl -L -O ftp://ftp.expasy.org/databases/rhea/tsv/rhea-relationships.tsv
 
 rhea-relationships.ofn: rhea-relationships.tsv
+	tail -n +2 $< | sed 's/^/SubClassOf(RHEA:/' | sed 's/	is_a	/ RHEA:/' | sed 's/$$/)/' >$@
+
+rhea-directions.tsv:
+	curl -L -O https://ftp.expasy.org/databases/rhea/tsv/rhea-directions.tsv
+
+rhea-equivalents.ofn: rhea-directions.tsv
+	tail -n +2 $< | sed 's/^/EquivalentClasses(RHEA:/' | sed 's/	/ RHEA:/g' | sed 's/$$/)/' >$@
+
+rhea.ofn: rhea-relationships.ofn rhea-equivalents.ofn
 	cp rhea-relationships-head.txt $@.tmp &&\
-	tail -n +2 $< | sed 's/^/SubClassOf(RHEA:/' | sed 's/	is_a	/ RHEA:/' | sed 's/$$/)/' >>$@.tmp &&\
+	cat rhea-relationships.ofn >>$@.tmp &&\
+	cat rhea-equivalents.ofn >>$@.tmp &&\
 	echo ')' >> $@.tmp && mv $@.tmp $@
+
+rhea-labels.ttl:
+	curl -X POST -F 'query=@sparql/rhea-labels.rq' --header "Accept:text/turtle" https://sparql.rhea-db.org/sparql >$@
+
+enzyme.rdf:
+	curl -L -O https://ftp.expasy.org/databases/enzyme/enzyme.rdf
 
 go-plus.owl:
 	curl -L -O http://purl.obolibrary.org/obo/go/snapshot/extensions/go-plus.owl
 
-go-ec-rhea-xrefs.tsv: go-plus.owl xrefs.rq
-	robot query -i $< -f TSV -q xrefs.rq $@
+go-ec-rhea-metacyc-xrefs.tsv: go-plus.owl xrefs.rq
+	robot query -i $< -f TSV -q xrefs.rq $@.tmp &&\
+	tail -n +2 $@.tmp | sed 's/^<http:\/\/purl.obolibrary.org\/obo\/GO_/GO:/' | sed 's/>//' | sed 's/"//g' | sort -u >$@.tmp2 &&\
+	rm $@.tmp && mv $@.tmp2 $@
 
-go-ec-rhea-xrefs-probs.tsv: go-ec-rhea-xrefs.tsv
-	tail -n +2 $< | sed 's/^<http:\/\/purl.obolibrary.org\/obo\/GO_/GO:/' | sed 's/>//' | sed 's/"//g' | sed 's/$$/	0.004	0.004	0.99	0.001/' >$@
+# These files must be sorted!
+go-ec-rhea-metacyc-xrefs-filtered.tsv: go-ec-rhea-metacyc-xrefs.tsv questionable-GO-Rhea.tsv
+	comm -23 go-ec-rhea-metacyc-xrefs.tsv questionable-GO-Rhea.tsv >$@
 
-#probs.tsv: go-ec-rhea-xrefs-probs.tsv 4.to.5.methods.txt 3.methods.txt 2.methods.txt 1.method.txt
-probs.tsv: rhea-ec-probs.tsv rhea-metacyc-probs.tsv rhea-reactome-probs.tsv go-ec-rhea-xrefs-probs.tsv 4.to.5.methods.txt 3.methods.txt 2.methods.txt 1.method.txt
+# These files must be sorted!
+go-exact-xrefs-probs-questionable.tsv: go-ec-rhea-metacyc-xrefs.tsv questionable-GO-Rhea.tsv
+	comm -12 go-ec-rhea-metacyc-xrefs.tsv questionable-GO-Rhea.tsv | cut -f1 -f2 | sed 's/$$/	0.15	0.15	0.60	0.10/' >$@
+
+go-exact-xrefs-probs.tsv: go-ec-rhea-metacyc-xrefs-filtered.tsv
+	grep -v "skos:" $< | cut -f1 -f2 | sed 's/$$/	0.08	0.08	0.80	0.04/' >$@
+
+go-narrow-xrefs-probs.tsv: go-ec-rhea-metacyc-xrefs-filtered.tsv
+	grep "skos:narrowMatch" $< | cut -f1 -f2 | sed 's/$$/	0.06	0.80	0.10	0.04/' >$@
+
+go-broad-xrefs-probs.tsv: go-ec-rhea-metacyc-xrefs-filtered.tsv
+	grep "skos:broadMatch" $< | cut -f1 -f2 | sed 's/$$/	0.80	0.06	0.10	0.04/' >$@
+
+probs.tsv: rhea-ec-probs.tsv rhea-metacyc-probs.tsv rhea-reactome-probs.tsv go-exact-xrefs-probs.tsv go-narrow-xrefs-probs.tsv go-broad-xrefs-probs.tsv go-exact-xrefs-probs-questionable.tsv
 	cat $^ >$@
 
-go-rhea.ofn: go-plus.owl rhea-relationships.ofn
-	robot merge -i go-plus.owl -i rhea-relationships.ofn -o $@
+go-rhea.ofn: go-plus.owl rhea.ofn rhea-labels.ttl enzyme.rdf
+	robot merge -i go-plus.owl -i rhea.ofn -i rhea-labels.ttl -i enzyme.rdf -o $@
 
-rhea-boom.txt: go-rhea.ofn probs.tsv prefixes.yaml
-	boomer --ptable probs.tsv --ontology go-rhea.ofn --window-count 100 --runs 100 --prefixes prefixes.yaml --output rhea-boom
+rhea-boom: go-rhea.ofn probs.tsv prefixes.yaml
+	rm -rf rhea-boom &&\
+	boomer --ptable probs.tsv --ontology go-rhea.ofn --window-count 20 --runs 100 --prefixes prefixes.yaml --output rhea-boom --exhaustive-search-limit 14 --restrict-output-to-prefixes=GO --restrict-output-to-prefixes=RHEA
+
+JSONS=$(wildcard rhea-boom/*.json)
+PNGS=$(patsubst %.json, %.png, $(JSONS))
+
+rhea-boom/%.json: rhea-boom
+
+%.dot: %.json
+	og2dot.js -s rhea-go-style.json $< >$@
+
+%.png: %.dot
+	dot $< -Tpng -Grankdir=BT >$@
+
+pngs: $(PNGS)
 
 go.obo:
 #	curl -L -s http://purl.obolibrary.org/obo/go.obo > $@

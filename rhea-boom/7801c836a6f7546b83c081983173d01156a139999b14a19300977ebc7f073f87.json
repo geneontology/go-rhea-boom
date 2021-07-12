@@ -1,0 +1,160 @@
+{
+  "graphs" : [
+    {
+      "id" : "urn:clique:7801c836a6f7546b83c081983173d01156a139999b14a19300977ebc7f073f87",
+      "nodes" : [
+        {
+          "id" : "METACYC:2-ACYLGLYCEROL-O-ACYLTRANSFERASE-RXN",
+          "type" : "CLASS"
+        },
+        {
+          "id" : "RHEA:32947",
+          "type" : "CLASS",
+          "lbl" : "a 2-acylglycerol + an acyl-CoA = a 1,2-diacyl-sn-glycerol + CoA"
+        },
+        {
+          "id" : "RHEA:32950",
+          "type" : "CLASS",
+          "lbl" : "a 2-acylglycerol + an acyl-CoA <=> a 1,2-diacyl-sn-glycerol + CoA"
+        },
+        {
+          "id" : "GO:0003846",
+          "type" : "CLASS",
+          "lbl" : "2-acylglycerol O-acyltransferase activity"
+        },
+        {
+          "id" : "RHEA:16741",
+          "type" : "CLASS",
+          "lbl" : "a 2-acylglycerol + an acyl-CoA = a 1,2-diacylglycerol + CoA"
+        },
+        {
+          "id" : "EC:2.3.1.22",
+          "type" : "CLASS"
+        }
+      ],
+      "edges" : [
+        {
+          "sub" : "RHEA:32947",
+          "pred" : "is_a",
+          "obj" : "RHEA:16741",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 10
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "GO:0003846",
+          "pred" : "is_a",
+          "obj" : "RHEA:16741",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 0.8
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "METACYC:2-ACYLGLYCEROL-O-ACYLTRANSFERASE-RXN",
+          "pred" : "owl:equivalentClass",
+          "obj" : "GO:0003846",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 8.0
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "EC:2.3.1.22",
+          "pred" : "owl:equivalentClass",
+          "obj" : "RHEA:32947",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 7.5
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "GO:0003846",
+          "pred" : "owl:equivalentClass",
+          "obj" : "EC:2.3.1.22",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 8.0
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "METACYC:2-ACYLGLYCEROL-O-ACYLTRANSFERASE-RXN",
+          "pred" : "owl:equivalentClass",
+          "obj" : "RHEA:32950",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 7.5
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "RHEA:32950",
+          "pred" : "is_a",
+          "obj" : "RHEA:16741",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 10
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "RHEA:32947",
+          "pred" : "owl:equivalentClass",
+          "obj" : "RHEA:32950",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 10
+              }
+            ]
+          }
+        }
+      ],
+      "equivalentNodesSets" : [
+        {
+          "nodeIds" : [
+            "METACYC:2-ACYLGLYCEROL-O-ACYLTRANSFERASE-RXN",
+            "RHEA:32950",
+            "RHEA:32947",
+            "GO:0003846"
+          ]
+        },
+        {
+          "nodeIds" : [
+            "EC:2.3.1.22",
+            "RHEA:32947",
+            "GO:0003846"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "graphs" : [
+    {
+      "id" : "urn:clique:a18637ecd1bebafd3da89b8ab5e5f5de0f3d856211ed79874ce2c49e4ad996cb",
+      "nodes" : [
+        {
+          "id" : "METACYC:BETA-CAROTENE-1515-DIOXYGENASE-RXN",
+          "type" : "CLASS"
+        },
+        {
+          "id" : "RHEA:32887",
+          "type" : "CLASS",
+          "lbl" : "all-trans-beta-carotene + O2 = 2 all-trans-retinal"
+        },
+        {
+          "id" : "METACYC:RXN-13374",
+          "type" : "CLASS"
+        },
+        {
+          "id" : "EC:1.13.11.63",
+          "type" : "CLASS"
+        },
+        {
+          "id" : "RHEA:32888",
+          "type" : "CLASS",
+          "lbl" : "all-trans-beta-carotene + O2 => 2 all-trans-retinal"
+        },
+        {
+          "id" : "GO:0003834",
+          "type" : "CLASS",
+          "lbl" : "beta-carotene 15,15'-monooxygenase activity"
+        },
+        {
+          "id" : "EC:1.14.99.36",
+          "type" : "CLASS"
+        }
+      ],
+      "edges" : [
+        {
+          "sub" : "GO:0003834",
+          "pred" : "is_a",
+          "obj" : "RHEA:32887",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 0.8
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "METACYC:BETA-CAROTENE-1515-DIOXYGENASE-RXN",
+          "pred" : "owl:equivalentClass",
+          "obj" : "GO:0003834",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 8.0
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "METACYC:RXN-13374",
+          "pred" : "owl:equivalentClass",
+          "obj" : "RHEA:32888",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 7.5
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "RHEA:32887",
+          "pred" : "owl:equivalentClass",
+          "obj" : "RHEA:32888",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 10
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "EC:1.13.11.63",
+          "pred" : "owl:equivalentClass",
+          "obj" : "RHEA:32887",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 7.5
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "GO:0003834",
+          "pred" : "owl:equivalentClass",
+          "obj" : "EC:1.14.99.36",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 8.0
+              }
+            ]
+          }
+        }
+      ],
+      "equivalentNodesSets" : [
+        {
+          "nodeIds" : [
+            "EC:1.14.99.36",
+            "GO:0003834",
+            "METACYC:BETA-CAROTENE-1515-DIOXYGENASE-RXN"
+          ]
+        },
+        {
+          "nodeIds" : [
+            "RHEA:32887",
+            "EC:1.13.11.63",
+            "RHEA:32888",
+            "METACYC:RXN-13374"
+          ]
+        }
+      ]
+    }
+  ]
+}

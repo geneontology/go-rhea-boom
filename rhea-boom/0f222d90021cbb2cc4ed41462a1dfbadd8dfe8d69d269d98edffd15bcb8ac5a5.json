@@ -1,0 +1,164 @@
+{
+  "graphs" : [
+    {
+      "id" : "urn:clique:0f222d90021cbb2cc4ed41462a1dfbadd8dfe8d69d269d98edffd15bcb8ac5a5",
+      "nodes" : [
+        {
+          "id" : "METACYC:RXN1F-19",
+          "type" : "CLASS"
+        },
+        {
+          "id" : "METACYC:HYDROPEROXIDE-DEHYDRATASE-RXN",
+          "type" : "CLASS"
+        },
+        {
+          "id" : "RHEA:25075",
+          "type" : "CLASS",
+          "lbl" : "(13S)-hydroperoxy-(9Z,11E,15Z)-octadecatrienoate => (9Z,13S,15Z)-12,13-epoxyoctadeca-9,11,15-trienoate + H2O"
+        },
+        {
+          "id" : "GO:0047987",
+          "type" : "CLASS",
+          "lbl" : "hydroperoxide dehydratase activity"
+        },
+        {
+          "id" : "RHEA:25074",
+          "type" : "CLASS",
+          "lbl" : "(13S)-hydroperoxy-(9Z,11E,15Z)-octadecatrienoate = (9Z,13S,15Z)-12,13-epoxyoctadeca-9,11,15-trienoate + H2O"
+        },
+        {
+          "id" : "GO:0009978",
+          "type" : "CLASS",
+          "lbl" : "allene oxide synthase activity"
+        },
+        {
+          "id" : "EC:4.2.1.92",
+          "type" : "CLASS"
+        }
+      ],
+      "edges" : [
+        {
+          "sub" : "METACYC:HYDROPEROXIDE-DEHYDRATASE-RXN",
+          "pred" : "owl:equivalentClass",
+          "obj" : "GO:0047987",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 8.0
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "EC:4.2.1.92",
+          "pred" : "owl:equivalentClass",
+          "obj" : "RHEA:25074",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 7.5
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "GO:0047987",
+          "pred" : "owl:equivalentClass",
+          "obj" : "RHEA:25075",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 8.0
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "RHEA:25075",
+          "pred" : "is_a",
+          "obj" : "METACYC:RXN1F-19",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 1.0
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "GO:0047987",
+          "pred" : "owl:equivalentClass",
+          "obj" : "EC:4.2.1.92",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 8.0
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "RHEA:25074",
+          "pred" : "owl:equivalentClass",
+          "obj" : "RHEA:25075",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 10
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "METACYC:RXN1F-19",
+          "pred" : "owl:equivalentClass",
+          "obj" : "GO:0009978",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 8.0
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "RHEA:25074",
+          "pred" : "is_a",
+          "obj" : "GO:0009978",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 1.5
+              }
+            ]
+          }
+        }
+      ],
+      "equivalentNodesSets" : [
+        {
+          "nodeIds" : [
+            "METACYC:RXN1F-19",
+            "GO:0009978"
+          ]
+        },
+        {
+          "nodeIds" : [
+            "EC:4.2.1.92",
+            "METACYC:HYDROPEROXIDE-DEHYDRATASE-RXN",
+            "GO:0047987",
+            "RHEA:25074",
+            "RHEA:25075"
+          ]
+        }
+      ]
+    }
+  ]
+}
