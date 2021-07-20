@@ -1,0 +1,21 @@
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> 
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+PREFIX rhea: <http://rdf.rhea-db.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+
+CONSTRUCT {
+
+  ?r skos:exactMatch ?x
+} WHERE
+{
+  {
+  ?r <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://rdf.rhea-db.org/Reaction> .
+  ?r <http://www.w3.org/2000/01/rdf-schema#seeAlso> ?x} UNION {
+  {
+  ?r <http://rdf.rhea-db.org/directionalReaction> ?v0 .
+  ?v0 <http://www.w3.org/2000/01/rdf-schema#seeAlso> ?x} UNION {
+  ?r <http://rdf.rhea-db.org/bidirectionalReaction> ?v0 .
+  ?v0 <http://www.w3.org/2000/01/rdf-schema#seeAlso> ?x}} .
+  VALUES (?v1 ?p) {
+  (<http://identifiers.org/reactome/> <http://www.w3.org/2004/02/skos/core#broadMatch>) (<http://identifiers.org/biocyc/METACYC:> <http://www.w3.org/2004/02/skos/core#exactmatch>) (<http://identifiers.org/biocyc/ECOCYC:> <http://www.w3.org/2004/02/skos/core#exactmatch>) (<http://identifiers.org/kegg.reaction/> <http://www.w3.org/2004/02/skos/core#exactmatch>) } .
+  FILTER (strStarts(STR(?x),STR(?v1)))}
