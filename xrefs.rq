@@ -7,6 +7,13 @@ SELECT DISTINCT ?go ?xref WHERE
 {
   ?go hasDbXref: ?xref .
   FILTER(isIRI(?go))
-  #FILTER(STRSTARTS(?xref, "RHEA:") || STRSTARTS(?xref, "EC:"))
-  FILTER(STRSTARTS(?xref, "RHEA:"))
+  FILTER( STRSTARTS(?xref, "RHEA:") || STRSTARTS(?xref, "EC:") )
+  OPTIONAL {
+    ?axiom rdf:type owl:Axiom ;
+           owl:annotatedSource ?go ;
+           owl:annotatedProperty hasDbXref: ;
+           owl:annotatedTarget ?xref ;
+           oio:source ?scope .
+           FILTER(STRSTARTS(?scope, "skos:"))
+  }
 }

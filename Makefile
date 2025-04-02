@@ -7,21 +7,41 @@ rhea2%.tsv:
 .PRECIOUS: rhea2%.tsv
 
 # Prefer subclass for Reactome
-rhea-reactome-probs.tsv: rhea2reactome.tsv
-	tail -n +2 $< | cut -f 1,4 | sed '/^$$/d' | sed 's/^/RHEA:/' | sed 's/	/	REACTOME:/' | sed 's/$$/	0.10	0.70	0.15	0.05/' >$@ #$*
+#rhea-reactome-probs.tsv: rhea2reactome.tsv
+#	tail -n +2 $< | cut -f 1,4 | sed '/^$$/d' | sed 's/^/RHEA:/' | sed 's/	/	REACTOME:/' | sed 's/$$/	0.10	0.70	0.15	0.05/' >$@ #$*
 
-# Prefer equivalent class for most mappings
+# Prefer subclass for most mappings
 rhea-%-probs.tsv: rhea2%.tsv
-	tail -n +2 $< | cut -f 1,4 | sed '/^$$/d' | sed 's/^/RHEA:/' | sed 's/	/	$(shell echo $* | tr [:lower:] [:upper:]):/' | sed 's/$$/	0.10	0.10	0.75	0.05/' >$@
+	tail -n +2 $< | cut -f 1,4 | sed '/^$$/d' | sed 's/^/RHEA:/' | sed 's/	/	$(shell echo $* | tr [:lower:] [:upper:]):/' | sed 's/$$/	0.50	0.19	0.30	0.01/' >$@
 .PRECIOUS: rhea-%-probs.tsv
 
 rhea-relationships.tsv:
 	curl -L -O ftp://ftp.expasy.org/databases/rhea/tsv/rhea-relationships.tsv
 
 rhea-relationships.ofn: rhea-relationships.tsv
+	tail -n +2 $< | sed 's/^/SubClassOf(RHEA:/' | sed 's/	is_a	/ RHEA:/' | sed 's/$$/)/' >$@
+
+rhea-directions.tsv:
+	curl -L -O https://ftp.expasy.org/databases/rhea/tsv/rhea-directions.tsv
+
+rhea-directions.ofn: rhea-directions.tsv
+	tail -n +2 $< | awk -F'\t' '{print "SubClassOf(" "RHEA:"$$2, "RHEA:"$$1 ") ", "SubClassOf(" "RHEA:"$$3, "RHEA:"$$1 ") ", "SubClassOf(" "RHEA:"$$4, "RHEA:"$$1 ")"}' >$@
+#	tail -n +2 $< | sed 's/^/EquivalentClasses(RHEA:/' | sed 's/	/ RHEA:/g' | sed 's/$$/)/' >$@
+
+rhea.ofn: rhea-relationships.ofn rhea-directions.ofn
 	cp rhea-relationships-head.txt $@.tmp &&\
-	tail -n +2 $< | sed 's/^/SubClassOf(RHEA:/' | sed 's/	is_a	/ RHEA:/' | sed 's/$$/)/' >>$@.tmp &&\
+	cat rhea-relationships.ofn >>$@.tmp &&\
+	cat rhea-directions.ofn >>$@.tmp &&\
 	echo ')' >> $@.tmp && mv $@.tmp $@
+
+rhea-labels.ttl:
+	curl -X POST --data-binary @sparql/rhea-labels.rq --header "Content-type: application/sparql-query" --header "Accept:text/turtle" https://sparql.rhea-db.org/sparql >$@
+
+enzyme.rdf:
+	curl -L -O https://ftp.expasy.org/databases/enzyme/enzyme.rdf
+
+ec.ttl: enzyme.rdf sparql/ec-ont.rq
+	arq --data $< --query sparql/ec-ont.rq --results ttl >$@
 
 go-plus.owl:
 	curl -L -O http://purl.obolibrary.org/obo/go/snapshot/extensions/go-plus.owl
@@ -32,15 +52,45 @@ go-ec-rhea-xrefs.tsv: go-plus.owl xrefs.rq
 go-ec-rhea-xrefs-probs.tsv: go-ec-rhea-xrefs.tsv
 	tail -n +2 $< | sed 's/^<http:\/\/purl.obolibrary.org\/obo\/GO_/GO:/' | sed 's/>//' | sed 's/"//g' | sed 's/$$/	0.004	0.004	0.99	0.001/' >$@
 
-#probs.tsv: go-ec-rhea-xrefs-probs.tsv 4.to.5.methods.txt 3.methods.txt 2.methods.txt 1.method.txt
-probs.tsv: rhea-ec-probs.tsv rhea-metacyc-probs.tsv rhea-reactome-probs.tsv go-ec-rhea-xrefs-probs.tsv 4.to.5.methods.txt 3.methods.txt 2.methods.txt 1.method.txt
+# These files must be sorted!
+#go-exact-xrefs-probs-questionable.tsv: go-ec-rhea-metacyc-xrefs.tsv #questionable-GO-Rhea.tsv
+#	cut -f1 -f2 $< | sed 's/$$/	0.15	0.15	0.60	0.10/' >$@
+#	comm -12 go-ec-rhea-metacyc-xrefs.tsv questionable-GO-Rhea.tsv | cut -f1 -f2 | sed 's/$$/	0.15	0.15	0.60	0.10/' >$@
+
+go-uncommitted-xrefs-probs.tsv: go-ec-rhea-metacyc-xrefs-filtered.tsv
+	grep -v "skos:" $< | cut -f1 -f2 | sed 's/$$/	0.095	0.095	0.80	0.01/' >$@
+
+go-exact-xrefs-probs.tsv: go-ec-rhea-metacyc-xrefs-filtered.tsv
+	grep "skos:exactMatch" $< | cut -f1 -f2 | sed 's/$$/	0.04	0.04	0.90	0.02/' >$@
+
+go-narrow-xrefs-probs.tsv: go-ec-rhea-metacyc-xrefs-filtered.tsv
+	grep "skos:narrowMatch" $< | cut -f1 -f2 | sed 's/$$/	0.02	0.90	0.07	0.01/' >$@
+
+go-broad-xrefs-probs.tsv: go-ec-rhea-metacyc-xrefs-filtered.tsv
+	grep "skos:broadMatch" $< | cut -f1 -f2 | sed 's/$$/	0.90	0.02	0.07	0.01/' >$@
+
+probs.tsv: rhea-ec-probs.tsv go-uncommitted-xrefs-probs.tsv go-exact-xrefs-probs.tsv go-narrow-xrefs-probs.tsv go-broad-xrefs-probs.tsv
 	cat $^ >$@
 
-go-rhea.ofn: go-plus.owl rhea-relationships.ofn
-	robot merge -i go-plus.owl -i rhea-relationships.ofn -o $@
+go-rhea.ofn: go-plus.owl rhea.ofn rhea-labels.ttl ec.ttl
+	robot merge -i go-plus.owl -i rhea.ofn -i rhea-labels.ttl -i ec.ttl -o $@
 
-rhea-boom.txt: go-rhea.ofn probs.tsv prefixes.yaml
-	boomer --ptable probs.tsv --ontology go-rhea.ofn --window-count 100 --runs 100 --prefixes prefixes.yaml --output rhea-boom
+rhea-boom: go-rhea.ofn probs.tsv prefixes.yaml
+	rm -rf rhea-boom &&\
+	boomer --ptable probs.tsv --ontology go-rhea.ofn --window-count 20 --runs 100 --prefixes prefixes.yaml --output rhea-boom --exhaustive-search-limit 40 --restrict-output-to-prefixes=GO --restrict-output-to-prefixes=EC
+
+JSONS=$(wildcard rhea-boom/*.json)
+PNGS=$(patsubst %.json, %.png, $(JSONS))
+
+rhea-boom/%.json: rhea-boom
+
+%.dot: %.json
+	og2dot -s rhea-go-style.json $< >$@
+
+%.png: %.dot
+	dot $< -Tpng -Grankdir=BT >$@
+
+pngs: $(PNGS)
 
 go.obo:
 #	curl -L -s http://purl.obolibrary.org/obo/go.obo > $@

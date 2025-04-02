@@ -1,0 +1,141 @@
+{
+  "graphs" : [
+    {
+      "id" : "urn:clique:3eaa7e710ea70eaccfc700759933bd051507247a0429e6693d8d4a6d0f3c286f",
+      "nodes" : [
+        {
+          "id" : "EC:1.7.1.4",
+          "type" : "CLASS",
+          "lbl" : "nitrite reductase [NAD(P)H]"
+        },
+        {
+          "id" : "RHEA:24628",
+          "type" : "CLASS",
+          "lbl" : "NH4(+) + 3 NAD(+) + 2 H2O = nitrite + 3 NADH + 5 H(+)"
+        },
+        {
+          "id" : "GO:0008942",
+          "type" : "CLASS",
+          "lbl" : "nitrite reductase [NAD(P)H] activity"
+        },
+        {
+          "id" : "RHEA:24632",
+          "type" : "CLASS",
+          "lbl" : "NH4(+) + 3 NADP(+) + 2 H2O = nitrite + 3 NADPH + 5 H(+)"
+        },
+        {
+          "id" : "EC:1.7.1.15",
+          "type" : "CLASS",
+          "lbl" : "nitrite reductase (NADH)"
+        },
+        {
+          "id" : "GO:0106316",
+          "type" : "CLASS",
+          "lbl" : "nitrite reductase NADH activity"
+        }
+      ],
+      "edges" : [
+        {
+          "sub" : "EC:1.7.1.15",
+          "pred" : "owl:equivalentClass",
+          "obj" : "RHEA:24628",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 3.0
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "GO:0106316",
+          "pred" : "owl:equivalentClass",
+          "obj" : "EC:1.7.1.15",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 8.0
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "GO:0008942",
+          "pred" : "is_a",
+          "obj" : "EC:1.7.1.4",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 0.4
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "RHEA:24632",
+          "pred" : "is_a",
+          "obj" : "GO:0008942",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 9.0
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "RHEA:24632",
+          "pred" : "is_a",
+          "obj" : "EC:1.7.1.4",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 5.0
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "GO:0106316",
+          "pred" : "owl:equivalentClass",
+          "obj" : "RHEA:24628",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 9.0
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "RHEA:24628",
+          "pred" : "is_a",
+          "obj" : "EC:1.7.1.4",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 5.0
+              }
+            ]
+          }
+        }
+      ],
+      "equivalentNodesSets" : [
+        {
+          "nodeIds" : [
+            "EC:1.7.1.15",
+            "RHEA:24628",
+            "GO:0106316"
+          ]
+        }
+      ]
+    }
+  ]
+}
