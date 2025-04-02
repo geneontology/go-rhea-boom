@@ -1,0 +1,128 @@
+{
+  "graphs" : [
+    {
+      "id" : "urn:clique:91e267ca22dbae4e057f6d00a94526a8da0a9731f15168c106f5acfacc1ded3c",
+      "nodes" : [
+        {
+          "id" : "RHEA:26563",
+          "type" : "CLASS",
+          "lbl" : "2-succinylbenzoyl-CoA + H(+) => 1,4-dihydroxy-2-naphthoyl-CoA + H2O"
+        },
+        {
+          "id" : "RHEA:15525",
+          "type" : "CLASS",
+          "lbl" : "2-succinylbenzoyl-CoA = 1,4-dihydroxy-2-naphthoate + CoA"
+        },
+        {
+          "id" : "EC:4.1.3.36",
+          "type" : "CLASS"
+        },
+        {
+          "id" : "GO:0008935",
+          "type" : "CLASS",
+          "lbl" : "1,4-dihydroxy-2-naphthoyl-CoA synthase activity"
+        },
+        {
+          "id" : "METACYC:NAPHTHOATE-SYN-RXN",
+          "type" : "CLASS"
+        },
+        {
+          "id" : "RHEA:26562",
+          "type" : "CLASS",
+          "lbl" : "2-succinylbenzoyl-CoA + H(+) = 1,4-dihydroxy-2-naphthoyl-CoA + H2O"
+        }
+      ],
+      "edges" : [
+        {
+          "sub" : "RHEA:26562",
+          "pred" : "owl:equivalentClass",
+          "obj" : "RHEA:26563",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 10
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "EC:4.1.3.36",
+          "pred" : "owl:equivalentClass",
+          "obj" : "RHEA:26562",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 7.5
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "GO:0008935",
+          "pred" : "is_a",
+          "obj" : "RHEA:15525",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 0.8
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "METACYC:NAPHTHOATE-SYN-RXN",
+          "pred" : "owl:equivalentClass",
+          "obj" : "RHEA:26563",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 7.5
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "GO:0008935",
+          "pred" : "owl:equivalentClass",
+          "obj" : "EC:4.1.3.36",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 8.0
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "METACYC:NAPHTHOATE-SYN-RXN",
+          "pred" : "owl:equivalentClass",
+          "obj" : "GO:0008935",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 8.0
+              }
+            ]
+          }
+        }
+      ],
+      "equivalentNodesSets" : [
+        {
+          "nodeIds" : [
+            "GO:0008935",
+            "EC:4.1.3.36",
+            "METACYC:NAPHTHOATE-SYN-RXN",
+            "RHEA:26563",
+            "RHEA:26562"
+          ]
+        }
+      ]
+    }
+  ]
+}

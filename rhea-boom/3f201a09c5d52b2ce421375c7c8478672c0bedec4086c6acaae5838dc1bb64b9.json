@@ -1,0 +1,259 @@
+{
+  "graphs" : [
+    {
+      "id" : "urn:clique:3f201a09c5d52b2ce421375c7c8478672c0bedec4086c6acaae5838dc1bb64b9",
+      "nodes" : [
+        {
+          "id" : "GO:0046933",
+          "type" : "CLASS",
+          "lbl" : "proton-transporting ATP synthase activity, rotational mechanism"
+        },
+        {
+          "id" : "METACYC:ATPSYN-RXN",
+          "type" : "CLASS"
+        },
+        {
+          "id" : "RHEA:57721",
+          "type" : "CLASS",
+          "lbl" : "ATP + 4 H(+)(in) + H2O => ADP + 5 H(+)(out) + phosphate"
+        },
+        {
+          "id" : "RHEA:57723",
+          "type" : "CLASS",
+          "lbl" : "ATP + 4 H(+)(in) + H2O <=> ADP + 5 H(+)(out) + phosphate"
+        },
+        {
+          "id" : "RHEA:57720",
+          "type" : "CLASS",
+          "lbl" : "ATP + 4 H(+)(in) + H2O = ADP + 5 H(+)(out) + phosphate"
+        },
+        {
+          "id" : "RHEA:57722",
+          "type" : "CLASS",
+          "lbl" : "ADP + 5 H(+)(out) + phosphate => ATP + 4 H(+)(in) + H2O"
+        },
+        {
+          "id" : "EC:7.1.2.2",
+          "type" : "CLASS"
+        },
+        {
+          "id" : "GO:0046961",
+          "type" : "CLASS",
+          "lbl" : "proton-transporting ATPase activity, rotational mechanism"
+        }
+      ],
+      "edges" : [
+        {
+          "sub" : "METACYC:ATPSYN-RXN",
+          "pred" : "owl:equivalentClass",
+          "obj" : "RHEA:57723",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 7.5
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "GO:0046933",
+          "pred" : "owl:equivalentClass",
+          "obj" : "RHEA:57722",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 8.0
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "RHEA:57721",
+          "pred" : "owl:equivalentClass",
+          "obj" : "RHEA:57723",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 10
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "RHEA:57721",
+          "pred" : "is_a",
+          "obj" : "GO:0046961",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 0.8
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "METACYC:ATPSYN-RXN",
+          "pred" : "owl:equivalentClass",
+          "obj" : "GO:0046933",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 8.0
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "RHEA:57722",
+          "pred" : "owl:equivalentClass",
+          "obj" : "RHEA:57723",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 10
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "RHEA:57720",
+          "pred" : "owl:equivalentClass",
+          "obj" : "RHEA:57722",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 10
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "EC:7.1.2.2",
+          "pred" : "owl:equivalentClass",
+          "obj" : "RHEA:57720",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 7.5
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "METACYC:ATPSYN-RXN",
+          "pred" : "is_a",
+          "obj" : "GO:0046961",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 8.0
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "EC:7.1.2.2",
+          "pred" : "is_a",
+          "obj" : "GO:0046961",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 8.0
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "RHEA:57720",
+          "pred" : "owl:equivalentClass",
+          "obj" : "RHEA:57723",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 10
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "GO:0046933",
+          "pred" : "owl:equivalentClass",
+          "obj" : "EC:7.1.2.2",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 8.0
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "RHEA:57720",
+          "pred" : "owl:equivalentClass",
+          "obj" : "RHEA:57721",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 10
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "RHEA:57721",
+          "pred" : "owl:equivalentClass",
+          "obj" : "RHEA:57722",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 10
+              }
+            ]
+          }
+        }
+      ],
+      "equivalentNodesSets" : [
+        {
+          "nodeIds" : [
+            "RHEA:57721",
+            "RHEA:57720",
+            "EC:7.1.2.2",
+            "RHEA:57722",
+            "GO:0046933"
+          ]
+        },
+        {
+          "nodeIds" : [
+            "METACYC:ATPSYN-RXN",
+            "RHEA:57723",
+            "RHEA:57722",
+            "RHEA:57720"
+          ]
+        },
+        {
+          "nodeIds" : [
+            "RHEA:57721",
+            "METACYC:ATPSYN-RXN",
+            "RHEA:57723",
+            "RHEA:57722",
+            "GO:0046933"
+          ]
+        }
+      ]
+    }
+  ]
+}

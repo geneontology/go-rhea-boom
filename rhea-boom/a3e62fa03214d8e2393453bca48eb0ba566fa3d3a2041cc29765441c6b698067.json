@@ -1,0 +1,128 @@
+{
+  "graphs" : [
+    {
+      "id" : "urn:clique:a3e62fa03214d8e2393453bca48eb0ba566fa3d3a2041cc29765441c6b698067",
+      "nodes" : [
+        {
+          "id" : "GO:0050380",
+          "type" : "CLASS",
+          "lbl" : "undecaprenyl-diphosphatase activity"
+        },
+        {
+          "id" : "RHEA:28094",
+          "type" : "CLASS",
+          "lbl" : "di-trans,octa-cis-undecaprenyl diphosphate + H2O = di-trans,octa-cis-undecaprenyl phosphate + H(+) + phosphate"
+        },
+        {
+          "id" : "RHEA:17069",
+          "type" : "CLASS",
+          "lbl" : "all-trans-undecaprenyl diphosphate + H2O = all-trans-undecaprenyl phosphate + H(+) + phosphate"
+        },
+        {
+          "id" : "METACYC:UNDECAPRENYL-DIPHOSPHATASE-RXN",
+          "type" : "CLASS"
+        },
+        {
+          "id" : "EC:3.6.1.27",
+          "type" : "CLASS"
+        },
+        {
+          "id" : "RHEA:28095",
+          "type" : "CLASS",
+          "lbl" : "di-trans,octa-cis-undecaprenyl diphosphate + H2O => di-trans,octa-cis-undecaprenyl phosphate + H(+) + phosphate"
+        }
+      ],
+      "edges" : [
+        {
+          "sub" : "GO:0050380",
+          "pred" : "is_a",
+          "obj" : "RHEA:17069",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 0.8
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "GO:0050380",
+          "pred" : "owl:equivalentClass",
+          "obj" : "EC:3.6.1.27",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 8.0
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "RHEA:28094",
+          "pred" : "owl:equivalentClass",
+          "obj" : "RHEA:28095",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 10
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "METACYC:UNDECAPRENYL-DIPHOSPHATASE-RXN",
+          "pred" : "owl:equivalentClass",
+          "obj" : "RHEA:28095",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 7.5
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "EC:3.6.1.27",
+          "pred" : "owl:equivalentClass",
+          "obj" : "RHEA:28094",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 7.5
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "METACYC:UNDECAPRENYL-DIPHOSPHATASE-RXN",
+          "pred" : "owl:equivalentClass",
+          "obj" : "GO:0050380",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 8.0
+              }
+            ]
+          }
+        }
+      ],
+      "equivalentNodesSets" : [
+        {
+          "nodeIds" : [
+            "GO:0050380",
+            "RHEA:28095",
+            "RHEA:28094",
+            "EC:3.6.1.27",
+            "METACYC:UNDECAPRENYL-DIPHOSPHATASE-RXN"
+          ]
+        }
+      ]
+    }
+  ]
+}

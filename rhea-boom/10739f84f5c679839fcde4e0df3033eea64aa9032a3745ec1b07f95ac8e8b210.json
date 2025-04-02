@@ -1,0 +1,134 @@
+{
+  "graphs" : [
+    {
+      "id" : "urn:clique:10739f84f5c679839fcde4e0df3033eea64aa9032a3745ec1b07f95ac8e8b210",
+      "nodes" : [
+        {
+          "id" : "METACYC:DIHYDRODIPICSYN-RXN",
+          "type" : "CLASS"
+        },
+        {
+          "id" : "GO:0008840",
+          "type" : "CLASS",
+          "lbl" : "4-hydroxy-tetrahydrodipicolinate synthase activity"
+        },
+        {
+          "id" : "RHEA:34171",
+          "type" : "CLASS",
+          "lbl" : "L-aspartate 4-semialdehyde + pyruvate = (2S,4S)-4-hydroxy-2,3,4,5-tetrahydrodipicolinate + H(+) + H2O"
+        },
+        {
+          "id" : "RHEA:14845",
+          "type" : "CLASS",
+          "lbl" : "L-aspartate 4-semialdehyde + pyruvate = (S)-2,3-dihydrodipicolinate + H(+) + 2 H2O"
+        },
+        {
+          "id" : "RHEA:34174",
+          "type" : "CLASS",
+          "lbl" : "L-aspartate 4-semialdehyde + pyruvate <=> (2S,4S)-4-hydroxy-2,3,4,5-tetrahydrodipicolinate + H(+) + H2O"
+        },
+        {
+          "id" : "EC:4.3.3.7",
+          "type" : "CLASS"
+        }
+      ],
+      "edges" : [
+        {
+          "sub" : "EC:4.3.3.7",
+          "pred" : "owl:equivalentClass",
+          "obj" : "RHEA:34171",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 7.5
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "GO:0008840",
+          "pred" : "is_a",
+          "obj" : "RHEA:14845",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 0.8
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "METACYC:DIHYDRODIPICSYN-RXN",
+          "pred" : "owl:equivalentClass",
+          "obj" : "RHEA:34174",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 7.5
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "RHEA:34171",
+          "pred" : "owl:equivalentClass",
+          "obj" : "RHEA:34174",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 10
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "GO:0008840",
+          "pred" : "owl:equivalentClass",
+          "obj" : "EC:4.3.3.7",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 8.0
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "METACYC:DIHYDRODIPICSYN-RXN",
+          "pred" : "owl:equivalentClass",
+          "obj" : "GO:0008840",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 8.0
+              }
+            ]
+          }
+        }
+      ],
+      "equivalentNodesSets" : [
+        {
+          "nodeIds" : [
+            "RHEA:34174",
+            "METACYC:DIHYDRODIPICSYN-RXN",
+            "RHEA:34171",
+            "GO:0008840"
+          ]
+        },
+        {
+          "nodeIds" : [
+            "EC:4.3.3.7",
+            "RHEA:34171",
+            "GO:0008840"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,241 @@
+{
+  "graphs" : [
+    {
+      "id" : "urn:clique:667188b1df57954e305f8675f46950608c0090be175b63cddb3fb7e5e561b496",
+      "nodes" : [
+        {
+          "id" : "EC:3.8.1.5",
+          "type" : "CLASS"
+        },
+        {
+          "id" : "RHEA:19082",
+          "type" : "CLASS",
+          "lbl" : "1-haloalkane + H2O => a halide anion + a primary alcohol + H(+)"
+        },
+        {
+          "id" : "METACYC:HALOALKANE-DEHALOGENASE-RXN",
+          "type" : "CLASS"
+        },
+        {
+          "id" : "RHEA:25186",
+          "type" : "CLASS",
+          "lbl" : "1,2-dichloroethane + H2O => 2-chloroethanol + chloride + H(+)"
+        },
+        {
+          "id" : "GO:0018786",
+          "type" : "CLASS",
+          "lbl" : "haloalkane dehalogenase activity"
+        },
+        {
+          "id" : "RHEA:19081",
+          "type" : "CLASS",
+          "lbl" : "1-haloalkane + H2O = a halide anion + a primary alcohol + H(+)"
+        },
+        {
+          "id" : "METACYC:DHLAXANAU-RXN",
+          "type" : "CLASS"
+        },
+        {
+          "id" : "RHEA:25185",
+          "type" : "CLASS",
+          "lbl" : "1,2-dichloroethane + H2O = 2-chloroethanol + chloride + H(+)"
+        }
+      ],
+      "edges" : [
+        {
+          "sub" : "RHEA:25186",
+          "pred" : "is_a",
+          "obj" : "RHEA:19081",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 10
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "EC:3.8.1.5",
+          "pred" : "owl:equivalentClass",
+          "obj" : "RHEA:19081",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 7.5
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "RHEA:25185",
+          "pred" : "is_a",
+          "obj" : "EC:3.8.1.5",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 1.0
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "RHEA:25185",
+          "pred" : "owl:equivalentClass",
+          "obj" : "RHEA:25186",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 10
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "METACYC:DHLAXANAU-RXN",
+          "pred" : "owl:equivalentClass",
+          "obj" : "RHEA:25186",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 7.5
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "RHEA:25185",
+          "pred" : "is_a",
+          "obj" : "RHEA:19082",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 10
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "RHEA:25185",
+          "pred" : "is_a",
+          "obj" : "RHEA:19081",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 10
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "RHEA:19081",
+          "pred" : "owl:equivalentClass",
+          "obj" : "RHEA:19082",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 10
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "GO:0018786",
+          "pred" : "owl:equivalentClass",
+          "obj" : "EC:3.8.1.5",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 8.0
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "RHEA:25186",
+          "pred" : "is_a",
+          "obj" : "RHEA:19082",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 10
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "RHEA:25185",
+          "pred" : "is_a",
+          "obj" : "GO:0018786",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 0.8
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "METACYC:HALOALKANE-DEHALOGENASE-RXN",
+          "pred" : "owl:equivalentClass",
+          "obj" : "GO:0018786",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 8.0
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "METACYC:HALOALKANE-DEHALOGENASE-RXN",
+          "pred" : "owl:equivalentClass",
+          "obj" : "RHEA:19082",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 7.5
+              }
+            ]
+          }
+        }
+      ],
+      "equivalentNodesSets" : [
+        {
+          "nodeIds" : [
+            "METACYC:DHLAXANAU-RXN",
+            "RHEA:25186",
+            "RHEA:25185"
+          ]
+        },
+        {
+          "nodeIds" : [
+            "EC:3.8.1.5",
+            "GO:0018786",
+            "METACYC:HALOALKANE-DEHALOGENASE-RXN",
+            "RHEA:19081"
+          ]
+        },
+        {
+          "nodeIds" : [
+            "METACYC:HALOALKANE-DEHALOGENASE-RXN",
+            "RHEA:19082",
+            "RHEA:19081"
+          ]
+        }
+      ]
+    }
+  ]
+}

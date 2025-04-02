@@ -1,0 +1,178 @@
+{
+  "graphs" : [
+    {
+      "id" : "urn:clique:451186d031e1191d1a3ec456a78d7fdb050b471ede467fb7d2d588d6df897e06",
+      "nodes" : [
+        {
+          "id" : "EC:7.6.2.7",
+          "type" : "CLASS"
+        },
+        {
+          "id" : "GO:0015411",
+          "type" : "CLASS",
+          "lbl" : "ABC-type taurine transporter transporter activity"
+        },
+        {
+          "id" : "METACYC:ABC-64-RXN",
+          "type" : "CLASS"
+        },
+        {
+          "id" : "METACYC:3.6.3.36-RXN",
+          "type" : "CLASS"
+        },
+        {
+          "id" : "RHEA:14613",
+          "type" : "CLASS",
+          "lbl" : "ATP + H2O + taurine(out) = ADP + H(+) + phosphate + taurine(in)"
+        },
+        {
+          "id" : "GO:0005368",
+          "type" : "CLASS",
+          "lbl" : "taurine transmembrane transporter activity"
+        },
+        {
+          "id" : "RHEA:14614",
+          "type" : "CLASS",
+          "lbl" : "ATP + H2O + taurine(out) => ADP + H(+) + phosphate + taurine(in)"
+        }
+      ],
+      "edges" : [
+        {
+          "sub" : "GO:0015411",
+          "pred" : "owl:equivalentClass",
+          "obj" : "EC:7.6.2.7",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 8.0
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "RHEA:14613",
+          "pred" : "is_a",
+          "obj" : "GO:0005368",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 0.8
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "RHEA:14614",
+          "pred" : "is_a",
+          "obj" : "METACYC:ABC-64-RXN",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 1.0
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "METACYC:3.6.3.36-RXN",
+          "pred" : "owl:equivalentClass",
+          "obj" : "RHEA:14614",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 7.5
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "RHEA:14613",
+          "pred" : "owl:equivalentClass",
+          "obj" : "RHEA:14614",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 10
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "GO:0015411",
+          "pred" : "owl:equivalentClass",
+          "obj" : "RHEA:14614",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 8.0
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "METACYC:3.6.3.36-RXN",
+          "pred" : "owl:equivalentClass",
+          "obj" : "GO:0015411",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 8.0
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "EC:7.6.2.7",
+          "pred" : "owl:equivalentClass",
+          "obj" : "RHEA:14613",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 7.5
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "GO:0015411",
+          "pred" : "is_a",
+          "obj" : "GO:0005368",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 10
+              }
+            ]
+          }
+        }
+      ],
+      "equivalentNodesSets" : [
+        {
+          "nodeIds" : [
+            "METACYC:3.6.3.36-RXN",
+            "GO:0015411",
+            "EC:7.6.2.7"
+          ]
+        },
+        {
+          "nodeIds" : [
+            "RHEA:14613",
+            "METACYC:3.6.3.36-RXN",
+            "EC:7.6.2.7",
+            "GO:0015411",
+            "RHEA:14614"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,4 +1,4 @@
-# Need on path: boomer & robot
+# Need on path: boomer, robot, og2dot.js, dot
 
 all: rhea-boom.txt
 
@@ -46,11 +46,14 @@ ec.ttl: enzyme.rdf sparql/ec-ont.rq
 go-plus.owl:
 	curl -L -O http://purl.obolibrary.org/obo/go/snapshot/extensions/go-plus.owl
 
-go-ec-rhea-xrefs.tsv: go-plus.owl xrefs.rq
-	robot query -i $< -f TSV -q xrefs.rq $@
+go-ec-rhea-metacyc-xrefs.tsv: go-plus.owl xrefs.rq
+	robot query -i $< -f TSV -q xrefs.rq $@.tmp &&\
+	tail -n +2 $@.tmp | sed 's/^<http:\/\/purl.obolibrary.org\/obo\/GO_/GO:/' | sed 's/>//' | sed 's/"//g' | sort -u >$@.tmp2 &&\
+	rm $@.tmp && mv $@.tmp2 $@
 
-go-ec-rhea-xrefs-probs.tsv: go-ec-rhea-xrefs.tsv
-	tail -n +2 $< | sed 's/^<http:\/\/purl.obolibrary.org\/obo\/GO_/GO:/' | sed 's/>//' | sed 's/"//g' | sed 's/$$/	0.004	0.004	0.99	0.001/' >$@
+# These files must be sorted!
+go-ec-rhea-metacyc-xrefs-filtered.tsv: go-ec-rhea-metacyc-xrefs.tsv questionable-GO-Rhea.tsv
+	comm -23 go-ec-rhea-metacyc-xrefs.tsv questionable-GO-Rhea.tsv >$@
 
 # These files must be sorted!
 #go-exact-xrefs-probs-questionable.tsv: go-ec-rhea-metacyc-xrefs.tsv #questionable-GO-Rhea.tsv

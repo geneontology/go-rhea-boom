@@ -1,0 +1,152 @@
+{
+  "graphs" : [
+    {
+      "id" : "urn:clique:045fd7bce298ec1d2042aa2e2587466517acc6c3fdd3ed77caec324a7ba6051b",
+      "nodes" : [
+        {
+          "id" : "RHEA:20616",
+          "type" : "CLASS",
+          "lbl" : "3'-phosphoadenylyl sulfate + a beta-D-galactosyl-(1<->1')-N-acylsphing-4-enine <=> adenosine 3',5'-bisphosphate + H(+) + N-acyl-1-beta-D-(3-O-sulfo)-galactosyl-sphing-4-enine"
+        },
+        {
+          "id" : "RHEA:20613",
+          "type" : "CLASS",
+          "lbl" : "3'-phosphoadenylyl sulfate + a beta-D-galactosyl-(1<->1')-N-acylsphing-4-enine = adenosine 3',5'-bisphosphate + H(+) + N-acyl-1-beta-D-(3-O-sulfo)-galactosyl-sphing-4-enine"
+        },
+        {
+          "id" : "METACYC:GALACTOSYLCERAMIDE-SULFOTRANSFERASE-RXN",
+          "type" : "CLASS"
+        },
+        {
+          "id" : "RHEA:41744",
+          "type" : "CLASS",
+          "lbl" : "3'-phosphoadenylyl sulfate + a 1-O-alkyl-2-acyl-3-O-(beta-D-galactosyl)-sn-glycerol = a 1-O-alkyl-2-acyl-3-(beta-D-3-sulfogalactosyl)-sn-glycerol + adenosine 3',5'-bisphosphate + H(+)"
+        },
+        {
+          "id" : "EC:2.8.2.11",
+          "type" : "CLASS"
+        },
+        {
+          "id" : "RHEA:43304",
+          "type" : "CLASS",
+          "lbl" : "3'-phosphoadenylyl sulfate + beta-D-Gal-(1<->1')-Cer = 1-(3-O-sulfo-beta-D-galactosyl)-ceramide + adenosine 3',5'-bisphosphate + H(+)"
+        },
+        {
+          "id" : "GO:0001733",
+          "type" : "CLASS",
+          "lbl" : "galactosylceramide sulfotransferase activity"
+        }
+      ],
+      "edges" : [
+        {
+          "sub" : "GO:0001733",
+          "pred" : "is_a",
+          "obj" : "RHEA:43304",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 0.8
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "EC:2.8.2.11",
+          "pred" : "owl:equivalentClass",
+          "obj" : "RHEA:20613",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 7.5
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "RHEA:41744",
+          "pred" : "is_a",
+          "obj" : "EC:2.8.2.11",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 1.0
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "METACYC:GALACTOSYLCERAMIDE-SULFOTRANSFERASE-RXN",
+          "pred" : "owl:equivalentClass",
+          "obj" : "RHEA:20616",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 7.5
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "RHEA:20613",
+          "pred" : "owl:equivalentClass",
+          "obj" : "RHEA:20616",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 10
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "GO:0001733",
+          "pred" : "owl:equivalentClass",
+          "obj" : "EC:2.8.2.11",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 8.0
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "METACYC:GALACTOSYLCERAMIDE-SULFOTRANSFERASE-RXN",
+          "pred" : "owl:equivalentClass",
+          "obj" : "GO:0001733",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 8.0
+              }
+            ]
+          }
+        }
+      ],
+      "equivalentNodesSets" : [
+        {
+          "nodeIds" : [
+            "METACYC:GALACTOSYLCERAMIDE-SULFOTRANSFERASE-RXN",
+            "RHEA:20616",
+            "RHEA:20613"
+          ]
+        },
+        {
+          "nodeIds" : [
+            "RHEA:20613",
+            "EC:2.8.2.11",
+            "GO:0001733",
+            "METACYC:GALACTOSYLCERAMIDE-SULFOTRANSFERASE-RXN"
+          ]
+        }
+      ]
+    }
+  ]
+}

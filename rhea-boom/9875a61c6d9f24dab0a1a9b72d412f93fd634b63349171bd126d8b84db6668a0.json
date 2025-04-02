@@ -1,0 +1,206 @@
+{
+  "graphs" : [
+    {
+      "id" : "urn:clique:9875a61c6d9f24dab0a1a9b72d412f93fd634b63349171bd126d8b84db6668a0",
+      "nodes" : [
+        {
+          "id" : "EC:7.3.2.3",
+          "type" : "CLASS"
+        },
+        {
+          "id" : "RHEA:29871",
+          "type" : "CLASS",
+          "lbl" : "ATP + H2O + thiosulfate(out) = ADP + H(+) + phosphate + thiosulfate(in)"
+        },
+        {
+          "id" : "RHEA:10193",
+          "type" : "CLASS",
+          "lbl" : "ATP + H2O + sulfate(out) => ADP + H(+) + phosphate + sulfate(in)"
+        },
+        {
+          "id" : "GO:0015419",
+          "type" : "CLASS",
+          "lbl" : "ABC-type sulfate transporter activity"
+        },
+        {
+          "id" : "RHEA:10192",
+          "type" : "CLASS",
+          "lbl" : "ATP + H2O + sulfate(out) = ADP + H(+) + phosphate + sulfate(in)"
+        },
+        {
+          "id" : "GO:0102025",
+          "type" : "CLASS",
+          "lbl" : "ABC-type thiosulfate transporter activity"
+        },
+        {
+          "id" : "METACYC:3.6.3.25-RXN",
+          "type" : "CLASS"
+        },
+        {
+          "id" : "METACYC:ABC-7-RXN",
+          "type" : "CLASS"
+        }
+      ],
+      "edges" : [
+        {
+          "sub" : "GO:0015419",
+          "pred" : "is_a",
+          "obj" : "EC:7.3.2.3",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 8.0
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "METACYC:3.6.3.25-RXN",
+          "pred" : "owl:equivalentClass",
+          "obj" : "GO:0015419",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 8.0
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "METACYC:ABC-7-RXN",
+          "pred" : "owl:equivalentClass",
+          "obj" : "GO:0102025",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 8.0
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "EC:7.3.2.3",
+          "pred" : "owl:equivalentClass",
+          "obj" : "RHEA:29871",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 7.5
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "GO:0015419",
+          "pred" : "owl:equivalentClass",
+          "obj" : "RHEA:10192",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 8.0
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "GO:0102025",
+          "pred" : "is_a",
+          "obj" : "EC:7.3.2.3",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 8.0
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "RHEA:10192",
+          "pred" : "is_a",
+          "obj" : "EC:7.3.2.3",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 1.0
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "GO:0102025",
+          "pred" : "is_a",
+          "obj" : "RHEA:29871",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 1.5
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "RHEA:10192",
+          "pred" : "owl:equivalentClass",
+          "obj" : "RHEA:10193",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 10
+              }
+            ]
+          }
+        },
+        {
+          "sub" : "METACYC:3.6.3.25-RXN",
+          "pred" : "owl:equivalentClass",
+          "obj" : "RHEA:10193",
+          "meta" : {
+            "basicPropertyValues" : [
+              {
+                "pred" : "https://w3id.org/kgviz/penwidth",
+                "val" : 7.5
+              }
+            ]
+          }
+        }
+      ],
+      "equivalentNodesSets" : [
+        {
+          "nodeIds" : [
+            "EC:7.3.2.3",
+            "RHEA:29871"
+          ]
+        },
+        {
+          "nodeIds" : [
+            "RHEA:10192",
+            "RHEA:10193",
+            "GO:0015419"
+          ]
+        },
+        {
+          "nodeIds" : [
+            "METACYC:ABC-7-RXN",
+            "GO:0102025"
+          ]
+        },
+        {
+          "nodeIds" : [
+            "METACYC:3.6.3.25-RXN",
+            "GO:0015419",
+            "RHEA:10193"
+          ]
+        }
+      ]
+    }
+  ]
+}
