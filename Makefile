@@ -10,10 +10,19 @@ rhea2%.tsv:
 #rhea-reactome-probs.tsv: rhea2reactome.tsv
 #	tail -n +2 $< | cut -f 1,4 | sed '/^$$/d' | sed 's/^/RHEA:/' | sed 's/	/	REACTOME:/' | sed 's/$$/	0.10	0.70	0.15	0.05/' >$@ #$*
 
+# 1-to-many Rhea-to-EC: Rhea is more general
+# many-to-1 Rhea-to-EC: Rhea is more specific
+# 1-to-1: assume equiv
+# many-to-many: 4 equal probs (or maybe just 3)
+
 # Prefer subclass for most mappings
+# 0.50	0.19	0.30	0.01
 rhea-%-probs.tsv: rhea2%.tsv
 	tail -n +2 $< | cut -f 1,4 | sed '/^$$/d' | sed 's/^/RHEA:/' | sed 's/	/	$(shell echo $* | tr [:lower:] [:upper:]):/' | sed 's/$$/	0.50	0.19	0.30	0.01/' >$@
 .PRECIOUS: rhea-%-probs.tsv
+
+rhea-ec-probs.tsv: rhea2ec.tsv
+	scala-cli run rhea2ec-probs.sc -- $< >$@
 
 rhea-relationships.tsv:
 	curl -L -O ftp://ftp.expasy.org/databases/rhea/tsv/rhea-relationships.tsv
@@ -80,7 +89,7 @@ go-rhea.ofn: go-plus.owl rhea.ofn rhea-labels.ttl ec.ttl
 
 rhea-boom: go-rhea.ofn probs.tsv prefixes.yaml
 	rm -rf rhea-boom &&\
-	boomer --ptable probs.tsv --ontology go-rhea.ofn --window-count 20 --runs 100 --prefixes prefixes.yaml --output rhea-boom --exhaustive-search-limit 40 --restrict-output-to-prefixes=GO --restrict-output-to-prefixes=EC
+	boomer --ptable probs.tsv --ontology go-rhea.ofn --window-count 20 --runs 100 --prefixes prefixes.yaml --output rhea-boom --exhaustive-search-limit 40 --restrict-output-to-prefixes=GO --restrict-output-to-prefixes=RHEA
 
 JSONS=$(wildcard rhea-boom/*.json)
 PNGS=$(patsubst %.json, %.png, $(JSONS))
