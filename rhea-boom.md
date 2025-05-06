@@ -1,91 +1,119 @@
-## [2-N,3-O-bis[(3R)-3-hydroxytetradecanoyl]-alpha-D-glucosaminyl 1-phosphate + UDP-2-N,3-O-bis[(3R)-3-hydroxytetradecanoyl]-alpha-D-glucosamine = lipid A disaccharide (E. coli) + UDP + H(+)](http://rdf.rhea-db.org/22668) [a lipid X + a UDP-2-N,3-O-bis[(3R)-3-hydroxyacyl]-alpha-D-glucosamine = a lipid A disaccharide + UDP + H(+)](http://rdf.rhea-db.org/67828) [lipid-A-disaccharide synthase activity](http://purl.obolibrary.org/obo/GO_0008915) [lipid-A-disaccharide synthase](http://purl.uniprot.org/enzyme/2.4.1.182)
+## [(3R)-hydroxytetradecanoyl-[ACP] + UDP-N-acetyl-alpha-D-glucosamine = UDP-3-O-[(3R)-3-hydroxytetradecanoyl]-N-acetyl-alpha-D-glucosamine + holo-[ACP]](http://rdf.rhea-db.org/13925) [a (3R)-hydroxyacyl-[ACP] + UDP-N-acetyl-alpha-D-glucosamine = a UDP-3-O-[(3R)-3-hydroxyacyl]-N-acetyl-alpha-D-glucosamine + holo-[ACP]](http://rdf.rhea-db.org/67812) [acyl-[acyl-carrier-protein]--UDP-N-acetylglucosamine O-acyltransferase](http://purl.uniprot.org/enzyme/2.3.1.129) [acyl-[acyl-carrier-protein]-UDP-N-acetylglucosamine O-acyltransferase activity](http://purl.obolibrary.org/obo/GO_0008780)
 Method: exhaustive search
 Score: -3.598673186227787
 Estimated probability: 0.23003291589421512
 Confidence: 0.5
 Subsequent scores (max 10): -3.598673186227787, -4.058205515606227, -4.291820366787732, -4.291820366787733, -5.495793171113668, -5.495793171113668, -5.729408022295173, -5.729408022295173, -5.729408022295173, -6.422555202855119
 
-- [2-N,3-O-bis[(3R)-3-hydroxytetradecanoyl]-alpha-D-glucosaminyl 1-phosphate + UDP-2-N,3-O-bis[(3R)-3-hydroxytetradecanoyl]-alpha-D-glucosamine = lipid A disaccharide (E. coli) + UDP + H(+)](http://rdf.rhea-db.org/22668) ProperSubClassOf [lipid-A-disaccharide synthase](http://purl.uniprot.org/enzyme/2.4.1.182)	(most probable)	0.6
-- [a lipid X + a UDP-2-N,3-O-bis[(3R)-3-hydroxyacyl]-alpha-D-glucosamine = a lipid A disaccharide + UDP + H(+)](http://rdf.rhea-db.org/67828) ProperSubClassOf [lipid-A-disaccharide synthase](http://purl.uniprot.org/enzyme/2.4.1.182)	(most probable)	0.6
-- [lipid-A-disaccharide synthase activity](http://purl.obolibrary.org/obo/GO_0008915) EquivalentTo [lipid-A-disaccharide synthase](http://purl.uniprot.org/enzyme/2.4.1.182)	(most probable)	0.8
-- [lipid-A-disaccharide synthase activity](http://purl.obolibrary.org/obo/GO_0008915) ProperSuperClassOf [2-N,3-O-bis[(3R)-3-hydroxytetradecanoyl]-alpha-D-glucosaminyl 1-phosphate + UDP-2-N,3-O-bis[(3R)-3-hydroxytetradecanoyl]-alpha-D-glucosamine = lipid A disaccharide (E. coli) + UDP + H(+)](http://rdf.rhea-db.org/22668)		0.095
+- [(3R)-hydroxytetradecanoyl-[ACP] + UDP-N-acetyl-alpha-D-glucosamine = UDP-3-O-[(3R)-3-hydroxytetradecanoyl]-N-acetyl-alpha-D-glucosamine + holo-[ACP]](http://rdf.rhea-db.org/13925) ProperSubClassOf [acyl-[acyl-carrier-protein]--UDP-N-acetylglucosamine O-acyltransferase](http://purl.uniprot.org/enzyme/2.3.1.129)	(most probable)	0.6
+- [a (3R)-hydroxyacyl-[ACP] + UDP-N-acetyl-alpha-D-glucosamine = a UDP-3-O-[(3R)-3-hydroxyacyl]-N-acetyl-alpha-D-glucosamine + holo-[ACP]](http://rdf.rhea-db.org/67812) ProperSubClassOf [acyl-[acyl-carrier-protein]--UDP-N-acetylglucosamine O-acyltransferase](http://purl.uniprot.org/enzyme/2.3.1.129)	(most probable)	0.6
+- [acyl-[acyl-carrier-protein]-UDP-N-acetylglucosamine O-acyltransferase activity](http://purl.obolibrary.org/obo/GO_0008780) EquivalentTo [(3R)-hydroxytetradecanoyl-[ACP] + UDP-N-acetyl-alpha-D-glucosamine = UDP-3-O-[(3R)-3-hydroxytetradecanoyl]-N-acetyl-alpha-D-glucosamine + holo-[ACP]](http://rdf.rhea-db.org/13925)	(most probable)	0.8
+- [acyl-[acyl-carrier-protein]-UDP-N-acetylglucosamine O-acyltransferase activity](http://purl.obolibrary.org/obo/GO_0008780) ProperSubClassOf [acyl-[acyl-carrier-protein]--UDP-N-acetylglucosamine O-acyltransferase](http://purl.uniprot.org/enzyme/2.3.1.129)		0.095
 
-## [2-amino-4-hydroxypteridine + H2O + H(+) = 2,4-dihydroxypteridine + NH4(+)](http://rdf.rhea-db.org/11904) [a 2-amino-4-hydroxypteridine + H2O + H(+) = a 2,4-dihydroxypteridine + NH4(+)](http://rdf.rhea-db.org/36055) [pterin deaminase activity](http://purl.obolibrary.org/obo/GO_0050228) [pterin deaminase](http://purl.uniprot.org/enzyme/3.5.4.11)
+## [2-chlorobenzoate + NADH + O2 + H(+) = catechol + chloride + CO2 + NAD(+)](http://rdf.rhea-db.org/21652) [2-chlorobenzoate 1,2-dioxygenase activity](http://purl.obolibrary.org/obo/GO_0018626) [2-halobenzoate 1,2-dioxygenase](http://purl.uniprot.org/enzyme/1.14.12.13) [a 2-halobenzoate + NADH + O2 + H(+) = a halide anion + catechol + CO2 + NAD(+)](http://rdf.rhea-db.org/53736)
 Method: exhaustive search
 Score: -3.598673186227787
 Estimated probability: 0.23003291589421512
 Confidence: 0.5
 Subsequent scores (max 10): -3.598673186227787, -4.058205515606227, -4.291820366787732, -4.291820366787733, -5.495793171113668, -5.495793171113668, -5.729408022295173, -5.729408022295173, -5.729408022295173, -6.422555202855119
 
-- [a 2-amino-4-hydroxypteridine + H2O + H(+) = a 2,4-dihydroxypteridine + NH4(+)](http://rdf.rhea-db.org/36055) ProperSubClassOf [pterin deaminase](http://purl.uniprot.org/enzyme/3.5.4.11)	(most probable)	0.6
-- [2-amino-4-hydroxypteridine + H2O + H(+) = 2,4-dihydroxypteridine + NH4(+)](http://rdf.rhea-db.org/11904) ProperSubClassOf [pterin deaminase](http://purl.uniprot.org/enzyme/3.5.4.11)	(most probable)	0.6
-- [pterin deaminase activity](http://purl.obolibrary.org/obo/GO_0050228) EquivalentTo [pterin deaminase](http://purl.uniprot.org/enzyme/3.5.4.11)	(most probable)	0.8
-- [pterin deaminase activity](http://purl.obolibrary.org/obo/GO_0050228) ProperSuperClassOf [2-amino-4-hydroxypteridine + H2O + H(+) = 2,4-dihydroxypteridine + NH4(+)](http://rdf.rhea-db.org/11904)		0.095
+- [a 2-halobenzoate + NADH + O2 + H(+) = a halide anion + catechol + CO2 + NAD(+)](http://rdf.rhea-db.org/53736) ProperSubClassOf [2-halobenzoate 1,2-dioxygenase](http://purl.uniprot.org/enzyme/1.14.12.13)	(most probable)	0.6
+- [2-chlorobenzoate + NADH + O2 + H(+) = catechol + chloride + CO2 + NAD(+)](http://rdf.rhea-db.org/21652) ProperSubClassOf [2-halobenzoate 1,2-dioxygenase](http://purl.uniprot.org/enzyme/1.14.12.13)	(most probable)	0.6
+- [2-chlorobenzoate 1,2-dioxygenase activity](http://purl.obolibrary.org/obo/GO_0018626) EquivalentTo [2-chlorobenzoate + NADH + O2 + H(+) = catechol + chloride + CO2 + NAD(+)](http://rdf.rhea-db.org/21652)	(most probable)	0.8
+- [2-chlorobenzoate 1,2-dioxygenase activity](http://purl.obolibrary.org/obo/GO_0018626) ProperSubClassOf [2-halobenzoate 1,2-dioxygenase](http://purl.uniprot.org/enzyme/1.14.12.13)		0.095
 
-## [5-hydroxyfuranocoumarin 5-O-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0030752) [5-hydroxyfuranocoumarin 5-O-methyltransferase](http://purl.uniprot.org/enzyme/2.1.1.69) [5-hydroxyxanthotoxin + S-adenosyl-L-methionine = isopimpinellin + S-adenosyl-L-homocysteine](http://rdf.rhea-db.org/24894) [a 5-hydroxyfurocoumarin + S-adenosyl-L-methionine = a 5-methoxyfurocoumarin + S-adenosyl-L-homocysteine + H(+)](http://rdf.rhea-db.org/18861) [bergaptol + S-adenosyl-L-methionine = bergapten + S-adenosyl-L-homocysteine](http://rdf.rhea-db.org/11808)
-Method: exhaustive search
-Score: -4.109498809993778
-Estimated probability: 0.2281768370487126
-Confidence: 0.5
-Subsequent scores (max 10): -4.109498809993778, -4.569031139372218, -4.8026459905537235, -4.8026459905537235, -6.0066187948796586, -6.006618794879659, -6.2402336460611645, -6.2402336460611645, -6.2402336460611645, -6.466151124258099
-
-- [5-hydroxyxanthotoxin + S-adenosyl-L-methionine = isopimpinellin + S-adenosyl-L-homocysteine](http://rdf.rhea-db.org/24894) ProperSubClassOf [5-hydroxyfuranocoumarin 5-O-methyltransferase](http://purl.uniprot.org/enzyme/2.1.1.69)	(most probable)	0.6
-- [bergaptol + S-adenosyl-L-methionine = bergapten + S-adenosyl-L-homocysteine](http://rdf.rhea-db.org/11808) ProperSubClassOf [5-hydroxyfuranocoumarin 5-O-methyltransferase](http://purl.uniprot.org/enzyme/2.1.1.69)	(most probable)	0.6
-- [a 5-hydroxyfurocoumarin + S-adenosyl-L-methionine = a 5-methoxyfurocoumarin + S-adenosyl-L-homocysteine + H(+)](http://rdf.rhea-db.org/18861) ProperSubClassOf [5-hydroxyfuranocoumarin 5-O-methyltransferase](http://purl.uniprot.org/enzyme/2.1.1.69)	(most probable)	0.6
-- [5-hydroxyfuranocoumarin 5-O-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0030752) ProperSuperClassOf [bergaptol + S-adenosyl-L-methionine = bergapten + S-adenosyl-L-homocysteine](http://rdf.rhea-db.org/11808)		0.095
-- [5-hydroxyfuranocoumarin 5-O-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0030752) EquivalentTo [5-hydroxyfuranocoumarin 5-O-methyltransferase](http://purl.uniprot.org/enzyme/2.1.1.69)	(most probable)	0.8
-
-## [a lipid A disaccharide + ATP = a lipid IVA + ADP + H(+)](http://rdf.rhea-db.org/67840) [lipid A disaccharide (E. coli) + ATP = lipid IVA (E. coli) + ADP + H(+)](http://rdf.rhea-db.org/20700) [tetraacyldisaccharide 4'-kinase activity](http://purl.obolibrary.org/obo/GO_0009029) [tetraacyldisaccharide 4'-kinase](http://purl.uniprot.org/enzyme/2.7.1.130)
+## [(R)-S-lactoylglutathione + H2O = (R)-lactate + glutathione + H(+)](http://rdf.rhea-db.org/25245) [an S-(2-hydroxyacyl)glutathione + H2O = a 2-hydroxy carboxylate + glutathione + H(+)](http://rdf.rhea-db.org/21864) [hydroxyacylglutathione hydrolase activity](http://purl.obolibrary.org/obo/GO_0004416) [hydroxyacylglutathione hydrolase](http://purl.uniprot.org/enzyme/3.1.2.6)
 Method: exhaustive search
 Score: -3.598673186227787
 Estimated probability: 0.23003291589421512
 Confidence: 0.5
 Subsequent scores (max 10): -3.598673186227787, -4.058205515606227, -4.291820366787732, -4.291820366787733, -5.495793171113668, -5.495793171113668, -5.729408022295173, -5.729408022295173, -5.729408022295173, -6.422555202855119
 
-- [a lipid A disaccharide + ATP = a lipid IVA + ADP + H(+)](http://rdf.rhea-db.org/67840) ProperSubClassOf [tetraacyldisaccharide 4'-kinase](http://purl.uniprot.org/enzyme/2.7.1.130)	(most probable)	0.6
-- [lipid A disaccharide (E. coli) + ATP = lipid IVA (E. coli) + ADP + H(+)](http://rdf.rhea-db.org/20700) ProperSubClassOf [tetraacyldisaccharide 4'-kinase](http://purl.uniprot.org/enzyme/2.7.1.130)	(most probable)	0.6
-- [tetraacyldisaccharide 4'-kinase activity](http://purl.obolibrary.org/obo/GO_0009029) EquivalentTo [tetraacyldisaccharide 4'-kinase](http://purl.uniprot.org/enzyme/2.7.1.130)	(most probable)	0.8
-- [tetraacyldisaccharide 4'-kinase activity](http://purl.obolibrary.org/obo/GO_0009029) ProperSuperClassOf [lipid A disaccharide (E. coli) + ATP = lipid IVA (E. coli) + ADP + H(+)](http://rdf.rhea-db.org/20700)		0.095
+- [(R)-S-lactoylglutathione + H2O = (R)-lactate + glutathione + H(+)](http://rdf.rhea-db.org/25245) ProperSubClassOf [hydroxyacylglutathione hydrolase](http://purl.uniprot.org/enzyme/3.1.2.6)	(most probable)	0.6
+- [an S-(2-hydroxyacyl)glutathione + H2O = a 2-hydroxy carboxylate + glutathione + H(+)](http://rdf.rhea-db.org/21864) ProperSubClassOf [hydroxyacylglutathione hydrolase](http://purl.uniprot.org/enzyme/3.1.2.6)	(most probable)	0.6
+- [hydroxyacylglutathione hydrolase activity](http://purl.obolibrary.org/obo/GO_0004416) EquivalentTo [(R)-S-lactoylglutathione + H2O = (R)-lactate + glutathione + H(+)](http://rdf.rhea-db.org/25245)	(most probable)	0.8
+- [hydroxyacylglutathione hydrolase activity](http://purl.obolibrary.org/obo/GO_0004416) ProperSubClassOf [hydroxyacylglutathione hydrolase](http://purl.uniprot.org/enzyme/3.1.2.6)		0.095
 
-## [3-octaprenyl-4-hydroxybenzoate carboxy-lyase activity](http://purl.obolibrary.org/obo/GO_0008694) [4-hydroxy-3-(all-trans-decaprenyl)benzoate + H(+) = 2-all-trans-decaprenylphenol + CO2](http://rdf.rhea-db.org/44580) [4-hydroxy-3-(all-trans-heptaprenyl)benzoate + H(+) = 2-all-trans-heptaprenylphenol + CO2](http://rdf.rhea-db.org/44572) [4-hydroxy-3-(all-trans-hexaprenyl)benzoate + H(+) = 2-all-trans-hexaprenylphenol + CO2](http://rdf.rhea-db.org/44568) [4-hydroxy-3-(all-trans-nonaprenyl)benzoate + H(+) = 2-all-trans-nonaprenylphenol + CO2](http://rdf.rhea-db.org/44576) [4-hydroxy-3-(all-trans-octaprenyl)benzoate + H(+) = 2-all-trans-octaprenylphenol + CO2](http://rdf.rhea-db.org/27778) [4-hydroxy-3-polyprenylbenzoate decarboxylase](http://purl.uniprot.org/enzyme/4.1.1.98) [a 4-hydroxy-3-(all-trans-polyprenyl)benzoate + H(+) = a 2-(all-trans-polyprenyl)phenol + CO2](http://rdf.rhea-db.org/41680)
-Method: exhaustive search
-Score: -5.64197568129175
-Estimated probability: 0.22817683704871267
-Confidence: 0.5
-Subsequent scores (max 10): -5.64197568129175, -6.101508010670189, -6.335122861851695, -6.335122861851695, -7.53909566617763, -7.53909566617763, -7.772710517359136, -7.772710517359136, -7.772710517359136, -7.99862799555607
-
-- [4-hydroxy-3-(all-trans-heptaprenyl)benzoate + H(+) = 2-all-trans-heptaprenylphenol + CO2](http://rdf.rhea-db.org/44572) ProperSubClassOf [4-hydroxy-3-polyprenylbenzoate decarboxylase](http://purl.uniprot.org/enzyme/4.1.1.98)	(most probable)	0.6
-- [a 4-hydroxy-3-(all-trans-polyprenyl)benzoate + H(+) = a 2-(all-trans-polyprenyl)phenol + CO2](http://rdf.rhea-db.org/41680) ProperSubClassOf [4-hydroxy-3-polyprenylbenzoate decarboxylase](http://purl.uniprot.org/enzyme/4.1.1.98)	(most probable)	0.6
-- [4-hydroxy-3-(all-trans-hexaprenyl)benzoate + H(+) = 2-all-trans-hexaprenylphenol + CO2](http://rdf.rhea-db.org/44568) ProperSubClassOf [4-hydroxy-3-polyprenylbenzoate decarboxylase](http://purl.uniprot.org/enzyme/4.1.1.98)	(most probable)	0.6
-- [3-octaprenyl-4-hydroxybenzoate carboxy-lyase activity](http://purl.obolibrary.org/obo/GO_0008694) ProperSuperClassOf [4-hydroxy-3-(all-trans-octaprenyl)benzoate + H(+) = 2-all-trans-octaprenylphenol + CO2](http://rdf.rhea-db.org/27778)		0.095
-- [4-hydroxy-3-(all-trans-nonaprenyl)benzoate + H(+) = 2-all-trans-nonaprenylphenol + CO2](http://rdf.rhea-db.org/44576) ProperSubClassOf [4-hydroxy-3-polyprenylbenzoate decarboxylase](http://purl.uniprot.org/enzyme/4.1.1.98)	(most probable)	0.6
-- [3-octaprenyl-4-hydroxybenzoate carboxy-lyase activity](http://purl.obolibrary.org/obo/GO_0008694) EquivalentTo [4-hydroxy-3-polyprenylbenzoate decarboxylase](http://purl.uniprot.org/enzyme/4.1.1.98)	(most probable)	0.8
-- [4-hydroxy-3-(all-trans-decaprenyl)benzoate + H(+) = 2-all-trans-decaprenylphenol + CO2](http://rdf.rhea-db.org/44580) ProperSubClassOf [4-hydroxy-3-polyprenylbenzoate decarboxylase](http://purl.uniprot.org/enzyme/4.1.1.98)	(most probable)	0.6
-- [4-hydroxy-3-(all-trans-octaprenyl)benzoate + H(+) = 2-all-trans-octaprenylphenol + CO2](http://rdf.rhea-db.org/27778) ProperSubClassOf [4-hydroxy-3-polyprenylbenzoate decarboxylase](http://purl.uniprot.org/enzyme/4.1.1.98)	(most probable)	0.6
-
-## [(S)-canadine + S-adenosyl-L-methionine = (S)-cis-N-methylcanadine + S-adenosyl-L-homocysteine](http://rdf.rhea-db.org/12805) [(S)-stylopine + S-adenosyl-L-methionine = (S)-cis-N-methylstylopine + S-adenosyl-L-homocysteine](http://rdf.rhea-db.org/75975) [(S)-tetrahydropalmatine + S-adenosyl-L-methionine = (S)-cis-N-methyltetrahydropalmatine + S-adenosyl-L-homocysteine](http://rdf.rhea-db.org/76047) [(S)-tetrahydroprotoberberine N-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0030782) [(S)-tetrahydroprotoberberine N-methyltransferase](http://purl.uniprot.org/enzyme/2.1.1.122) [an (S)-7,8,13,14-tetrahydroprotoberberine + S-adenosyl-L-methionine = an (S)-cis-N-methyl-7,8,13,14-tetrahydroprotoberberine + S-adenosyl-L-homocysteine](http://rdf.rhea-db.org/76067)
-Method: exhaustive search
-Score: -4.620324433759768
-Estimated probability: 0.22817683704871286
-Confidence: 0.5000000000000002
-Subsequent scores (max 10): -4.620324433759769, -5.079856763138208, -5.313471614319713, -5.313471614319714, -6.517444418645649, -6.517444418645649, -6.751059269827154, -6.751059269827154, -6.751059269827154, -6.976976748024089
-
-- [(S)-tetrahydroprotoberberine N-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0030782) ProperSuperClassOf [(S)-canadine + S-adenosyl-L-methionine = (S)-cis-N-methylcanadine + S-adenosyl-L-homocysteine](http://rdf.rhea-db.org/12805)		0.095
-- [(S)-stylopine + S-adenosyl-L-methionine = (S)-cis-N-methylstylopine + S-adenosyl-L-homocysteine](http://rdf.rhea-db.org/75975) ProperSubClassOf [(S)-tetrahydroprotoberberine N-methyltransferase](http://purl.uniprot.org/enzyme/2.1.1.122)	(most probable)	0.6
-- [an (S)-7,8,13,14-tetrahydroprotoberberine + S-adenosyl-L-methionine = an (S)-cis-N-methyl-7,8,13,14-tetrahydroprotoberberine + S-adenosyl-L-homocysteine](http://rdf.rhea-db.org/76067) ProperSubClassOf [(S)-tetrahydroprotoberberine N-methyltransferase](http://purl.uniprot.org/enzyme/2.1.1.122)	(most probable)	0.6
-- [(S)-tetrahydropalmatine + S-adenosyl-L-methionine = (S)-cis-N-methyltetrahydropalmatine + S-adenosyl-L-homocysteine](http://rdf.rhea-db.org/76047) ProperSubClassOf [(S)-tetrahydroprotoberberine N-methyltransferase](http://purl.uniprot.org/enzyme/2.1.1.122)	(most probable)	0.6
-- [(S)-tetrahydroprotoberberine N-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0030782) EquivalentTo [(S)-tetrahydroprotoberberine N-methyltransferase](http://purl.uniprot.org/enzyme/2.1.1.122)	(most probable)	0.8
-- [(S)-canadine + S-adenosyl-L-methionine = (S)-cis-N-methylcanadine + S-adenosyl-L-homocysteine](http://rdf.rhea-db.org/12805) ProperSubClassOf [(S)-tetrahydroprotoberberine N-methyltransferase](http://purl.uniprot.org/enzyme/2.1.1.122)	(most probable)	0.6
-
-## [UDP-3-O-(3-hydroxymyristoyl)glucosamine N-acyltransferase](http://purl.uniprot.org/enzyme/2.3.1.191) [UDP-3-O-(R-3-hydroxymyristoyl)-glucosamine N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_0103118) [UDP-3-O-[(3R)-3-hydroxytetradecanoyl]-alpha-D-glucosamine + (3R)-hydroxytetradecanoyl-[ACP] = UDP-2-N,3-O-bis[(3R)-3-hydroxytetradecanoyl]-alpha-D-glucosamine + holo-[ACP] + H(+)](http://rdf.rhea-db.org/17817) [a UDP-3-O-[(3R)-3-hydroxyacyl]-alpha-D-glucosamine + a (3R)-hydroxyacyl-[ACP] = a UDP-2-N,3-O-bis[(3R)-3-hydroxyacyl]-alpha-D-glucosamine + holo-[ACP] + H(+)](http://rdf.rhea-db.org/53836)
+## [N-acetyllactosaminide beta-1,6-N-acetylglucosaminyltransferase activity](http://purl.obolibrary.org/obo/GO_0008109) [N-acetyllactosaminide beta-1,6-N-acetylglucosaminyltransferase](http://purl.uniprot.org/enzyme/2.4.1.150) [a beta-D-Gal-(1->4)-beta-D-GlcNAc-(1->3)-beta-D-Gal-(1->4)-beta-D-GlcNAc derivative + UDP-N-acetyl-alpha-D-glucosamine = a beta-D-Gal-(1->4)-beta-D-GlcNAc-(1->3)-[beta-D-GlcNAc-(1->6)]-beta-D-Gal-(1->4)-N-acetyl-beta-D-glucosaminyl derivative + UDP + H(+)](http://rdf.rhea-db.org/54820) [a beta-D-galactosyl-(1->4)-N-acetyl-beta-D-glucosaminyl derivative + UDP-N-acetyl-alpha-D-glucosamine = an N-acetyl-beta-D-glucosaminyl-(1->6)-beta-D-galactosyl-(1->4)-N-acetyl-beta-D-glucosaminyl derivative + UDP + H(+)](http://rdf.rhea-db.org/17413)
 Method: exhaustive search
 Score: -3.598673186227787
 Estimated probability: 0.23003291589421512
 Confidence: 0.5
 Subsequent scores (max 10): -3.598673186227787, -4.058205515606227, -4.291820366787732, -4.291820366787733, -5.495793171113668, -5.495793171113668, -5.729408022295173, -5.729408022295173, -5.729408022295173, -6.422555202855119
 
-- [UDP-3-O-[(3R)-3-hydroxytetradecanoyl]-alpha-D-glucosamine + (3R)-hydroxytetradecanoyl-[ACP] = UDP-2-N,3-O-bis[(3R)-3-hydroxytetradecanoyl]-alpha-D-glucosamine + holo-[ACP] + H(+)](http://rdf.rhea-db.org/17817) ProperSubClassOf [UDP-3-O-(3-hydroxymyristoyl)glucosamine N-acyltransferase](http://purl.uniprot.org/enzyme/2.3.1.191)	(most probable)	0.6
-- [a UDP-3-O-[(3R)-3-hydroxyacyl]-alpha-D-glucosamine + a (3R)-hydroxyacyl-[ACP] = a UDP-2-N,3-O-bis[(3R)-3-hydroxyacyl]-alpha-D-glucosamine + holo-[ACP] + H(+)](http://rdf.rhea-db.org/53836) ProperSubClassOf [UDP-3-O-(3-hydroxymyristoyl)glucosamine N-acyltransferase](http://purl.uniprot.org/enzyme/2.3.1.191)	(most probable)	0.6
-- [UDP-3-O-(R-3-hydroxymyristoyl)-glucosamine N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_0103118) EquivalentTo [UDP-3-O-(3-hydroxymyristoyl)glucosamine N-acyltransferase](http://purl.uniprot.org/enzyme/2.3.1.191)	(most probable)	0.8
-- [UDP-3-O-(R-3-hydroxymyristoyl)-glucosamine N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_0103118) ProperSuperClassOf [UDP-3-O-[(3R)-3-hydroxytetradecanoyl]-alpha-D-glucosamine + (3R)-hydroxytetradecanoyl-[ACP] = UDP-2-N,3-O-bis[(3R)-3-hydroxytetradecanoyl]-alpha-D-glucosamine + holo-[ACP] + H(+)](http://rdf.rhea-db.org/17817)		0.095
+- [a beta-D-Gal-(1->4)-beta-D-GlcNAc-(1->3)-beta-D-Gal-(1->4)-beta-D-GlcNAc derivative + UDP-N-acetyl-alpha-D-glucosamine = a beta-D-Gal-(1->4)-beta-D-GlcNAc-(1->3)-[beta-D-GlcNAc-(1->6)]-beta-D-Gal-(1->4)-N-acetyl-beta-D-glucosaminyl derivative + UDP + H(+)](http://rdf.rhea-db.org/54820) ProperSubClassOf [N-acetyllactosaminide beta-1,6-N-acetylglucosaminyltransferase](http://purl.uniprot.org/enzyme/2.4.1.150)	(most probable)	0.6
+- [a beta-D-galactosyl-(1->4)-N-acetyl-beta-D-glucosaminyl derivative + UDP-N-acetyl-alpha-D-glucosamine = an N-acetyl-beta-D-glucosaminyl-(1->6)-beta-D-galactosyl-(1->4)-N-acetyl-beta-D-glucosaminyl derivative + UDP + H(+)](http://rdf.rhea-db.org/17413) ProperSubClassOf [N-acetyllactosaminide beta-1,6-N-acetylglucosaminyltransferase](http://purl.uniprot.org/enzyme/2.4.1.150)	(most probable)	0.6
+- [N-acetyllactosaminide beta-1,6-N-acetylglucosaminyltransferase activity](http://purl.obolibrary.org/obo/GO_0008109) EquivalentTo [a beta-D-Gal-(1->4)-beta-D-GlcNAc-(1->3)-beta-D-Gal-(1->4)-beta-D-GlcNAc derivative + UDP-N-acetyl-alpha-D-glucosamine = a beta-D-Gal-(1->4)-beta-D-GlcNAc-(1->3)-[beta-D-GlcNAc-(1->6)]-beta-D-Gal-(1->4)-N-acetyl-beta-D-glucosaminyl derivative + UDP + H(+)](http://rdf.rhea-db.org/54820)	(most probable)	0.8
+- [N-acetyllactosaminide beta-1,6-N-acetylglucosaminyltransferase activity](http://purl.obolibrary.org/obo/GO_0008109) ProperSubClassOf [N-acetyllactosaminide beta-1,6-N-acetylglucosaminyltransferase](http://purl.uniprot.org/enzyme/2.4.1.150)		0.095
+
+## [L-lysyl-[histone] + acetyl-CoA = N(6)-acetyl-L-lysyl-[histone] + CoA + H(+)](http://rdf.rhea-db.org/21992) [L-lysyl-[protein] + acetyl-CoA = N(6)-acetyl-L-lysyl-[protein] + CoA + H(+)](http://rdf.rhea-db.org/45948) [histone H2A acetyltransferase activity](http://purl.obolibrary.org/obo/GO_0043998) [histone H2AK5 acetyltransferase activity](http://purl.obolibrary.org/obo/GO_0043999) [histone H2AK9 acetyltransferase activity](http://purl.obolibrary.org/obo/GO_0044012) [histone H2B acetyltransferase activity](http://purl.obolibrary.org/obo/GO_0044013) [histone H2BK12 acetyltransferase activity](http://purl.obolibrary.org/obo/GO_0044015) [histone H2BK5 acetyltransferase activity](http://purl.obolibrary.org/obo/GO_0044014) [histone H3 acetyltransferase activity](http://purl.obolibrary.org/obo/GO_0010484) [histone H3K122 acetyltransferase activity](http://purl.obolibrary.org/obo/GO_0140908) [histone H3K14 acetyltransferase activity](http://purl.obolibrary.org/obo/GO_0036408) [histone H3K18 acetyltransferase activity](http://purl.obolibrary.org/obo/GO_0043993) [histone H3K23 acetyltransferase activity](http://purl.obolibrary.org/obo/GO_0043994) [histone H3K27 acetyltransferase activity](http://purl.obolibrary.org/obo/GO_0044017) [histone H3K36 acetyltransferase activity](http://purl.obolibrary.org/obo/GO_0044018) [histone H3K4 acetyltransferase activity](http://purl.obolibrary.org/obo/GO_0044016) [histone H3K56 acetyltransferase activity](http://purl.obolibrary.org/obo/GO_0032931) [histone H3K9 acetyltransferase activity](http://purl.obolibrary.org/obo/GO_0043992) [histone H4 acetyltransferase activity](http://purl.obolibrary.org/obo/GO_0010485) [histone H4K12 acetyltransferase activity](http://purl.obolibrary.org/obo/GO_0043997) [histone H4K16 acetyltransferase activity](http://purl.obolibrary.org/obo/GO_0046972) [histone H4K5 acetyltransferase activity](http://purl.obolibrary.org/obo/GO_0043995) [histone H4K8 acetyltransferase activity](http://purl.obolibrary.org/obo/GO_0043996) [histone acetyltransferase activity](http://purl.obolibrary.org/obo/GO_0004402) [histone acetyltransferase](http://purl.uniprot.org/enzyme/2.3.1.48) [protein-lysine-acetyltransferase activity](http://purl.obolibrary.org/obo/GO_0061733)
+Method: exhaustive search
+Score: -5.612945503725042
+Estimated probability: 0.3225464190981433
+Confidence: 0.6129032258064518
+Subsequent scores (max 10): -6.072477833103483, -6.306092684284987, -7.510065488610922, -7.510065488610923, -7.743680339792427, -7.743680339792427, -7.743680339792427, -7.743680339792428, -7.743680339792428, -8.203212669170869
+
+- [histone acetyltransferase activity](http://purl.obolibrary.org/obo/GO_0004402) ProperSubClassOf [histone acetyltransferase](http://purl.uniprot.org/enzyme/2.3.1.48)		0.095
+- [histone H3K14 acetyltransferase activity](http://purl.obolibrary.org/obo/GO_0036408) ProperSubClassOf [histone acetyltransferase](http://purl.uniprot.org/enzyme/2.3.1.48)	(most probable)	0.9
+- [histone H3K27 acetyltransferase activity](http://purl.obolibrary.org/obo/GO_0044017) ProperSubClassOf [histone acetyltransferase](http://purl.uniprot.org/enzyme/2.3.1.48)	(most probable)	0.9
+- [histone H2BK12 acetyltransferase activity](http://purl.obolibrary.org/obo/GO_0044015) ProperSubClassOf [histone acetyltransferase](http://purl.uniprot.org/enzyme/2.3.1.48)	(most probable)	0.9
+- [histone H4K16 acetyltransferase activity](http://purl.obolibrary.org/obo/GO_0046972) ProperSubClassOf [histone acetyltransferase](http://purl.uniprot.org/enzyme/2.3.1.48)	(most probable)	0.9
+- [histone H3K56 acetyltransferase activity](http://purl.obolibrary.org/obo/GO_0032931) ProperSubClassOf [histone acetyltransferase](http://purl.uniprot.org/enzyme/2.3.1.48)	(most probable)	0.9
+- [histone H3K36 acetyltransferase activity](http://purl.obolibrary.org/obo/GO_0044018) ProperSubClassOf [histone acetyltransferase](http://purl.uniprot.org/enzyme/2.3.1.48)	(most probable)	0.9
+- [histone H4K5 acetyltransferase activity](http://purl.obolibrary.org/obo/GO_0043995) ProperSubClassOf [histone acetyltransferase](http://purl.uniprot.org/enzyme/2.3.1.48)	(most probable)	0.9
+- [histone H4K8 acetyltransferase activity](http://purl.obolibrary.org/obo/GO_0043996) ProperSubClassOf [histone acetyltransferase](http://purl.uniprot.org/enzyme/2.3.1.48)	(most probable)	0.9
+- [histone H2AK5 acetyltransferase activity](http://purl.obolibrary.org/obo/GO_0043999) ProperSubClassOf [histone acetyltransferase](http://purl.uniprot.org/enzyme/2.3.1.48)	(most probable)	0.9
+- [histone acetyltransferase activity](http://purl.obolibrary.org/obo/GO_0004402) EquivalentTo [L-lysyl-[histone] + acetyl-CoA = N(6)-acetyl-L-lysyl-[histone] + CoA + H(+)](http://rdf.rhea-db.org/21992)	(most probable)	0.8
+- [histone H3K23 acetyltransferase activity](http://purl.obolibrary.org/obo/GO_0043994) ProperSubClassOf [histone acetyltransferase](http://purl.uniprot.org/enzyme/2.3.1.48)	(most probable)	0.9
+- [histone H3K4 acetyltransferase activity](http://purl.obolibrary.org/obo/GO_0044016) ProperSubClassOf [histone acetyltransferase](http://purl.uniprot.org/enzyme/2.3.1.48)	(most probable)	0.9
+- [protein-lysine-acetyltransferase activity](http://purl.obolibrary.org/obo/GO_0061733) EquivalentTo [L-lysyl-[protein] + acetyl-CoA = N(6)-acetyl-L-lysyl-[protein] + CoA + H(+)](http://rdf.rhea-db.org/45948)	(most probable)	0.8
+- [histone H3K122 acetyltransferase activity](http://purl.obolibrary.org/obo/GO_0140908) ProperSubClassOf [histone acetyltransferase](http://purl.uniprot.org/enzyme/2.3.1.48)	(most probable)	0.9
+- [histone H3K18 acetyltransferase activity](http://purl.obolibrary.org/obo/GO_0043993) ProperSubClassOf [histone acetyltransferase](http://purl.uniprot.org/enzyme/2.3.1.48)	(most probable)	0.9
+- [histone H4K12 acetyltransferase activity](http://purl.obolibrary.org/obo/GO_0043997) ProperSubClassOf [histone acetyltransferase](http://purl.uniprot.org/enzyme/2.3.1.48)	(most probable)	0.9
+- [L-lysyl-[histone] + acetyl-CoA = N(6)-acetyl-L-lysyl-[histone] + CoA + H(+)](http://rdf.rhea-db.org/21992) ProperSubClassOf [histone acetyltransferase](http://purl.uniprot.org/enzyme/2.3.1.48)	(most probable)	0.6
+- [L-lysyl-[protein] + acetyl-CoA = N(6)-acetyl-L-lysyl-[protein] + CoA + H(+)](http://rdf.rhea-db.org/45948) ProperSubClassOf [histone acetyltransferase](http://purl.uniprot.org/enzyme/2.3.1.48)	(most probable)	0.6
+- [histone H2AK9 acetyltransferase activity](http://purl.obolibrary.org/obo/GO_0044012) ProperSubClassOf [histone acetyltransferase](http://purl.uniprot.org/enzyme/2.3.1.48)	(most probable)	0.9
+- [histone H3K9 acetyltransferase activity](http://purl.obolibrary.org/obo/GO_0043992) ProperSubClassOf [histone acetyltransferase](http://purl.uniprot.org/enzyme/2.3.1.48)	(most probable)	0.9
+- [histone H2BK5 acetyltransferase activity](http://purl.obolibrary.org/obo/GO_0044014) ProperSubClassOf [histone acetyltransferase](http://purl.uniprot.org/enzyme/2.3.1.48)	(most probable)	0.9
+
+## [(3R,5S)-1-pyrroline-3-hydroxy-5-carboxylate + NAD(+) + 2 H2O = (4S)-4-hydroxy-L-glutamate + NADH + H(+)](http://rdf.rhea-db.org/31155) [(3R,5S)-1-pyrroline-3-hydroxy-5-carboxylate + NADP(+) + 2 H2O = (4S)-4-hydroxy-L-glutamate + NADPH + H(+)](http://rdf.rhea-db.org/24943) [(S)-1-pyrroline-5-carboxylate + NAD(+) + 2 H2O = L-glutamate + NADH + H(+)](http://rdf.rhea-db.org/16417) [(S)-1-pyrroline-5-carboxylate + NADP(+) + 2 H2O = L-glutamate + NADPH + H(+)](http://rdf.rhea-db.org/24882) [1-pyrroline-5-carboxylate dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0003842) [L-glutamate 5-semialdehyde + NAD(+) + H2O = L-glutamate + NADH + 2 H(+)](http://rdf.rhea-db.org/30235) [L-glutamate gamma-semialdehyde dehydrogenase](http://purl.uniprot.org/enzyme/1.2.1.88)
+Method: exhaustive search
+Score: -5.224088053185027
+Estimated probability: 0.26527050610820235
+Confidence: 0.6666666666666664
+Subsequent scores (max 10): -5.917235233744972, -5.917235233744972, -5.9172352337449725, -5.9172352337449725, -7.1212080380709075, -7.1212080380709075, -7.121208038070908, -7.121208038070908, -7.580740367449348, -7.814355218630854
+
+- [(3R,5S)-1-pyrroline-3-hydroxy-5-carboxylate + NAD(+) + 2 H2O = (4S)-4-hydroxy-L-glutamate + NADH + H(+)](http://rdf.rhea-db.org/31155) ProperSubClassOf [L-glutamate gamma-semialdehyde dehydrogenase](http://purl.uniprot.org/enzyme/1.2.1.88)	(most probable)	0.6
+- [1-pyrroline-5-carboxylate dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0003842) ProperSubClassOf [L-glutamate gamma-semialdehyde dehydrogenase](http://purl.uniprot.org/enzyme/1.2.1.88)		0.095
+- [(S)-1-pyrroline-5-carboxylate + NADP(+) + 2 H2O = L-glutamate + NADPH + H(+)](http://rdf.rhea-db.org/24882) ProperSubClassOf [L-glutamate gamma-semialdehyde dehydrogenase](http://purl.uniprot.org/enzyme/1.2.1.88)	(most probable)	0.6
+- [L-glutamate 5-semialdehyde + NAD(+) + H2O = L-glutamate + NADH + 2 H(+)](http://rdf.rhea-db.org/30235) ProperSubClassOf [L-glutamate gamma-semialdehyde dehydrogenase](http://purl.uniprot.org/enzyme/1.2.1.88)	(most probable)	0.6
+- [1-pyrroline-5-carboxylate dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0003842) ProperSubClassOf [(S)-1-pyrroline-5-carboxylate + NADP(+) + 2 H2O = L-glutamate + NADPH + H(+)](http://rdf.rhea-db.org/24882)	(most probable)	0.9
+- [1-pyrroline-5-carboxylate dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0003842) EquivalentTo [L-glutamate 5-semialdehyde + NAD(+) + H2O = L-glutamate + NADH + 2 H(+)](http://rdf.rhea-db.org/30235)	(most probable)	0.9
+- [(S)-1-pyrroline-5-carboxylate + NAD(+) + 2 H2O = L-glutamate + NADH + H(+)](http://rdf.rhea-db.org/16417) ProperSubClassOf [L-glutamate gamma-semialdehyde dehydrogenase](http://purl.uniprot.org/enzyme/1.2.1.88)	(most probable)	0.6
+- [1-pyrroline-5-carboxylate dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0003842) ProperSubClassOf [(S)-1-pyrroline-5-carboxylate + NAD(+) + 2 H2O = L-glutamate + NADH + H(+)](http://rdf.rhea-db.org/16417)	(most probable)	0.9
+- [(3R,5S)-1-pyrroline-3-hydroxy-5-carboxylate + NADP(+) + 2 H2O = (4S)-4-hydroxy-L-glutamate + NADPH + H(+)](http://rdf.rhea-db.org/24943) ProperSubClassOf [L-glutamate gamma-semialdehyde dehydrogenase](http://purl.uniprot.org/enzyme/1.2.1.88)	(most probable)	0.6
+
+## [(2R,3S,4S)-3,4-leucopelargonidin + NADP(+) = (2R,3R)-dihydrokaempferol + NADPH + H(+)](http://rdf.rhea-db.org/23016) [a (2R,3S,4S)-leucoanthocyanidin + NADP(+) = a (2R,3R)-dihydroflavonol + NADPH + H(+)](http://rdf.rhea-db.org/54444) [dihydroflavanol 4-reductase](http://purl.uniprot.org/enzyme/1.1.1.219) [dihydrokaempferol 4-reductase activity](http://purl.obolibrary.org/obo/GO_0045552)
+Method: exhaustive search
+Score: -3.598673186227787
+Estimated probability: 0.23003291589421512
+Confidence: 0.5
+Subsequent scores (max 10): -3.598673186227787, -4.058205515606227, -4.291820366787732, -4.291820366787733, -5.495793171113668, -5.495793171113668, -5.729408022295173, -5.729408022295173, -5.729408022295173, -6.422555202855119
+
+- [a (2R,3S,4S)-leucoanthocyanidin + NADP(+) = a (2R,3R)-dihydroflavonol + NADPH + H(+)](http://rdf.rhea-db.org/54444) ProperSubClassOf [dihydroflavanol 4-reductase](http://purl.uniprot.org/enzyme/1.1.1.219)	(most probable)	0.6
+- [(2R,3S,4S)-3,4-leucopelargonidin + NADP(+) = (2R,3R)-dihydrokaempferol + NADPH + H(+)](http://rdf.rhea-db.org/23016) ProperSubClassOf [dihydroflavanol 4-reductase](http://purl.uniprot.org/enzyme/1.1.1.219)	(most probable)	0.6
+- [dihydrokaempferol 4-reductase activity](http://purl.obolibrary.org/obo/GO_0045552) EquivalentTo [(2R,3S,4S)-3,4-leucopelargonidin + NADP(+) = (2R,3R)-dihydrokaempferol + NADPH + H(+)](http://rdf.rhea-db.org/23016)	(most probable)	0.8
+- [dihydrokaempferol 4-reductase activity](http://purl.obolibrary.org/obo/GO_0045552) ProperSubClassOf [dihydroflavanol 4-reductase](http://purl.uniprot.org/enzyme/1.1.1.219)		0.095
+
+## [a uridine in tRNA + S-adenosyl-L-methionine = a 3-[(3S)-3-amino-3-carboxypropyl]uridine in tRNA + S-methyl-5'-thioadenosine + H(+)](http://rdf.rhea-db.org/62432) [tRNA-uridine aminocarboxypropyltransferase activity](http://purl.obolibrary.org/obo/GO_0016432) [tRNA-uridine aminocarboxypropyltransferase](http://purl.uniprot.org/enzyme/2.5.1.25) [uridine(47) in tRNA(Phe) + S-adenosyl-L-methionine = 3-[(3S)-3-amino-3-carboxypropyl]uridine(47) in tRNA(Phe) + S-methyl-5'-thioadenosine + H(+)](http://rdf.rhea-db.org/12300)
+Method: exhaustive search
+Score: -3.598673186227787
+Estimated probability: 0.23003291589421512
+Confidence: 0.5
+Subsequent scores (max 10): -3.598673186227787, -4.058205515606227, -4.291820366787732, -4.291820366787733, -5.495793171113668, -5.495793171113668, -5.729408022295173, -5.729408022295173, -5.729408022295173, -6.422555202855119
+
+- [uridine(47) in tRNA(Phe) + S-adenosyl-L-methionine = 3-[(3S)-3-amino-3-carboxypropyl]uridine(47) in tRNA(Phe) + S-methyl-5'-thioadenosine + H(+)](http://rdf.rhea-db.org/12300) ProperSubClassOf [tRNA-uridine aminocarboxypropyltransferase](http://purl.uniprot.org/enzyme/2.5.1.25)	(most probable)	0.6
+- [a uridine in tRNA + S-adenosyl-L-methionine = a 3-[(3S)-3-amino-3-carboxypropyl]uridine in tRNA + S-methyl-5'-thioadenosine + H(+)](http://rdf.rhea-db.org/62432) ProperSubClassOf [tRNA-uridine aminocarboxypropyltransferase](http://purl.uniprot.org/enzyme/2.5.1.25)	(most probable)	0.6
+- [tRNA-uridine aminocarboxypropyltransferase activity](http://purl.obolibrary.org/obo/GO_0016432) EquivalentTo [uridine(47) in tRNA(Phe) + S-adenosyl-L-methionine = 3-[(3S)-3-amino-3-carboxypropyl]uridine(47) in tRNA(Phe) + S-methyl-5'-thioadenosine + H(+)](http://rdf.rhea-db.org/12300)	(most probable)	0.8
+- [tRNA-uridine aminocarboxypropyltransferase activity](http://purl.obolibrary.org/obo/GO_0016432) ProperSubClassOf [tRNA-uridine aminocarboxypropyltransferase](http://purl.uniprot.org/enzyme/2.5.1.25)		0.095
 

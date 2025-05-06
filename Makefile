@@ -89,7 +89,7 @@ go-rhea.ofn: go-plus.owl rhea.ofn rhea-labels.ttl ec.ttl
 
 rhea-boom: go-rhea.ofn probs.tsv prefixes.yaml
 	rm -rf rhea-boom &&\
-	boomer --ptable probs.tsv --ontology go-rhea.ofn --window-count 20 --runs 100 --prefixes prefixes.yaml --output rhea-boom --exhaustive-search-limit 40 --restrict-output-to-prefixes=GO --restrict-output-to-prefixes=RHEA
+	boomer --ptable probs.tsv --ontology go-rhea.ofn --window-count 20 --runs 100 --prefixes prefixes.yaml --output rhea-boom --exhaustive-search-limit 40 --restrict-output-to-prefixes=GO --restrict-output-to-prefixes=EC
 
 JSONS=$(wildcard rhea-boom/*.json)
 PNGS=$(patsubst %.json, %.png, $(JSONS))
