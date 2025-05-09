@@ -124,9 +124,13 @@ curated-mappings.sssom.tsv: go-with-reac-syns.obo
 chebi_imports.owl:
 	curl -L -s http://purl.obolibrary.org/obo/go/imports/chebi_import.owl > $@
 
+RHEA_MODS = core ec xref
 # build up rhea from sparql queries not TSVs, see #1
-rhea-%.owl.ttl:
-	curl -H "Accept: text/turtle"   --data-urlencode query@sparql/rhea-$*.rq https://sparql.rhea-db.org/sparql > $@
+rhea-%.owl.ttl: sparql/construct-rhea-%.rq
+	curl -H "Accept: text/turtle"   --data-urlencode query@$< https://sparql.rhea-db.org/sparql > $@
+
+rhea.owl: $(patsubst %,rhea-%.owl.ttl,$(RHEA_MODS))
+	robot merge $(patsubst %,-i rhea-%.owl.ttl,$(RHEA_MODS)) -o $@
 
 LEXMATCH_INPUT = prefixes.ttl go-with-reac-syns.owl.ttl rhea-core.owl.ttl chebi_imports.owl
 defmatches.sssom.tsv: $(LEXMATCH_INPUT)
@@ -139,4 +143,4 @@ lexmatches.sssom.tsv: $(LEXMATCH_INPUT)
 	sssom diff $^ -o $@
 
 %-new.sssom.tsv: %-diff.sssom.tsv
-	sssom dosql $< -q "SELECT * FROM df WHERE COMMENT='UNIQUE_1' AND match_type='Lexical'" -o $@
+	sssom dosql $< -q "SELECT * FROM df WHERE COMMENT='UNIQUE_1' AND match_type='Lexical' ORDER BY confidence DESC" -o $@
